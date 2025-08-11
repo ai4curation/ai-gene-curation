@@ -1,0 +1,869 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ai4curation.github.io/ai-gene-curation/genes/LRP6/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>LRP6 - ai-gene-curation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/ansi-colours.css">
+    
+      <link rel="stylesheet" href="../../css/jupyter-cells.css">
+    
+      <link rel="stylesheet" href="../../css/pandas-dataframe.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lrp6" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ai-gene-curation" class="md-header__button md-logo" aria-label="ai-gene-curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ai-gene-curation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              LRP6
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ai4curation/ai-gene-curation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ai-gene-curation" class="md-nav__button md-logo" aria-label="ai-gene-curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ai-gene-curation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ai4curation/ai-gene-curation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Genes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structured-annotations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structured Annotations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailed Description
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="lrp6">LRP6</h1>
+<p><strong>UniProt ID:</strong> <a href="https://bioregistry.io/UniProtKB:O75581">UniProtKB:O75581</a></p>
+<h2 id="structured-annotations">Structured Annotations</h2>
+<details>
+<summary><strong>Primary Functions (from structured data)</strong></summary>
+
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 1: Functions as an essential co-receptor for canonical Wnt signaling, forming receptor complexes with Frizzled proteins and Wnt ligands. While structurally similar to LRP5, LRP6 has broader developmental requirements and is absolutely essential for embryonic viability, whereas LRP5 knockout mice survive with bone and metabolic phenotypes.</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0042813" target="_blank">Wnt-activated receptor activity</a> (GO:0042813)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IDA) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>, <a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0005886" target="_blank">plasma membrane</a> (GO:0005886)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IDA) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>, <a href="https://bioregistry.io/PMID:15778503" target="_blank">PMID:15778503</a> (IDA) - <em>"Phosphorylation of LRP6 by GSK3 and CK1"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Complex</th>
+  <td><a href="https://bioregistry.io/GO:1990851" target="_blank">Wnt signalosome</a> (GO:1990851)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IDA) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>, <a href="https://bioregistry.io/PMID:18505367" target="_blank">PMID:18505367</a> (IPI) - <em>"Initiation of Wnt signaling by forming ternary complex"</em></td>
+</tr>
+</table>
+
+
+
+<strong>Upstream Components:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0017147" target="_blank">Wnt-protein binding</a> (GO:0017147)
+<br><em>Binds multiple Wnt ligands via β-propeller domains</em><br>Evidence: <a href="https://bioregistry.io/PMID:18505367" target="_blank">PMID:18505367</a> (IDA) - <em>"Initiation of Wnt signaling by forming ternary complex"</em>  </li>
+  <li>
+    <a href="https://bioregistry.io/GO:0004674" target="_blank">protein serine/threonine kinase activity</a> (GO:0004674)
+<br><em>Sequential phosphorylation by CK1 and GSK3</em><br>Evidence: <a href="https://bioregistry.io/PMID:15778503" target="_blank">PMID:15778503</a> (IDA) - <em>"Phosphorylation of LRP6 by GSK3 and CK1"</em>  </li>
+</ul>
+
+<strong>Downstream Targets:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0090263" target="_blank">positive regulation of canonical Wnt signaling pathway</a> (GO:0090263)
+<br><em>Essential for β-catenin stabilization</em><br>Evidence: <a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IMP) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>, <a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IDA) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>  </li>
+  <li>
+    <a href="https://bioregistry.io/GO:1904886" target="_blank">beta-catenin destruction complex disassembly</a> (GO:1904886)
+<br><em>Phosphorylated LRP6 recruits and inactivates Axin</em><br>Evidence: <a href="https://bioregistry.io/PMID:15778503" target="_blank">PMID:15778503</a> (IMP) - <em>"Phosphorylation of LRP6 by GSK3 and CK1"</em>  </li>
+</ul>
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
+      (<a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IDA) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>, <a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0001701" target="_blank">in utero embryonic development</a> (GO:0001701)
+      (<a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0009950" target="_blank">dorsal/ventral axis specification</a> (GO:0009950)
+      (<a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0038023" target="_blank">signaling receptor activity</a> (GO:0038023)
+<br>Evidence: <a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IDA) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>  </li>
+</ul>
+
+</div>
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 2: Regulates lipid and glucose metabolism through Wnt signaling in metabolic tissues. Unlike LRP5, which primarily affects metabolism through central nervous system mechanisms, LRP6 directly regulates metabolic processes in peripheral tissues including liver, adipose tissue, and pancreas.</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0019904" target="_blank">protein domain specific binding</a> (GO:0019904)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:17569865" target="_blank">PMID:17569865</a> (IMP) - <em>"LRP6 mutation causes metabolic syndrome"</em>, <a href="https://bioregistry.io/PMID:22405068" target="_blank">PMID:22405068</a> (IDA) - <em>"LRP6 enhances glucose metabolism by Wnt signaling"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0055037" target="_blank">recycling endosome</a> (GO:0055037)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:19666599" target="_blank">PMID:19666599</a> (IDA) - <em>"Caveolin regulates LRP6 signaling"</em></td>
+</tr>
+</table>
+
+
+
+
+
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:0010906" target="_blank">regulation of glucose metabolic process</a> (GO:0010906)
+      (<a href="https://bioregistry.io/PMID:22405068" target="_blank">PMID:22405068</a> (IMP) - <em>"LRP6 enhances glucose metabolism by Wnt signaling"</em>, <a href="https://bioregistry.io/PMID:17569865" target="_blank">PMID:17569865</a> (IDA) - <em>"LRP6 mutation causes metabolic syndrome"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0042593" target="_blank">glucose homeostasis</a> (GO:0042593)
+      (<a href="https://bioregistry.io/PMID:17569865" target="_blank">PMID:17569865</a> (IMP) - <em>"LRP6 mutation causes metabolic syndrome"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0019216" target="_blank">regulation of lipid metabolic process</a> (GO:0019216)
+      (<a href="https://bioregistry.io/PMID:17569865" target="_blank">PMID:17569865</a> (IMP) - <em>"LRP6 mutation causes metabolic syndrome"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0005041" target="_blank">low-density lipoprotein particle receptor activity</a> (GO:0005041)
+<br>Evidence: <a href="https://bioregistry.io/PMID:17569865" target="_blank">PMID:17569865</a> (IDA) - <em>"LRP6 mutation causes metabolic syndrome"</em>  </li>
+</ul>
+
+</div>
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 3: Essential for cardiovascular development and adult cardiac homeostasis. LRP6 has more critical cardiovascular functions than LRP5, with null mutations causing severe cardiac malformations and embryonic lethality.</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0007507" target="_blank">heart development</a> (GO:0007507)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>, <a href="https://bioregistry.io/PMID:19411759" target="_blank">PMID:19411759</a> (IDA) - <em>"LRP6 mutation linked to coronary artery disease"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0016020" target="_blank">membrane</a> (GO:0016020)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:19411759" target="_blank">PMID:19411759</a> (IEP) - <em>"LRP6 mutation linked to coronary artery disease"</em></td>
+</tr>
+</table>
+
+
+
+
+
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:0003007" target="_blank">heart morphogenesis</a> (GO:0003007)
+      (<a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0001947" target="_blank">heart looping</a> (GO:0001947)
+      (<a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0001570" target="_blank">vasculogenesis</a> (GO:0001570)
+      (<a href="https://bioregistry.io/PMID:23312661" target="_blank">PMID:23312661</a> (IDA) - <em>"LRP6 in vascular biology"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0060840" target="_blank">artery development</a> (GO:0060840)
+<br>Evidence: <a href="https://bioregistry.io/PMID:19411759" target="_blank">PMID:19411759</a> (IMP) - <em>"LRP6 mutation linked to coronary artery disease"</em>  </li>
+</ul>
+
+</div>
+
+</details>
+
+<details>
+<summary><strong>Phenotypes (from structured data)</strong></summary>
+
+<table>
+<thead>
+<tr>
+  <th>Mutation</th>
+  <th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <strong>Loss Of Function</strong>
+        <br><em>(germline)</em>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0001629" target="_blank">Ventricular septal defect</a> (HP:0001629)
+<br><em>Homozygous null mutations cause embryonic lethality with cardiac defects</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0001643" target="_blank">Patent ductus arteriosus</a> (HP:0001643)
+<br><em>Cardiovascular malformations in LRP6-deficient embryos</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0000924" target="_blank">Abnormality of the skeletal system</a> (HP:0000924)
+<br><em>Delayed ossification and limb defects</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0001638" target="_blank">Cardiomyopathy</a> (HP:0001638)
+<br><em>Adult heterozygotes show cardiac dysfunction</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/MONDO:0019675" target="_blank">Congenital heart defects</a> (MONDO:0019675)
+<br><em>Homozygous null mutations cause complex cardiac malformations</em>        </li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td>
+      <strong>Hypomorphic</strong>
+        <br><em>(germline)</em>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0003077" target="_blank">Hyperlipidemia</a> (HP:0003077)
+<br><em>R611C mutation causes elevated LDL and triglycerides</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0000855" target="_blank">Insulin resistance</a> (HP:0000855)
+<br><em>Metabolic syndrome with glucose intolerance</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0002155" target="_blank">Hypertriglyceridemia</a> (HP:0002155)
+<br><em>Elevated triglycerides in mutation carriers</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0001677" target="_blank">Coronary artery disease</a> (HP:0001677)
+<br><em>Early-onset atherosclerosis in R611C carriers</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/MONDO:0005148" target="_blank">Type 2 diabetes mellitus</a> (MONDO:0005148)
+<br><em>Increased diabetes risk with LRP6 variants</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/MONDO:0015262" target="_blank">Metabolic syndrome X</a> (MONDO:0015262)
+<br><em>R611C mutation causes full metabolic syndrome phenotype</em>        </li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td>
+      <strong>Polymorphism</strong>
+        <br><em>(common)</em>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0004349" target="_blank">Reduced bone mineral density</a> (HP:0004349)
+<br><em>Common variants associated with osteoporosis risk</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/MONDO:0005298" target="_blank">Osteoporosis</a> (MONDO:0005298)
+<br><em>SNPs increase fracture risk in elderly populations</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0001513" target="_blank">Obesity</a> (HP:0001513)
+<br><em>Variants linked to BMI and fat distribution</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/MONDO:0005044" target="_blank">Hypertension</a> (MONDO:0005044)
+<br><em>Associated with blood pressure variation through metabolic effects</em>        </li>
+    </ul>
+  </td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+<hr />
+<h2 id="detailed-description">Detailed Description</h2>
+<h1 id="lrp6-ldl-receptor-related-protein-6">LRP6 (LDL Receptor-Related Protein 6)</h1>
+<h2 id="overview">Overview</h2>
+<p>LRP6 encodes a single-pass transmembrane protein that serves as an essential co-receptor for canonical Wnt signaling. As the paralog of LRP5, LRP6 arose from an ancient gene duplication event but has evolved distinct and non-redundant functions. While LRP5 primarily regulates bone mass and can be deleted with survival to adulthood, LRP6 has broader developmental requirements and is absolutely essential for embryonic viability. LRP6 knockout mice die at birth with severe developmental defects affecting multiple organ systems, underscoring its more critical role in embryogenesis compared to LRP5.</p>
+<h2 id="structural-features-and-comparison-with-lrp5">Structural Features and Comparison with LRP5</h2>
+<p>LRP6 is a 1613 amino acid protein (compared to LRP5's 1615 amino acids) with highly conserved domain architecture:
+- Four β-propeller/EGF-like domain pairs (PE1-PE4) with 71% sequence identity to LRP5
+- Three LDL receptor type A (LA) domains
+- Single transmembrane domain
+- Cytoplasmic tail with five PPPSPxS motifs and additional regulatory sites</p>
+<h3 id="key-functional-differences-from-lrp5">Key Functional Differences from LRP5:</h3>
+<ol>
+<li><strong>Wnt Binding Specificity</strong>:</li>
+<li>LRP6 PE3-PE4: Preferentially binds WNT3A, WNT3</li>
+<li>LRP5 PE3-PE4: Shows broader Wnt binding including WNT9B, WNT10B</li>
+<li>
+<p>Both share similar binding at PE1-PE2 domains</p>
+</li>
+<li>
+<p><strong>Phosphorylation Sites</strong>:</p>
+</li>
+<li>LRP6: Contains additional Ser/Thr sites including S1490 (unique to LRP6)</li>
+<li>More extensive phosphorylation creates stronger signaling platform</li>
+<li>
+<p>T1479 in LRP6 (T1493 in LRP5) shows different kinetics</p>
+</li>
+<li>
+<p><strong>Antagonist Interactions</strong>:</p>
+</li>
+<li>Both bind DKK1 and Sclerostin at PE1</li>
+<li>LRP6 shows higher affinity for DKK2</li>
+<li>
+<p>Different sensitivity to Wise/SOSTDC1</p>
+</li>
+<li>
+<p><strong>Trafficking Signals</strong>:</p>
+</li>
+<li>LRP6 contains unique motifs affecting endocytosis rate</li>
+<li>Different retromer recognition sequences</li>
+<li>Distinct caveolin interaction domains</li>
+</ol>
+<h2 id="signaling-mechanisms">Signaling Mechanisms</h2>
+<h3 id="signal-initiation">Signal Initiation</h3>
+<ol>
+<li><strong>Wnt binding</strong>: Different Wnts bind distinct PE domains</li>
+<li>PE1-PE2: WNT9B, WNT10B</li>
+<li>PE3-PE4: WNT3A, WNT3</li>
+<li><strong>Receptor clustering</strong>: Wnt induces LRP6 aggregation into signalosomes</li>
+<li><strong>Sequential phosphorylation</strong>:</li>
+<li>T1479 by CK1γ (priming)</li>
+<li>PPPSPxS motifs by GSK3β</li>
+<li>Additional sites by multiple kinases</li>
+<li><strong>Axin recruitment</strong>: Direct binding to phosphorylated motifs</li>
+<li><strong>Signal amplification</strong>: Positive feedback through Axin stabilization</li>
+</ol>
+<h3 id="signalosome-formation">Signalosome Formation</h3>
+<p>LRP6 aggregates into membrane-associated platforms:
+- Lipid raft association via caveolin
+- Clustering enhanced by Dishevelled
+- Size correlates with signaling strength
+- Dynamic assembly/disassembly regulated</p>
+<h2 id="biological-functions">Biological Functions</h2>
+<h3 id="embryonic-development-critical-difference-from-lrp5">Embryonic Development (Critical Difference from LRP5)</h3>
+<p>Unlike LRP5, which is dispensable for embryonic survival, LRP6 is absolutely required for:
+- <strong>Gastrulation</strong>: Primitive streak formation and mesoderm specification (unique to LRP6)
+- <strong>Neural development</strong>: Neural tube closure and brain patterning (LRP5 not required)
+- <strong>Heart development</strong>: Outflow tract and valve formation (LRP6-specific)
+- <strong>Limb development</strong>: Digit specification and skeletal patterning
+- <strong>Placental development</strong>: Labyrinth layer formation (not affected by LRP5 loss)</p>
+<p>The embryonic lethality of LRP6 knockouts contrasts sharply with LRP5 knockouts, which survive with primarily skeletal and metabolic phenotypes.</p>
+<h3 id="metabolic-regulation-distinct-from-lrp5-mechanisms">Metabolic Regulation (Distinct from LRP5 Mechanisms)</h3>
+<p>While LRP5 affects metabolism primarily through central nervous system serotonin signaling, LRP6 directly regulates:
+- <strong>Glucose metabolism</strong>: 
+  - Direct enhancement of hepatic insulin sensitivity
+  - Pancreatic β-cell proliferation and insulin secretion
+  - Peripheral glucose uptake in muscle and adipose tissue
+- <strong>Lipid homeostasis</strong>: 
+  - Hepatic lipogenesis through SREBP1c regulation
+  - VLDL production and LDL clearance
+  - Direct effects on cholesterol biosynthesis
+- <strong>Energy balance</strong>: 
+  - White adipocyte differentiation and lipid storage
+  - Brown adipose tissue thermogenesis
+  - Mitochondrial biogenesis in metabolic tissues
+- <strong>Nutrient sensing</strong>: 
+  - mTOR pathway activation in response to nutrients
+  - Integration with insulin/IGF signaling</p>
+<h3 id="cardiovascular-function-more-critical-than-lrp5">Cardiovascular Function (More Critical than LRP5)</h3>
+<p>LRP6 has essential cardiovascular roles not shared by LRP5:
+- <strong>Cardiac development</strong>: Required for septation and valve formation
+- <strong>Vascular development</strong>: Essential for angiogenesis and vessel patterning
+- <strong>Endothelial function</strong>: Maintains vascular barrier and prevents permeability
+- <strong>Atherosclerosis protection</strong>: Direct anti-atherosclerotic effects in vessel walls
+- <strong>Cardiac homeostasis</strong>: Required for adult myocardial function and survival</p>
+<h3 id="bone-metabolism-complementary-to-lrp5">Bone Metabolism (Complementary to LRP5)</h3>
+<p>While LRP5 is the dominant LRP in bone, LRP6 contributes through:
+- <strong>Osteoblast support</strong>: Enhances differentiation in coordination with LRP5
+- <strong>Compensatory function</strong>: Can partially compensate for LRP5 loss
+- <strong>Fracture healing</strong>: Upregulated during bone repair processes
+- <strong>Chondrocyte regulation</strong>: More important than LRP5 in cartilage</p>
+<h2 id="clinical-significance">Clinical Significance</h2>
+<h3 id="genetic-syndromes">Genetic Syndromes</h3>
+<h4 id="metabolic-syndrome">Metabolic Syndrome</h4>
+<p>The R611C mutation causes:
+- Hyperlipidemia (elevated LDL, triglycerides)
+- Insulin resistance and diabetes
+- Hypertension
+- Early coronary artery disease
+- Fatty liver disease</p>
+<p>Mechanism: Impaired Wnt signaling affects multiple metabolic pathways</p>
+<h4 id="developmental-defects">Developmental Defects</h4>
+<p>Rare homozygous mutations cause:
+- Neural tube defects (spina bifida)
+- Congenital heart disease
+- Skeletal malformations
+- Tooth agenesis</p>
+<h3 id="disease-associations">Disease Associations</h3>
+<ul>
+<li><strong>Type 2 diabetes</strong>: Multiple variants affect disease risk</li>
+<li><strong>Coronary artery disease</strong>: Causal role through lipid metabolism</li>
+<li><strong>Osteoporosis</strong>: Variants influence bone density</li>
+<li><strong>Alzheimer's disease</strong>: Potential role in amyloid clearance</li>
+<li><strong>Cancer</strong>: Altered expression in various tumors</li>
+</ul>
+<h3 id="therapeutic-implications">Therapeutic Implications</h3>
+<h4 id="current-strategies">Current Strategies</h4>
+<ul>
+<li><strong>Lithium</strong>: GSK3β inhibitor enhancing LRP6 signaling</li>
+<li><strong>Statins</strong>: May modulate LRP6 expression</li>
+<li><strong>Anti-DKK1</strong>: Removes pathway inhibition</li>
+</ul>
+<h4 id="future-directions">Future Directions</h4>
+<ul>
+<li><strong>LRP6 agonist antibodies</strong>: Enhance signaling for metabolic disease</li>
+<li><strong>Small molecule modulators</strong>: Target specific domains</li>
+<li><strong>Gene therapy</strong>: For severe loss-of-function mutations</li>
+<li><strong>Combination approaches</strong>: With GLP-1 agonists for diabetes</li>
+</ul>
+<h2 id="evolutionary-perspective">Evolutionary Perspective</h2>
+<p>LRP6 and LRP5 arose from gene duplication in early vertebrates approximately 500 million years ago, with the ancestral Arrow gene in invertebrates. Despite 71% sequence identity, evolutionary divergence has created distinct functional specializations:</p>
+<h3 id="lrp6-essential-functions">LRP6 (Essential Functions):</h3>
+<ul>
+<li>Retained broader developmental requirements similar to invertebrate Arrow</li>
+<li>Essential for embryonic viability (conserved ancestral function)</li>
+<li>Broader Wnt ligand responsiveness</li>
+<li>Critical for cardiovascular development (vertebrate innovation)</li>
+<li>Direct peripheral metabolic regulation</li>
+</ul>
+<h3 id="lrp5-specialized-functions">LRP5 (Specialized Functions):</h3>
+<ul>
+<li>Evolved specialized bone mass regulation</li>
+<li>Dispensable for embryonic development</li>
+<li>More restricted Wnt specificity</li>
+<li>Central nervous system metabolic control</li>
+<li>Higher expression in bone tissue</li>
+</ul>
+<p>The retention of both paralogs despite partial redundancy indicates strong selective pressure for their distinct functions. LRP6's broader essential roles suggest it maintained more ancestral functions, while LRP5 underwent neofunctionalization for specialized skeletal and metabolic regulation. This division of labor allows for more precise developmental and physiological control in complex vertebrate organisms.</p>
+<h2 id="regulation">Regulation</h2>
+<h3 id="transcriptional-control">Transcriptional Control</h3>
+<ul>
+<li><strong>HNF4α</strong>: Upregulates in hepatocytes</li>
+<li><strong>SREBP</strong>: Links to lipid metabolism</li>
+<li><strong>PPARγ</strong>: Regulates in adipocytes</li>
+<li><strong>Inflammatory signals</strong>: NF-κB suppresses expression</li>
+</ul>
+<h3 id="post-translational-modifications">Post-translational Modifications</h3>
+<ul>
+<li><strong>Phosphorylation</strong>: Multiple sites regulate activity</li>
+<li><strong>N-glycosylation</strong>: Required for surface expression</li>
+<li><strong>Palmitoylation</strong>: Affects membrane localization</li>
+<li><strong>Ubiquitination</strong>: ZNRF3/RNF43 promote degradation</li>
+</ul>
+<h3 id="trafficking-and-turnover">Trafficking and Turnover</h3>
+<ul>
+<li><strong>ER quality control</strong>: MESD chaperone required</li>
+<li><strong>Endocytosis</strong>: Clathrin and caveolin-dependent</li>
+<li><strong>Recycling</strong>: Retromer complex mediates</li>
+<li><strong>Degradation</strong>: Lysosomal and proteasomal pathways</li>
+</ul>
+<h2 id="key-interactions">Key Interactions</h2>
+<ul>
+<li><strong>Ligands</strong>: WNT1, WNT3, WNT3A, WNT9B, WNT10B</li>
+<li><strong>Co-receptors</strong>: FZD1-10, LRP5</li>
+<li><strong>Antagonists</strong>: DKK1, DKK2, Sclerostin, Wise/SOSTDC1</li>
+<li><strong>Intracellular</strong>: Axin1/2, GSK3β, CK1γ, Dishevelled</li>
+<li><strong>Scaffold proteins</strong>: Caveolin-1, MACF1</li>
+<li><strong>Regulatory</strong>: ZNRF3, RNF43, R-spondins</li>
+</ul>
+<hr />
+<p><small><em>Generated from <a href="https://github.com/ai4curation/ai-gene-curation/blob/main/genes/LRP6.md">LRP6.md</a></em></small></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>

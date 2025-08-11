@@ -1,0 +1,618 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ai4curation.github.io/ai-gene-curation/genes/STAT2/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>STAT2 - ai-gene-curation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/ansi-colours.css">
+    
+      <link rel="stylesheet" href="../../css/jupyter-cells.css">
+    
+      <link rel="stylesheet" href="../../css/pandas-dataframe.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#stat2" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ai-gene-curation" class="md-header__button md-logo" aria-label="ai-gene-curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ai-gene-curation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              STAT2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ai4curation/ai-gene-curation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ai-gene-curation" class="md-nav__button md-logo" aria-label="ai-gene-curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ai-gene-curation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ai4curation/ai-gene-curation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Genes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structured-annotations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structured Annotations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailed Description
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#function" class="md-nav__link">
+    <span class="md-ellipsis">
+      Function
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unique-features-vs-other-stats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unique Features vs Other STATs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Regulation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phenotypes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phenotypes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clinical-significance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clinical Significance
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="stat2">STAT2</h1>
+<p><strong>UniProt ID:</strong> <a href="https://bioregistry.io/UniProtKB:P52630">UniProtKB:P52630</a></p>
+<h2 id="structured-annotations">Structured Annotations</h2>
+<details>
+<summary><strong>Primary Functions (from structured data)</strong></summary>
+
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 1: STAT2 is an essential and specific mediator of type I interferon signaling that forms the ISGF3 complex with STAT1 and IRF9, binding to ISRE elements to activate antiviral gene expression</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0000981" target="_blank">DNA-binding transcription factor activity, RNA polymerase II-specific</a> (GO:0000981)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:28165510" target="_blank">PMID:28165510</a> (IDA) - <em>"STAT2 is an essential adaptor in USP18-mediated suppression of type I interferon signaling"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
+</tr>
+<tr>
+  <th>Notes</th>
+  <td>Translocates to nucleus as part of ISGF3 complex</td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Complex</th>
+  <td><a href="https://bioregistry.io/GO:0070721" target="_blank">ISGF3 complex</a> (GO:0070721)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:31266943" target="_blank">PMID:31266943</a> (IDA) - <em>"A molecular switch from STAT2-IRF9 to ISGF3 underlies interferon-induced gene transcription"</em></td>
+</tr>
+</table>
+
+
+
+<strong>Upstream Components:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0042976" target="_blank">activation of Janus kinase activity</a> (GO:0042976)
+<br><em>TYK2 and JAK1 phosphorylate STAT2 at Tyr690 following type I IFN receptor engagement</em>  </li>
+</ul>
+
+<strong>Downstream Targets:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0045944" target="_blank">positive regulation of transcription by RNA polymerase II</a> (GO:0045944)
+<br><em>ISGF3 complex activates transcription of interferon-stimulated genes (ISGs) by binding to ISRE elements</em><br>Evidence: <a href="https://bioregistry.io/PMID:24058793" target="_blank">PMID:24058793</a> (NAS) - <em>"STAT heterodimers in immunity: A mixed message or a unique signal?"</em>, <a href="https://bioregistry.io/PMID:24065129" target="_blank">PMID:24065129</a> (IDA) - <em>"IFNβ-dependent increases in STAT1, STAT2, and IRF9 mediate resistance to viruses and DNA damage"</em>  </li>
+</ul>
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:0071357" target="_blank">cellular response to type I interferon</a> (GO:0071357)
+      (<a href="https://bioregistry.io/PMID:23391734" target="_blank">PMID:23391734</a> (IDA) - <em>"STAT2 deficiency and susceptibility to viral illness in humans"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0035455" target="_blank">response to interferon-alpha</a> (GO:0035455)
+      (<a href="https://bioregistry.io/PMID:22731491" target="_blank">PMID:22731491</a> (IDA) - <em>"USP18 establishes the transcriptional and anti-proliferative interferon α/β differential"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0035456" target="_blank">response to interferon-beta</a> (GO:0035456)
+      (<a href="https://bioregistry.io/PMID:22731491" target="_blank">PMID:22731491</a> (IDA) - <em>"USP18 establishes the transcriptional and anti-proliferative interferon α/β differential"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0140374" target="_blank">antiviral innate immune response</a> (GO:0140374)
+      (<a href="https://bioregistry.io/PMID:23391734" target="_blank">PMID:23391734</a> (IMP) - <em>"STAT2 deficiency and susceptibility to viral illness in humans"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0046982" target="_blank">protein heterodimerization activity</a> (GO:0046982)
+<br><em>Note: Forms obligate heterodimers with STAT1; cannot form homodimers unlike other STATs</em>  </li>
+  <li>
+    <a href="https://bioregistry.io/GO:0005126" target="_blank">cytokine receptor binding</a> (GO:0005126)
+<br><em>Note: Recruits USP18 to IFNAR2 for negative feedback regulation</em>  </li>
+</ul>
+
+</div>
+
+</details>
+
+<details>
+<summary><strong>Phenotypes (from structured data)</strong></summary>
+
+<table>
+<thead>
+<tr>
+  <th>Mutation</th>
+  <th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <strong>Loss Of Function</strong>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0002719" target="_blank">Recurrent infections</a> (HP:0002719)
+<br><em>severe viral infections including disseminated vaccine-strain measles</em><br><small>Mechanism: impaired type I interferon signaling leads to defective antiviral immunity</small>        </li>
+        <li>
+          <a href="https://bioregistry.io/MONDO:0014715" target="_blank">primary immunodeficiency with post-measles-mumps-rubella vaccine viral infection</a> (MONDO:0014715)
+<br><em>primary immunodeficiency with post-measles-mumps-rubella vaccine viral infection</em><br><small>Mechanism: selective susceptibility to viral infections particularly after systemic challenge with live viral vaccines</small>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0002721" target="_blank">Immunodeficiency</a> (HP:0002721)
+<br><em>increased susceptibility to viral but NOT mycobacterial infections</em><br><small>Mechanism: STAT2 is specific to type I IFN pathway; does not affect IFN-γ signaling required for mycobacterial defense</small>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0001945" target="_blank">Fever</a> (HP:0001945)
+<br><em>fatal febrile illness from viral infections</em><br><small>Mechanism: inability to mount effective antiviral response through ISG expression</small>        </li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td>
+      <strong>Gain Of Function</strong>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+
+<br><em>no known gain-of-function mutations reported</em>        </li>
+    </ul>
+  </td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+<hr />
+<h2 id="detailed-description">Detailed Description</h2>
+<p><strong>STAT2 (Signal Transducer and Activator of Transcription 2)</strong> is an essential and specific mediator of <strong>type I interferon (IFN-α/β)</strong> and <strong>type III interferon (IFN-λ)</strong> signaling that plays a critical role in antiviral immunity.</p>
+<h2 id="function">Function</h2>
+<ul>
+<li><strong>Type I IFN-specific signaling:</strong> Exclusively activated by type I IFNs (IFN-α, IFN-β) and type III IFNs (IFN-λ), but <strong>NOT by type II IFN (IFN-γ)</strong>, distinguishing it from STAT1.</li>
+<li><strong>ISGF3 complex formation:</strong> Following phosphorylation at Tyr690 by TYK2 and JAK1, STAT2 forms obligate heterodimers with STAT1 (cannot form homodimers), which then associate with <strong>IRF9</strong> to form the trimeric <strong>ISGF3 (IFN-stimulated gene factor 3)</strong> complex.</li>
+<li><strong>DNA binding specificity:</strong> The ISGF3 complex binds to <strong>ISRE (IFN-stimulated response elements)</strong> with the consensus sequence 5'-G/ANGAAAN2GAAACT-3', distinct from the GAS elements recognized by STAT1 homodimers.</li>
+<li><strong>Antiviral gene activation:</strong> Drives expression of hundreds of <strong>interferon-stimulated genes (ISGs)</strong> that establish an antiviral state, including:</li>
+<li><strong>2'-5' oligoadenylate synthetases (OAS)</strong> for RNA degradation</li>
+<li><strong>Mx proteins</strong> for viral replication inhibition  </li>
+<li><strong>PKR (protein kinase R)</strong> for translation inhibition</li>
+<li><strong>ISG15</strong> for protein modification and antiviral defense</li>
+</ul>
+<h2 id="unique-features-vs-other-stats">Unique Features vs Other STATs</h2>
+<ul>
+<li><strong>No homodimerization capability:</strong> Unlike STAT1, STAT3, and other family members, STAT2 cannot form functional homodimers and requires STAT1 for dimerization.</li>
+<li><strong>Type I IFN exclusivity:</strong> Does not participate in IFN-γ signaling pathways, making it a specific marker of type I IFN response.</li>
+<li><strong>Dual regulatory role:</strong> Besides signal transduction, STAT2 uniquely recruits <strong>USP18</strong> to the type I IFN receptor (IFNAR2) to mediate negative feedback, particularly dampening IFN-α responses.</li>
+<li><strong>DNA binding dependency:</strong> Cannot bind DNA independently; requires both STAT1 and IRF9 partners in the ISGF3 complex.</li>
+<li><strong>No gain-of-function mutations:</strong> Unlike STAT1 and STAT3, no pathogenic GOF variants have been identified in STAT2.</li>
+</ul>
+<h2 id="regulation">Regulation</h2>
+<ul>
+<li><strong>USP18-mediated negative feedback:</strong> STAT2 directly interacts with USP18 and recruits it to IFNAR2, where USP18 interferes with JAK1 binding and receptor dimerization, creating a negative feedback loop specific to type I IFN.</li>
+<li><strong>Differential IFN subtype regulation:</strong> The STAT2-USP18 interaction preferentially attenuates IFN-α signaling over IFN-β due to differences in receptor binding affinity.</li>
+<li><strong>Unphosphorylated functions:</strong> Recent evidence suggests STAT2-IRF9 complexes can regulate basal ISG expression even without phosphorylation.</li>
+</ul>
+<h2 id="phenotypes">Phenotypes</h2>
+<ul>
+<li><strong>Loss-of-function mutations (Immunodeficiency 44):</strong></li>
+<li>Severe susceptibility to viral infections (measles, influenza, HSV, etc.)</li>
+<li>Complications from live attenuated viral vaccines</li>
+<li><strong>Notably NO increased susceptibility to mycobacterial infections</strong> (unlike STAT1 deficiency)</li>
+<li>Generally normal adaptive immunity between infections</li>
+<li>
+<p>Fatal outcomes possible from otherwise mild viral infections</p>
+</li>
+<li>
+<p><strong>No known gain-of-function phenotype:</strong> Unlike STAT1 GOF causing chronic mucocutaneous candidiasis and autoimmunity, no STAT2 GOF syndrome has been identified.</p>
+</li>
+</ul>
+<h2 id="clinical-significance">Clinical Significance</h2>
+<p>STAT2 deficiency represents a selective vulnerability to viral pathogens while maintaining normal antibacterial and antifungal immunity, highlighting the specialized role of type I interferon signaling in antiviral defense. This makes STAT2 a potential therapeutic target for enhancing antiviral immunity or modulating inflammatory responses in viral infections and interferonopathies.</p>
+<hr />
+<p><small><em>Generated from <a href="https://github.com/ai4curation/ai-gene-curation/blob/main/genes/STAT2.md">STAT2.md</a></em></small></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>
