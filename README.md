@@ -2,6 +2,8 @@
 
 # ai-gene-curation
 
+HIGHLY EXPERIMENTAL
+
 Agentic collaborative curation of genes
 
 ## Documentation Website
