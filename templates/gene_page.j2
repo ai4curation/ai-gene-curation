@@ -1,0 +1,223 @@
+---
+title: {{ gene.symbol | default('Gene') }}
+---
+
+# {{ gene.symbol }}
+
+{% if gene.id %}
+**UniProt ID:** [{{ gene.id }}](https://bioregistry.io/{{ gene.id }})
+{% endif %}
+
+## Structured Annotations
+
+<details>
+<summary><strong>Primary Functions (from structured data)</strong></summary>
+
+{% if gene.primary_functions %}
+{% for function in gene.primary_functions %}
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function {{ loop.index }}: {{ function.description }}</h4>
+
+{% if function.activity %}
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td>{{ render_term(function.activity.term) }}</td>
+</tr>
+{% if function.activity.support %}
+<tr>
+  <th>Evidence</th>
+  <td>{{ render_evidence(function.activity.support) }}</td>
+</tr>
+{% endif %}
+</table>
+{% endif %}
+
+{% if function.location %}
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td>{{ render_term(function.location.term) }}</td>
+</tr>
+{% if function.location.support %}
+<tr>
+  <th>Evidence</th>
+  <td>{{ render_evidence(function.location.support) }}</td>
+</tr>
+{% endif %}
+{% if function.location.notes %}
+<tr>
+  <th>Notes</th>
+  <td>{{ function.location.notes }}</td>
+</tr>
+{% endif %}
+</table>
+{% endif %}
+
+{% if function.complex %}
+<table>
+<tr>
+  <th style="width: 150px;">Complex</th>
+  <td>{{ render_term(function.complex.term) }}</td>
+</tr>
+{% if function.complex.support %}
+<tr>
+  <th>Evidence</th>
+  <td>{{ render_evidence(function.complex.support) }}</td>
+</tr>
+{% endif %}
+</table>
+{% endif %}
+
+{% if function.cell_type %}
+<table>
+<tr>
+  <th style="width: 150px;">Cell Type</th>
+  <td>{{ render_term(function.cell_type.term) }}</td>
+</tr>
+{% if function.cell_type.support %}
+<tr>
+  <th>Evidence</th>
+  <td>{{ render_evidence(function.cell_type.support) }}</td>
+</tr>
+{% endif %}
+</table>
+{% endif %}
+
+{% if function.gross_anatomy %}
+<table>
+<tr>
+  <th style="width: 150px;">Anatomical Location</th>
+  <td>{{ render_term(function.gross_anatomy.term) }}</td>
+</tr>
+{% if function.gross_anatomy.support %}
+<tr>
+  <th>Evidence</th>
+  <td>{{ render_evidence(function.gross_anatomy.support) }}</td>
+</tr>
+{% endif %}
+</table>
+{% endif %}
+
+{% if function.upstream %}
+<strong>Upstream Components:</strong>
+<ul>
+{% for item in function.upstream %}
+  <li>
+    {{ render_term(item.term) }}
+    {% if item.description %}<br><em>{{ item.description }}</em>{% endif %}
+    {% if item.support %}<br>Evidence: {{ render_evidence(item.support) }}{% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if function.downstream %}
+<strong>Downstream Targets:</strong>
+<ul>
+{% for item in function.downstream %}
+  <li>
+    {{ render_term(item.term) }}
+    {% if item.description %}<br><em>{{ item.description }}</em>{% endif %}
+    {% if item.support %}<br>Evidence: {{ render_evidence(item.support) }}{% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if function.processes %}
+<strong>Biological Processes:</strong>
+<ul>
+{% for process in function.processes %}
+  <li>
+    {% if process.is_any_of %}
+      One of:
+      {% for alt in process.is_any_of %}
+        {{ render_term(alt.term) }}{% if not loop.last %}, {% endif %}
+      {% endfor %}
+    {% else %}
+      {{ render_term(process.term) }}
+    {% endif %}
+    {% if process.support or (process.is_any_of and process.is_any_of[0].support) %}
+      ({{ render_evidence(process.support or process.is_any_of[0].support) }})
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if function.roles %}
+<strong>Additional Roles:</strong>
+<ul>
+{% for role in function.roles %}
+  <li>
+    {{ render_term(role.term) }}
+    {% if role.category %}<span style="color: #666;"> [{{ role.category }}]</span>{% endif %}
+    {% if role.notes %}<br><em>Note: {{ role.notes }}</em>{% endif %}
+    {% if role.support %}<br>Evidence: {{ render_evidence(role.support) }}{% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+</div>
+{% endfor %}
+{% endif %}
+
+</details>
+
+<details>
+<summary><strong>Phenotypes (from structured data)</strong></summary>
+
+{% if gene.phenotypes %}
+<table>
+<thead>
+<tr>
+  <th>Mutation</th>
+  <th>Effects</th>
+</tr>
+</thead>
+<tbody>
+{% for phenotype in gene.phenotypes %}
+<tr>
+  <td>
+    {% if phenotype.mutation %}
+      <strong>{{ phenotype.mutation.type | replace('_', ' ') | title }}</strong>
+      {% if phenotype.mutation.variant %}
+        <br><em>({{ phenotype.mutation.variant }})</em>
+      {% endif %}
+    {% endif %}
+  </td>
+  <td>
+    {% if phenotype.effects %}
+    <ul style="margin: 0;">
+      {% for effect in phenotype.effects %}
+        <li>
+          {{ render_term(effect.term) }}
+          {% if effect.description %}<br><em>{{ effect.description }}</em>{% endif %}
+          {% if effect.mechanism %}<br><small>Mechanism: {{ effect.mechanism }}</small>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+{% else %}
+<p><em>No phenotypes defined in structured data.</em></p>
+{% endif %}
+
+</details>
+
+---
+
+## Detailed Description
+
+{{ markdown_body }}
+
+---
+
+<small><em>Generated from [{{ gene.symbol }}.md](https://github.com/ai4curation/ai-gene-curation/blob/main/genes/{{ gene.symbol }}.md)</em></small>

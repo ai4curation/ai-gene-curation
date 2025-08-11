@@ -1,0 +1,651 @@
+file	location	id	asserted_label	actual_label	matches	is_obsolete	replaced_by	consider
+LRP5.md	primary_functions[0].activity.term	GO:0042813	Wnt-activated receptor activity	Wnt receptor activity	No	Yes		
+LRP5.md	primary_functions[0].location.term	GO:0005886	plasma membrane	plasma membrane	Yes	Yes		
+LRP5.md	primary_functions[0].complex.term	GO:1990851	Wnt signalosome	Wnt-Frizzled-LRP5/6 complex	No	Yes		
+LRP5.md	primary_functions[0].upstream[0].term	GO:0017147	Wnt-protein binding	Wnt-protein binding	Yes	Yes		
+LRP5.md	primary_functions[0].upstream[1].term	GO:0042803	protein homodimerization activity	protein homodimerization activity	Yes	Yes		
+LRP5.md	primary_functions[0].downstream[0].term	GO:0090263	positive regulation of canonical Wnt signaling pathway	positive regulation of canonical Wnt signaling pathway	Yes	Yes		
+LRP5.md	primary_functions[0].downstream[1].term	GO:0016310	phosphorylation	phosphorylation	Yes	Yes		
+LRP5.md	primary_functions[0].downstream[2].term	GO:0051091	positive regulation of DNA-binding transcription factor activity	positive regulation of DNA-binding transcription factor activity	Yes	Yes		
+LRP5.md	primary_functions[0].processes[0].term	GO:0060070	canonical Wnt signaling pathway	canonical Wnt signaling pathway	Yes	Yes		
+LRP5.md	primary_functions[0].processes[1].term	GO:0001649	osteoblast differentiation	osteoblast differentiation	Yes	Yes		
+LRP5.md	primary_functions[0].processes[2].term	GO:0060346	bone trabecula formation	bone trabecula formation	Yes	Yes		
+LRP5.md	primary_functions[0].roles[0].term	GO:0038023	signaling receptor activity	signaling receptor activity	Yes	Yes		
+LRP5.md	primary_functions[1].activity.term	GO:0045124	regulation of bone resorption	regulation of bone resorption	Yes	Yes		
+LRP5.md	primary_functions[1].location.term	GO:0001591	dopamine neuron	dopamine neurotransmitter receptor activity, coupled via Gi/Go	No	Yes		
+LRP5.md	primary_functions[1].processes[0].term	GO:0045669	positive regulation of osteoblast differentiation	positive regulation of osteoblast differentiation	Yes	Yes		
+LRP5.md	primary_functions[1].processes[1].term	GO:0002062	chondrocyte differentiation	chondrocyte differentiation	Yes	Yes		
+LRP5.md	primary_functions[1].processes[2].term	GO:0030282	bone mineralization	bone mineralization	Yes	Yes		
+LRP5.md	primary_functions[1].roles[0].term	GO:0070412	R-SMAD binding	R-SMAD binding	Yes	Yes		
+LRP5.md	primary_functions[2].activity.term	GO:0005009	insulin-activated receptor activity	insulin receptor activity	No	Yes		
+LRP5.md	primary_functions[2].location.term	GO:0043025	neuronal cell body	neuronal cell body	Yes	Yes		
+LRP5.md	primary_functions[2].processes[0].term	GO:0042593	glucose homeostasis	glucose homeostasis	Yes	Yes		
+LRP5.md	primary_functions[2].processes[1].term	GO:0006629	lipid metabolic process	lipid metabolic process	Yes	Yes		
+LRP5.md	primary_functions[2].processes[2].term	GO:0030073	insulin secretion	insulin secretion	Yes	Yes		
+LRP5.md	primary_functions[2].roles[0].term	GO:0070328	triglyceride homeostasis	triglyceride homeostasis	Yes	Yes		
+LRP5.md	phenotypes[0].effects[0].term	HP:0011001	Increased bone mineral density	Increased bone mineral density	Yes	Yes		
+LRP5.md	phenotypes[0].effects[1].term	MONDO:0010918	Worth disease	epilepsy, idiopathic generalized, susceptibility to, 1	No	Yes		
+LRP5.md	phenotypes[0].effects[2].term	HP:0002757	Recurrent fractures	Recurrent fractures	Yes	Yes		
+LRP5.md	phenotypes[1].effects[0].term	HP:0000939	Osteoporosis	Osteoporosis	Yes	Yes		
+LRP5.md	phenotypes[1].effects[1].term	HP:0000618	Blindness	Blindness	Yes	Yes		
+LRP5.md	phenotypes[1].effects[2].term	MONDO:0008190	Osteoporosis-pseudoglioma syndrome	obsolete human papillomavirus type 18 integration site 1	No	Yes		
+LRP5.md	phenotypes[1].effects[3].term	HP:0002659	Increased susceptibility to fractures	Increased susceptibility to fractures	Yes	Yes		
+LRP5.md	phenotypes[2].effects[0].term	HP:0004349	Reduced bone mineral density	Reduced bone mineral density	Yes	Yes		
+LRP5.md	phenotypes[2].effects[1].term	HP:0000819	Diabetes mellitus	Diabetes mellitus	Yes	Yes		
+STAT5A.md	primary_functions[0].activity.term	GO:0003700	DNA-binding transcription factor activity	DNA-binding transcription factor activity	Yes	Yes		
+STAT5A.md	primary_functions[0].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+STAT5A.md	primary_functions[0].upstream[0].term	GO:0060396	growth hormone receptor signaling pathway	growth hormone receptor signaling pathway	Yes	Yes		
+STAT5A.md	primary_functions[0].upstream[1].term	GO:0038161	prolactin signaling pathway	prolactin signaling pathway	Yes	Yes		
+STAT5A.md	primary_functions[0].downstream[0].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+STAT5A.md	primary_functions[0].processes[0].term	GO:0060749	mammary gland alveolus development	mammary gland alveolus development	Yes	Yes		
+STAT5A.md	primary_functions[0].processes[1].term	GO:0007595	lactation	lactation	Yes	Yes		
+STAT5A.md	primary_functions[1].activity.term	GO:0038110	interleukin-2-mediated signaling pathway	interleukin-2-mediated signaling pathway	Yes	Yes		
+STAT5A.md	primary_functions[1].processes[0].term	GO:0030218	erythrocyte differentiation	erythrocyte differentiation	Yes	Yes		
+STAT5A.md	primary_functions[1].processes[1].term	GO:0050731	positive regulation of peptidyl-tyrosine phosphorylation	positive regulation of peptidyl-tyrosine phosphorylation	Yes	Yes		
+STAT5A.md	primary_functions[1].roles[0].term	GO:0043066	negative regulation of apoptotic process	negative regulation of apoptotic process	Yes	Yes		
+STAT5A.md	phenotypes[0].effects[0].term	HP:0000144	Decreased fertility	Decreased fertility	Yes	Yes		
+STAT5A.md	phenotypes[0].effects[1].term	HP:0100783	Breast aplasia	Breast aplasia	Yes	Yes		
+STAT5A.md	phenotypes[0].effects[2].term	HP:0001510	Growth delay	Growth delay	Yes	Yes		
+STAT5A.md	phenotypes[0].effects[3].term	HP:0001903	Anemia	Anemia	Yes	Yes		
+STAT5A.md	phenotypes[1].effects[0].term	MONDO:0020076	myeloproliferative neoplasm	myeloproliferative neoplasm	Yes	Yes		
+STAT5A.md	phenotypes[1].effects[1].term	MONDO:0004967	acute lymphoblastic leukemia	acute lymphoblastic leukemia	Yes	Yes		
+STAT5A.md	phenotypes[1].effects[2].term	MONDO:0011996	chronic myeloid leukemia	chronic myelogenous leukemia, BCR-ABL1 positive	No	Yes		
+TYK2.md	primary_functions[0].activity.term	GO:0004713	protein tyrosine kinase activity	protein tyrosine kinase activity	Yes	Yes		
+TYK2.md	primary_functions[0].location.term	GO:0005737	cytoplasm	cytoplasm	Yes	Yes		
+TYK2.md	primary_functions[0].upstream[0].term	GO:0004896	cytokine receptor activity	cytokine receptor activity	Yes	Yes		
+TYK2.md	primary_functions[0].downstream[0].term	GO:0006468	protein phosphorylation	protein phosphorylation	Yes	Yes		
+TYK2.md	primary_functions[0].processes[0].term	GO:0060337	type I interferon-mediated signaling pathway	type I interferon-mediated signaling pathway	Yes	Yes		
+TYK2.md	primary_functions[0].processes[1].term	GO:0035722	interleukin-12-mediated signaling pathway	interleukin-12-mediated signaling pathway	Yes	Yes		
+TYK2.md	primary_functions[0].processes[2].term	GO:0070757	interleukin-23-mediated signaling pathway	interleukin-35-mediated signaling pathway	No	Yes		
+TYK2.md	primary_functions[1].activity.term	GO:0051607	defense response to virus	defense response to virus	Yes	Yes		
+TYK2.md	primary_functions[1].processes[0].term	GO:0002376	immune system process	immune system process	Yes	Yes		
+TYK2.md	primary_functions[1].processes[0].is_any_of[0].term	GO:0045087	innate immune response	innate immune response	Yes	Yes		
+TYK2.md	primary_functions[1].processes[0].is_any_of[1].term	GO:0002250	adaptive immune response	adaptive immune response	Yes	Yes		
+TYK2.md	primary_functions[1].roles[0].term	GO:0042088	T-helper 1 type immune response	T-helper 1 type immune response	Yes	Yes		
+TYK2.md	primary_functions[1].roles[1].term	GO:0072539	T-helper 17 cell differentiation	T-helper 17 cell differentiation	Yes	Yes		
+TYK2.md	phenotypes[0].effects[0].term	MONDO:0019106	primary immunodeficiency disease	obsolete disseminated peritoneal leiomyomatosis	No	Yes		
+TYK2.md	phenotypes[0].effects[1].term	HP:0032251	Increased susceptibility to mycobacterial infections	Abnormal immune system morphology	No	Yes		
+TYK2.md	phenotypes[0].effects[2].term	HP:0002719	Recurrent infections	Recurrent infections	Yes	Yes		
+TYK2.md	phenotypes[0].effects[3].term	HP:0003212	Increased circulating IgE level	Increased circulating IgE concentration	No	Yes		
+TYK2.md	phenotypes[0].effects[4].term	HP:0002719	Recurrent infections	Recurrent infections	Yes	Yes		
+TYK2.md	phenotypes[1].effects[0].term	HP:0002960	Autoimmunity	Autoimmunity	Yes	Yes		
+TYK2.md	phenotypes[1].effects[1].term	HP:0032263	Tuberculosis susceptibility	Increased blood pressure	No	Yes		
+TYK2.md	phenotypes[2].effects[0].term	MONDO:0004963	T-cell acute lymphoblastic leukemia	T-cell acute lymphoblastic leukemia	Yes	Yes		
+TYK2.md	phenotypes[2].effects[1].term	MONDO:0004967	B-cell acute lymphoblastic leukemia	acute lymphoblastic leukemia	No	Yes		
+DKK1.md	primary_functions[0].activity.term	GO:0030178	negative regulation of Wnt signaling pathway	negative regulation of Wnt signaling pathway	Yes	Yes		
+DKK1.md	primary_functions[0].location.term	GO:0005576	extracellular region	extracellular region	Yes	Yes		
+DKK1.md	primary_functions[0].complex.term	GO:1904702	negative regulation of Wnt-Frizzled-LRP5/6 complex assembly	regulation of protein localization to adherens junction	No	Yes		
+DKK1.md	primary_functions[0].upstream[0].term	GO:0038024	cargo receptor activity	cargo receptor activity	Yes	Yes		
+DKK1.md	primary_functions[0].upstream[1].term	GO:0042803	protein homodimerization activity	protein homodimerization activity	Yes	Yes		
+DKK1.md	primary_functions[0].downstream[0].term	GO:0090090	negative regulation of canonical Wnt signaling pathway	negative regulation of canonical Wnt signaling pathway	Yes	Yes		
+DKK1.md	primary_functions[0].downstream[1].term	GO:0031623	receptor internalization	receptor internalization	Yes	Yes		
+DKK1.md	primary_functions[0].processes[0].term	GO:0060323	head morphogenesis	head morphogenesis	Yes	Yes		
+DKK1.md	primary_functions[0].processes[1].term	GO:0030282	bone mineralization	bone mineralization	Yes	Yes		
+DKK1.md	primary_functions[0].processes[2].term	GO:0045668	negative regulation of osteoblast differentiation	negative regulation of osteoblast differentiation	Yes	Yes		
+DKK1.md	primary_functions[0].roles[0].term	GO:0030547	signaling receptor inhibitor activity	signaling receptor inhibitor activity	Yes	Yes		
+DKK1.md	primary_functions[1].activity.term	GO:0045124	regulation of bone resorption	regulation of bone resorption	Yes	Yes		
+DKK1.md	primary_functions[1].location.term	GO:0001591	dopamine neuron	dopamine neurotransmitter receptor activity, coupled via Gi/Go	No	Yes		
+DKK1.md	primary_functions[1].processes[0].term	GO:0045780	positive regulation of bone resorption	positive regulation of bone resorption	Yes	Yes		
+DKK1.md	primary_functions[1].processes[1].term	GO:0045671	negative regulation of osteoclast differentiation	negative regulation of osteoclast differentiation	Yes	Yes		
+DKK1.md	primary_functions[1].processes[2].term	GO:0001503	ossification	ossification	Yes	Yes		
+DKK1.md	primary_functions[1].roles[0].term	GO:0070412	R-SMAD binding	R-SMAD binding	Yes	Yes		
+DKK1.md	primary_functions[2].activity.term	GO:0008283	cell population proliferation	cell population proliferation	Yes	Yes		
+DKK1.md	primary_functions[2].location.term	GO:0005615	extracellular space	extracellular space	Yes	Yes		
+DKK1.md	primary_functions[2].processes[0].term	GO:0001525	angiogenesis	angiogenesis	Yes	Yes		
+DKK1.md	primary_functions[2].processes[1].term	GO:0007162	negative regulation of cell adhesion	negative regulation of cell adhesion	Yes	Yes		
+DKK1.md	primary_functions[2].processes[2].term	GO:0043065	positive regulation of apoptotic process	positive regulation of apoptotic process	Yes	Yes		
+DKK1.md	primary_functions[2].roles[0].term	GO:0005125	cytokine activity	cytokine activity	Yes	Yes		
+DKK1.md	primary_functions[3].activity.term	GO:0090263	positive regulation of canonical Wnt signaling pathway	positive regulation of canonical Wnt signaling pathway	Yes	Yes		
+DKK1.md	primary_functions[3].processes[0].term	GO:0060173	limb development	limb development	Yes	Yes		
+DKK1.md	primary_functions[3].processes[1].term	GO:0048762	mesenchymal cell differentiation	mesenchymal cell differentiation	Yes	Yes		
+DKK1.md	primary_functions[3].processes[2].term	GO:0048568	embryonic organ development	embryonic organ development	Yes	Yes		
+DKK1.md	phenotypes[0].effects[0].term	HP:0000238	Hydrocephalus	Hydrocephalus	Yes	Yes		
+DKK1.md	phenotypes[0].effects[1].term	HP:0001363	Craniosynostosis	Craniosynostosis	Yes	Yes		
+DKK1.md	phenotypes[0].effects[2].term	HP:0000347	Micrognathia	Micrognathia	Yes	Yes		
+DKK1.md	phenotypes[0].effects[3].term	MONDO:0019508	Dickkopf-related developmental anomaly	van der Woude syndrome	No	Yes		
+DKK1.md	phenotypes[1].effects[0].term	HP:0002797	Osteolysis	Osteolysis	Yes	Yes		
+DKK1.md	phenotypes[1].effects[1].term	HP:0002653	Bone pain	Bone pain	Yes	Yes		
+DKK1.md	phenotypes[1].effects[2].term	MONDO:0009693	Multiple myeloma	plasma cell myeloma	No	Yes		
+DKK1.md	phenotypes[1].effects[3].term	HP:0030731	Carcinoma	Carcinoma	Yes	Yes		
+DKK1.md	phenotypes[2].effects[0].term	HP:0000939	Osteoporosis	Osteoporosis	Yes	Yes		
+DKK1.md	phenotypes[2].effects[1].term	HP:0002659	Increased susceptibility to fractures	Increased susceptibility to fractures	Yes	Yes		
+FZD1.md	primary_functions[0].activity.term	GO:0017147	Wnt-protein binding	Wnt-protein binding	Yes	Yes		
+FZD1.md	primary_functions[0].location.term	GO:0005886	plasma membrane	plasma membrane	Yes	Yes		
+FZD1.md	primary_functions[0].complex.term	GO:1990851	Wnt signalosome	Wnt-Frizzled-LRP5/6 complex	No	Yes		
+FZD1.md	primary_functions[0].upstream[0].term	GO:0005102	signaling receptor binding	signaling receptor binding	Yes	Yes		
+FZD1.md	primary_functions[0].downstream[0].term	GO:0060071	Wnt signaling pathway, planar cell polarity pathway	Wnt signaling pathway, planar cell polarity pathway	Yes	Yes		
+FZD1.md	primary_functions[0].downstream[1].term	GO:0090263	positive regulation of canonical Wnt signaling pathway	positive regulation of canonical Wnt signaling pathway	Yes	Yes		
+FZD1.md	primary_functions[0].processes[0].term	GO:0060070	canonical Wnt signaling pathway	canonical Wnt signaling pathway	Yes	Yes		
+FZD1.md	primary_functions[0].processes[1].term	GO:0007166	cell surface receptor signaling pathway	cell surface receptor signaling pathway	Yes	Yes		
+FZD1.md	primary_functions[0].processes[2].term	GO:0016055	Wnt signaling pathway	Wnt signaling pathway	Yes	Yes		
+FZD1.md	primary_functions[0].roles[0].term	GO:0004888	transmembrane signaling receptor activity	transmembrane signaling receptor activity	Yes	Yes		
+FZD1.md	primary_functions[1].activity.term	GO:0019901	protein kinase binding	protein kinase binding	Yes	Yes		
+FZD1.md	primary_functions[1].location.term	GO:0043234	protein-containing complex	[Term not found]	No	No		
+FZD1.md	primary_functions[1].upstream[0].term	GO:0051434	BH3 domain binding	BH3 domain binding	Yes	Yes		
+FZD1.md	primary_functions[1].downstream[0].term	GO:1904886	beta-catenin destruction complex disassembly	beta-catenin destruction complex disassembly	Yes	Yes		
+FZD1.md	primary_functions[1].processes[0].term	GO:0090090	negative regulation of canonical Wnt signaling pathway	negative regulation of canonical Wnt signaling pathway	Yes	Yes		
+FZD1.md	primary_functions[1].roles[0].term	GO:0005109	frizzled binding	frizzled binding	Yes	Yes		
+FZD1.md	primary_functions[2].activity.term	GO:0004930	G protein-coupled receptor activity	G protein-coupled receptor activity	Yes	Yes		
+FZD1.md	primary_functions[2].location.term	GO:0043235	receptor complex	receptor complex	Yes	Yes		
+FZD1.md	primary_functions[2].downstream[0].term	GO:0007186	G protein-coupled receptor signaling pathway	G protein-coupled receptor signaling pathway	Yes	Yes		
+FZD1.md	primary_functions[2].downstream[1].term	GO:0051928	positive regulation of calcium ion transport	positive regulation of calcium ion transport	Yes	Yes		
+FZD1.md	primary_functions[2].processes[0].term	GO:0035567	non-canonical Wnt signaling pathway	non-canonical Wnt signaling pathway	Yes	Yes		
+FZD1.md	primary_functions[2].processes[1].term	GO:0060071	Wnt signaling pathway, planar cell polarity pathway	Wnt signaling pathway, planar cell polarity pathway	Yes	Yes		
+FZD1.md	primary_functions[2].roles[0].term	GO:0004930	G protein-coupled receptor activity	G protein-coupled receptor activity	Yes	Yes		
+FZD1.md	primary_functions[3].activity.term	GO:0090176	microtubule cytoskeleton organization involved in establishment of planar polarity	microtubule cytoskeleton organization involved in establishment of planar polarity	Yes	Yes		
+FZD1.md	primary_functions[3].upstream[0].term	GO:0042813	Wnt receptor signaling pathway involved in cell fate specification	Wnt receptor activity	No	Yes		
+FZD1.md	primary_functions[3].downstream[0].term	GO:0032956	regulation of actin cytoskeleton organization	regulation of actin cytoskeleton organization	Yes	Yes		
+FZD1.md	primary_functions[3].downstream[1].term	GO:0043507	positive regulation of JUN kinase activity	positive regulation of JUN kinase activity	Yes	Yes		
+FZD1.md	primary_functions[3].processes[0].term	GO:0001736	establishment of planar polarity	establishment of planar polarity	Yes	Yes		
+FZD1.md	primary_functions[3].processes[1].term	GO:0090179	planar cell polarity pathway involved in neural tube closure	obsolete planar cell polarity pathway involved in neural tube closure	No	Yes		
+FZD1.md	primary_functions[3].roles[0].term	GO:0090176	microtubule cytoskeleton organization involved in establishment of planar polarity	microtubule cytoskeleton organization involved in establishment of planar polarity	Yes	Yes		
+FZD1.md	phenotypes[0].effects[0].term	HP:0003003	Colon cancer	Colon cancer	Yes	Yes		
+FZD1.md	phenotypes[0].effects[1].term	HP:0100013	Neoplasm of the breast	Neoplasm of the breast	Yes	Yes		
+FZD1.md	phenotypes[0].effects[2].term	HP:0002861	Melanoma	Melanoma	Yes	Yes		
+FZD1.md	phenotypes[0].effects[3].term	MONDO:0005575	Colorectal cancer	colorectal cancer	Yes	Yes		
+FZD1.md	phenotypes[0].effects[4].term	MONDO:0007254	Breast cancer	breast cancer	Yes	Yes		
+FZD1.md	phenotypes[1].effects[0].term	HP:0001627	Abnormal heart morphology	Abnormal heart morphology	Yes	Yes		
+FZD1.md	phenotypes[1].effects[1].term	HP:0000924	Abnormality of the skeletal system	Abnormality of the skeletal system	Yes	Yes		
+FZD1.md	phenotypes[1].effects[2].term	HP:0002011	Morphological central nervous system abnormality	Morphological central nervous system abnormality	Yes	Yes		
+FZD1.md	phenotypes[1].effects[3].term	MONDO:0019391	Tetra-amelia syndrome	Fanconi anemia	No	Yes		
+FZD1.md	phenotypes[2].effects[0].term	HP:0000939	Osteoporosis	Osteoporosis	Yes	Yes		
+FZD1.md	phenotypes[2].effects[1].term	MONDO:0005148	Type 2 diabetes mellitus	type 2 diabetes mellitus	Yes	Yes		
+FZD1.md	phenotypes[3].effects[0].term	HP:0001511	Intrauterine growth retardation	Intrauterine growth retardation	Yes	Yes		
+FZD1.md	phenotypes[3].effects[1].term	HP:0000238	Hydrocephalus	Hydrocephalus	Yes	Yes		
+STAT6.md	primary_functions[0].activity.term	GO:0003700	DNA-binding transcription factor activity	DNA-binding transcription factor activity	Yes	Yes		
+STAT6.md	primary_functions[0].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+STAT6.md	primary_functions[0].upstream[0].term	GO:0038094	interleukin-4-mediated signaling pathway	Fc-gamma receptor signaling pathway	No	Yes		
+STAT6.md	primary_functions[0].upstream[1].term	GO:0038095	interleukin-13-mediated signaling pathway	Fc-epsilon receptor signaling pathway	No	Yes		
+STAT6.md	primary_functions[0].downstream[0].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+STAT6.md	primary_functions[0].processes[0].term	GO:0042092	type 2 immune response	type 2 immune response	Yes	Yes		
+STAT6.md	primary_functions[0].processes[1].term	GO:0045064	T-helper 2 cell differentiation	T-helper 2 cell differentiation	Yes	Yes		
+STAT6.md	primary_functions[1].activity.term	GO:0016446	somatic hypermutation of immunoglobulin genes	somatic hypermutation of immunoglobulin genes	Yes	Yes		
+STAT6.md	primary_functions[1].processes[0].term	GO:0048289	isotype switching to IgE	isotype switching to IgE isotypes	No	Yes		
+STAT6.md	primary_functions[1].processes[1].term	GO:0048291	isotype switching to IgG1	isotype switching to IgG isotypes	No	Yes		
+STAT6.md	primary_functions[1].roles[0].term	GO:0043372	positive regulation of CD4+ T cell differentiation	positive regulation of CD4-positive, alpha-beta T cell differentiation	No	Yes		
+STAT6.md	primary_functions[1].roles[1].term	GO:0002230	positive regulation of defense response to virus	positive regulation of defense response to virus by host	No	Yes		
+STAT6.md	phenotypes[0].effects[0].term	HP:0005374	Abnormality of cellular immune system	Cellular immunodeficiency	No	Yes		
+STAT6.md	phenotypes[0].effects[1].term	HP:0410242	Decreased circulating IgE level	Abnormal circulating IgG concentration	No	Yes		
+STAT6.md	phenotypes[0].effects[2].term	HP:0012384	Rhinitis	Rhinitis	Yes	Yes		
+STAT6.md	phenotypes[0].effects[3].term	HP:0002719	Recurrent infections	Recurrent infections	Yes	Yes		
+STAT6.md	phenotypes[1].effects[0].term	MONDO:0005271	allergic disease	allergic disease	Yes	Yes		
+STAT6.md	phenotypes[1].effects[1].term	MONDO:0011292	atopic dermatitis	obsolete dermatitis, atopic	No	Yes		
+STAT6.md	phenotypes[1].effects[2].term	MONDO:0004979	asthma	asthma	Yes	Yes		
+STAT6.md	phenotypes[1].effects[3].term	HP:0003212	Increased circulating IgE level	Increased circulating IgE concentration	No	Yes		
+CTNNB1.md	primary_functions[0].activity.term	GO:0045296	cadherin binding	cadherin binding	Yes	Yes		
+CTNNB1.md	primary_functions[0].location.term	GO:0005912	adherens junction	adherens junction	Yes	Yes		
+CTNNB1.md	primary_functions[0].complex.term	GO:0016342	catenin complex	catenin complex	Yes	Yes		
+CTNNB1.md	primary_functions[0].upstream[0].term	GO:0004674	protein serine/threonine kinase activity	protein serine/threonine kinase activity	Yes	Yes		
+CTNNB1.md	primary_functions[0].downstream[0].term	GO:0051015	actin filament binding	actin filament binding	Yes	Yes		
+CTNNB1.md	primary_functions[0].processes[0].term	GO:0034333	adherens junction assembly	adherens junction assembly	Yes	Yes		
+CTNNB1.md	primary_functions[0].processes[1].term	GO:0034334	adherens junction maintenance	adherens junction maintenance	Yes	Yes		
+CTNNB1.md	primary_functions[0].processes[2].term	GO:0098609	cell-cell adhesion	cell-cell adhesion	Yes	Yes		
+CTNNB1.md	primary_functions[0].roles[0].term	GO:0007155	cell adhesion	cell adhesion	Yes	Yes		
+CTNNB1.md	primary_functions[1].activity.term	GO:0003713	transcription coactivator activity	transcription coactivator activity	Yes	Yes		
+CTNNB1.md	primary_functions[1].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+CTNNB1.md	primary_functions[1].complex.term	GO:1990907	beta-catenin-TCF complex	beta-catenin-TCF complex	Yes	Yes		
+CTNNB1.md	primary_functions[1].upstream[0].term	GO:0016055	Wnt signaling pathway	Wnt signaling pathway	Yes	Yes		
+CTNNB1.md	primary_functions[1].upstream[1].term	GO:0004674	protein serine/threonine kinase activity	protein serine/threonine kinase activity	Yes	Yes		
+CTNNB1.md	primary_functions[1].upstream[2].term	GO:0061630	ubiquitin protein ligase activity	ubiquitin protein ligase activity	Yes	Yes		
+CTNNB1.md	primary_functions[1].downstream[0].term	GO:0006357	regulation of transcription by RNA polymerase II	regulation of transcription by RNA polymerase II	Yes	Yes		
+CTNNB1.md	primary_functions[1].downstream[1].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+CTNNB1.md	primary_functions[1].processes[0].term	GO:0060070	canonical Wnt signaling pathway	canonical Wnt signaling pathway	Yes	Yes		
+CTNNB1.md	primary_functions[1].processes[1].term	GO:0045893	positive regulation of DNA-templated transcription	positive regulation of DNA-templated transcription	Yes	Yes		
+CTNNB1.md	primary_functions[1].processes[2].term	GO:0008283	cell population proliferation	cell population proliferation	Yes	Yes		
+CTNNB1.md	primary_functions[1].roles[0].term	GO:0090263	positive regulation of canonical Wnt signaling pathway	positive regulation of canonical Wnt signaling pathway	Yes	Yes		
+CTNNB1.md	phenotypes[0].effects[0].term	HP:0100242	Sarcoma	Sarcoma	Yes	Yes		
+CTNNB1.md	phenotypes[0].effects[1].term	HP:0003003	Colon cancer	Colon cancer	Yes	Yes		
+CTNNB1.md	phenotypes[0].effects[2].term	HP:0002896	Neoplasm of the liver	Neoplasm of the liver	Yes	Yes		
+CTNNB1.md	phenotypes[1].effects[0].term	HP:0001399	Hepatic failure	Hepatic failure	Yes	Yes		
+CTNNB1.md	phenotypes[1].effects[1].term	HP:0002300	Mutism	Mutism	Yes	Yes		
+CTNNB1.md	phenotypes[1].effects[2].term	HP:0001249	Intellectual disability	Intellectual disability	Yes	Yes		
+STAT2.md	primary_functions[0].activity.term	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	DNA-binding transcription factor activity, RNA polymerase II-specific	Yes	Yes		
+STAT2.md	primary_functions[0].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+STAT2.md	primary_functions[0].complex.term	GO:0070721	ISGF3 complex	ISGF3 complex	Yes	Yes		
+STAT2.md	primary_functions[0].upstream[0].term	GO:0042976	activation of Janus kinase activity	activation of Janus kinase activity	Yes	Yes		
+STAT2.md	primary_functions[0].downstream[0].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+STAT2.md	primary_functions[0].processes[0].term	GO:0071357	cellular response to type I interferon	cellular response to type I interferon	Yes	Yes		
+STAT2.md	primary_functions[0].processes[1].term	GO:0035455	response to interferon-alpha	response to interferon-alpha	Yes	Yes		
+STAT2.md	primary_functions[0].processes[2].term	GO:0035456	response to interferon-beta	response to interferon-beta	Yes	Yes		
+STAT2.md	primary_functions[0].processes[3].term	GO:0140374	antiviral innate immune response	antiviral innate immune response	Yes	Yes		
+STAT2.md	primary_functions[0].roles[0].term	GO:0046982	protein heterodimerization activity	protein heterodimerization activity	Yes	Yes		
+STAT2.md	primary_functions[0].roles[1].term	GO:0005126	cytokine receptor binding	cytokine receptor binding	Yes	Yes		
+STAT2.md	phenotypes[0].effects[0].term	HP:0002719	Recurrent infections	Recurrent infections	Yes	Yes		
+STAT2.md	phenotypes[0].effects[1].term	MONDO:0014715	primary immunodeficiency with post-measles-mumps-rubella vaccine viral infection	primary immunodeficiency with post-measles-mumps-rubella vaccine viral infection	Yes	Yes		
+STAT2.md	phenotypes[0].effects[2].term	HP:0002721	Immunodeficiency	Immunodeficiency	Yes	Yes		
+STAT2.md	phenotypes[0].effects[3].term	HP:0001945	Fever	Fever	Yes	Yes		
+SOCS1.md	primary_functions[0].activity.term	GO:0061630	ubiquitin protein ligase activity	ubiquitin protein ligase activity	Yes	Yes		
+SOCS1.md	primary_functions[0].location.term	GO:0005737	cytoplasm	cytoplasm	Yes	Yes		
+SOCS1.md	primary_functions[0].upstream[0].term	GO:0019221	cytokine-mediated signaling pathway	cytokine-mediated signaling pathway	Yes	Yes		
+SOCS1.md	primary_functions[0].downstream[0].term	GO:0016567	protein ubiquitination	protein ubiquitination	Yes	Yes		
+SOCS1.md	primary_functions[0].processes[0].term	GO:0046426	negative regulation of receptor signaling pathway via JAK-STAT	negative regulation of receptor signaling pathway via JAK-STAT	Yes	Yes		
+SOCS1.md	primary_functions[0].processes[1].term	GO:0001960	negative regulation of cytokine-mediated signaling pathway	negative regulation of cytokine-mediated signaling pathway	Yes	Yes		
+SOCS1.md	primary_functions[0].processes[2].term	GO:0060337	type I interferon-mediated signaling pathway	type I interferon-mediated signaling pathway	Yes	Yes		
+SOCS1.md	primary_functions[0].processes[3].term	GO:0060333	type II interferon-mediated signaling pathway	type II interferon-mediated signaling pathway	Yes	Yes		
+SOCS1.md	primary_functions[0].roles[0].term	GO:0097678	SOCS family protein binding	SOCS family protein binding	Yes	Yes		
+SOCS1.md	primary_functions[0].roles[1].term	GO:0042169	SH2 domain binding	SH2 domain binding	Yes	Yes		
+SOCS1.md	phenotypes[0].effects[0].term	HP:0002725	Systemic lupus erythematosus	Systemic lupus erythematosus	Yes	Yes		
+SOCS1.md	phenotypes[0].effects[1].term	HP:0001973	Autoimmune thrombocytopenia	Autoimmune thrombocytopenia	Yes	Yes		
+SOCS1.md	phenotypes[0].effects[2].term	HP:0002719	Recurrent infections	Recurrent infections	Yes	Yes		
+SOCS1.md	phenotypes[0].effects[3].term	HP:0002960	Autoimmunity	Autoimmunity	Yes	Yes		
+SOCS1.md	phenotypes[0].effects[4].term	HP:0004313	Decreased circulating immunoglobulin concentration	Decreased circulating immunoglobulin concentration	Yes	Yes		
+SOCS1.md	phenotypes[0].effects[5].term	HP:0006516	Hypersensitivity pneumonitis	Hypersensitivity pneumonitis	Yes	Yes		
+SOCS1.md	phenotypes[0].effects[6].term	HP:0002896	Hepatocellular carcinoma	Neoplasm of the liver	No	Yes		
+SOCS1.md	phenotypes[0].effects[7].term	HP:0005523	Lymphoproliferative disorder	Lymphoproliferative disorder	Yes	Yes		
+WNT3A.md	primary_functions[0].activity.term	GO:0005102	signaling receptor binding	signaling receptor binding	Yes	Yes		
+WNT3A.md	primary_functions[0].location.term	GO:0005576	extracellular region	extracellular region	Yes	Yes		
+WNT3A.md	primary_functions[0].complex.term	GO:1990851	Wnt signalosome	Wnt-Frizzled-LRP5/6 complex	No	Yes		
+WNT3A.md	primary_functions[0].upstream[0].term	GO:0016055	Wnt signaling pathway	Wnt signaling pathway	Yes	Yes		
+WNT3A.md	primary_functions[0].upstream[1].term	GO:0018359	protein O-linked glycosylation via serine	obsolete protein-heme P460 linkage via heme P460-bis-L-cysteine-L-tyrosine	No	Yes		
+WNT3A.md	primary_functions[0].downstream[0].term	GO:0090263	positive regulation of canonical Wnt signaling pathway	positive regulation of canonical Wnt signaling pathway	Yes	Yes		
+WNT3A.md	primary_functions[0].downstream[1].term	GO:0045893	positive regulation of DNA-templated transcription	positive regulation of DNA-templated transcription	Yes	Yes		
+WNT3A.md	primary_functions[0].processes[0].term	GO:0060070	canonical Wnt signaling pathway	canonical Wnt signaling pathway	Yes	Yes		
+WNT3A.md	primary_functions[0].processes[1].term	GO:0045165	cell fate commitment	cell fate commitment	Yes	Yes		
+WNT3A.md	primary_functions[0].processes[2].term	GO:0008283	cell population proliferation	cell population proliferation	Yes	Yes		
+WNT3A.md	primary_functions[0].roles[0].term	GO:0048018	receptor ligand activity	receptor ligand activity	Yes	Yes		
+WNT3A.md	primary_functions[1].activity.term	GO:0008083	growth factor activity	growth factor activity	Yes	Yes		
+WNT3A.md	primary_functions[1].location.term	GO:0055037	recycling endosome	recycling endosome	Yes	Yes		
+WNT3A.md	primary_functions[1].processes[0].term	GO:0098727	maintenance of cell number	maintenance of cell number	Yes	Yes		
+WNT3A.md	primary_functions[1].processes[1].term	GO:0019827	stem cell population maintenance	stem cell population maintenance	Yes	Yes		
+WNT3A.md	primary_functions[1].processes[2].term	GO:0060349	bone morphogenesis	bone morphogenesis	Yes	Yes		
+WNT3A.md	primary_functions[1].roles[0].term	GO:0048018	receptor ligand activity	receptor ligand activity	Yes	Yes		
+WNT3A.md	primary_functions[2].activity.term	GO:0045669	positive regulation of osteoblast differentiation	positive regulation of osteoblast differentiation	Yes	Yes		
+WNT3A.md	primary_functions[2].processes[0].term	GO:0001649	osteoblast differentiation	osteoblast differentiation	Yes	Yes		
+WNT3A.md	primary_functions[2].processes[1].term	GO:0045778	positive regulation of ossification	positive regulation of ossification	Yes	Yes		
+WNT3A.md	primary_functions[3].activity.term	GO:0021915	neural tube development	neural tube development	Yes	Yes		
+WNT3A.md	primary_functions[3].processes[0].term	GO:0014033	neural crest cell differentiation	neural crest cell differentiation	Yes	Yes		
+WNT3A.md	primary_functions[3].processes[1].term	GO:0021915	neural tube development	neural tube development	Yes	Yes		
+WNT3A.md	phenotypes[0].effects[0].term	HP:0000924	Abnormality of the skeletal system	Abnormality of the skeletal system	Yes	Yes		
+WNT3A.md	phenotypes[0].effects[1].term	HP:0002084	Encephalopathy	Encephalocele	No	Yes		
+WNT3A.md	phenotypes[0].effects[2].term	HP:0001392	Abnormality of the liver	Abnormality of the liver	Yes	Yes		
+WNT3A.md	phenotypes[0].effects[3].term	HP:0002664	Neoplasm	Neoplasm	Yes	Yes		
+WNT3A.md	phenotypes[0].effects[4].term	MONDO:0019391	Tetra-amelia syndrome	Fanconi anemia	No	Yes		
+WNT3A.md	phenotypes[1].effects[0].term	HP:0100013	Neoplasm of the breast	Neoplasm of the breast	Yes	Yes		
+WNT3A.md	phenotypes[1].effects[1].term	HP:0012125	Prostate cancer	Prostate cancer	Yes	Yes		
+WNT3A.md	phenotypes[1].effects[2].term	MONDO:0005575	Colorectal cancer	colorectal cancer	Yes	Yes		
+WNT3A.md	phenotypes[1].effects[3].term	HP:0002669	Osteosarcoma	Osteosarcoma	Yes	Yes		
+WNT3A.md	phenotypes[2].effects[0].term	HP:0000939	Osteoporosis	Osteoporosis	Yes	Yes		
+WNT3A.md	phenotypes[2].effects[1].term	MONDO:0005148	Type 2 diabetes mellitus	type 2 diabetes mellitus	Yes	Yes		
+JAK3.md	primary_functions[0].activity.term	GO:0004713	protein tyrosine kinase activity	protein tyrosine kinase activity	Yes	Yes		
+JAK3.md	primary_functions[0].location.term	GO:0005737	cytoplasm	cytoplasm	Yes	Yes		
+JAK3.md	primary_functions[0].upstream[0].term	GO:0004896	cytokine receptor activity	cytokine receptor activity	Yes	Yes		
+JAK3.md	primary_functions[0].downstream[0].term	GO:0006468	protein phosphorylation	protein phosphorylation	Yes	Yes		
+JAK3.md	primary_functions[0].processes[0].term	GO:0007259	cell surface receptor signaling pathway via JAK-STAT	cell surface receptor signaling pathway via JAK-STAT	Yes	Yes		
+JAK3.md	primary_functions[0].processes[1].term	GO:0038110	interleukin-2-mediated signaling pathway	interleukin-2-mediated signaling pathway	Yes	Yes		
+JAK3.md	primary_functions[0].processes[2].term	GO:0038111	interleukin-7-mediated signaling pathway	interleukin-7-mediated signaling pathway	Yes	Yes		
+JAK3.md	primary_functions[1].activity.term	GO:0030217	T cell differentiation	T cell differentiation	Yes	Yes		
+JAK3.md	primary_functions[1].processes[0].term	GO:0030098	lymphocyte differentiation	lymphocyte differentiation	Yes	Yes		
+JAK3.md	primary_functions[1].processes[1].term	GO:0042102	positive regulation of T cell proliferation	positive regulation of T cell proliferation	Yes	Yes		
+JAK3.md	primary_functions[1].processes[2].term	GO:0001779	natural killer cell differentiation	natural killer cell differentiation	Yes	Yes		
+JAK3.md	primary_functions[1].roles[0].term	GO:0030183	B cell differentiation	B cell differentiation	Yes	Yes		
+JAK3.md	primary_functions[1].roles[1].term	GO:0045579	positive regulation of B cell differentiation	positive regulation of B cell differentiation	Yes	Yes		
+JAK3.md	phenotypes[0].effects[0].term	MONDO:0010316	severe combined immunodeficiency due to JAK3 deficiency	FG syndrome 3	No	Yes		
+JAK3.md	phenotypes[0].effects[1].term	HP:0005403	T lymphocytopenia	Decreased total T cell count	No	Yes		
+JAK3.md	phenotypes[0].effects[2].term	HP:0040218	Reduced natural killer cell count	Reduced total natural killer cell count	No	Yes		
+JAK3.md	phenotypes[0].effects[3].term	HP:0004313	Decreased circulating antibody level	Decreased circulating immunoglobulin concentration	No	Yes		
+JAK3.md	phenotypes[0].effects[4].term	HP:0002719	Recurrent infections	Recurrent infections	Yes	Yes		
+JAK3.md	phenotypes[0].effects[5].term	HP:0001508	Failure to thrive	Failure to thrive	Yes	Yes		
+JAK3.md	phenotypes[1].effects[0].term	HP:0005523	Lymphoproliferative disorder	Lymphoproliferative disorder	Yes	Yes		
+JAK3.md	phenotypes[1].effects[1].term	MONDO:0004963	T-cell acute lymphoblastic leukemia	T-cell acute lymphoblastic leukemia	Yes	Yes		
+JAK3.md	phenotypes[1].effects[2].term	MONDO:0020084	NK-T cell lymphoma	obsolete lymphoproliferative disease associated with primary immune disease	No	Yes		
+APC.md	primary_functions[0].activity.term	GO:0008013	beta-catenin binding	beta-catenin binding	Yes	Yes		
+APC.md	primary_functions[0].location.term	GO:0005737	cytoplasm	cytoplasm	Yes	Yes		
+APC.md	primary_functions[0].complex.term	GO:0030877	beta-catenin destruction complex	beta-catenin destruction complex	Yes	Yes		
+APC.md	primary_functions[0].upstream[0].term	GO:0070411	I-SMAD binding	I-SMAD binding	Yes	Yes		
+APC.md	primary_functions[0].upstream[1].term	GO:0034236	protein kinase A catalytic subunit binding	protein kinase A catalytic subunit binding	Yes	Yes		
+APC.md	primary_functions[0].downstream[0].term	GO:0090090	negative regulation of canonical Wnt signaling pathway	negative regulation of canonical Wnt signaling pathway	Yes	Yes		
+APC.md	primary_functions[0].downstream[1].term	GO:0006511	ubiquitin-dependent protein catabolic process	ubiquitin-dependent protein catabolic process	Yes	Yes		
+APC.md	primary_functions[0].processes[0].term	GO:0016055	Wnt signaling pathway	Wnt signaling pathway	Yes	Yes		
+APC.md	primary_functions[0].processes[1].term	GO:0030178	negative regulation of Wnt signaling pathway	negative regulation of Wnt signaling pathway	Yes	Yes		
+APC.md	primary_functions[0].processes[2].term	GO:0051437	obsolete regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	obsolete positive regulation of ubiquitin-protein ligase activity involved in regulation of mitotic cell cycle transition	No	Yes		
+APC.md	primary_functions[0].roles[0].term	GO:0051434	BH3 domain binding	BH3 domain binding	Yes	Yes		
+APC.md	primary_functions[1].activity.term	GO:0008017	microtubule binding	microtubule binding	Yes	Yes		
+APC.md	primary_functions[1].location.term	GO:0000922	spindle pole	spindle pole	Yes	Yes		
+APC.md	primary_functions[1].complex.term	GO:0008021	synaptic vesicle	synaptic vesicle	Yes	Yes		
+APC.md	primary_functions[1].downstream[0].term	GO:0031122	cytoplasmic microtubule organization	cytoplasmic microtubule organization	Yes	Yes		
+APC.md	primary_functions[1].downstream[1].term	GO:0030335	positive regulation of cell migration	positive regulation of cell migration	Yes	Yes		
+APC.md	primary_functions[1].processes[0].term	GO:0007026	negative regulation of microtubule depolymerization	negative regulation of microtubule depolymerization	Yes	Yes		
+APC.md	primary_functions[1].processes[1].term	GO:0000278	mitotic cell cycle	mitotic cell cycle	Yes	Yes		
+APC.md	primary_functions[1].processes[2].term	GO:0051301	cell division	cell division	Yes	Yes		
+APC.md	primary_functions[1].roles[0].term	GO:0015631	tubulin binding	tubulin binding	Yes	Yes		
+APC.md	primary_functions[2].activity.term	GO:2000178	negative regulation of neural precursor cell proliferation	negative regulation of neural precursor cell proliferation	Yes	Yes		
+APC.md	primary_functions[2].location.term	GO:0060077	inhibitory synapse	inhibitory synapse	Yes	Yes		
+APC.md	primary_functions[2].downstream[0].term	GO:0045596	negative regulation of cell differentiation	negative regulation of cell differentiation	Yes	Yes		
+APC.md	primary_functions[2].downstream[1].term	GO:0043066	negative regulation of apoptotic process	negative regulation of apoptotic process	Yes	Yes		
+APC.md	primary_functions[2].processes[0].term	GO:0048730	epidermis morphogenesis	epidermis morphogenesis	Yes	Yes		
+APC.md	primary_functions[2].processes[1].term	GO:0060729	intestinal epithelial structure maintenance	intestinal epithelial structure maintenance	Yes	Yes		
+APC.md	primary_functions[2].processes[2].term	GO:0098727	maintenance of cell number	maintenance of cell number	Yes	Yes		
+APC.md	primary_functions[2].roles[0].term	GO:0140297	DNA-binding transcription factor binding	DNA-binding transcription factor binding	Yes	Yes		
+APC.md	phenotypes[0].effects[0].term	HP:0003003	Colon cancer	Colon cancer	Yes	Yes		
+APC.md	phenotypes[0].effects[1].term	MONDO:0021056	Familial adenomatous polyposis	familial adenomatous polyposis 1	No	Yes		
+APC.md	phenotypes[0].effects[2].term	HP:0100244	Fibroma	Fibrosarcoma	No	Yes		
+APC.md	phenotypes[0].effects[3].term	HP:0009593	Abnormality of the retinal pigment epithelium	Peripheral schwannoma	No	Yes		
+APC.md	phenotypes[0].effects[4].term	HP:0100031	Neoplasm of the thyroid gland	Neoplasm of the thyroid gland	Yes	Yes		
+APC.md	phenotypes[1].effects[0].term	HP:0003003	Colon cancer	Colon cancer	Yes	Yes		
+APC.md	phenotypes[1].effects[1].term	HP:0100242	Sarcoma	Sarcoma	Yes	Yes		
+APC.md	phenotypes[1].effects[2].term	HP:0100834	Neoplasm of the large intestine	Neoplasm of the large intestine	Yes	Yes		
+APC.md	phenotypes[2].effects[0].term	HP:0005227	Adenomatous colonic polyposis	Adenomatous colonic polyposis	Yes	Yes		
+APC.md	phenotypes[2].effects[1].term	HP:0040276	Adenoma of large intestine	Adenocarcinoma of the colon	No	Yes		
+STAT3.md	primary_functions[0].activity.term	GO:0003700	DNA-binding transcription factor activity	DNA-binding transcription factor activity	Yes	Yes		
+STAT3.md	primary_functions[0].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+STAT3.md	primary_functions[0].cell_type.term	CL:0000182	hepatocyte	hepatocyte	Yes	Yes		
+STAT3.md	primary_functions[0].gross_anatomy.term	UBERON:0002107	liver	liver	Yes	Yes		
+STAT3.md	primary_functions[0].downstream[0].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+STAT3.md	primary_functions[0].processes[0].term	GO:0006953	acute-phase response	acute-phase response	Yes	Yes		
+STAT3.md	primary_functions[1].activity.term	GO:0003700	DNA-binding transcription factor activity	DNA-binding transcription factor activity	Yes	Yes		
+STAT3.md	primary_functions[1].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+STAT3.md	primary_functions[1].cell_type.term	CL:0000899	T-helper 17 cell	T-helper 17 cell	Yes	Yes		
+STAT3.md	primary_functions[1].downstream[0].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+STAT3.md	primary_functions[1].processes[0].term	GO:2000318	positive regulation of T-helper 17 type immune response	positive regulation of T-helper 17 type immune response	Yes	Yes		
+STAT3.md	primary_functions[2].activity.term	GO:0003700	DNA-binding transcription factor activity	DNA-binding transcription factor activity	Yes	Yes		
+STAT3.md	primary_functions[2].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+STAT3.md	primary_functions[2].upstream[0].term	GO:0042976	activation of Janus kinase activity	activation of Janus kinase activity	Yes	Yes		
+STAT3.md	primary_functions[2].downstream[0].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+STAT3.md	primary_functions[2].processes[0].term	GO:0007259	cell surface receptor signaling pathway via JAK-STAT	cell surface receptor signaling pathway via JAK-STAT	Yes	Yes		
+STAT3.md	primary_functions[2].processes[1].term	GO:0070102	interleukin-6-mediated signaling pathway	interleukin-6-mediated signaling pathway	Yes	Yes		
+STAT3.md	primary_functions[2].processes[2].term	GO:0071222	cellular response to lipopolysaccharide	cellular response to lipopolysaccharide	Yes	Yes		
+STAT3.md	primary_functions[2].processes[3].term	GO:0006915	apoptotic process	apoptotic process	Yes	Yes		
+STAT3.md	primary_functions[2].processes[4].term	GO:0006953	acute-phase response	acute-phase response	Yes	Yes		
+STAT3.md	primary_functions[2].roles[0].term	GO:0042803	protein homodimerization activity	protein homodimerization activity	Yes	Yes		
+STAT3.md	primary_functions[2].roles[1].term	GO:0019901	protein kinase binding	protein kinase binding	Yes	Yes		
+STAT3.md	phenotypes[0].effects[0].term	HP:0003212	Increased circulating IgE concentration	Increased circulating IgE concentration	Yes	Yes		
+STAT3.md	phenotypes[0].effects[1].term	MONDO:0007818	hyper-IgE recurrent infection syndrome 1, autosomal dominant	hyper-IgE recurrent infection syndrome 1, autosomal dominant	Yes	Yes		
+STAT3.md	phenotypes[0].effects[2].term	HP:0002719	Recurrent infections	Recurrent infections	Yes	Yes		
+STAT3.md	phenotypes[0].effects[3].term	HP:0006297	Enamel hypoplasia	Enamel hypoplasia	Yes	Yes		
+STAT3.md	phenotypes[0].effects[4].term	HP:0002650	Scoliosis	Scoliosis	Yes	Yes		
+STAT3.md	phenotypes[0].effects[5].term	HP:0002728	Chronic mucocutaneous candidiasis	Chronic mucocutaneous candidiasis	Yes	Yes		
+STAT3.md	phenotypes[1].effects[0].term	HP:0004808	Acute myeloid leukemia	Acute myeloid leukemia	Yes	Yes		
+STAT3.md	phenotypes[1].effects[1].term	HP:0001875	Decreased total neutrophil count	Decreased total neutrophil count	Yes	Yes		
+STAT3.md	phenotypes[2].effects[0].term	HP:0002960	Autoimmunity	Autoimmunity	Yes	Yes		
+STAT3.md	phenotypes[2].effects[1].term	HP:0002716	Lymphadenopathy	Lymphadenopathy	Yes	Yes		
+STAT3.md	phenotypes[2].effects[2].term	HP:0004322	Short stature	Short stature	Yes	Yes		
+AXIN1.md	primary_functions[0].activity.term	GO:0008013	beta-catenin binding	beta-catenin binding	Yes	Yes		
+AXIN1.md	primary_functions[0].location.term	GO:0005737	cytoplasm	cytoplasm	Yes	Yes		
+AXIN1.md	primary_functions[0].complex.term	GO:0030877	beta-catenin destruction complex	beta-catenin destruction complex	Yes	Yes		
+AXIN1.md	primary_functions[0].upstream[0].term	GO:0070412	R-SMAD binding	R-SMAD binding	Yes	Yes		
+AXIN1.md	primary_functions[0].upstream[1].term	GO:0019901	protein kinase binding	protein kinase binding	Yes	Yes		
+AXIN1.md	primary_functions[0].downstream[0].term	GO:0090090	negative regulation of canonical Wnt signaling pathway	negative regulation of canonical Wnt signaling pathway	Yes	Yes		
+AXIN1.md	primary_functions[0].downstream[1].term	GO:0016567	protein ubiquitination	protein ubiquitination	Yes	Yes		
+AXIN1.md	primary_functions[0].processes[0].term	GO:0030178	negative regulation of Wnt signaling pathway	negative regulation of Wnt signaling pathway	Yes	Yes		
+AXIN1.md	primary_functions[0].processes[1].term	GO:0060070	canonical Wnt signaling pathway	canonical Wnt signaling pathway	Yes	Yes		
+AXIN1.md	primary_functions[0].processes[2].term	GO:0006511	ubiquitin-dependent protein catabolic process	ubiquitin-dependent protein catabolic process	Yes	Yes		
+AXIN1.md	primary_functions[0].roles[0].term	GO:0032947	protein-containing complex scaffold activity	[Term not found]	No	No		
+AXIN1.md	primary_functions[1].activity.term	GO:0070411	I-SMAD binding	I-SMAD binding	Yes	Yes		
+AXIN1.md	primary_functions[1].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+AXIN1.md	primary_functions[1].upstream[0].term	GO:0005160	transforming growth factor beta receptor binding	transforming growth factor beta receptor binding	Yes	Yes		
+AXIN1.md	primary_functions[1].downstream[0].term	GO:0060395	SMAD protein signal transduction	SMAD protein signal transduction	Yes	Yes		
+AXIN1.md	primary_functions[1].processes[0].term	GO:0007179	transforming growth factor beta receptor signaling pathway	transforming growth factor beta receptor signaling pathway	Yes	Yes		
+AXIN1.md	primary_functions[1].processes[1].term	GO:0048511	rhythmic process	rhythmic process	Yes	Yes		
+AXIN1.md	primary_functions[1].processes[2].term	GO:0007254	JNK cascade	JNK cascade	Yes	Yes		
+AXIN1.md	primary_functions[1].roles[0].term	GO:0030159	signaling receptor complex adaptor activity	signaling receptor complex adaptor activity	Yes	Yes		
+AXIN1.md	primary_functions[2].activity.term	GO:0051438	regulation of ubiquitin-protein transferase activity	regulation of ubiquitin-protein transferase activity	Yes	Yes		
+AXIN1.md	primary_functions[2].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+AXIN1.md	primary_functions[2].downstream[0].term	GO:0008285	negative regulation of cell population proliferation	negative regulation of cell population proliferation	Yes	Yes		
+AXIN1.md	primary_functions[2].downstream[1].term	GO:0042127	regulation of cell population proliferation	regulation of cell population proliferation	Yes	Yes		
+AXIN1.md	primary_functions[2].processes[0].term	GO:0001889	liver development	liver development	Yes	Yes		
+AXIN1.md	primary_functions[2].processes[1].term	GO:0060729	intestinal epithelial structure maintenance	intestinal epithelial structure maintenance	Yes	Yes		
+AXIN1.md	primary_functions[2].roles[0].term	GO:0051117	ATPase binding	ATPase binding	Yes	Yes		
+AXIN1.md	phenotypes[0].effects[0].term	HP:0002896	Neoplasm of the liver	Neoplasm of the liver	Yes	Yes		
+AXIN1.md	phenotypes[0].effects[1].term	MONDO:0007256	Hepatocellular carcinoma	hepatocellular carcinoma	Yes	Yes		
+AXIN1.md	phenotypes[0].effects[2].term	HP:0003003	Colon cancer	Colon cancer	Yes	Yes		
+AXIN1.md	phenotypes[0].effects[3].term	HP:0100007	Neoplasm of the adrenal medulla	Neoplasm of the peripheral nervous system	No	Yes		
+AXIN1.md	phenotypes[1].effects[0].term	HP:0000252	Microcephaly	Microcephaly	Yes	Yes		
+AXIN1.md	phenotypes[1].effects[1].term	HP:0002084	Encephalocele	Encephalocele	Yes	Yes		
+AXIN1.md	phenotypes[1].effects[2].term	HP:0000238	Hydrocephalus	Hydrocephalus	Yes	Yes		
+AXIN1.md	phenotypes[2].effects[0].term	HP:0003002	Breast carcinoma	Breast carcinoma	Yes	Yes		
+AXIN1.md	phenotypes[2].effects[1].term	HP:0001513	Obesity	Obesity	Yes	Yes		
+JAK2.md	primary_functions[0].activity.term	GO:0004713	protein tyrosine kinase activity	protein tyrosine kinase activity	Yes	Yes		
+JAK2.md	primary_functions[0].location.term	GO:0005737	cytoplasm	cytoplasm	Yes	Yes		
+JAK2.md	primary_functions[0].upstream[0].term	GO:0004896	cytokine receptor activity	cytokine receptor activity	Yes	Yes		
+JAK2.md	primary_functions[0].downstream[0].term	GO:0006468	protein phosphorylation	protein phosphorylation	Yes	Yes		
+JAK2.md	primary_functions[0].processes[0].term	GO:0007259	cell surface receptor signaling pathway via JAK-STAT	cell surface receptor signaling pathway via JAK-STAT	Yes	Yes		
+JAK2.md	primary_functions[0].processes[1].term	GO:0038163	erythropoietin signaling pathway	thrombopoietin-mediated signaling pathway	No	Yes		
+JAK2.md	primary_functions[0].processes[2].term	GO:0060333	type II interferon-mediated signaling pathway	type II interferon-mediated signaling pathway	Yes	Yes		
+JAK2.md	primary_functions[1].activity.term	GO:0030218	erythrocyte differentiation	erythrocyte differentiation	Yes	Yes		
+JAK2.md	primary_functions[1].processes[0].term	GO:0038162	erythropoietin-mediated signaling pathway	erythropoietin-mediated signaling pathway	Yes	Yes		
+JAK2.md	primary_functions[1].processes[1].term	GO:0030219	megakaryocyte differentiation	megakaryocyte differentiation	Yes	Yes		
+JAK2.md	primary_functions[1].roles[0].term	GO:0045648	positive regulation of erythrocyte differentiation	positive regulation of erythrocyte differentiation	Yes	Yes		
+JAK2.md	primary_functions[1].roles[1].term	GO:0045654	positive regulation of megakaryocyte differentiation	positive regulation of megakaryocyte differentiation	Yes	Yes		
+JAK2.md	phenotypes[0].effects[0].term	HP:0001903	Anemia	Anemia	Yes	Yes		
+JAK2.md	phenotypes[0].effects[1].term	HP:0005528	Bone marrow hypocellularity	Bone marrow hypocellularity	Yes	Yes		
+JAK2.md	phenotypes[1].effects[0].term	MONDO:0009817	polycythemia vera	autosomal recessive osteopetrosis 5	No	Yes		
+JAK2.md	phenotypes[1].effects[1].term	MONDO:0005170	essential thrombocythemia	myeloid neoplasm	No	Yes		
+JAK2.md	phenotypes[1].effects[2].term	MONDO:0009692	primary myelofibrosis	primary myelofibrosis	Yes	Yes		
+JAK2.md	phenotypes[1].effects[3].term	HP:0001900	Increased hemoglobin	Increased circulating hemoglobin concentration	No	Yes		
+JAK2.md	phenotypes[1].effects[4].term	HP:0001907	Thromboembolism	Thromboembolism	Yes	Yes		
+SOCS3.md	primary_functions[0].activity.term	GO:0004860	protein kinase inhibitor activity	protein kinase inhibitor activity	Yes	Yes		
+SOCS3.md	primary_functions[0].location.term	GO:0005737	cytoplasm	cytoplasm	Yes	Yes		
+SOCS3.md	primary_functions[0].upstream[0].term	GO:0070102	interleukin-6-mediated signaling pathway	interleukin-6-mediated signaling pathway	Yes	Yes		
+SOCS3.md	primary_functions[0].upstream[1].term	GO:0033210	leptin-mediated signaling pathway	leptin-mediated signaling pathway	Yes	Yes		
+SOCS3.md	primary_functions[0].downstream[0].term	GO:0046627	negative regulation of insulin receptor signaling pathway	negative regulation of insulin receptor signaling pathway	Yes	Yes		
+SOCS3.md	primary_functions[0].processes[0].term	GO:0050728	negative regulation of inflammatory response	negative regulation of inflammatory response	Yes	Yes		
+SOCS3.md	primary_functions[0].processes[1].term	GO:0001959	regulation of cytokine-mediated signaling pathway	regulation of cytokine-mediated signaling pathway	Yes	Yes		
+SOCS3.md	primary_functions[1].activity.term	GO:0019221	cytokine-mediated signaling pathway	cytokine-mediated signaling pathway	Yes	Yes		
+SOCS3.md	primary_functions[1].processes[0].term	GO:0045444	fat cell differentiation	fat cell differentiation	Yes	Yes		
+SOCS3.md	primary_functions[1].processes[1].term	GO:0030335	positive regulation of cell migration	positive regulation of cell migration	Yes	Yes		
+SOCS3.md	primary_functions[1].roles[0].term	GO:0032868	response to insulin	response to insulin	Yes	Yes		
+SOCS3.md	primary_functions[1].roles[1].term	GO:0014070	response to organic cyclic compound	obsolete response to organic cyclic compound	No	Yes		
+SOCS3.md	phenotypes[0].effects[0].term	HP:0001511	Intrauterine growth retardation	Intrauterine growth retardation	Yes	Yes		
+SOCS3.md	phenotypes[0].effects[1].term	HP:0012649	Increased inflammatory response	Increased inflammatory response	Yes	Yes		
+SOCS3.md	phenotypes[0].effects[2].term	HP:0011897	Neutrophilia	Increased total neutrophil count	No	Yes		
+SOCS3.md	phenotypes[0].effects[3].term	HP:0001369	Arthritis	Arthritis	Yes	Yes		
+SOCS3.md	phenotypes[0].effects[4].term	HP:0001513	Obesity	Obesity	Yes	Yes		
+SOCS3.md	phenotypes[0].effects[5].term	HP:0000855	Insulin resistance	Insulin resistance	Yes	Yes		
+SOCS3.md	phenotypes[1].effects[0].term	HP:0000855	Insulin resistance	Insulin resistance	Yes	Yes		
+SOCS3.md	phenotypes[1].effects[1].term	HP:0001513	Obesity	Obesity	Yes	Yes		
+SOCS3.md	phenotypes[1].effects[2].term	HP:0001399	Hepatic failure	Hepatic failure	Yes	Yes		
+SOCS3.md	phenotypes[1].effects[3].term	HP:0012649	Increased inflammatory response	Increased inflammatory response	Yes	Yes		
+JAK1.md	primary_functions[0].activity.term	GO:0004713	protein tyrosine kinase activity	protein tyrosine kinase activity	Yes	Yes		
+JAK1.md	primary_functions[0].location.term	GO:0005737	cytoplasm	cytoplasm	Yes	Yes		
+JAK1.md	primary_functions[0].upstream[0].term	GO:0004896	cytokine receptor activity	cytokine receptor activity	Yes	Yes		
+JAK1.md	primary_functions[0].downstream[0].term	GO:0006468	protein phosphorylation	protein phosphorylation	Yes	Yes		
+JAK1.md	primary_functions[0].processes[0].term	GO:0007259	cell surface receptor signaling pathway via JAK-STAT	cell surface receptor signaling pathway via JAK-STAT	Yes	Yes		
+JAK1.md	primary_functions[0].processes[1].term	GO:0060337	type I interferon-mediated signaling pathway	type I interferon-mediated signaling pathway	Yes	Yes		
+JAK1.md	primary_functions[0].processes[2].term	GO:0060333	type II interferon-mediated signaling pathway	type II interferon-mediated signaling pathway	Yes	Yes		
+JAK1.md	primary_functions[0].roles[0].term	GO:0030183	B cell differentiation	B cell differentiation	Yes	Yes		
+JAK1.md	phenotypes[0].effects[0].term	HP:0004430	Severe combined immunodeficiency	Severe combined immunodeficiency	Yes	Yes		
+JAK1.md	phenotypes[0].effects[1].term	HP:0002719	Recurrent infections	Recurrent infections	Yes	Yes		
+JAK1.md	phenotypes[0].effects[2].term	HP:0005403	T lymphocytopenia	Decreased total T cell count	No	Yes		
+JAK1.md	phenotypes[0].effects[3].term	HP:0040218	Reduced natural killer cell count	Reduced total natural killer cell count	No	Yes		
+JAK1.md	phenotypes[1].effects[0].term	HP:0001433	Hepatosplenomegaly	Hepatosplenomegaly	Yes	Yes		
+JAK1.md	phenotypes[1].effects[1].term	HP:0033041	Cytokine storm	Cytokine storm	Yes	Yes		
+JAK1.md	phenotypes[1].effects[2].term	HP:0001880	Eosinophilia	Increased total eosinophil count	No	Yes		
+JAK1.md	phenotypes[1].effects[3].term	HP:0000964	Eczema	Eczematoid dermatitis	No	Yes		
+TCF7L2.md	primary_functions[0].activity.term	GO:0003700	DNA-binding transcription factor activity	DNA-binding transcription factor activity	Yes	Yes		
+TCF7L2.md	primary_functions[0].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+TCF7L2.md	primary_functions[0].complex.term	GO:0070369	beta-catenin-TCF7L2 complex	beta-catenin-TCF7L2 complex	Yes	Yes		
+TCF7L2.md	primary_functions[0].upstream[0].term	GO:0060070	canonical Wnt signaling pathway	canonical Wnt signaling pathway	Yes	Yes		
+TCF7L2.md	primary_functions[0].upstream[1].term	GO:0045296	cadherin binding	cadherin binding	Yes	Yes		
+TCF7L2.md	primary_functions[0].downstream[0].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+TCF7L2.md	primary_functions[0].downstream[1].term	GO:0006357	regulation of transcription by RNA polymerase II	regulation of transcription by RNA polymerase II	Yes	Yes		
+TCF7L2.md	primary_functions[0].processes[0].term	GO:0060070	canonical Wnt signaling pathway	canonical Wnt signaling pathway	Yes	Yes		
+TCF7L2.md	primary_functions[0].processes[1].term	GO:0008283	cell population proliferation	cell population proliferation	Yes	Yes		
+TCF7L2.md	primary_functions[0].processes[2].term	GO:0060576	intestinal epithelial cell development	intestinal epithelial cell development	Yes	Yes		
+TCF7L2.md	primary_functions[0].processes[3].term	GO:0036335	intestinal stem cell homeostasis	intestinal stem cell homeostasis	Yes	Yes		
+TCF7L2.md	primary_functions[0].roles[0].term	GO:0090263	positive regulation of canonical Wnt signaling pathway	positive regulation of canonical Wnt signaling pathway	Yes	Yes		
+TCF7L2.md	primary_functions[1].activity.term	GO:0003700	DNA-binding transcription factor activity	DNA-binding transcription factor activity	Yes	Yes		
+TCF7L2.md	primary_functions[1].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+TCF7L2.md	primary_functions[1].upstream[0].term	GO:0009749	response to glucose	response to glucose	Yes	Yes		
+TCF7L2.md	primary_functions[1].downstream[0].term	GO:0030073	insulin secretion	insulin secretion	Yes	Yes		
+TCF7L2.md	primary_functions[1].downstream[1].term	GO:0042593	glucose homeostasis	glucose homeostasis	Yes	Yes		
+TCF7L2.md	primary_functions[1].processes[0].term	GO:0050796	regulation of insulin secretion	regulation of insulin secretion	Yes	Yes		
+TCF7L2.md	primary_functions[1].processes[1].term	GO:0042593	glucose homeostasis	glucose homeostasis	Yes	Yes		
+TCF7L2.md	primary_functions[1].processes[2].term	GO:0061178	regulation of insulin secretion involved in cellular response to glucose stimulus	regulation of insulin secretion involved in cellular response to glucose stimulus	Yes	Yes		
+TCF7L2.md	primary_functions[1].roles[0].term	GO:0046326	positive regulation of glucose import	positive regulation of D-glucose import	No	Yes		
+TCF7L2.md	phenotypes[0].effects[0].term	HP:0005978	Type II diabetes mellitus	Type II diabetes mellitus	Yes	Yes		
+TCF7L2.md	phenotypes[0].effects[1].term	MONDO:0005148	type 2 diabetes mellitus	type 2 diabetes mellitus	Yes	Yes		
+TCF7L2.md	phenotypes[0].effects[2].term	HP:0000855	Insulin resistance	Insulin resistance	Yes	Yes		
+TCF7L2.md	phenotypes[0].effects[3].term	HP:0003074	Hyperglycemia	Hyperglycemia	Yes	Yes		
+TCF7L2.md	phenotypes[1].effects[0].term	HP:0003003	Colon cancer	Colon cancer	Yes	Yes		
+TCF7L2.md	phenotypes[1].effects[1].term	HP:0100242	Sarcoma	Sarcoma	Yes	Yes		
+TCF7L2.md	phenotypes[1].effects[2].term	HP:0002896	Neoplasm of the liver	Neoplasm of the liver	Yes	Yes		
+STAT4.md	primary_functions[0].activity.term	GO:0003700	DNA-binding transcription factor activity	DNA-binding transcription factor activity	Yes	Yes		
+STAT4.md	primary_functions[0].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+STAT4.md	primary_functions[0].upstream[0].term	GO:0035722	interleukin-12-mediated signaling pathway	interleukin-12-mediated signaling pathway	Yes	Yes		
+STAT4.md	primary_functions[0].downstream[0].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+STAT4.md	primary_functions[0].processes[0].term	GO:0042088	T-helper 1 type immune response	T-helper 1 type immune response	Yes	Yes		
+STAT4.md	primary_functions[0].processes[1].term	GO:0032729	positive regulation of type II interferon production	positive regulation of type II interferon production	Yes	Yes		
+STAT4.md	primary_functions[1].activity.term	GO:0070757	interleukin-23-mediated signaling pathway	interleukin-35-mediated signaling pathway	No	Yes		
+STAT4.md	primary_functions[1].processes[0].term	GO:0072539	T-helper 17 cell differentiation	T-helper 17 cell differentiation	Yes	Yes		
+STAT4.md	primary_functions[1].processes[1].term	GO:0032740	positive regulation of interleukin-17 production	positive regulation of interleukin-17 production	Yes	Yes		
+STAT4.md	primary_functions[1].roles[0].term	GO:0030101	natural killer cell activation	natural killer cell activation	Yes	Yes		
+STAT4.md	phenotypes[0].effects[0].term	HP:0005419	Decreased T cell activation	Decreased T cell activation	Yes	Yes		
+STAT4.md	phenotypes[0].effects[1].term	HP:0003212	Increased circulating IgE level	Increased circulating IgE concentration	No	Yes		
+STAT4.md	phenotypes[0].effects[2].term	HP:0002719	Recurrent infections	Recurrent infections	Yes	Yes		
+STAT4.md	phenotypes[0].effects[3].term	HP:0002960	Autoimmunity	Autoimmunity	Yes	Yes		
+STAT4.md	phenotypes[1].effects[0].term	MONDO:0007179	autoimmune disease	autoimmune disease	Yes	Yes		
+STAT4.md	phenotypes[1].effects[1].term	MONDO:0008383	rheumatoid arthritis	rheumatoid arthritis	Yes	Yes		
+STAT4.md	phenotypes[1].effects[2].term	MONDO:0007915	systemic lupus erythematosus	systemic lupus erythematosus	Yes	Yes		
+STAT4.md	phenotypes[1].effects[3].term	MONDO:0010413	Sjögren syndrome	intellectual disability, X-linked 95	No	Yes		
+GSK3B.md	primary_functions[0].activity.term	GO:0004674	protein serine/threonine kinase activity	protein serine/threonine kinase activity	Yes	Yes		
+GSK3B.md	primary_functions[0].location.term	GO:0005737	cytoplasm	cytoplasm	Yes	Yes		
+GSK3B.md	primary_functions[0].complex.term	GO:0030877	beta-catenin destruction complex	beta-catenin destruction complex	Yes	Yes		
+GSK3B.md	primary_functions[0].upstream[0].term	GO:0005524	ATP binding	ATP binding	Yes	Yes		
+GSK3B.md	primary_functions[0].upstream[1].term	GO:0042803	protein homodimerization activity	protein homodimerization activity	Yes	Yes		
+GSK3B.md	primary_functions[0].downstream[0].term	GO:0006468	protein phosphorylation	protein phosphorylation	Yes	Yes		
+GSK3B.md	primary_functions[0].downstream[1].term	GO:0016567	protein ubiquitination	protein ubiquitination	Yes	Yes		
+GSK3B.md	primary_functions[0].processes[0].term	GO:0090090	negative regulation of canonical Wnt signaling pathway	negative regulation of canonical Wnt signaling pathway	Yes	Yes		
+GSK3B.md	primary_functions[0].processes[1].term	GO:0060070	canonical Wnt signaling pathway	canonical Wnt signaling pathway	Yes	Yes		
+GSK3B.md	primary_functions[0].roles[0].term	GO:0004674	protein serine/threonine kinase activity	protein serine/threonine kinase activity	Yes	Yes		
+GSK3B.md	primary_functions[1].activity.term	GO:0004674	protein serine/threonine kinase activity	protein serine/threonine kinase activity	Yes	Yes		
+GSK3B.md	primary_functions[1].location.term	GO:0005737	cytoplasm	cytoplasm	Yes	Yes		
+GSK3B.md	primary_functions[1].upstream[0].term	GO:0005080	protein kinase C binding	protein kinase C binding	Yes	Yes		
+GSK3B.md	primary_functions[1].downstream[0].term	GO:0045719	negative regulation of glycogen biosynthetic process	negative regulation of glycogen biosynthetic process	Yes	Yes		
+GSK3B.md	primary_functions[1].processes[0].term	GO:0005979	regulation of glycogen biosynthetic process	regulation of glycogen biosynthetic process	Yes	Yes		
+GSK3B.md	primary_functions[1].processes[1].term	GO:0046627	negative regulation of insulin receptor signaling pathway	negative regulation of insulin receptor signaling pathway	Yes	Yes		
+GSK3B.md	primary_functions[1].roles[0].term	GO:0032868	response to insulin	response to insulin	Yes	Yes		
+GSK3B.md	primary_functions[2].activity.term	GO:0050321	tau-protein kinase activity	tau-protein kinase activity	Yes	Yes		
+GSK3B.md	primary_functions[2].location.term	GO:0043025	neuronal cell body	neuronal cell body	Yes	Yes		
+GSK3B.md	primary_functions[2].downstream[0].term	GO:1904426	positive regulation of GTP binding	positive regulation of GTP binding	Yes	Yes		
+GSK3B.md	primary_functions[2].processes[0].term	GO:1901216	positive regulation of neuron death	obsolete positive regulation of neuron death	No	Yes		
+GSK3B.md	primary_functions[2].processes[1].term	GO:0031175	neuron projection development	neuron projection development	Yes	Yes		
+GSK3B.md	primary_functions[2].roles[0].term	GO:0006468	protein phosphorylation	protein phosphorylation	Yes	Yes		
+GSK3B.md	phenotypes[0].effects[0].term	HP:0003074	Hyperglycemia	Hyperglycemia	Yes	Yes		
+GSK3B.md	phenotypes[0].effects[1].term	HP:0100543	Cognitive impairment	Cognitive impairment	Yes	Yes		
+GSK3B.md	phenotypes[0].effects[2].term	HP:0002664	Neoplasm	Neoplasm	Yes	Yes		
+GSK3B.md	phenotypes[1].effects[0].term	HP:0002120	Cerebral cortical atrophy	Cerebral cortical atrophy	Yes	Yes		
+GSK3B.md	phenotypes[1].effects[1].term	HP:0002185	Neurofibrillary tangles	Neurofibrillary tangles	Yes	Yes		
+GSK3B.md	phenotypes[1].effects[2].term	HP:0001268	Mental deterioration	Mental deterioration	Yes	Yes		
+GSK3B.md	phenotypes[2].effects[0].term	HP:0001943	Hypoglycemia	Hypoglycemia	Yes	Yes		
+GSK3B.md	phenotypes[2].effects[1].term	HP:0002230	Generalized hirsutism	Generalized hirsutism	Yes	Yes		
+GSK3B.md	phenotypes[2].effects[2].term	HP:0001249	Intellectual disability	Intellectual disability	Yes	Yes		
+STAT1.md	primary_functions[0].activity.term	GO:0003700	DNA-binding transcription factor activity	DNA-binding transcription factor activity	Yes	Yes		
+STAT1.md	primary_functions[0].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+STAT1.md	primary_functions[0].upstream[0].term	GO:0042976	activation of Janus kinase activity	activation of Janus kinase activity	Yes	Yes		
+STAT1.md	primary_functions[0].downstream[0].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+STAT1.md	primary_functions[0].processes[0].term	GO:0007259	cell surface receptor signaling pathway via JAK-STAT	cell surface receptor signaling pathway via JAK-STAT	Yes	Yes		
+STAT1.md	primary_functions[0].processes[1].term	GO:0019221	cytokine-mediated signaling pathway	cytokine-mediated signaling pathway	Yes	Yes		
+STAT1.md	primary_functions[0].processes[1].is_any_of[0].term	GO:0060337	type I interferon-mediated signaling pathway	type I interferon-mediated signaling pathway	Yes	Yes		
+STAT1.md	primary_functions[0].processes[1].is_any_of[1].term	GO:0060333	type II interferon-mediated signaling pathway	type II interferon-mediated signaling pathway	Yes	Yes		
+STAT1.md	primary_functions[0].roles[0].term	GO:0001937	negative regulation of endothelial cell proliferation	negative regulation of endothelial cell proliferation	Yes	Yes		
+STAT1.md	phenotypes[0].effects[0].term	HP:0002719	Recurrent infections	Recurrent infections	Yes	Yes		
+STAT1.md	phenotypes[0].effects[1].term	MONDO:0013956	Mendelian susceptibility to mycobacterial diseases due to partial STAT1 deficiency	Mendelian susceptibility to mycobacterial diseases due to partial STAT1 deficiency	Yes	Yes		
+STAT1.md	phenotypes[1].effects[0].term	HP:0002728	Chronic mucocutaneous candidiasis	Chronic mucocutaneous candidiasis	Yes	Yes		
+STAT1.md	phenotypes[1].effects[1].term	MONDO:0013427	immunodeficiency 31B	immunodeficiency 31B	Yes	Yes		
+STAT1.md	phenotypes[1].effects[2].term	HP:0002960	Autoimmunity	Autoimmunity	Yes	Yes		
+STAT1.md	phenotypes[1].effects[3].term	HP:0100646	Thyroiditis	Thyroiditis	Yes	Yes		
+STAT1.md	phenotypes[1].effects[4].term	HP:0200123	Chronic hepatitis	Chronic hepatitis	Yes	Yes		
+SOCS2.md	primary_functions[0].activity.term	GO:0019209	kinase regulator activity	kinase activator activity	No	Yes		
+SOCS2.md	primary_functions[0].location.term	GO:0005737	cytoplasm	cytoplasm	Yes	Yes		
+SOCS2.md	primary_functions[0].upstream[0].term	GO:0060396	growth hormone receptor signaling pathway	growth hormone receptor signaling pathway	Yes	Yes		
+SOCS2.md	primary_functions[0].downstream[0].term	GO:0046627	negative regulation of insulin receptor signaling pathway	negative regulation of insulin receptor signaling pathway	Yes	Yes		
+SOCS2.md	primary_functions[0].processes[0].term	GO:0040036	regulation of fibroblast growth factor receptor signaling pathway	regulation of fibroblast growth factor receptor signaling pathway	Yes	Yes		
+SOCS2.md	primary_functions[0].processes[1].term	GO:0009968	negative regulation of signal transduction	negative regulation of signal transduction	Yes	Yes		
+SOCS2.md	primary_functions[1].activity.term	GO:0031625	ubiquitin protein ligase binding	ubiquitin protein ligase binding	Yes	Yes		
+SOCS2.md	primary_functions[1].processes[0].term	GO:0016567	protein ubiquitination	protein ubiquitination	Yes	Yes		
+SOCS2.md	primary_functions[1].processes[1].term	GO:0030163	protein catabolic process	protein catabolic process	Yes	Yes		
+SOCS2.md	primary_functions[1].roles[0].term	GO:0040014	regulation of multicellular organism growth	regulation of multicellular organism growth	Yes	Yes		
+SOCS2.md	phenotypes[0].effects[0].term	HP:0000098	Tall stature	Tall stature	Yes	Yes		
+SOCS2.md	phenotypes[0].effects[1].term	HP:0002652	Skeletal dysplasia	Skeletal dysplasia	Yes	Yes		
+SOCS2.md	phenotypes[0].effects[2].term	HP:0003712	Skeletal muscle hypertrophy	Skeletal muscle hypertrophy	Yes	Yes		
+SOCS2.md	phenotypes[0].effects[3].term	HP:0000831	Insulin-dependent diabetes mellitus	Insulin-resistant diabetes mellitus	No	Yes		
+SOCS2.md	phenotypes[0].effects[4].term	HP:0001548	Overgrowth	Overgrowth	Yes	Yes		
+SOCS2.md	phenotypes[1].effects[0].term	HP:0001510	Growth delay	Growth delay	Yes	Yes		
+SOCS2.md	phenotypes[1].effects[1].term	HP:0000144	Decreased fertility	Decreased fertility	Yes	Yes		
+LEF1.md	primary_functions[0].activity.term	GO:0003700	DNA-binding transcription factor activity	DNA-binding transcription factor activity	Yes	Yes		
+LEF1.md	primary_functions[0].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+LEF1.md	primary_functions[0].complex.term	GO:1990907	beta-catenin-TCF complex	beta-catenin-TCF complex	Yes	Yes		
+LEF1.md	primary_functions[0].upstream[0].term	GO:0060070	canonical Wnt signaling pathway	canonical Wnt signaling pathway	Yes	Yes		
+LEF1.md	primary_functions[0].upstream[1].term	GO:0045296	cadherin binding	cadherin binding	Yes	Yes		
+LEF1.md	primary_functions[0].downstream[0].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+LEF1.md	primary_functions[0].downstream[1].term	GO:0008301	DNA binding, bending	DNA binding, bending	Yes	Yes		
+LEF1.md	primary_functions[0].processes[0].term	GO:0030217	T cell differentiation	T cell differentiation	Yes	Yes		
+LEF1.md	primary_functions[0].processes[1].term	GO:0046632	alpha-beta T cell differentiation	alpha-beta T cell differentiation	Yes	Yes		
+LEF1.md	primary_functions[0].processes[2].term	GO:0001942	hair follicle development	hair follicle development	Yes	Yes		
+LEF1.md	primary_functions[0].processes[3].term	GO:0031069	hair follicle morphogenesis	hair follicle morphogenesis	Yes	Yes		
+LEF1.md	primary_functions[0].roles[0].term	GO:0090263	positive regulation of canonical Wnt signaling pathway	positive regulation of canonical Wnt signaling pathway	Yes	Yes		
+LEF1.md	primary_functions[1].activity.term	GO:0008301	DNA binding, bending	DNA binding, bending	Yes	Yes		
+LEF1.md	primary_functions[1].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+LEF1.md	primary_functions[1].upstream[0].term	GO:0003677	DNA binding	DNA binding	Yes	Yes		
+LEF1.md	primary_functions[1].downstream[0].term	GO:0000122	negative regulation of transcription by RNA polymerase II	negative regulation of transcription by RNA polymerase II	Yes	Yes		
+LEF1.md	primary_functions[1].downstream[1].term	GO:0001228	DNA-binding transcription activator activity, RNA polymerase II-specific	DNA-binding transcription activator activity, RNA polymerase II-specific	Yes	Yes		
+LEF1.md	primary_functions[1].processes[0].term	GO:0006368	transcription elongation by RNA polymerase II	transcription elongation by RNA polymerase II	Yes	Yes		
+LEF1.md	primary_functions[1].processes[1].term	GO:0045892	negative regulation of DNA-templated transcription	negative regulation of DNA-templated transcription	Yes	Yes		
+LEF1.md	primary_functions[1].roles[0].term	GO:0003682	chromatin binding	chromatin binding	Yes	Yes		
+LEF1.md	phenotypes[0].effects[0].term	HP:0008070	Sparse hair	Sparse hair	Yes	Yes		
+LEF1.md	phenotypes[0].effects[1].term	HP:0002843	Abnormal T cell morphology	Abnormal T cell morphology	Yes	Yes		
+LEF1.md	phenotypes[0].effects[2].term	HP:0005403	T lymphocytopenia	Decreased total T cell count	No	Yes		
+LEF1.md	phenotypes[0].effects[3].term	HP:0000975	Hyperhidrosis	Hyperhidrosis	Yes	Yes		
+LEF1.md	phenotypes[0].effects[4].term	HP:0011121	Abnormality of skin morphology	Abnormal skin morphology	No	Yes		
+LEF1.md	phenotypes[0].effects[5].term	HP:0001876	Pancytopenia	Pancytopenia	Yes	Yes		
+LEF1.md	phenotypes[1].effects[0].term	HP:0001909	Leukemia	Leukemia	Yes	Yes		
+LEF1.md	phenotypes[1].effects[1].term	HP:0003003	Colon cancer	Colon cancer	Yes	Yes		
+LEF1.md	phenotypes[1].effects[2].term	HP:0100242	Sarcoma	Sarcoma	Yes	Yes		
+LEF1.md	phenotypes[1].effects[3].term	MONDO:0004949	acute lymphoblastic leukemia	neoplasm of mature B-cells	No	Yes		
+LRP6.md	primary_functions[0].activity.term	GO:0042813	Wnt-activated receptor activity	Wnt receptor activity	No	Yes		
+LRP6.md	primary_functions[0].location.term	GO:0005886	plasma membrane	plasma membrane	Yes	Yes		
+LRP6.md	primary_functions[0].complex.term	GO:1990851	Wnt signalosome	Wnt-Frizzled-LRP5/6 complex	No	Yes		
+LRP6.md	primary_functions[0].upstream[0].term	GO:0017147	Wnt-protein binding	Wnt-protein binding	Yes	Yes		
+LRP6.md	primary_functions[0].upstream[1].term	GO:0004674	protein serine/threonine kinase activity	protein serine/threonine kinase activity	Yes	Yes		
+LRP6.md	primary_functions[0].downstream[0].term	GO:0090263	positive regulation of canonical Wnt signaling pathway	positive regulation of canonical Wnt signaling pathway	Yes	Yes		
+LRP6.md	primary_functions[0].downstream[1].term	GO:1904886	beta-catenin destruction complex disassembly	beta-catenin destruction complex disassembly	Yes	Yes		
+LRP6.md	primary_functions[0].processes[0].term	GO:0060070	canonical Wnt signaling pathway	canonical Wnt signaling pathway	Yes	Yes		
+LRP6.md	primary_functions[0].processes[1].term	GO:0001701	in utero embryonic development	in utero embryonic development	Yes	Yes		
+LRP6.md	primary_functions[0].processes[2].term	GO:0009950	dorsal/ventral axis specification	dorsal/ventral axis specification	Yes	Yes		
+LRP6.md	primary_functions[0].roles[0].term	GO:0038023	signaling receptor activity	signaling receptor activity	Yes	Yes		
+LRP6.md	primary_functions[1].activity.term	GO:0019904	protein domain specific binding	protein domain specific binding	Yes	Yes		
+LRP6.md	primary_functions[1].location.term	GO:0055037	recycling endosome	recycling endosome	Yes	Yes		
+LRP6.md	primary_functions[1].processes[0].term	GO:0010906	regulation of glucose metabolic process	regulation of glucose metabolic process	Yes	Yes		
+LRP6.md	primary_functions[1].processes[1].term	GO:0042593	glucose homeostasis	glucose homeostasis	Yes	Yes		
+LRP6.md	primary_functions[1].processes[2].term	GO:0019216	regulation of lipid metabolic process	regulation of lipid metabolic process	Yes	Yes		
+LRP6.md	primary_functions[1].roles[0].term	GO:0005041	low-density lipoprotein particle receptor activity	low-density lipoprotein particle receptor activity	Yes	Yes		
+LRP6.md	primary_functions[2].activity.term	GO:0007507	heart development	heart development	Yes	Yes		
+LRP6.md	primary_functions[2].location.term	GO:0016020	membrane	membrane	Yes	Yes		
+LRP6.md	primary_functions[2].processes[0].term	GO:0003007	heart morphogenesis	heart morphogenesis	Yes	Yes		
+LRP6.md	primary_functions[2].processes[1].term	GO:0001947	heart looping	heart looping	Yes	Yes		
+LRP6.md	primary_functions[2].processes[2].term	GO:0001570	vasculogenesis	vasculogenesis	Yes	Yes		
+LRP6.md	primary_functions[2].roles[0].term	GO:0060840	artery development	artery development	Yes	Yes		
+LRP6.md	phenotypes[0].effects[0].term	HP:0001629	Ventricular septal defect	Ventricular septal defect	Yes	Yes		
+LRP6.md	phenotypes[0].effects[1].term	HP:0001643	Patent ductus arteriosus	Patent ductus arteriosus	Yes	Yes		
+LRP6.md	phenotypes[0].effects[2].term	HP:0000924	Abnormality of the skeletal system	Abnormality of the skeletal system	Yes	Yes		
+LRP6.md	phenotypes[0].effects[3].term	HP:0001638	Cardiomyopathy	Cardiomyopathy	Yes	Yes		
+LRP6.md	phenotypes[0].effects[4].term	MONDO:0019675	Congenital heart defects	spondyloepimetaphyseal dysplasia with joint laxity	No	Yes		
+LRP6.md	phenotypes[1].effects[0].term	HP:0003077	Hyperlipidemia	Hyperlipidemia	Yes	Yes		
+LRP6.md	phenotypes[1].effects[1].term	HP:0000855	Insulin resistance	Insulin resistance	Yes	Yes		
+LRP6.md	phenotypes[1].effects[2].term	HP:0002155	Hypertriglyceridemia	Hypertriglyceridemia	Yes	Yes		
+LRP6.md	phenotypes[1].effects[3].term	HP:0001677	Coronary artery disease	Coronary artery atherosclerosis	No	Yes		
+LRP6.md	phenotypes[1].effects[4].term	MONDO:0005148	Type 2 diabetes mellitus	type 2 diabetes mellitus	Yes	Yes		
+LRP6.md	phenotypes[1].effects[5].term	MONDO:0015262	Metabolic syndrome X	brachyolmia	No	Yes		
+LRP6.md	phenotypes[2].effects[0].term	HP:0004349	Reduced bone mineral density	Reduced bone mineral density	Yes	Yes		
+LRP6.md	phenotypes[2].effects[1].term	MONDO:0005298	Osteoporosis	osteoporosis	Yes	Yes		
+LRP6.md	phenotypes[2].effects[2].term	HP:0001513	Obesity	Obesity	Yes	Yes		
+LRP6.md	phenotypes[2].effects[3].term	MONDO:0005044	Hypertension	hypertensive disorder	No	Yes		
+STAT5B.md	primary_functions[0].activity.term	GO:0003700	DNA-binding transcription factor activity	DNA-binding transcription factor activity	Yes	Yes		
+STAT5B.md	primary_functions[0].location.term	GO:0005634	nucleus	nucleus	Yes	Yes		
+STAT5B.md	primary_functions[0].upstream[0].term	GO:0060396	growth hormone receptor signaling pathway	growth hormone receptor signaling pathway	Yes	Yes		
+STAT5B.md	primary_functions[0].upstream[1].term	GO:0038110	interleukin-2-mediated signaling pathway	interleukin-2-mediated signaling pathway	Yes	Yes		
+STAT5B.md	primary_functions[0].downstream[0].term	GO:0045944	positive regulation of transcription by RNA polymerase II	positive regulation of transcription by RNA polymerase II	Yes	Yes		
+STAT5B.md	primary_functions[0].processes[0].term	GO:0040018	positive regulation of multicellular organism growth	positive regulation of multicellular organism growth	Yes	Yes		
+STAT5B.md	primary_functions[0].processes[1].term	GO:0060736	prostate gland growth	prostate gland growth	Yes	Yes		
+STAT5B.md	primary_functions[1].activity.term	GO:0045591	positive regulation of regulatory T cell differentiation	positive regulation of regulatory T cell differentiation	Yes	Yes		
+STAT5B.md	primary_functions[1].processes[0].term	GO:0030889	negative regulation of B cell proliferation	negative regulation of B cell proliferation	Yes	Yes		
+STAT5B.md	primary_functions[1].processes[1].term	GO:0001779	natural killer cell differentiation	natural killer cell differentiation	Yes	Yes		
+STAT5B.md	primary_functions[1].roles[0].term	GO:0032733	positive regulation of interleukin-10 production	positive regulation of interleukin-10 production	Yes	Yes		
+STAT5B.md	phenotypes[0].effects[0].term	MONDO:0019280	growth hormone insensitivity syndrome	hypertrichosis	No	Yes		
+STAT5B.md	phenotypes[0].effects[1].term	HP:0002719	Recurrent infections	Recurrent infections	Yes	Yes		
+STAT5B.md	phenotypes[0].effects[2].term	HP:0002960	Autoimmunity	Autoimmunity	Yes	Yes		
+STAT5B.md	phenotypes[0].effects[3].term	HP:0008897	Postnatal growth retardation	Postnatal growth retardation	Yes	Yes		
+STAT5B.md	phenotypes[0].effects[4].term	HP:0000823	Delayed puberty	Delayed puberty	Yes	Yes		
+STAT5B.md	phenotypes[0].effects[5].term	HP:0008202	Prolactin deficiency	Reduced circulating prolactin concentration	No	Yes		
+STAT5B.md	phenotypes[1].effects[0].term	MONDO:0020518	T-cell large granular lymphocyte leukemia	Hashimoto-Pritzker syndrome	No	Yes		
+STAT5B.md	phenotypes[1].effects[1].term	MONDO:0019472	hepatosplenic T-cell lymphoma	extranodal nasal NK/T cell lymphoma	No	Yes		

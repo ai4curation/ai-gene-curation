@@ -1,0 +1,31 @@
+---
+site_name: "ai-gene-curation"
+theme:
+  name: material
+  # palette:
+  #  scheme: slate
+  #  primary: cyan
+  features:
+    - content.tabs.link
+
+# for adding extra css/js see https://www.mkdocs.org/user-guide/customizing-your-theme/
+
+plugins:
+  - search
+  - mknotebooks:
+      execute: false
+  - mermaid2:
+      version: 11.4.1
+  
+#watch:
+#  - src/ai_gene_curation/schema
+
+nav:
+  - Home: index.md
+  - Genes: genes/index.md
+  
+exclude_docs: |
+  /templates-linkml/
+
+site_url: https://ai4curation.github.io/ai-gene-curation
+repo_url: https://github.com/ai4curation/ai-gene-curation

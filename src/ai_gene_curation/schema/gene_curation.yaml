@@ -1,0 +1,172 @@
+id: https://w3id.org/ai4curation/gene_curation
+name: gene_curation
+prefixes:
+  linkml: https://w3id.org/linkml/
+  ai4curation: https://w3id.org/ai4curation/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  owl: http://www.w3.org/2002/07/owl#
+  skos: http://www.w3.org/2004/02/skos/core#
+  dcat: http://www.w3.org/ns/dcat#
+
+imports:
+  - linkml:types
+
+default_prefix: ai4curation
+default_range: string
+
+classes:
+  Annotatable:
+    mixin: true
+    attributes:
+      description:
+        slot_uri: dcterms:description
+      notes:
+        slot_uri: dcterms:notes
+  Thing:
+    mixins:
+    - Annotatable
+    attributes:
+      id:
+        identifier: true
+      label:
+      description:
+        slot_uri: rdfs:comment
+  Term:
+    is_a: Thing
+    attributes:
+      name:
+        range: string
+  GeneInfo:
+    is_a: Thing
+    description: Curation for a gene
+    attributes:
+      symbol:
+      primary_functions:
+        range: GeneFunctionBlock
+        multivalued: true
+      phenotypes:
+        range: PhenotypeBlock
+        multivalued: true
+
+
+  GeneFunctionBlock:
+    mixins:
+      - Annotatable
+    attributes:
+      description:
+        required: true
+        description: A concise yet informative description of the gene function, typically a single sentence.
+      synonyms:
+      activity:
+        range: AnnotationUnit
+        multivalued: false
+      location:
+        range: AnnotationUnit
+        multivalued: false
+        description: Cellular component where function occurs (GO terms)
+      complex:
+        range: AnnotationUnit
+        multivalued: false
+        required: false
+        description: Complex where function occurs (GO terms)
+      cell_type:
+        range: AnnotationUnit
+        multivalued: false
+        required: false
+        description: Cell type where function occurs (CL terms)
+      gross_anatomy:
+        range: AnnotationUnit
+        multivalued: false
+        required: false
+        description: Anatomical location where function occurs (UBERON terms)
+      upstream:
+        range: AnnotationUnit
+        multivalued: true
+      downstream:
+        range: AnnotationUnit
+        multivalued: true
+      processes:
+        range: AnnotationUnit
+        multivalued: true
+      roles:
+        range: AnnotationUnit
+        multivalued: true
+      
+
+  AnnotationUnit:
+    mixins:
+      - Annotatable
+    attributes:
+      term:
+        range: Term
+        inlined: true
+      support:
+        range: Evidence
+        inlined: true
+        multivalued: true
+      mechanism:
+        range: string
+      is_any_of:
+        range: AnnotationUnit
+        multivalued: true
+      is_not:
+        range: AnnotationUnit
+        multivalued: false
+      category:
+        range: string
+
+  Evidence:
+    mixins:
+      - Annotatable
+    attributes:
+      reference:
+        range: string
+        description: Publication ID (e.g., PMID:12345678) or GO reference
+        required: true
+      title:
+        range: string
+        required: true
+        description: Title of the referenced publication
+      supporting_text:
+        range: string
+        description: Supporting text from the publication.
+          Can be interleaved text if there are multiple lines of evidence. Can also be annotated
+      evidence_type:
+        range: string
+        description: Evidence code (e.g., IDA, IBA, ISS, TAS)
+
+  PhenotypeBlock:
+    attributes:
+      mutation:
+        range: Mutation
+      effects:
+        range: PhenotypeEffect
+        multivalued: true
+
+  Mutation:
+    attributes:
+      type:
+        range: string
+        description: Type of mutation (e.g., loss_of_function, gain_of_function)
+      variant:
+        range: string
+        description: Variant context (e.g., somatic, germline, dominant_negative)
+        required: false
+
+  PhenotypeEffect:
+    is_a: AnnotationUnit
+    mixins:
+      - Annotatable
+    attributes:
+      description:
+        range: string
+      mechanism:
+        range: string
+      
+enums:
+  PublicationEntity:
+    description: Dynamic enumeration for pubmed entities
+          
+      

@@ -1,0 +1,32 @@
+---
+title: Gene Index
+---
+
+# Gene Index
+
+This index contains {{ genes | length }} curated gene entries.
+
+<table>
+<thead>
+<tr>
+  <th>Gene Symbol</th>
+  <th>UniProt ID</th>
+  <th>Primary Functions</th>
+  <th>Phenotypes</th>
+</tr>
+</thead>
+<tbody>
+{% for gene in genes %}
+<tr>
+  <td><a href="{{ gene.symbol }}/">{{ gene.symbol }}</a></td>
+  <td><code>{{ gene.id }}</code></td>
+  <td>{{ gene.functions_count }}</td>
+  <td>{{ gene.phenotypes_count }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+---
+
+<small><em>Generated from gene curation markdown files</em></small>
