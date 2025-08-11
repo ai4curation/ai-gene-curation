@@ -1,0 +1,858 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ai4curation.github.io/ai-gene-curation/genes/GSK3B/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>GSK3B - ai-gene-curation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/ansi-colours.css">
+    
+      <link rel="stylesheet" href="../../css/jupyter-cells.css">
+    
+      <link rel="stylesheet" href="../../css/pandas-dataframe.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gsk3b" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ai-gene-curation" class="md-header__button md-logo" aria-label="ai-gene-curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ai-gene-curation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              GSK3B
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ai4curation/ai-gene-curation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ai-gene-curation" class="md-nav__button md-logo" aria-label="ai-gene-curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ai-gene-curation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ai4curation/ai-gene-curation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Genes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structured-annotations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structured Annotations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailed Description
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="gsk3b">GSK3B</h1>
+<p><strong>UniProt ID:</strong> <a href="https://bioregistry.io/UniProtKB:P49841">UniProtKB:P49841</a></p>
+<h2 id="structured-annotations">Structured Annotations</h2>
+<details>
+<summary><strong>Primary Functions (from structured data)</strong></summary>
+
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 1: Functions as a constitutively active serine/threonine kinase that phosphorylates β-catenin at Ser33, Ser37, and Thr41 as part of the destruction complex, targeting it for ubiquitin-mediated degradation. This function is essential for maintaining low cytoplasmic β-catenin levels in the absence of Wnt signaling.</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0004674" target="_blank">protein serine/threonine kinase activity</a> (GO:0004674)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10644691" target="_blank">PMID:10644691</a> (IDA) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em>, <a href="https://bioregistry.io/PMID:15448698" target="_blank">PMID:15448698</a> (TAS) - <em>"GSK-3: tricks of the trade for a multi-tasking kinase"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0005737" target="_blank">cytoplasm</a> (GO:0005737)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10644691" target="_blank">PMID:10644691</a> (IDA) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Complex</th>
+  <td><a href="https://bioregistry.io/GO:0030877" target="_blank">beta-catenin destruction complex</a> (GO:0030877)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10700176" target="_blank">PMID:10700176</a> (IPI) - <em>"Structural basis for recruitment of glycogen synthase kinase 3beta to the axin-APC scaffold complex"</em></td>
+</tr>
+</table>
+
+
+
+<strong>Upstream Components:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0005524" target="_blank">ATP binding</a> (GO:0005524)
+<br><em>Binds ATP in active site for catalytic activity</em><br>Evidence: <a href="https://bioregistry.io/PMID:11749387" target="_blank">PMID:11749387</a> (IDA) - <em>"Crystal structure of glycogen synthase kinase 3 beta: structural basis for phosphate-primed substrate specificity and autoinhibition"</em>  </li>
+  <li>
+    <a href="https://bioregistry.io/GO:0042803" target="_blank">protein homodimerization activity</a> (GO:0042803)
+<br><em>Forms homodimers that may regulate activity</em><br>Evidence: <a href="https://bioregistry.io/PMID:11749387" target="_blank">PMID:11749387</a> (IDA) - <em>"Crystal structure of glycogen synthase kinase 3 beta: structural basis for phosphate-primed substrate specificity and autoinhibition"</em>  </li>
+</ul>
+
+<strong>Downstream Targets:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0006468" target="_blank">protein phosphorylation</a> (GO:0006468)
+<br><em>Phosphorylates β-catenin at Ser33/Ser37/Thr41</em><br>Evidence: <a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10644691" target="_blank">PMID:10644691</a> (IDA) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em>  </li>
+  <li>
+    <a href="https://bioregistry.io/GO:0016567" target="_blank">protein ubiquitination</a> (GO:0016567)
+<br><em>Phosphorylation creates degron for β-TrCP recognition</em><br>Evidence: <a href="https://bioregistry.io/PMID:10644691" target="_blank">PMID:10644691</a> (IMP) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em>  </li>
+</ul>
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:0090090" target="_blank">negative regulation of canonical Wnt signaling pathway</a> (GO:0090090)
+      (<a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IMP) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10644691" target="_blank">PMID:10644691</a> (IDA) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
+      (<a href="https://bioregistry.io/PMID:15329723" target="_blank">PMID:15329723</a> (TAS) - <em>"Wnt/beta-catenin signaling: components, mechanisms, and diseases"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0004674" target="_blank">protein serine/threonine kinase activity</a> (GO:0004674)
+<br>Evidence: <a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>  </li>
+</ul>
+
+</div>
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 2: Regulates glycogen metabolism by phosphorylating and inactivating glycogen synthase. This function is critical for glucose homeostasis and is inhibited by insulin signaling through AKT-mediated phosphorylation at Ser9.</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0004674" target="_blank">protein serine/threonine kinase activity</a> (GO:0004674)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:7553863" target="_blank">PMID:7553863</a> (IDA) - <em>"Phosphorylation and inactivation of glycogen synthase kinase 3 by protein kinase A"</em>, <a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IDA) - <em>"GSK-3 and the regulation of glycogen metabolism"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0005737" target="_blank">cytoplasm</a> (GO:0005737)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IDA) - <em>"GSK-3 and the regulation of glycogen metabolism"</em></td>
+</tr>
+</table>
+
+
+
+
+<strong>Upstream Components:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0005080" target="_blank">protein kinase C binding</a> (GO:0005080)
+<br><em>Phosphorylated and inhibited by AKT downstream of insulin</em><br>Evidence: <a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IPI) - <em>"GSK-3 and the regulation of glycogen metabolism"</em>  </li>
+</ul>
+
+<strong>Downstream Targets:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0045719" target="_blank">negative regulation of glycogen biosynthetic process</a> (GO:0045719)
+<br><em>Inactivates glycogen synthase by phosphorylation</em><br>Evidence: <a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IMP) - <em>"GSK-3 and the regulation of glycogen metabolism"</em>  </li>
+</ul>
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:0005979" target="_blank">regulation of glycogen biosynthetic process</a> (GO:0005979)
+      (<a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IMP) - <em>"GSK-3 and the regulation of glycogen metabolism"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0046627" target="_blank">negative regulation of insulin receptor signaling pathway</a> (GO:0046627)
+      (<a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IMP) - <em>"GSK-3 and the regulation of glycogen metabolism"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0032868" target="_blank">response to insulin</a> (GO:0032868)
+<br>Evidence: <a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IDA) - <em>"GSK-3 and the regulation of glycogen metabolism"</em>  </li>
+</ul>
+
+</div>
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 3: Phosphorylates tau protein at multiple sites, promoting its aggregation and contributing to neurofibrillary tangle formation in Alzheimer's disease and other tauopathies. This function links GSK3B to neurodegeneration and cognitive dysfunction.</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0050321" target="_blank">tau-protein kinase activity</a> (GO:0050321)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:8090222" target="_blank">PMID:8090222</a> (IDA) - <em>"Glycogen synthase kinase-3 beta phosphorylates tau protein"</em>, <a href="https://bioregistry.io/PMID:15009664" target="_blank">PMID:15009664</a> (IDA) - <em>"Role of GSK-3beta in Alzheimer's disease pathology"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0043025" target="_blank">neuronal cell body</a> (GO:0043025)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:15009664" target="_blank">PMID:15009664</a> (IDA) - <em>"Role of GSK-3beta in Alzheimer's disease pathology"</em></td>
+</tr>
+</table>
+
+
+
+
+
+<strong>Downstream Targets:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:1904426" target="_blank">positive regulation of GTP binding</a> (GO:1904426)
+<br><em>Hyperphosphorylated tau dissociates from microtubules</em><br>Evidence: <a href="https://bioregistry.io/PMID:15009664" target="_blank">PMID:15009664</a> (IMP) - <em>"Role of GSK-3beta in Alzheimer's disease pathology"</em>  </li>
+</ul>
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:1901216" target="_blank">positive regulation of neuron death</a> (GO:1901216)
+      (<a href="https://bioregistry.io/PMID:15009664" target="_blank">PMID:15009664</a> (IMP) - <em>"Role of GSK-3beta in Alzheimer's disease pathology"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0031175" target="_blank">neuron projection development</a> (GO:0031175)
+      (<a href="https://bioregistry.io/PMID:15009664" target="_blank">PMID:15009664</a> (IMP) - <em>"Role of GSK-3beta in Alzheimer's disease pathology"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0006468" target="_blank">protein phosphorylation</a> (GO:0006468)
+<br>Evidence: <a href="https://bioregistry.io/PMID:8090222" target="_blank">PMID:8090222</a> (IDA) - <em>"Glycogen synthase kinase-3 beta phosphorylates tau protein"</em>  </li>
+</ul>
+
+</div>
+
+</details>
+
+<details>
+<summary><strong>Phenotypes (from structured data)</strong></summary>
+
+<table>
+<thead>
+<tr>
+  <th>Mutation</th>
+  <th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <strong>Inhibition</strong>
+        <br><em>(pharmacological)</em>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0003074" target="_blank">Hyperglycemia</a> (HP:0003074)
+<br><em>GSK3B inhibition improves glucose tolerance through enhanced glycogen synthesis</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0100543" target="_blank">Cognitive impairment</a> (HP:0100543)
+<br><em>Lithium (GSK3 inhibitor) shows neuroprotective effects in bipolar disorder</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0002664" target="_blank">Neoplasm</a> (HP:0002664)
+<br><em>GSK3B inhibition can promote tumorigenesis through β-catenin stabilization</em>        </li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td>
+      <strong>Overexpression</strong>
+        <br><em>(transgenic)</em>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0002120" target="_blank">Cerebral cortical atrophy</a> (HP:0002120)
+<br><em>Neuronal GSK3B overexpression causes neurodegeneration in mouse models</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0002185" target="_blank">Neurofibrillary tangles</a> (HP:0002185)
+<br><em>Increased tau phosphorylation and tangle formation</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0001268" target="_blank">Mental deterioration</a> (HP:0001268)
+<br><em>Cognitive deficits from synaptic dysfunction</em>        </li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td>
+      <strong>Knockout</strong>
+        <br><em>(conditional)</em>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0001943" target="_blank">Hypoglycemia</a> (HP:0001943)
+<br><em>Muscle-specific knockout improves glucose uptake</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0002230" target="_blank">Generalized hirsutism</a> (HP:0002230)
+<br><em>Hair follicle defects from β-catenin dysregulation</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0001249" target="_blank">Intellectual disability</a> (HP:0001249)
+<br><em>Neuron-specific knockout causes developmental abnormalities</em>        </li>
+    </ul>
+  </td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+<hr />
+<h2 id="detailed-description">Detailed Description</h2>
+<h1 id="gsk3b-glycogen-synthase-kinase-3-beta">GSK3B (Glycogen Synthase Kinase 3 Beta)</h1>
+<h2 id="overview">Overview</h2>
+<p>GSK3B encodes a constitutively active serine/threonine kinase that serves as a central regulatory hub in multiple signaling pathways. Originally identified as a regulator of glycogen metabolism, GSK3B has emerged as a critical negative regulator of Wnt signaling, a key metabolic enzyme responsive to insulin, and a tau kinase implicated in neurodegeneration. Its activity is primarily regulated through inhibitory phosphorylation rather than activation, making it unique among protein kinases.</p>
+<h2 id="structural-features">Structural Features</h2>
+<p>GSK3B is a 433 amino acid protein containing:
+- An N-terminal kinase domain (residues 35-286) with the ATP binding pocket
+- A small N-terminal lobe with β-sheet structure
+- A larger C-terminal lobe primarily α-helical
+- An activation loop containing Tyr216 for constitutive activity
+- A regulatory Ser9 site creating an autoinhibitory pseudosubstrate when phosphorylated
+- A primed substrate binding pocket recognizing pre-phosphorylated sequences</p>
+<p>The crystal structure reveals:
+- An open conformation allowing substrate access
+- A unique phosphate binding pocket for primed substrates
+- Dimerization interface that may regulate activity
+- Flexible hinge region connecting N- and C-terminal lobes</p>
+<h2 id="catalytic-mechanism">Catalytic Mechanism</h2>
+<h3 id="substrate-recognition">Substrate Recognition</h3>
+<p>GSK3B preferentially phosphorylates "primed" substrates with the consensus:
+- <strong>Sequence</strong>: S/T-X-X-X-pS/pT (where pS/pT is pre-phosphorylated)
+- <strong>Priming</strong>: Requires prior phosphorylation 4 residues C-terminal
+- <strong>Specificity</strong>: Over 100 validated substrates identified</p>
+<h3 id="key-substrates-and-functions">Key Substrates and Functions</h3>
+<h4 id="wnt-signaling">Wnt Signaling</h4>
+<ul>
+<li><strong>β-catenin</strong>: Phosphorylates Ser33/Ser37/Thr41 after CK1α priming at Ser45</li>
+<li><strong>APC</strong>: Multiple sites enhancing Axin binding</li>
+<li><strong>Axin</strong>: Stabilizing phosphorylation</li>
+</ul>
+<h4 id="metabolic-targets">Metabolic Targets</h4>
+<ul>
+<li><strong>Glycogen synthase</strong>: Multiple sites (Ser640, Ser644, Ser648, Ser652)</li>
+<li><strong>IRS-1</strong>: Serine phosphorylation causing insulin resistance</li>
+<li><strong>eIF2B</strong>: Inhibitory phosphorylation reducing protein synthesis</li>
+</ul>
+<h4 id="neuronal-substrates">Neuronal Substrates</h4>
+<ul>
+<li><strong>Tau</strong>: Multiple sites including Ser396, Ser404, Thr231</li>
+<li><strong>APP</strong>: Affects amyloid processing</li>
+<li><strong>CRMP2</strong>: Regulates axon growth</li>
+</ul>
+<h4 id="transcription-factors">Transcription Factors</h4>
+<ul>
+<li><strong>c-Myc</strong>: Thr58 phosphorylation promoting degradation</li>
+<li><strong>c-Jun</strong>: Inhibitory phosphorylation</li>
+<li><strong>NFAT</strong>: Nuclear export signal phosphorylation</li>
+</ul>
+<h2 id="regulation">Regulation</h2>
+<h3 id="inhibitory-mechanisms">Inhibitory Mechanisms</h3>
+<h4 id="wnt-signaling_1">Wnt Signaling</h4>
+<ol>
+<li><strong>LRP5/6 phosphorylation</strong>: Creates Axin binding sites</li>
+<li><strong>Axin sequestration</strong>: Removes GSK3B from destruction complex</li>
+<li><strong>Complex disruption</strong>: Physical separation from β-catenin</li>
+</ol>
+<h4 id="insulingrowth-factor-signaling">Insulin/Growth Factor Signaling</h4>
+<ol>
+<li><strong>AKT activation</strong>: PI3K-dependent</li>
+<li><strong>Ser9 phosphorylation</strong>: Creates pseudosubstrate</li>
+<li><strong>Activity inhibition</strong>: 50-70% reduction</li>
+</ol>
+<h4 id="other-inhibitory-signals">Other Inhibitory Signals</h4>
+<ul>
+<li><strong>PKC</strong>: Phosphorylates Ser9</li>
+<li><strong>PKA</strong>: cAMP-dependent inhibition</li>
+<li><strong>p90RSK</strong>: MAPK pathway crosstalk</li>
+<li><strong>ILK</strong>: Integrin signaling</li>
+</ul>
+<h3 id="activating-mechanisms">Activating Mechanisms</h3>
+<ul>
+<li><strong>Tyr216 phosphorylation</strong>: Constitutive or enhanced by some kinases</li>
+<li><strong>Ser9 dephosphorylation</strong>: By PP1, PP2A, PP2B</li>
+<li><strong>Protein interactions</strong>: Some scaffolds enhance activity</li>
+</ul>
+<h2 id="biological-functions">Biological Functions</h2>
+<h3 id="wnt-pathway-regulation">Wnt Pathway Regulation</h3>
+<p>GSK3B is the key negative regulator:
+- <strong>Basal state</strong>: Continuous β-catenin phosphorylation and degradation
+- <strong>Signal termination</strong>: Returns after transient Wnt stimulation
+- <strong>Threshold setting</strong>: Determines Wnt responsiveness</p>
+<h3 id="metabolic-control">Metabolic Control</h3>
+<p>Central to glucose homeostasis:
+- <strong>Glycogen synthesis</strong>: Primary off switch
+- <strong>Glucose uptake</strong>: Regulates GLUT4 trafficking
+- <strong>Insulin sensitivity</strong>: Feedback regulation of insulin signaling
+- <strong>Mitochondrial function</strong>: Affects oxidative metabolism</p>
+<h3 id="neuronal-functions">Neuronal Functions</h3>
+<p>Critical for brain development and function:
+- <strong>Neurogenesis</strong>: Regulates neural progenitor fate
+- <strong>Axon formation</strong>: Controls polarity establishment
+- <strong>Synaptic plasticity</strong>: Modulates LTP/LTD
+- <strong>Neurotransmission</strong>: Affects dopamine and serotonin signaling</p>
+<h3 id="cell-survival-and-proliferation">Cell Survival and Proliferation</h3>
+<ul>
+<li><strong>Apoptosis</strong>: Pro-apoptotic in many contexts</li>
+<li><strong>Cell cycle</strong>: Regulates cyclin D1 and c-Myc</li>
+<li><strong>Stem cell maintenance</strong>: Controls self-renewal</li>
+<li><strong>Differentiation</strong>: Tissue-specific effects</li>
+</ul>
+<h2 id="clinical-significance">Clinical Significance</h2>
+<h3 id="alzheimers-disease">Alzheimer's Disease</h3>
+<p>GSK3B is hyperactive in AD:
+- <strong>Tau pathology</strong>: Hyperphosphorylation at 29+ sites
+- <strong>Amyloid production</strong>: Increases Aβ generation
+- <strong>Synaptic dysfunction</strong>: Impairs plasticity
+- <strong>Neuroinflammation</strong>: Activates microglial responses</p>
+<p><strong>Therapeutic implications</strong>: GSK3B inhibitors in clinical trials</p>
+<h3 id="bipolar-disorder">Bipolar Disorder</h3>
+<ul>
+<li><strong>Lithium mechanism</strong>: Direct GSK3B inhibition at therapeutic doses</li>
+<li><strong>Mood stabilization</strong>: Through multiple downstream pathways</li>
+<li><strong>Neuroprotection</strong>: Reduces oxidative stress and apoptosis</li>
+</ul>
+<h3 id="diabetes">Diabetes</h3>
+<p>Overactive in type 2 diabetes:
+- <strong>Insulin resistance</strong>: Serine phosphorylation of IRS proteins
+- <strong>Hepatic glucose production</strong>: Dysregulated gluconeogenesis
+- <strong>β-cell dysfunction</strong>: Impaired insulin secretion</p>
+<h3 id="cancer">Cancer</h3>
+<p>Complex, context-dependent roles:
+- <strong>Tumor suppressor</strong>: In Wnt-driven cancers (colorectal)
+- <strong>Tumor promoter</strong>: In some leukemias (AML)
+- <strong>Drug resistance</strong>: Affects chemotherapy response</p>
+<h3 id="other-diseases">Other Diseases</h3>
+<ul>
+<li><strong>Fragile X syndrome</strong>: Dysregulated in FMR1 deficiency</li>
+<li><strong>Cardiovascular disease</strong>: Cardiac hypertrophy and fibrosis</li>
+<li><strong>Inflammatory disorders</strong>: NF-κB and cytokine regulation</li>
+</ul>
+<h2 id="pharmacology">Pharmacology</h2>
+<h3 id="inhibitors">Inhibitors</h3>
+<h4 id="atp-competitive">ATP-Competitive</h4>
+<ul>
+<li><strong>CHIR99021</strong>: Highly selective, used in stem cell culture</li>
+<li><strong>SB216763</strong>: Neuroprotective in models</li>
+<li><strong>AR-A014418</strong>: CNS-penetrant</li>
+</ul>
+<h4 id="non-atp-competitive">Non-ATP-Competitive</h4>
+<ul>
+<li><strong>Tideglusib</strong>: Irreversible, in AD trials</li>
+<li><strong>TDZD-8</strong>: Thiadiazolidinone class</li>
+</ul>
+<h4 id="naturalindirect">Natural/Indirect</h4>
+<ul>
+<li><strong>Lithium</strong>: Competitive with Mg2+, mood stabilizer</li>
+<li><strong>Valproate</strong>: Indirect inhibition</li>
+<li><strong>Curcumin</strong>: Multiple mechanisms</li>
+</ul>
+<h3 id="clinical-development">Clinical Development</h3>
+<ul>
+<li><strong>Alzheimer's disease</strong>: Multiple compounds in trials</li>
+<li><strong>Bipolar disorder</strong>: Lithium remains standard</li>
+<li><strong>Diabetes</strong>: Preclinical promise</li>
+<li><strong>Cancer</strong>: Context-specific approaches needed</li>
+</ul>
+<h2 id="evolutionary-perspective">Evolutionary Perspective</h2>
+<p>GSK3B is highly conserved from yeast to humans, indicating fundamental cellular roles. The gene duplication creating GSK3A and GSK3B occurred in early vertebrates, with GSK3B assuming dominant roles in brain and metabolic tissues. The constitutive activity and regulation by inhibition rather than activation is unusual among kinases, suggesting evolution as a metabolic brake requiring active signals for release.</p>
+<h2 id="interactions-and-complexes">Interactions and Complexes</h2>
+<h3 id="destruction-complex">Destruction Complex</h3>
+<ul>
+<li><strong>Core</strong>: Axin, APC, CK1α, GSK3B</li>
+<li><strong>Substrates</strong>: β-catenin, others</li>
+<li><strong>Regulation</strong>: Wnt-dependent disruption</li>
+</ul>
+<h3 id="metabolic-complexes">Metabolic Complexes</h3>
+<ul>
+<li><strong>Insulin signaling</strong>: IRS, AKT, mTOR</li>
+<li><strong>Glycogen metabolism</strong>: GS, PP1, PTG</li>
+</ul>
+<h3 id="neuronal-complexes">Neuronal Complexes</h3>
+<ul>
+<li><strong>Tau phosphorylation</strong>: CDK5, PP2A</li>
+<li><strong>Synaptic</strong>: PSD95, NMDAR</li>
+</ul>
+<h3 id="scaffolds-and-regulators">Scaffolds and Regulators</h3>
+<ul>
+<li><strong>AKAP220</strong>: A-kinase anchoring protein</li>
+<li><strong>Presenilin</strong>: γ-secretase component</li>
+<li><strong>Dishevelled</strong>: Wnt pathway component</li>
+</ul>
+<h2 id="key-regulatory-features">Key Regulatory Features</h2>
+<ul>
+<li><strong>Constitutive activity</strong>: Active by default, regulated by inhibition</li>
+<li><strong>Primed phosphorylation</strong>: Requires pre-phosphorylated substrates</li>
+<li><strong>Multiple regulation</strong>: Integrated signals from diverse pathways</li>
+<li><strong>Tissue specificity</strong>: Different roles in different cell types</li>
+<li><strong>Dose sensitivity</strong>: Partial inhibition often beneficial</li>
+</ul>
+<hr />
+<p><small><em>Generated from <a href="https://github.com/ai4curation/ai-gene-curation/blob/main/genes/GSK3B.md">GSK3B.md</a></em></small></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,661 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ai4curation.github.io/ai-gene-curation/genes/CTNNB1/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>CTNNB1 - ai-gene-curation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/ansi-colours.css">
+    
+      <link rel="stylesheet" href="../../css/jupyter-cells.css">
+    
+      <link rel="stylesheet" href="../../css/pandas-dataframe.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ctnnb1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ai-gene-curation" class="md-header__button md-logo" aria-label="ai-gene-curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ai-gene-curation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CTNNB1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ai4curation/ai-gene-curation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ai-gene-curation" class="md-nav__button md-logo" aria-label="ai-gene-curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ai-gene-curation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ai4curation/ai-gene-curation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Genes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structured-annotations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structured Annotations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailed Description
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="ctnnb1">CTNNB1</h1>
+<p><strong>UniProt ID:</strong> <a href="https://bioregistry.io/UniProtKB:P35222">UniProtKB:P35222</a></p>
+<h2 id="structured-annotations">Structured Annotations</h2>
+<details>
+<summary><strong>Primary Functions (from structured data)</strong></summary>
+
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 1: Functions as a key structural component of adherens junctions, mediating cell-cell adhesion by linking E-cadherin to the actin cytoskeleton via alpha-catenin. This function is essential for maintaining epithelial tissue integrity and barrier function.</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0045296" target="_blank">cadherin binding</a> (GO:0045296)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:7982500" target="_blank">PMID:7982500</a> (IPI) - <em>"The armadillo repeat domain of the APC tumor suppressor protein interacts with beta-catenin"</em>, <a href="https://bioregistry.io/PMID:8625413" target="_blank">PMID:8625413</a> (IDA) - <em>"Interaction of the tumor suppressor APC with beta-catenin"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0005912" target="_blank">adherens junction</a> (GO:0005912)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:7559785" target="_blank">PMID:7559785</a> (IDA) - <em>"E-cadherin and alpha-, beta- and gamma-catenin are associated with the actin cytoskeleton"</em>, <a href="https://bioregistry.io/PMID:8756721" target="_blank">PMID:8756721</a> (IDA) - <em>"Beta-catenin is a target for the ubiquitin-proteasome pathway"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Complex</th>
+  <td><a href="https://bioregistry.io/GO:0016342" target="_blank">catenin complex</a> (GO:0016342)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:8625415" target="_blank">PMID:8625415</a> (IDA) - <em>"Assembly of the cadherin-catenin complex in epithelial cells"</em></td>
+</tr>
+</table>
+
+
+
+<strong>Upstream Components:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0004674" target="_blank">protein serine/threonine kinase activity</a> (GO:0004674)
+<br><em>Phosphorylation by various kinases regulates adherens junction stability</em><br>Evidence: <a href="https://bioregistry.io/PMID:10022914" target="_blank">PMID:10022914</a> (IDA) - <em>"Tyrosine phosphorylation of beta-catenin regulates its binding to cadherins"</em>  </li>
+</ul>
+
+<strong>Downstream Targets:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0051015" target="_blank">actin filament binding</a> (GO:0051015)
+<br><em>Links to actin cytoskeleton via alpha-catenin</em><br>Evidence: <a href="https://bioregistry.io/PMID:8756721" target="_blank">PMID:8756721</a> (IDA) - <em>"Beta-catenin is a target for the ubiquitin-proteasome pathway"</em>  </li>
+</ul>
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:0034333" target="_blank">adherens junction assembly</a> (GO:0034333)
+      (<a href="https://bioregistry.io/PMID:8756721" target="_blank">PMID:8756721</a> (IMP) - <em>"Beta-catenin is a target for the ubiquitin-proteasome pathway"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0034334" target="_blank">adherens junction maintenance</a> (GO:0034334)
+      (<a href="https://bioregistry.io/PMID:11071869" target="_blank">PMID:11071869</a> (IMP) - <em>"Regulation of cadherin-catenin adhesion by the GTPase Rac"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0098609" target="_blank">cell-cell adhesion</a> (GO:0098609)
+      (<a href="https://bioregistry.io/PMID:8625415" target="_blank">PMID:8625415</a> (IMP) - <em>"Assembly of the cadherin-catenin complex in epithelial cells"</em>, <a href="https://bioregistry.io/PMID:9368760" target="_blank">PMID:9368760</a> (IDA) - <em>"The cadherin-catenin adhesion system in signaling and cancer"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0007155" target="_blank">cell adhesion</a> (GO:0007155)
+<br>Evidence: <a href="https://bioregistry.io/PMID:7982500" target="_blank">PMID:7982500</a> (IMP) - <em>"The armadillo repeat domain of the APC tumor suppressor protein interacts with beta-catenin"</em>  </li>
+</ul>
+
+</div>
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 2: Acts as a transcriptional co-activator in the canonical Wnt signaling pathway. Upon Wnt stimulation, stabilized beta-catenin translocates to the nucleus where it forms complexes with TCF/LEF transcription factors to activate target gene expression, regulating cell proliferation, differentiation, and stem cell maintenance.</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0003713" target="_blank">transcription coactivator activity</a> (GO:0003713)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:8756721" target="_blank">PMID:8756721</a> (IDA) - <em>"Beta-catenin is a target for the ubiquitin-proteasome pathway"</em>, <a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (IDA) - <em>"Beta-catenin functions as a coactivator of transcription"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (IDA) - <em>"Beta-catenin functions as a coactivator of transcription"</em>, <a href="https://bioregistry.io/PMID:8650545" target="_blank">PMID:8650545</a> (IDA) - <em>"XTcf-3 interacts with beta-catenin"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Complex</th>
+  <td><a href="https://bioregistry.io/GO:1990907" target="_blank">beta-catenin-TCF complex</a> (GO:1990907)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:8650545" target="_blank">PMID:8650545</a> (IDA) - <em>"XTcf-3 interacts with beta-catenin"</em>, <a href="https://bioregistry.io/PMID:9065402" target="_blank">PMID:9065402</a> (IPI) - <em>"TCF transcription factors interact with beta-catenin"</em></td>
+</tr>
+</table>
+
+
+
+<strong>Upstream Components:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0016055" target="_blank">Wnt signaling pathway</a> (GO:0016055)
+<br><em>Activated by Wnt ligands binding to Frizzled/LRP5/6 receptors</em><br>Evidence: <a href="https://bioregistry.io/PMID:8756721" target="_blank">PMID:8756721</a> (IDA) - <em>"Beta-catenin is a target for the ubiquitin-proteasome pathway"</em>  </li>
+  <li>
+    <a href="https://bioregistry.io/GO:0004674" target="_blank">protein serine/threonine kinase activity</a> (GO:0004674)
+<br><em>GSK3B and CK1 phosphorylate beta-catenin for degradation</em><br>Evidence: <a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by GSK-3beta"</em>  </li>
+  <li>
+    <a href="https://bioregistry.io/GO:0061630" target="_blank">ubiquitin protein ligase activity</a> (GO:0061630)
+<br><em>BTRC/beta-TrCP ubiquitinates phosphorylated beta-catenin</em><br>Evidence: <a href="https://bioregistry.io/PMID:10196208" target="_blank">PMID:10196208</a> (IDA) - <em>"Beta-TrCP ubiquitin ligase targets phosphorylated beta-catenin"</em>  </li>
+</ul>
+
+<strong>Downstream Targets:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0006357" target="_blank">regulation of transcription by RNA polymerase II</a> (GO:0006357)
+<br><em>Activates transcription of Wnt target genes</em><br>Evidence: <a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (IDA) - <em>"Beta-catenin functions as a coactivator of transcription"</em>  </li>
+  <li>
+    <a href="https://bioregistry.io/GO:0045944" target="_blank">positive regulation of transcription by RNA polymerase II</a> (GO:0045944)
+<br><em>Target genes include MYC, CCND1, AXIN2</em><br>Evidence: <a href="https://bioregistry.io/PMID:10518217" target="_blank">PMID:10518217</a> (IDA) - <em>"c-Myc is a target of the Wnt signaling pathway"</em>  </li>
+</ul>
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
+      (<a href="https://bioregistry.io/PMID:8756721" target="_blank">PMID:8756721</a> (IDA) - <em>"Beta-catenin is a target for the ubiquitin-proteasome pathway"</em>, <a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (TAS) - <em>"Beta-catenin functions as a coactivator of transcription"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0045893" target="_blank">positive regulation of DNA-templated transcription</a> (GO:0045893)
+      (<a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (IDA) - <em>"Beta-catenin functions as a coactivator of transcription"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0008283" target="_blank">cell population proliferation</a> (GO:0008283)
+      (<a href="https://bioregistry.io/PMID:10196208" target="_blank">PMID:10196208</a> (IMP) - <em>"Beta-TrCP ubiquitin ligase targets phosphorylated beta-catenin"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0090263" target="_blank">positive regulation of canonical Wnt signaling pathway</a> (GO:0090263)
+<br>Evidence: <a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (IMP) - <em>"Beta-catenin functions as a coactivator of transcription"</em>  </li>
+</ul>
+
+</div>
+
+</details>
+
+<details>
+<summary><strong>Phenotypes (from structured data)</strong></summary>
+
+<table>
+<thead>
+<tr>
+  <th>Mutation</th>
+  <th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <strong>Gain Of Function</strong>
+        <br><em>(somatic)</em>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0100242" target="_blank">Sarcoma</a> (HP:0100242)
+<br><em>Desmoid tumors frequently harbor activating CTNNB1 mutations</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0003003" target="_blank">Colon cancer</a> (HP:0003003)
+<br><em>Activating mutations found in ~10% of colorectal cancers, particularly those with microsatellite instability</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0002896" target="_blank">Neoplasm of the liver</a> (HP:0002896)
+<br><em>Mutations found in hepatocellular carcinoma and hepatoblastoma</em>        </li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td>
+      <strong>Loss Of Function</strong>
+        <br><em>(germline)</em>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0001399" target="_blank">Hepatic failure</a> (HP:0001399)
+<br><em>Germline loss-of-function mutations cause severe hepatic dysfunction</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0002300" target="_blank">Mutism</a> (HP:0002300)
+<br><em>Associated with intellectual disability syndrome</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0001249" target="_blank">Intellectual disability</a> (HP:0001249)
+<br><em>CTNNB1 syndrome includes severe intellectual disability</em>        </li>
+    </ul>
+  </td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+<hr />
+<h2 id="detailed-description">Detailed Description</h2>
+<h1 id="ctnnb1-catenin-beta-1">CTNNB1 (Catenin Beta-1)</h1>
+<h2 id="overview">Overview</h2>
+<p>CTNNB1 encodes beta-catenin, a multifunctional protein with two distinct and essential roles: as a structural component of adherens junctions mediating cell-cell adhesion, and as a transcriptional co-activator in the canonical Wnt signaling pathway. This dual functionality makes beta-catenin critical for both tissue integrity and cellular signaling, with tight regulation of the balance between these two pools of the protein.</p>
+<h2 id="functional-dichotomy">Functional Dichotomy</h2>
+<h3 id="cell-adhesion-function">Cell Adhesion Function</h3>
+<p>At the plasma membrane, beta-catenin serves as an essential linker protein in adherens junctions, connecting E-cadherin to the actin cytoskeleton through its interaction with alpha-catenin. This structural role is fundamental for:
+- Epithelial barrier integrity
+- Cell-cell communication
+- Tissue morphogenesis and maintenance
+- Contact inhibition of cell growth</p>
+<p>The adhesive function is regulated by phosphorylation, particularly tyrosine phosphorylation at residues Y142 and Y654, which weakens the interaction with cadherins and alpha-catenin, allowing for junction remodeling during development and wound healing.</p>
+<h3 id="wnt-signaling-function">Wnt Signaling Function</h3>
+<p>In the canonical Wnt pathway, beta-catenin acts as the key signal transducer:
+- <strong>Without Wnt signals</strong>: Beta-catenin is continuously synthesized but rapidly degraded by the destruction complex (APC, AXIN, GSK3B, CK1), which phosphorylates beta-catenin at specific N-terminal residues (S45 by CK1, then S33/S37/T41 by GSK3B), targeting it for ubiquitination by beta-TrCP and subsequent proteasomal degradation.
+- <strong>With Wnt signals</strong>: Ligand binding to Frizzled/LRP5/6 receptors inhibits the destruction complex, allowing beta-catenin to accumulate, translocate to the nucleus, and form complexes with TCF/LEF transcription factors to activate target genes including MYC, CCND1, and AXIN2.</p>
+<h2 id="clinical-significance">Clinical Significance</h2>
+<h3 id="cancer">Cancer</h3>
+<p>Mutations in CTNNB1 are found in approximately 10% of all sequenced cancer samples:
+- <strong>Colorectal cancer</strong>: Particularly common in microsatellite unstable tumors (~25% of MSI-H cancers)
+- <strong>Hepatocellular carcinoma and hepatoblastoma</strong>: Frequent driver mutations
+- <strong>Desmoid tumors</strong>: Found in ~85% of sporadic cases
+- <strong>Other cancers</strong>: Including ovarian, breast, lung, and brain tumors</p>
+<p>Most cancer-associated mutations affect the N-terminal phosphorylation sites (codons 33, 37, 41, 45), preventing degradation and causing constitutive Wnt pathway activation.</p>
+<h3 id="developmental-disorders">Developmental Disorders</h3>
+<p>Germline loss-of-function mutations cause CTNNB1 syndrome (neurodevelopmental disorder with spastic diplegia and visual defects), characterized by:
+- Severe intellectual disability
+- Spastic diplegia
+- Microcephaly
+- Visual impairments
+- Behavioral abnormalities</p>
+<h2 id="evolutionary-perspective">Evolutionary Perspective</h2>
+<p>The dual functionality of beta-catenin represents an elegant evolutionary solution linking cell adhesion state to proliferative signaling. This coupling ensures that cells with compromised adhesion (potentially dangerous for tissue integrity) have altered growth properties, providing a mechanism for tissue homeostasis. The protein's conservation across metazoans underscores its fundamental importance in multicellular organization.</p>
+<h2 id="regulatory-mechanisms">Regulatory Mechanisms</h2>
+<p>Beta-catenin levels and localization are controlled through multiple mechanisms:
+1. <strong>Protein stability</strong>: Destruction complex-mediated degradation
+2. <strong>Phosphorylation</strong>: Multiple kinases regulate both adhesive and signaling functions
+3. <strong>Protein-protein interactions</strong>: Competition between adhesive and transcriptional binding partners
+4. <strong>Nuclear-cytoplasmic shuttling</strong>: Active transport mechanisms control subcellular localization
+5. <strong>Transcriptional feedback</strong>: AXIN2 and other Wnt targets provide negative feedback</p>
+<h2 id="key-interactions">Key Interactions</h2>
+<ul>
+<li><strong>Adhesion partners</strong>: E-cadherin, N-cadherin, alpha-catenin, p120-catenin</li>
+<li><strong>Destruction complex</strong>: APC, AXIN1/2, GSK3B, CK1, beta-TrCP</li>
+<li><strong>Transcriptional partners</strong>: TCF1/3/4, LEF1, BCL9, Pygopus</li>
+<li><strong>Regulatory proteins</strong>: ICAT (inhibitor), CBP/p300 (coactivators)</li>
+</ul>
+<hr />
+<p><small><em>Generated from <a href="https://github.com/ai4curation/ai-gene-curation/blob/main/genes/CTNNB1.md">CTNNB1.md</a></em></small></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>
