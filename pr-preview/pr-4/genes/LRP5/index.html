@@ -1,0 +1,824 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ai4curation.github.io/ai-gene-curation/genes/LRP5/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>LRP5 - ai-gene-curation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/ansi-colours.css">
+    
+      <link rel="stylesheet" href="../../css/jupyter-cells.css">
+    
+      <link rel="stylesheet" href="../../css/pandas-dataframe.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lrp5" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ai-gene-curation" class="md-header__button md-logo" aria-label="ai-gene-curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ai-gene-curation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              LRP5
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ai4curation/ai-gene-curation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ai-gene-curation" class="md-nav__button md-logo" aria-label="ai-gene-curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ai-gene-curation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ai4curation/ai-gene-curation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Genes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structured-annotations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structured Annotations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailed Description
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="lrp5">LRP5</h1>
+<p><strong>UniProt ID:</strong> <a href="https://bioregistry.io/UniProtKB:O75197">UniProtKB:O75197</a></p>
+<h2 id="structured-annotations">Structured Annotations</h2>
+<details>
+<summary><strong>Primary Functions (from structured data)</strong></summary>
+
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 1: Functions as an essential co-receptor for canonical Wnt signaling by forming a ternary complex with Wnt ligands and Frizzled receptors. This function is critical for β-catenin stabilization and downstream transcriptional activation.</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0042813" target="_blank">Wnt-activated receptor activity</a> (GO:0042813)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IDA) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>, <a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (IMP) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0005886" target="_blank">plasma membrane</a> (GO:0005886)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IDA) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>, <a href="https://bioregistry.io/PMID:15908424" target="_blank">PMID:15908424</a> (IDA) - <em>"LRP5/6 directly bind to Frizzled and Wnt"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Complex</th>
+  <td><a href="https://bioregistry.io/GO:1990851" target="_blank">Wnt signalosome</a> (GO:1990851)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:15908424" target="_blank">PMID:15908424</a> (IDA) - <em>"LRP5/6 directly bind to Frizzled and Wnt"</em>, <a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IPI) - <em>"LRP5 is a co-receptor for Wnt signaling"</em></td>
+</tr>
+</table>
+
+
+
+<strong>Upstream Components:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0017147" target="_blank">Wnt-protein binding</a> (GO:0017147)
+<br><em>Binds Wnt proteins through β-propeller domains</em><br>Evidence: <a href="https://bioregistry.io/PMID:15908424" target="_blank">PMID:15908424</a> (IDA) - <em>"LRP5/6 directly bind to Frizzled and Wnt"</em>  </li>
+  <li>
+    <a href="https://bioregistry.io/GO:0042803" target="_blank">protein homodimerization activity</a> (GO:0042803)
+<br><em>Dimerizes upon Wnt binding to activate signaling</em><br>Evidence: <a href="https://bioregistry.io/PMID:21076410" target="_blank">PMID:21076410</a> (IDA) - <em>"LRP5/6 dimerization is required for Wnt signaling"</em>  </li>
+</ul>
+
+<strong>Downstream Targets:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0090263" target="_blank">positive regulation of canonical Wnt signaling pathway</a> (GO:0090263)
+<br><em>Promotes β-catenin stabilization and nuclear translocation</em><br>Evidence: <a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IMP) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>, <a href="https://bioregistry.io/PMID:15908424" target="_blank">PMID:15908424</a> (IDA) - <em>"LRP5/6 directly bind to Frizzled and Wnt"</em>  </li>
+  <li>
+    <a href="https://bioregistry.io/GO:0016310" target="_blank">phosphorylation</a> (GO:0016310)
+<br><em>Cytoplasmic tail phosphorylation recruits Axin</em><br>Evidence: <a href="https://bioregistry.io/PMID:15908424" target="_blank">PMID:15908424</a> (IDA) - <em>"LRP5/6 directly bind to Frizzled and Wnt"</em>  </li>
+  <li>
+    <a href="https://bioregistry.io/GO:0051091" target="_blank">positive regulation of DNA-binding transcription factor activity</a> (GO:0051091)
+<br><em>Enables TCF/LEF transcriptional activation through β-catenin</em><br>Evidence: <a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IMP) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>  </li>
+</ul>
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
+      (<a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IDA) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>, <a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (TAS) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0001649" target="_blank">osteoblast differentiation</a> (GO:0001649)
+      (<a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>, <a href="https://bioregistry.io/PMID:12015333" target="_blank">PMID:12015333</a> (IMP) - <em>"LRP5 deficiency causes osteoporosis"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0060346" target="_blank">bone trabecula formation</a> (GO:0060346)
+      (<a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0038023" target="_blank">signaling receptor activity</a> (GO:0038023)
+<br>Evidence: <a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IDA) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>  </li>
+</ul>
+
+</div>
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 2: Regulates bone formation and bone mass by controlling osteoblast function and differentiation. This function is fundamental for skeletal development and maintenance of bone density throughout life.</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0045124" target="_blank">regulation of bone resorption</a> (GO:0045124)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>, <a href="https://bioregistry.io/PMID:17306036" target="_blank">PMID:17306036</a> (IDA) - <em>"LRP5 regulates bone mass through osteoblast and osteoclast control"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0001591" target="_blank">dopamine neuron</a> (GO:0001591)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:20813963" target="_blank">PMID:20813963</a> (IEP) - <em>"LRP5 in bone and metabolism"</em></td>
+</tr>
+</table>
+
+
+
+
+
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:0045669" target="_blank">positive regulation of osteoblast differentiation</a> (GO:0045669)
+      (<a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>, <a href="https://bioregistry.io/PMID:12015333" target="_blank">PMID:12015333</a> (IDA) - <em>"LRP5 deficiency causes osteoporosis"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0002062" target="_blank">chondrocyte differentiation</a> (GO:0002062)
+      (<a href="https://bioregistry.io/PMID:17306036" target="_blank">PMID:17306036</a> (IMP) - <em>"LRP5 regulates bone mass through osteoblast and osteoclast control"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0030282" target="_blank">bone mineralization</a> (GO:0030282)
+      (<a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0070412" target="_blank">R-SMAD binding</a> (GO:0070412)
+<br>Evidence: <a href="https://bioregistry.io/PMID:20813963" target="_blank">PMID:20813963</a> (IPI) - <em>"LRP5 in bone and metabolism"</em>  </li>
+</ul>
+
+</div>
+<div style="margin-bottom: 2em; padding: 1em; border-left: 3px solid #2196F3; background-color: #f5f5f5;">
+
+<h4>Function 3: Modulates glucose and lipid metabolism through regulation of insulin signaling and incretin hormone production. This metabolic function links bone metabolism to energy homeostasis.</h4>
+
+<table>
+<tr>
+  <th style="width: 150px;">Activity</th>
+  <td><a href="https://bioregistry.io/GO:0005009" target="_blank">insulin-activated receptor activity</a> (GO:0005009)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:17644708" target="_blank">PMID:17644708</a> (IMP) - <em>"Lrp5 controls bone formation by inhibiting serotonin synthesis in the duodenum"</em>, <a href="https://bioregistry.io/PMID:22723300" target="_blank">PMID:22723300</a> (IDA) - <em>"LRP5 regulates glucose and lipid metabolism"</em></td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th style="width: 150px;">Location</th>
+  <td><a href="https://bioregistry.io/GO:0043025" target="_blank">neuronal cell body</a> (GO:0043025)</td>
+</tr>
+<tr>
+  <th>Evidence</th>
+  <td><a href="https://bioregistry.io/PMID:17644708" target="_blank">PMID:17644708</a> (IEP) - <em>"Lrp5 controls bone formation by inhibiting serotonin synthesis in the duodenum"</em></td>
+</tr>
+</table>
+
+
+
+
+
+
+<strong>Biological Processes:</strong>
+<ul>
+  <li>
+      <a href="https://bioregistry.io/GO:0042593" target="_blank">glucose homeostasis</a> (GO:0042593)
+      (<a href="https://bioregistry.io/PMID:22723300" target="_blank">PMID:22723300</a> (IMP) - <em>"LRP5 regulates glucose and lipid metabolism"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0006629" target="_blank">lipid metabolic process</a> (GO:0006629)
+      (<a href="https://bioregistry.io/PMID:22723300" target="_blank">PMID:22723300</a> (IMP) - <em>"LRP5 regulates glucose and lipid metabolism"</em>)
+  </li>
+  <li>
+      <a href="https://bioregistry.io/GO:0030073" target="_blank">insulin secretion</a> (GO:0030073)
+      (<a href="https://bioregistry.io/PMID:22723300" target="_blank">PMID:22723300</a> (IMP) - <em>"LRP5 regulates glucose and lipid metabolism"</em>)
+  </li>
+</ul>
+
+<strong>Additional Roles:</strong>
+<ul>
+  <li>
+    <a href="https://bioregistry.io/GO:0070328" target="_blank">triglyceride homeostasis</a> (GO:0070328)
+<br>Evidence: <a href="https://bioregistry.io/PMID:22723300" target="_blank">PMID:22723300</a> (IMP) - <em>"LRP5 regulates glucose and lipid metabolism"</em>  </li>
+</ul>
+
+</div>
+
+</details>
+
+<details>
+<summary><strong>Phenotypes (from structured data)</strong></summary>
+
+<table>
+<thead>
+<tr>
+  <th>Mutation</th>
+  <th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <strong>Gain Of Function</strong>
+        <br><em>(germline)</em>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0011001" target="_blank">Increased bone mineral density</a> (HP:0011001)
+<br><em>Missense mutations (G171V, A214V) cause high bone mass syndrome</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/MONDO:0010918" target="_blank">Worth disease</a> (MONDO:0010918)
+<br><em>Autosomal dominant high bone mass due to impaired DKK1/sclerostin binding</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0002757" target="_blank">Recurrent fractures</a> (HP:0002757)
+<br><em>Paradoxically reduced due to increased bone strength</em>        </li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td>
+      <strong>Loss Of Function</strong>
+        <br><em>(germline)</em>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0000939" target="_blank">Osteoporosis</a> (HP:0000939)
+<br><em>Osteoporosis-pseudoglioma syndrome with severe juvenile osteoporosis</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0000618" target="_blank">Blindness</a> (HP:0000618)
+<br><em>Persistent fetal vasculature and retinal detachment</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/MONDO:0008190" target="_blank">Osteoporosis-pseudoglioma syndrome</a> (MONDO:0008190)
+<br><em>Autosomal recessive disorder with skeletal fragility and ocular abnormalities</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0002659" target="_blank">Increased susceptibility to fractures</a> (HP:0002659)
+<br><em>Multiple fractures from minor trauma</em>        </li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td>
+      <strong>Polymorphism</strong>
+        <br><em>(common)</em>
+  </td>
+  <td>
+    <ul style="margin: 0;">
+        <li>
+          <a href="https://bioregistry.io/HP:0004349" target="_blank">Reduced bone mineral density</a> (HP:0004349)
+<br><em>Common variants associated with BMD variation and fracture risk</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0000819" target="_blank">Diabetes mellitus</a> (HP:0000819)
+<br><em>Variants associated with type 2 diabetes and glucose metabolism</em>        </li>
+    </ul>
+  </td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+<hr />
+<h2 id="detailed-description">Detailed Description</h2>
+<h1 id="lrp5-ldl-receptor-related-protein-5">LRP5 (LDL Receptor-Related Protein 5)</h1>
+<h2 id="overview">Overview</h2>
+<p>LRP5 encodes a single-pass transmembrane protein that functions as an essential co-receptor for canonical Wnt signaling. Originally identified through its role in bone mass regulation, LRP5 has emerged as a critical regulator of skeletal homeostasis, glucose metabolism, and vascular development. The protein's large extracellular domain contains multiple binding sites for Wnt ligands and antagonists, making it a key regulatory node in Wnt pathway control.</p>
+<h2 id="structural-features">Structural Features</h2>
+<p>LRP5 is a 1615 amino acid protein containing:
+- Four β-propeller domains (BP1-4) forming the Wnt binding region
+- Three LDL receptor type A (LA) domains
+- Three EGF-like domains separating the β-propellers
+- A single transmembrane domain
+- A cytoplasmic tail with five PPPSPxS motifs for signal transduction</p>
+<p>The β-propeller domains create distinct binding surfaces:
+- BP1-2: Primary binding site for Wnt1 class ligands
+- BP3-4: Binding site for Wnt3a class ligands
+- BP1: Binding site for antagonists DKK1 and sclerostin</p>
+<h2 id="signaling-mechanism">Signaling Mechanism</h2>
+<h3 id="canonical-wnt-activation">Canonical Wnt Activation</h3>
+<ol>
+<li><strong>Ligand binding</strong>: Wnt proteins bind to β-propeller domains</li>
+<li><strong>Complex formation</strong>: Associates with Frizzled receptors and Wnt</li>
+<li><strong>Receptor clustering</strong>: Dimerization/oligomerization of LRP5</li>
+<li><strong>Phosphorylation cascade</strong>: </li>
+<li>CK1γ phosphorylates initial sites</li>
+<li>GSK3B phosphorylates PPPSPxS motifs</li>
+<li><strong>Axin recruitment</strong>: Phosphorylated motifs bind Axin directly</li>
+<li><strong>Complex inhibition</strong>: Sequestration of destruction complex components</li>
+</ol>
+<h3 id="negative-regulation">Negative Regulation</h3>
+<ul>
+<li><strong>DKK1 (Dickkopf-1)</strong>: </li>
+<li>Binds BP1 domain with high affinity (Kd ~0.3 nM)</li>
+<li>Forms ternary complex with Kremen1/2</li>
+<li>Induces rapid endocytosis and degradation</li>
+<li>Mutations preventing DKK1 binding cause high bone mass</li>
+<li><strong>Sclerostin (SOST)</strong>: </li>
+<li>Binds BP1 domain to block Wnt binding</li>
+<li>Secreted by osteocytes in response to mechanical unloading</li>
+<li>Loss causes sclerosteosis and van Buchem disease</li>
+<li><strong>SOST-DC1</strong>: Additional antagonist in bone</li>
+<li><strong>Wise/SOSTDC1</strong>: Context-dependent modulator</li>
+</ul>
+<h2 id="biological-functions">Biological Functions</h2>
+<h3 id="bone-homeostasis">Bone Homeostasis</h3>
+<p>LRP5 is a master regulator of bone mass through multiple mechanisms:
+- <strong>Osteoblast differentiation</strong>: Promotes mesenchymal stem cell commitment
+- <strong>Osteoblast function</strong>: Enhances bone matrix production
+- <strong>Osteocyte mechanosensing</strong>: Responds to mechanical loading
+- <strong>Osteoclast regulation</strong>: Indirect control via OPG/RANKL ratio
+- <strong>Central regulation</strong>: Hypothalamic effects via serotonin signaling</p>
+<h3 id="metabolic-functions">Metabolic Functions</h3>
+<p>LRP5 links skeletal and energy metabolism:
+- <strong>Glucose homeostasis</strong>: 
+  - Enhances insulin secretion from pancreatic β-cells
+  - Improves peripheral insulin sensitivity
+  - Regulates hepatic gluconeogenesis
+- <strong>Lipid metabolism</strong>: 
+  - Reduces plasma LDL cholesterol levels
+  - Controls triglyceride synthesis and clearance
+  - Affects adipocyte differentiation
+- <strong>Energy expenditure</strong>: 
+  - Influences brown adipose tissue thermogenesis
+  - Regulates mitochondrial oxidative metabolism
+- <strong>Gut hormone production</strong>: 
+  - Stimulates GLP-1 secretion from intestinal L cells
+  - Affects GIP and PYY production
+  - Controls gut serotonin synthesis affecting bone</p>
+<h3 id="vascular-development">Vascular Development</h3>
+<ul>
+<li><strong>Retinal angiogenesis</strong>: Essential for hyaloid vessel regression</li>
+<li><strong>Blood-brain barrier</strong>: Maintains CNS vascular integrity</li>
+<li><strong>Endothelial function</strong>: Regulates vascular permeability</li>
+</ul>
+<h2 id="clinical-significance">Clinical Significance</h2>
+<h3 id="genetic-disorders">Genetic Disorders</h3>
+<h4 id="high-bone-mass-syndromes">High Bone Mass Syndromes</h4>
+<p>Gain-of-function mutations cause:
+- <strong>Worth disease</strong>: AD inheritance, torus palatinus, wide mandible
+- <strong>Endosteal hyperostosis</strong>: More severe skeletal thickening
+- <strong>Van Buchem disease type 2</strong>: Cranial hyperostosis</p>
+<p>Mechanism: Mutations in BP1 prevent DKK1/sclerostin binding</p>
+<h4 id="osteoporosis-pseudoglioma-syndrome-oppg">Osteoporosis-Pseudoglioma Syndrome (OPPG)</h4>
+<p>Loss-of-function mutations cause:
+- <strong>Skeletal</strong>: Severe juvenile osteoporosis, fractures, deformities
+- <strong>Ocular</strong>: Congenital blindness, persistent fetal vasculature
+- <strong>Metabolic</strong>: Impaired glucose tolerance
+- <strong>Neurological</strong>: Intellectual disability in some cases</p>
+<h3 id="common-disease-associations">Common Disease Associations</h3>
+<ul>
+<li><strong>Osteoporosis</strong>: </li>
+<li>SNPs rs3736228 (Ala1330Val) and rs4988321 (Val667Met) affect BMD</li>
+<li>Population attributable risk ~3-5% for fractures</li>
+<li>Interaction with vitamin D and calcium intake</li>
+<li><strong>Type 2 diabetes</strong>: </li>
+<li>TCF7L2 interaction affects diabetes risk</li>
+<li>Variants influence incretin response</li>
+<li>Association with gestational diabetes</li>
+<li><strong>Cardiovascular disease</strong>: </li>
+<li>Role in atherosclerosis through lipid metabolism</li>
+<li>Affects vascular calcification</li>
+<li>Links to metabolic syndrome</li>
+<li><strong>Obesity</strong>: </li>
+<li>Influences adipogenesis through Wnt signaling</li>
+<li>Affects energy balance and fat distribution</li>
+<li>Connection to childhood obesity</li>
+</ul>
+<h3 id="therapeutic-implications">Therapeutic Implications</h3>
+<p>LRP5 pathway components are therapeutic targets:
+- <strong>Romosozumab</strong>: Anti-sclerostin antibody for osteoporosis
+- <strong>DKK1 antibodies</strong>: In development for bone diseases
+- <strong>LRP5 agonists</strong>: Potential diabetes therapeutics
+- <strong>Lithium</strong>: GSK3β inhibitor indirectly activating pathway</p>
+<h2 id="evolutionary-perspective">Evolutionary Perspective</h2>
+<p>LRP5 and its paralog LRP6 arose from duplication of an ancestral gene in early vertebrates. While both function as Wnt co-receptors, LRP5 evolved specialized roles in bone and metabolism. The presence of disease-causing mutations affecting antagonist binding sites highlights the evolutionary importance of negative regulation. Conservation of LRP5 function across vertebrates underscores its fundamental role in skeletal biology.</p>
+<h2 id="regulation">Regulation</h2>
+<h3 id="transcriptional-control">Transcriptional Control</h3>
+<ul>
+<li><strong>PTH</strong>: Upregulates in osteoblasts</li>
+<li><strong>Mechanical loading</strong>: Increases expression via mechanosensitive pathways</li>
+<li><strong>Inflammatory cytokines</strong>: TNF-α and IL-1 modulate expression</li>
+<li><strong>Metabolic signals</strong>: Insulin and IGF-1 regulate transcription</li>
+</ul>
+<h3 id="post-translational-regulation">Post-translational Regulation</h3>
+<ul>
+<li><strong>Phosphorylation</strong>: Multiple kinases regulate activity</li>
+<li><strong>Palmitoylation</strong>: Affects membrane localization</li>
+<li><strong>Proteolytic cleavage</strong>: Regulated intramembrane proteolysis</li>
+<li><strong>Endocytosis</strong>: Clathrin and caveolin-mediated internalization</li>
+</ul>
+<h2 id="key-interactions">Key Interactions</h2>
+<h3 id="direct-binding-partners">Direct Binding Partners</h3>
+<ul>
+<li><strong>Wnt Ligands</strong>: </li>
+<li>High affinity: WNT1, WNT3A, WNT10B</li>
+<li>Moderate affinity: WNT9B, WNT7A, WNT7B</li>
+<li>Tissue-specific: WNT5A (non-canonical context)</li>
+<li><strong>Co-receptors</strong>: </li>
+<li>Frizzled family: FZD1-10 (especially FZD5, FZD8)</li>
+<li>LRP6: Functional redundancy and heterodimerization</li>
+<li><strong>Antagonists</strong>: </li>
+<li>DKK1: Kd ~0.3 nM, competitive inhibitor</li>
+<li>Sclerostin: Kd ~1 nM, non-competitive</li>
+<li>SOST-DC1: Lower affinity modulator</li>
+<li>Kremen1/2: DKK1 co-receptors for internalization</li>
+</ul>
+<h3 id="intracellular-partners">Intracellular Partners</h3>
+<ul>
+<li><strong>Destruction Complex</strong>: </li>
+<li>Axin1/2: Direct binding to phosphorylated PPPSPxS motifs</li>
+<li>GSK3B: Phosphorylates cytoplasmic tail</li>
+<li>CK1α/γ: Initial phosphorylation events</li>
+<li><strong>Signaling Proteins</strong>:</li>
+<li>Dishevelled: Bridge to Frizzled</li>
+<li>β-catenin: Indirect regulation</li>
+<li><strong>Trafficking</strong>:</li>
+<li>Mesd/MESDC2: ER chaperone required for folding</li>
+<li>Clathrin/AP2: Endocytosis machinery</li>
+<li>Caveolin-1: Lipid raft association</li>
+</ul>
+<hr />
+<p><small><em>Generated from <a href="https://github.com/ai4curation/ai-gene-curation/blob/main/genes/LRP5.md">LRP5.md</a></em></small></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>
