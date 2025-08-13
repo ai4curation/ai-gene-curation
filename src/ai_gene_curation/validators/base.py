@@ -136,7 +136,7 @@ class ValidationReport(BaseModel):
     
     def get_errors_by_path(self) -> Dict[str, List[ValidationResult]]:
         """Group errors by their path for easier debugging."""
-        errors_by_path = {}
+        errors_by_path: Dict[str, List[ValidationResult]] = {}
         for error in self.errors:
             if error.path not in errors_by_path:
                 errors_by_path[error.path] = []

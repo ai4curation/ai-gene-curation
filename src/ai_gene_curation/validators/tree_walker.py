@@ -1,6 +1,8 @@
 """Tree walker for applying validators to nested data structures."""
 
 from typing import Any, Dict, List, Optional, Union, Callable, Generator, Tuple
+from pathlib import Path
+import yaml  # type: ignore[import-untyped]
 from .base import Validator, ValidationResult, ValidationReport
 
 
@@ -162,7 +164,7 @@ def _set_value_at_path(data: Any, path: str, value: Any) -> None:
         return
     
     # Parse the path into segments
-    segments = []
+    segments: List[Union[str, int]] = []
     current = ""
     in_bracket = False
     
@@ -204,10 +206,10 @@ def _set_value_at_path(data: Any, path: str, value: Any) -> None:
 
 
 def validate_file(
-    file_path: str,
+    file_path: Union[str, Path],
     validators: List[Validator],
     repair: bool = False,
-    output_path: Optional[str] = None
+    output_path: Optional[Union[str, Path]] = None
 ) -> ValidationReport:
     """
     Validate a YAML file with the given validators.
@@ -221,22 +223,19 @@ def validate_file(
     Returns:
         ValidationReport with results
     """
-    from pathlib import Path
-    from yaml import safe_load, safe_dump
-    
-    file_path = Path(file_path)
+    file_path_obj = Path(file_path)
     
     # Load the file
-    with open(file_path) as f:
-        data = safe_load(f)
+    with open(file_path_obj) as f:
+        data = yaml.safe_load(f)
     
     # Validate and repair
     repaired_data, report = validate_tree(data, validators, repair)
-    report.file_path = str(file_path)
+    report.file_path = str(file_path_obj)
     
     # Write repaired file if requested
     if repair and output_path:
         with open(output_path, 'w') as f:
-            safe_dump(repaired_data, f, sort_keys=False, allow_unicode=True)
+            yaml.safe_dump(repaired_data, f, sort_keys=False, allow_unicode=True)
     
     return report

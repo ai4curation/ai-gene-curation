@@ -293,9 +293,9 @@ class EvidenceValidator(Validator):
         
         # Fetch from PubMed API if enabled
         if self.use_pubmed_api:
-            title = self._fetch_from_pubmed(pmid)
-            self._title_cache[pmid] = title
-            return title
+            fetched_title = self._fetch_from_pubmed(pmid)
+            self._title_cache[pmid] = fetched_title
+            return fetched_title
         
         self._title_cache[pmid] = None
         return None
@@ -308,19 +308,19 @@ class EvidenceValidator(Validator):
             if current_time - self._last_api_call < 0.35:
                 time.sleep(0.35 - (current_time - self._last_api_call))
             
-            from Bio import Entrez
-            Entrez.email = "ai-gene-curation@example.com"
+            from Bio import Entrez  # type: ignore[import-untyped]
+            Entrez.email = "ai-gene-curation@example.com"  # type: ignore[attr-defined]
             
-            handle = Entrez.esummary(db="pubmed", id=pmid, retmode="xml")
-            records = Entrez.read(handle)
+            handle = Entrez.esummary(db="pubmed", id=pmid, retmode="xml")  # type: ignore[attr-defined]
+            records = Entrez.read(handle)  # type: ignore[attr-defined]
             handle.close()
             
             self._last_api_call = time.time()
             self._api_call_count += 1
             
             if records and not records[0].get('error'):
-                title = str(records[0].get('Title', '')).rstrip('.')
-                return title
+                api_title: str = str(records[0].get('Title', '')).rstrip('.')
+                return api_title
         except Exception:
             pass
         

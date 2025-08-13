@@ -67,7 +67,7 @@ class TermValidator(Validator):
         repair: bool = False
     ) -> List[ValidationResult]:
         """Validate an ontology term."""
-        results = []
+        results: List[ValidationResult] = []
         
         if not isinstance(value, dict):
             return results

@@ -6,10 +6,11 @@ from pathlib import Path
 from typing import List, Optional
 import typer
 from typing_extensions import Annotated
-import yaml
+import yaml  # type: ignore[import-untyped]
 import csv
 
 from ai_gene_curation.validators import (
+    Validator,
     TermValidator,
     EvidenceValidator,
     validate_tree,
@@ -23,7 +24,7 @@ def load_oak_adapters(ontologies: List[str], verbose: bool = False):
     """Load OAK adapters for specified ontologies."""
     adapters = {}
     try:
-        from oaklib import get_adapter
+        from oaklib import get_adapter  # type: ignore[import-untyped]
         
         for ont in ontologies:
             if verbose:
@@ -137,7 +138,7 @@ def validate(
     """
     
     # Setup validators
-    validators = []
+    validators: List[Validator] = []
     
     if check_terms:
         # Load OAK adapters if available
