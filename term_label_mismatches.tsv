@@ -1,80 +1,60 @@
 file	location	id	asserted_label	actual_label	matches	is_obsolete	replaced_by	consider
-LRP5.md	primary_functions[0].activity.term	GO:0042813	Wnt-activated receptor activity	Wnt receptor activity	No	No		
-LRP5.md	primary_functions[0].complex.term	GO:1990851	Wnt signalosome	Wnt-Frizzled-LRP5/6 complex	No	No		
-LRP5.md	primary_functions[1].location.term	GO:0001591	dopamine neuron	dopamine neurotransmitter receptor activity, coupled via Gi/Go	No	No		
-LRP5.md	primary_functions[2].activity.term	GO:0005009	insulin-activated receptor activity	insulin receptor activity	No	No		
-LRP5.md	phenotypes[0].effects[1].term	MONDO:0010918	Worth disease	epilepsy, idiopathic generalized, susceptibility to, 1	No	No		
-LRP5.md	phenotypes[1].effects[2].term	MONDO:0008190	Osteoporosis-pseudoglioma syndrome	obsolete human papillomavirus type 18 integration site 1	No	Yes		http://identifiers.org/hgnc/5166
-STAT5A.md	phenotypes[1].effects[2].term	MONDO:0011996	chronic myeloid leukemia	chronic myelogenous leukemia, BCR-ABL1 positive	No	No		
-TYK2.md	primary_functions[0].processes[2].term	GO:0070757	interleukin-23-mediated signaling pathway	interleukin-35-mediated signaling pathway	No	No		
-TYK2.md	phenotypes[0].effects[0].term	MONDO:0019106	primary immunodeficiency disease	obsolete disseminated peritoneal leiomyomatosis	No	Yes	MONDO:0006183	
-TYK2.md	phenotypes[0].effects[1].term	HP:0032251	Increased susceptibility to mycobacterial infections	Abnormal immune system morphology	No	No		
-TYK2.md	phenotypes[0].effects[3].term	HP:0003212	Increased circulating IgE level	Increased circulating IgE concentration	No	No		
-TYK2.md	phenotypes[1].effects[1].term	HP:0032263	Tuberculosis susceptibility	Increased blood pressure	No	No		
-TYK2.md	phenotypes[2].effects[1].term	MONDO:0004967	B-cell acute lymphoblastic leukemia	acute lymphoblastic leukemia	No	No		
-DKK1.md	primary_functions[0].complex.term	GO:1904702	negative regulation of Wnt-Frizzled-LRP5/6 complex assembly	regulation of protein localization to adherens junction	No	No		
-DKK1.md	primary_functions[1].location.term	GO:0001591	dopamine neuron	dopamine neurotransmitter receptor activity, coupled via Gi/Go	No	No		
-DKK1.md	phenotypes[0].effects[3].term	MONDO:0019508	Dickkopf-related developmental anomaly	van der Woude syndrome	No	No		
-DKK1.md	phenotypes[1].effects[2].term	MONDO:0009693	Multiple myeloma	plasma cell myeloma	No	No		
-FZD1.md	primary_functions[0].complex.term	GO:1990851	Wnt signalosome	Wnt-Frizzled-LRP5/6 complex	No	No		
-FZD1.md	primary_functions[1].location.term	GO:0043234	protein-containing complex	[Term not found]	No	No		
-FZD1.md	primary_functions[3].upstream[0].term	GO:0042813	Wnt receptor signaling pathway involved in cell fate specification	Wnt receptor activity	No	No		
-FZD1.md	primary_functions[3].processes[1].term	GO:0090179	planar cell polarity pathway involved in neural tube closure	obsolete planar cell polarity pathway involved in neural tube closure	No	Yes		
-FZD1.md	phenotypes[1].effects[3].term	MONDO:0019391	Tetra-amelia syndrome	Fanconi anemia	No	No		
-STAT6.md	primary_functions[0].upstream[0].term	GO:0038094	interleukin-4-mediated signaling pathway	Fc-gamma receptor signaling pathway	No	No		
-STAT6.md	primary_functions[0].upstream[1].term	GO:0038095	interleukin-13-mediated signaling pathway	Fc-epsilon receptor signaling pathway	No	No		
-STAT6.md	primary_functions[1].processes[0].term	GO:0048289	isotype switching to IgE	isotype switching to IgE isotypes	No	No		
-STAT6.md	primary_functions[1].processes[1].term	GO:0048291	isotype switching to IgG1	isotype switching to IgG isotypes	No	No		
-STAT6.md	primary_functions[1].roles[0].term	GO:0043372	positive regulation of CD4+ T cell differentiation	positive regulation of CD4-positive, alpha-beta T cell differentiation	No	No		
-STAT6.md	primary_functions[1].roles[1].term	GO:0002230	positive regulation of defense response to virus	positive regulation of defense response to virus by host	No	No		
-STAT6.md	phenotypes[0].effects[0].term	HP:0005374	Abnormality of cellular immune system	Cellular immunodeficiency	No	No		
-STAT6.md	phenotypes[0].effects[1].term	HP:0410242	Decreased circulating IgE level	Abnormal circulating IgG concentration	No	No		
-STAT6.md	phenotypes[1].effects[1].term	MONDO:0011292	atopic dermatitis	obsolete dermatitis, atopic	No	Yes	MONDO:0004980	
-STAT6.md	phenotypes[1].effects[3].term	HP:0003212	Increased circulating IgE level	Increased circulating IgE concentration	No	No		
-SOCS1.md	phenotypes[0].effects[6].term	HP:0002896	Hepatocellular carcinoma	Neoplasm of the liver	No	No		
-WNT3A.md	primary_functions[0].complex.term	GO:1990851	Wnt signalosome	Wnt-Frizzled-LRP5/6 complex	No	No		
-WNT3A.md	primary_functions[0].upstream[1].term	GO:0018359	protein O-linked glycosylation via serine	obsolete protein-heme P460 linkage via heme P460-bis-L-cysteine-L-tyrosine	No	Yes		
-WNT3A.md	phenotypes[0].effects[1].term	HP:0002084	Encephalopathy	Encephalocele	No	No		
-WNT3A.md	phenotypes[0].effects[4].term	MONDO:0019391	Tetra-amelia syndrome	Fanconi anemia	No	No		
-JAK3.md	phenotypes[0].effects[0].term	MONDO:0010316	severe combined immunodeficiency due to JAK3 deficiency	FG syndrome 3	No	No		
-JAK3.md	phenotypes[0].effects[1].term	HP:0005403	T lymphocytopenia	Decreased total T cell count	No	No		
-JAK3.md	phenotypes[0].effects[2].term	HP:0040218	Reduced natural killer cell count	Reduced total natural killer cell count	No	No		
-JAK3.md	phenotypes[0].effects[3].term	HP:0004313	Decreased circulating antibody level	Decreased circulating immunoglobulin concentration	No	No		
-JAK3.md	phenotypes[1].effects[2].term	MONDO:0020084	NK-T cell lymphoma	obsolete lymphoproliferative disease associated with primary immune disease	No	Yes		
-APC.md	primary_functions[0].processes[2].term	GO:0051437	obsolete regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	obsolete positive regulation of ubiquitin-protein ligase activity involved in regulation of mitotic cell cycle transition	No	Yes		
-APC.md	phenotypes[0].effects[1].term	MONDO:0021056	Familial adenomatous polyposis	familial adenomatous polyposis 1	No	No		
-APC.md	phenotypes[0].effects[2].term	HP:0100244	Fibroma	Fibrosarcoma	No	No		
-APC.md	phenotypes[0].effects[3].term	HP:0009593	Abnormality of the retinal pigment epithelium	Peripheral schwannoma	No	No		
-APC.md	phenotypes[2].effects[1].term	HP:0040276	Adenoma of large intestine	Adenocarcinoma of the colon	No	No		
-AXIN1.md	primary_functions[0].roles[0].term	GO:0032947	protein-containing complex scaffold activity	[Term not found]	No	No		
-AXIN1.md	phenotypes[0].effects[3].term	HP:0100007	Neoplasm of the adrenal medulla	Neoplasm of the peripheral nervous system	No	No		
-JAK2.md	primary_functions[0].processes[1].term	GO:0038163	erythropoietin signaling pathway	thrombopoietin-mediated signaling pathway	No	No		
-JAK2.md	phenotypes[1].effects[0].term	MONDO:0009817	polycythemia vera	autosomal recessive osteopetrosis 5	No	No		
-JAK2.md	phenotypes[1].effects[1].term	MONDO:0005170	essential thrombocythemia	myeloid neoplasm	No	No		
-JAK2.md	phenotypes[1].effects[3].term	HP:0001900	Increased hemoglobin	Increased circulating hemoglobin concentration	No	No		
-SOCS3.md	primary_functions[1].roles[1].term	GO:0014070	response to organic cyclic compound	obsolete response to organic cyclic compound	No	Yes		
-SOCS3.md	phenotypes[0].effects[2].term	HP:0011897	Neutrophilia	Increased total neutrophil count	No	No		
-JAK1.md	phenotypes[0].effects[2].term	HP:0005403	T lymphocytopenia	Decreased total T cell count	No	No		
-JAK1.md	phenotypes[0].effects[3].term	HP:0040218	Reduced natural killer cell count	Reduced total natural killer cell count	No	No		
-JAK1.md	phenotypes[1].effects[2].term	HP:0001880	Eosinophilia	Increased total eosinophil count	No	No		
-JAK1.md	phenotypes[1].effects[3].term	HP:0000964	Eczema	Eczematoid dermatitis	No	No		
-TCF7L2.md	primary_functions[1].roles[0].term	GO:0046326	positive regulation of glucose import	positive regulation of D-glucose import	No	No		
-STAT4.md	primary_functions[1].activity.term	GO:0070757	interleukin-23-mediated signaling pathway	interleukin-35-mediated signaling pathway	No	No		
-STAT4.md	phenotypes[0].effects[1].term	HP:0003212	Increased circulating IgE level	Increased circulating IgE concentration	No	No		
-STAT4.md	phenotypes[1].effects[3].term	MONDO:0010413	Sjögren syndrome	intellectual disability, X-linked 95	No	No		
-GSK3B.md	primary_functions[2].processes[0].term	GO:1901216	positive regulation of neuron death	obsolete positive regulation of neuron death	No	Yes		
-SOCS2.md	primary_functions[0].activity.term	GO:0019209	kinase regulator activity	kinase activator activity	No	No		
-SOCS2.md	phenotypes[0].effects[3].term	HP:0000831	Insulin-dependent diabetes mellitus	Insulin-resistant diabetes mellitus	No	No		
-LEF1.md	phenotypes[0].effects[2].term	HP:0005403	T lymphocytopenia	Decreased total T cell count	No	No		
-LEF1.md	phenotypes[0].effects[4].term	HP:0011121	Abnormality of skin morphology	Abnormal skin morphology	No	No		
-LEF1.md	phenotypes[1].effects[3].term	MONDO:0004949	acute lymphoblastic leukemia	neoplasm of mature B-cells	No	No		
-LRP6.md	primary_functions[0].activity.term	GO:0042813	Wnt-activated receptor activity	Wnt receptor activity	No	No		
-LRP6.md	primary_functions[0].complex.term	GO:1990851	Wnt signalosome	Wnt-Frizzled-LRP5/6 complex	No	No		
-LRP6.md	phenotypes[0].effects[4].term	MONDO:0019675	Congenital heart defects	spondyloepimetaphyseal dysplasia with joint laxity	No	No		
-LRP6.md	phenotypes[1].effects[3].term	HP:0001677	Coronary artery disease	Coronary artery atherosclerosis	No	No		
-LRP6.md	phenotypes[1].effects[5].term	MONDO:0015262	Metabolic syndrome X	brachyolmia	No	No		
-LRP6.md	phenotypes[2].effects[3].term	MONDO:0005044	Hypertension	hypertensive disorder	No	No		
-STAT5B.md	phenotypes[0].effects[0].term	MONDO:0019280	growth hormone insensitivity syndrome	hypertrichosis	No	No		
-STAT5B.md	phenotypes[0].effects[5].term	HP:0008202	Prolactin deficiency	Reduced circulating prolactin concentration	No	No		
-STAT5B.md	phenotypes[1].effects[0].term	MONDO:0020518	T-cell large granular lymphocyte leukemia	Hashimoto-Pritzker syndrome	No	No		
-STAT5B.md	phenotypes[1].effects[1].term	MONDO:0019472	hepatosplenic T-cell lymphoma	extranodal nasal NK/T cell lymphoma	No	No		
+LEF1.yaml	phenotypes[1].effects[3].term	MONDO:0004949	acute lymphoblastic leukemia	neoplasm of mature B-cells	No	No		
+SOCS1.yaml	phenotypes[0].effects[6].term	HP:0002896	Hepatocellular carcinoma	Neoplasm of the liver	No	No		
+WNT3A.yaml	primary_functions[0].upstream[1].term	GO:0018359	protein O-linked glycosylation via serine	obsolete protein-heme P460 linkage via heme P460-bis-L-cysteine-L-tyrosine	No	Yes		
+WNT3A.yaml	phenotypes[0].effects[1].term	HP:0002084	Encephalopathy	Encephalocele	No	No		
+WNT3A.yaml	phenotypes[0].effects[4].term	MONDO:0019391	Tetra-amelia syndrome	Fanconi anemia	No	No		
+APC.yaml	phenotypes[0].effects[1].term	MONDO:0021056	Familial adenomatous polyposis	familial adenomatous polyposis 1	No	No		
+APC.yaml	phenotypes[0].effects[2].term	HP:0100244	Fibroma	Fibrosarcoma	No	No		
+APC.yaml	phenotypes[0].effects[3].term	HP:0009593	Abnormality of the retinal pigment epithelium	Peripheral schwannoma	No	No		
+APC.yaml	phenotypes[2].effects[1].term	HP:0040276	Adenoma of large intestine	Adenocarcinoma of the colon	No	No		
+STAT4.yaml	primary_functions[1].activity.term	GO:0070757	interleukin-23-mediated signaling pathway	interleukin-35-mediated signaling pathway	No	No		
+STAT4.yaml	phenotypes[1].effects[3].term	MONDO:0010413	Sjögren syndrome	intellectual disability, X-linked 95	No	No		
+JAK1.yaml	phenotypes[1].effects[3].term	HP:0000964	Eczema	Eczematoid dermatitis	No	No		
+STAT5B.yaml	phenotypes[0].effects[0].term	MONDO:0019280	growth hormone insensitivity syndrome	hypertrichosis	No	No		
+STAT5B.yaml	phenotypes[0].effects[5].term	HP:0008202	Prolactin deficiency	Reduced circulating prolactin concentration	No	No		
+STAT5B.yaml	phenotypes[1].effects[0].term	MONDO:0020518	T-cell large granular lymphocyte leukemia	Hashimoto-Pritzker syndrome	No	No		
+STAT5B.yaml	phenotypes[1].effects[1].term	MONDO:0019472	hepatosplenic T-cell lymphoma	extranodal nasal NK/T cell lymphoma	No	No		
+LRP6.yaml	phenotypes[0].effects[4].term	MONDO:0019675	Congenital heart defects	spondyloepimetaphyseal dysplasia with joint laxity	No	No		
+LRP6.yaml	phenotypes[1].effects[3].term	HP:0001677	Coronary artery disease	Coronary artery atherosclerosis	No	No		
+LRP6.yaml	phenotypes[1].effects[5].term	MONDO:0015262	Metabolic syndrome X	brachyolmia	No	No		
+LRP6.yaml	phenotypes[2].effects[3].term	MONDO:0005044	Hypertension	hypertensive disorder	No	No		
+AXIN1.yaml	primary_functions[0].roles[0].term	GO:0032947	protein-containing complex scaffold activity	[Term not found]	No	No		
+AXIN1.yaml	phenotypes[0].effects[3].term	HP:0100007	Neoplasm of the adrenal medulla	Neoplasm of the peripheral nervous system	No	No		
+STAT6.yaml	primary_functions[0].upstream[0].term	GO:0038094	interleukin-4-mediated signaling pathway	Fc-gamma receptor signaling pathway	No	No		
+STAT6.yaml	primary_functions[0].upstream[1].term	GO:0038095	interleukin-13-mediated signaling pathway	Fc-epsilon receptor signaling pathway	No	No		
+STAT6.yaml	primary_functions[1].processes[0].term	GO:0048289	isotype switching to IgE	isotype switching to IgE isotypes	No	No		
+STAT6.yaml	primary_functions[1].processes[1].term	GO:0048291	isotype switching to IgG1	isotype switching to IgG isotypes	No	No		
+STAT6.yaml	primary_functions[1].roles[0].term	GO:0043372	positive regulation of CD4+ T cell differentiation	positive regulation of CD4-positive, alpha-beta T cell differentiation	No	No		
+STAT6.yaml	primary_functions[1].roles[1].term	GO:0002230	positive regulation of defense response to virus	positive regulation of defense response to virus by host	No	No		
+STAT6.yaml	phenotypes[0].effects[0].term	HP:0005374	Abnormality of cellular immune system	Cellular immunodeficiency	No	No		
+STAT6.yaml	phenotypes[0].effects[1].term	HP:0410242	Decreased circulating IgE level	Abnormal circulating IgG concentration	No	No		
+STAT6.yaml	phenotypes[1].effects[1].term	MONDO:0004980	atopic dermatitis	atopic eczema	No	No		
+JAK2.yaml	primary_functions[0].processes[1].term	GO:0038163	erythropoietin signaling pathway	thrombopoietin-mediated signaling pathway	No	No		
+JAK2.yaml	phenotypes[1].effects[0].term	MONDO:0009817	polycythemia vera	autosomal recessive osteopetrosis 5	No	No		
+JAK2.yaml	phenotypes[1].effects[1].term	MONDO:0005170	essential thrombocythemia	myeloid neoplasm	No	No		
+JAK2.yaml	phenotypes[1].effects[3].term	HP:0001900	Increased hemoglobin	Increased circulating hemoglobin concentration	No	No		
+STAT5A.yaml	phenotypes[1].effects[2].term	MONDO:0011996	chronic myeloid leukemia	chronic myelogenous leukemia, BCR-ABL1 positive	No	No		
+FZD1.yaml	primary_functions[1].location.term	GO:0043234	protein-containing complex	[Term not found]	No	No		
+FZD1.yaml	primary_functions[3].upstream[0].term	GO:0042813	Wnt receptor signaling pathway involved in cell fate specification	Wnt receptor activity	No	No		
+FZD1.yaml	primary_functions[3].processes[1].term	GO:0090179	planar cell polarity pathway involved in neural tube closure	obsolete planar cell polarity pathway involved in neural tube closure	No	Yes		
+FZD1.yaml	phenotypes[1].effects[3].term	MONDO:0019391	Tetra-amelia syndrome	Fanconi anemia	No	No		
+LRP5.yaml	primary_functions[2].activity.term	GO:0005009	insulin-activated receptor activity	insulin receptor activity	No	No		
+LRP5.yaml	phenotypes[0].effects[1].term	MONDO:0010918	Worth disease	epilepsy, idiopathic generalized, susceptibility to, 1	No	No		
+LRP5.yaml	phenotypes[1].effects[2].term	MONDO:0008190	Osteoporosis-pseudoglioma syndrome	obsolete human papillomavirus type 18 integration site 1	No	Yes		http://identifiers.org/hgnc/5166
+JAK3.yaml	phenotypes[0].effects[0].term	MONDO:0010316	severe combined immunodeficiency due to JAK3 deficiency	FG syndrome 3	No	No		
+JAK3.yaml	phenotypes[1].effects[2].term	MONDO:0020084	NK-T cell lymphoma	obsolete lymphoproliferative disease associated with primary immune disease	No	Yes		
+TCF7L2.yaml	primary_functions[1].roles[0].term	GO:0046326	positive regulation of glucose import	positive regulation of D-glucose import	No	No		
+DKK1.yaml	primary_functions[0].complex.term	GO:1904702	negative regulation of Wnt-Frizzled-LRP5/6 complex assembly	regulation of protein localization to adherens junction	No	No		
+DKK1.yaml	phenotypes[0].effects[3].term	MONDO:0019508	Dickkopf-related developmental anomaly	van der Woude syndrome	No	No		
+DKK1.yaml	phenotypes[1].effects[2].term	MONDO:0009693	Multiple myeloma	plasma cell myeloma	No	No		
+GSK3B.yaml	primary_functions[2].processes[0].term	GO:1901216	positive regulation of neuron death	obsolete positive regulation of neuron death	No	Yes		
+SOCS2.yaml	primary_functions[0].activity.term	GO:0019209	kinase regulator activity	kinase activator activity	No	No		
+SOCS2.yaml	phenotypes[0].effects[3].term	HP:0000831	Insulin-dependent diabetes mellitus	Insulin-resistant diabetes mellitus	No	No		
+TYK2.yaml	primary_functions[0].processes[2].term	GO:0070757	interleukin-23-mediated signaling pathway	interleukin-35-mediated signaling pathway	No	No		
+TYK2.yaml	phenotypes[0].effects[0].term	MONDO:0015136	primary immunodeficiency due to a defect in innate immunity	obsolete immunodeficiency due to a genetic complement cascade protein anomaly	No	Yes		MONDO:0003778
+TYK2.yaml	phenotypes[0].effects[1].term	HP:0032251	Increased susceptibility to mycobacterial infections	Abnormal immune system morphology	No	No		
+TYK2.yaml	phenotypes[1].effects[1].term	HP:0032263	Tuberculosis susceptibility	Increased blood pressure	No	No		
+TYK2.yaml	phenotypes[2].effects[1].term	MONDO:0004967	B-cell acute lymphoblastic leukemia	acute lymphoblastic leukemia	No	No		
+SOCS3.yaml	primary_functions[1].roles[1].term	GO:0014070	response to organic cyclic compound	obsolete response to organic cyclic compound	No	Yes		
+SOCS3.yaml	phenotypes[0].effects[2].term	HP:0011897	Neutrophilia	Increased total neutrophil count	No	No		

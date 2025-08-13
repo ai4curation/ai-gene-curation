@@ -20,10 +20,6 @@ title: WNT3A
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0005102" target="_blank">signaling receptor binding</a> (GO:0005102)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (IDA) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em>, <a href="https://bioregistry.io/PMID:15578921" target="_blank">PMID:15578921</a> (IDA) - <em>"Wnt proteins are lipid-modified and can act as stem cell growth factors"</em>, <a href="https://bioregistry.io/PMID:22653731" target="_blank">PMID:22653731</a> (IDA) - <em>"Structural basis of Wnt recognition by Frizzled"</em></td>
-</tr>
 </table>
 
 <table>
@@ -31,20 +27,12 @@ title: WNT3A
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005576" target="_blank">extracellular region</a> (GO:0005576)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:15578921" target="_blank">PMID:15578921</a> (IDA) - <em>"Wnt proteins are lipid-modified and can act as stem cell growth factors"</em>, <a href="https://bioregistry.io/PMID:12717451" target="_blank">PMID:12717451</a> (IDA) - <em>"Lipid modification of Wnt proteins"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:1990851" target="_blank">Wnt signalosome</a> (GO:1990851)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (IDA) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em></td>
 </tr>
 </table>
 
@@ -54,35 +42,32 @@ title: WNT3A
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0016055" target="_blank">Wnt signaling pathway</a> (GO:0016055)
-<br><em>Initiates signaling by binding to receptor complex</em><br>Evidence: <a href="https://bioregistry.io/PMID:15578921" target="_blank">PMID:15578921</a> (IDA) - <em>"Wnt proteins are lipid-modified and can act as stem cell growth factors"</em>  </li>
+<br><em>Initiates signaling by binding to receptor complex</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0018359" target="_blank">protein O-linked glycosylation via serine</a> (GO:0018359)
-<br><em>Palmitoylation by Porcupine is required for secretion and activity</em><br>Evidence: <a href="https://bioregistry.io/PMID:12717451" target="_blank">PMID:12717451</a> (IDA) - <em>"Lipid modification of Wnt proteins"</em>, <a href="https://bioregistry.io/PMID:24362032" target="_blank">PMID:24362032</a> (IMP) - <em>"Wnt acylation and its functional implication in Wnt signalling regulation"</em>  </li>
+<br><em>Palmitoylation by Porcupine is required for secretion and activity</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0090263" target="_blank">positive regulation of canonical Wnt signaling pathway</a> (GO:0090263)
-<br><em>Stabilizes β-catenin by inhibiting destruction complex</em><br>Evidence: <a href="https://bioregistry.io/PMID:15578921" target="_blank">PMID:15578921</a> (IMP) - <em>"Wnt proteins are lipid-modified and can act as stem cell growth factors"</em>, <a href="https://bioregistry.io/PMID:11029007" target="_blank">PMID:11029007</a> (IDA) - <em>"Wnt3a regulates survival, expansion, and maintenance of neural progenitors"</em>  </li>
+<br><em>Stabilizes β-catenin by inhibiting destruction complex</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0045893" target="_blank">positive regulation of DNA-templated transcription</a> (GO:0045893)
-<br><em>Activates TCF/LEF-dependent transcription of target genes</em><br>Evidence: <a href="https://bioregistry.io/PMID:15578921" target="_blank">PMID:15578921</a> (IMP) - <em>"Wnt proteins are lipid-modified and can act as stem cell growth factors"</em>, <a href="https://bioregistry.io/PMID:17318175" target="_blank">PMID:17318175</a> (IDA) - <em>"Wnt/β-catenin signaling: components, mechanisms, and diseases"</em>  </li>
+<br><em>Activates TCF/LEF-dependent transcription of target genes</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
-      (<a href="https://bioregistry.io/PMID:15578921" target="_blank">PMID:15578921</a> (IDA) - <em>"Wnt proteins are lipid-modified and can act as stem cell growth factors"</em>, <a href="https://bioregistry.io/PMID:11029007" target="_blank">PMID:11029007</a> (IMP) - <em>"Wnt3a regulates survival, expansion, and maintenance of neural progenitors"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0045165" target="_blank">cell fate commitment</a> (GO:0045165)
-      (<a href="https://bioregistry.io/PMID:11029007" target="_blank">PMID:11029007</a> (IMP) - <em>"Wnt3a regulates survival, expansion, and maintenance of neural progenitors"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0008283" target="_blank">cell population proliferation</a> (GO:0008283)
-      (<a href="https://bioregistry.io/PMID:15578921" target="_blank">PMID:15578921</a> (IMP) - <em>"Wnt proteins are lipid-modified and can act as stem cell growth factors"</em>)
   </li>
 </ul>
 
@@ -90,7 +75,7 @@ title: WNT3A
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0048018" target="_blank">receptor ligand activity</a> (GO:0048018)
-<br>Evidence: <a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (IDA) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -103,20 +88,12 @@ title: WNT3A
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0008083" target="_blank">growth factor activity</a> (GO:0008083)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:15578921" target="_blank">PMID:15578921</a> (IDA) - <em>"Wnt proteins are lipid-modified and can act as stem cell growth factors"</em>, <a href="https://bioregistry.io/PMID:23452851" target="_blank">PMID:23452851</a> (IMP) - <em>"Wnt3a maintains the self-renewal of hematopoietic stem cells"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0055037" target="_blank">recycling endosome</a> (GO:0055037)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:23633482" target="_blank">PMID:23633482</a> (IDA) - <em>"Wnt3a is transported through exosomes"</em></td>
 </tr>
 </table>
 
@@ -129,15 +106,12 @@ title: WNT3A
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0098727" target="_blank">maintenance of cell number</a> (GO:0098727)
-      (<a href="https://bioregistry.io/PMID:23452851" target="_blank">PMID:23452851</a> (IMP) - <em>"Wnt3a maintains the self-renewal of hematopoietic stem cells"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0019827" target="_blank">stem cell population maintenance</a> (GO:0019827)
-      (<a href="https://bioregistry.io/PMID:15578921" target="_blank">PMID:15578921</a> (IMP) - <em>"Wnt proteins are lipid-modified and can act as stem cell growth factors"</em>, <a href="https://bioregistry.io/PMID:23452851" target="_blank">PMID:23452851</a> (IDA) - <em>"Wnt3a maintains the self-renewal of hematopoietic stem cells"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060349" target="_blank">bone morphogenesis</a> (GO:0060349)
-      (<a href="https://bioregistry.io/PMID:18505822" target="_blank">PMID:18505822</a> (IMP) - <em>"WNT3A promotes osteoblast differentiation and mineralization"</em>, <a href="https://bioregistry.io/PMID:16199517" target="_blank">PMID:16199517</a> (IDA) - <em>"Canonical Wnt signaling promotes osteogenesis by directly stimulating Runx2 gene expression"</em>)
   </li>
 </ul>
 
@@ -145,7 +119,7 @@ title: WNT3A
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0048018" target="_blank">receptor ligand activity</a> (GO:0048018)
-<br>Evidence: <a href="https://bioregistry.io/PMID:15578921" target="_blank">PMID:15578921</a> (IMP) - <em>"Wnt proteins are lipid-modified and can act as stem cell growth factors"</em>, <a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (IDA) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -157,10 +131,6 @@ title: WNT3A
 <tr>
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0045669" target="_blank">positive regulation of osteoblast differentiation</a> (GO:0045669)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:18505822" target="_blank">PMID:18505822</a> (IMP) - <em>"WNT3A promotes osteoblast differentiation and mineralization"</em>, <a href="https://bioregistry.io/PMID:16199517" target="_blank">PMID:16199517</a> (IDA) - <em>"Canonical Wnt signaling promotes osteogenesis by directly stimulating Runx2 gene expression"</em></td>
 </tr>
 </table>
 
@@ -174,11 +144,9 @@ title: WNT3A
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0001649" target="_blank">osteoblast differentiation</a> (GO:0001649)
-      (<a href="https://bioregistry.io/PMID:18505822" target="_blank">PMID:18505822</a> (IMP) - <em>"WNT3A promotes osteoblast differentiation and mineralization"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0045778" target="_blank">positive regulation of ossification</a> (GO:0045778)
-      (<a href="https://bioregistry.io/PMID:16199517" target="_blank">PMID:16199517</a> (IDA) - <em>"Canonical Wnt signaling promotes osteogenesis by directly stimulating Runx2 gene expression"</em>)
   </li>
 </ul>
 
@@ -193,10 +161,6 @@ title: WNT3A
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0021915" target="_blank">neural tube development</a> (GO:0021915)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9247333" target="_blank">PMID:9247333</a> (IMP) - <em>"Wnt3a is required for development of the hippocampus and dentate gyrus"</em>, <a href="https://bioregistry.io/PMID:15029199" target="_blank">PMID:15029199</a> (IDA) - <em>"Wnt3a regulates neural plate and neural crest development"</em></td>
-</tr>
 </table>
 
 
@@ -209,11 +173,9 @@ title: WNT3A
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0014033" target="_blank">neural crest cell differentiation</a> (GO:0014033)
-      (<a href="https://bioregistry.io/PMID:15029199" target="_blank">PMID:15029199</a> (IMP) - <em>"Wnt3a regulates neural plate and neural crest development"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0021915" target="_blank">neural tube development</a> (GO:0021915)
-      (<a href="https://bioregistry.io/PMID:9247333" target="_blank">PMID:9247333</a> (IMP) - <em>"Wnt3a is required for development of the hippocampus and dentate gyrus"</em>)
   </li>
 </ul>
 

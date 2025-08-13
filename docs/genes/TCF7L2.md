@@ -20,10 +20,6 @@ title: TCF7L2
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0003700" target="_blank">DNA-binding transcription factor activity</a> (GO:0003700)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8650545" target="_blank">PMID:8650545</a> (IDA) - <em>"XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos"</em>, <a href="https://bioregistry.io/PMID:9065402" target="_blank">PMID:9065402</a> (IDA) - <em>"TCF transcription factors: molecular switches in carcinogenesis"</em></td>
-</tr>
 </table>
 
 <table>
@@ -31,20 +27,12 @@ title: TCF7L2
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8650545" target="_blank">PMID:8650545</a> (IDA) - <em>"XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos"</em>, <a href="https://bioregistry.io/PMID:11136974" target="_blank">PMID:11136974</a> (IDA) - <em>"Nuclear localization of beta-catenin and TCF4"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:0070369" target="_blank">beta-catenin-TCF7L2 complex</a> (GO:0070369)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8650545" target="_blank">PMID:8650545</a> (IPI) - <em>"XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos"</em>, <a href="https://bioregistry.io/PMID:9065402" target="_blank">PMID:9065402</a> (IDA) - <em>"TCF transcription factors: molecular switches in carcinogenesis"</em></td>
 </tr>
 </table>
 
@@ -54,39 +42,35 @@ title: TCF7L2
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
-<br><em>Activated by beta-catenin binding following Wnt ligand stimulation</em><br>Evidence: <a href="https://bioregistry.io/PMID:10518217" target="_blank">PMID:10518217</a> (IDA) - <em>"The c-Myc promoter: still MysterY and challenge"</em>  </li>
+<br><em>Activated by beta-catenin binding following Wnt ligand stimulation</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0045296" target="_blank">cadherin binding</a> (GO:0045296)
-<br><em>Binds directly to beta-catenin through armadillo repeats</em><br>Evidence: <a href="https://bioregistry.io/PMID:8650545" target="_blank">PMID:8650545</a> (IPI) - <em>"XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos"</em>  </li>
+<br><em>Binds directly to beta-catenin through armadillo repeats</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0045944" target="_blank">positive regulation of transcription by RNA polymerase II</a> (GO:0045944)
-<br><em>Activates transcription of Wnt target genes including MYC, CCND1, AXIN2</em><br>Evidence: <a href="https://bioregistry.io/PMID:10518217" target="_blank">PMID:10518217</a> (IDA) - <em>"The c-Myc promoter: still MysterY and challenge"</em>, <a href="https://bioregistry.io/PMID:15067197" target="_blank">PMID:15067197</a> (IDA) - <em>"Regulation of cyclin D1 RNA stability by SNIP1"</em>  </li>
+<br><em>Activates transcription of Wnt target genes including MYC, CCND1, AXIN2</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0006357" target="_blank">regulation of transcription by RNA polymerase II</a> (GO:0006357)
-<br><em>Acts as both repressor (without beta-catenin) and activator (with beta-catenin)</em><br>Evidence: <a href="https://bioregistry.io/PMID:11136974" target="_blank">PMID:11136974</a> (IDA) - <em>"Nuclear localization of beta-catenin and TCF4"</em>  </li>
+<br><em>Acts as both repressor (without beta-catenin) and activator (with beta-catenin)</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
-      (<a href="https://bioregistry.io/PMID:8650545" target="_blank">PMID:8650545</a> (TAS) - <em>"XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos"</em>, <a href="https://bioregistry.io/PMID:10518217" target="_blank">PMID:10518217</a> (IDA) - <em>"The c-Myc promoter: still MysterY and challenge"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0008283" target="_blank">cell population proliferation</a> (GO:0008283)
-      (<a href="https://bioregistry.io/PMID:10518217" target="_blank">PMID:10518217</a> (IMP) - <em>"The c-Myc promoter: still MysterY and challenge"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060576" target="_blank">intestinal epithelial cell development</a> (GO:0060576)
-      (<a href="https://bioregistry.io/PMID:14765127" target="_blank">PMID:14765127</a> (IMP) - <em>"The beta-catenin/TCF-4 complex imposes a crypt progenitor phenotype on colorectal cancer cells"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0036335" target="_blank">intestinal stem cell homeostasis</a> (GO:0036335)
-      (<a href="https://bioregistry.io/PMID:14765127" target="_blank">PMID:14765127</a> (IMP) - <em>"The beta-catenin/TCF-4 complex imposes a crypt progenitor phenotype on colorectal cancer cells"</em>)
   </li>
 </ul>
 
@@ -94,7 +78,7 @@ title: TCF7L2
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0090263" target="_blank">positive regulation of canonical Wnt signaling pathway</a> (GO:0090263)
-<br>Evidence: <a href="https://bioregistry.io/PMID:8650545" target="_blank">PMID:8650545</a> (IMP) - <em>"XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -107,20 +91,12 @@ title: TCF7L2
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0003700" target="_blank">DNA-binding transcription factor activity</a> (GO:0003700)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:17003340" target="_blank">PMID:17003340</a> (IMP) - <em>"TCF7L2 polymorphisms modulate proinsulin levels and beta-cell function in a British Europid population"</em>, <a href="https://bioregistry.io/PMID:16855264" target="_blank">PMID:16855264</a> (IMP) - <em>"Common variants in the TCF7L2 gene are strongly associated with type 2 diabetes mellitus in the Indian population"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:17003340" target="_blank">PMID:17003340</a> (IDA) - <em>"TCF7L2 polymorphisms modulate proinsulin levels and beta-cell function in a British Europid population"</em></td>
 </tr>
 </table>
 
@@ -131,32 +107,29 @@ title: TCF7L2
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0009749" target="_blank">response to glucose</a> (GO:0009749)
-<br><em>Expression and activity modulated by glucose levels</em><br>Evidence: <a href="https://bioregistry.io/PMID:17003340" target="_blank">PMID:17003340</a> (IMP) - <em>"TCF7L2 polymorphisms modulate proinsulin levels and beta-cell function in a British Europid population"</em>  </li>
+<br><em>Expression and activity modulated by glucose levels</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0030073" target="_blank">insulin secretion</a> (GO:0030073)
-<br><em>Regulates genes controlling insulin production and secretion</em><br>Evidence: <a href="https://bioregistry.io/PMID:17003340" target="_blank">PMID:17003340</a> (IMP) - <em>"TCF7L2 polymorphisms modulate proinsulin levels and beta-cell function in a British Europid population"</em>  </li>
+<br><em>Regulates genes controlling insulin production and secretion</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0042593" target="_blank">glucose homeostasis</a> (GO:0042593)
-<br><em>Maintains glucose balance through effects on pancreatic function</em><br>Evidence: <a href="https://bioregistry.io/PMID:16855264" target="_blank">PMID:16855264</a> (IMP) - <em>"Common variants in the TCF7L2 gene are strongly associated with type 2 diabetes mellitus in the Indian population"</em>  </li>
+<br><em>Maintains glucose balance through effects on pancreatic function</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0050796" target="_blank">regulation of insulin secretion</a> (GO:0050796)
-      (<a href="https://bioregistry.io/PMID:17003340" target="_blank">PMID:17003340</a> (IMP) - <em>"TCF7L2 polymorphisms modulate proinsulin levels and beta-cell function in a British Europid population"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0042593" target="_blank">glucose homeostasis</a> (GO:0042593)
-      (<a href="https://bioregistry.io/PMID:16855264" target="_blank">PMID:16855264</a> (IMP) - <em>"Common variants in the TCF7L2 gene are strongly associated with type 2 diabetes mellitus in the Indian population"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0061178" target="_blank">regulation of insulin secretion involved in cellular response to glucose stimulus</a> (GO:0061178)
-      (<a href="https://bioregistry.io/PMID:17003340" target="_blank">PMID:17003340</a> (IMP) - <em>"TCF7L2 polymorphisms modulate proinsulin levels and beta-cell function in a British Europid population"</em>)
   </li>
 </ul>
 
@@ -164,7 +137,7 @@ title: TCF7L2
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0046326" target="_blank">positive regulation of glucose import</a> (GO:0046326)
-<br>Evidence: <a href="https://bioregistry.io/PMID:17003340" target="_blank">PMID:17003340</a> (IMP) - <em>"TCF7L2 polymorphisms modulate proinsulin levels and beta-cell function in a British Europid population"</em>  </li>
+  </li>
 </ul>
 
 </div>

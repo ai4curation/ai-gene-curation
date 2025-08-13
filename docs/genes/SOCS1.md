@@ -20,10 +20,6 @@ title: SOCS1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0061630" target="_blank">ubiquitin protein ligase activity</a> (GO:0061630)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10051596" target="_blank">PMID:10051596</a> (TAS) - <em>"The conserved SOCS box motif in suppressors of cytokine signaling binds to elongins B and C and may couple bound proteins to proteasomal degradation"</em></td>
-</tr>
 </table>
 
 <table>
@@ -55,14 +51,13 @@ title: SOCS1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0016567" target="_blank">protein ubiquitination</a> (GO:0016567)
-<br><em>Targets JAK1, JAK2, TYK2, IRS-1, IRS-2, FAK, TIRAP, and other signaling proteins for proteasomal degradation</em><br>Evidence: <a href="https://bioregistry.io/PMID:11553846" target="_blank">PMID:11553846</a> (TAS) - <em>"SOCS proteins: negative regulators of cytokine signaling"</em>  </li>
+<br><em>Targets JAK1, JAK2, TYK2, IRS-1, IRS-2, FAK, TIRAP, and other signaling proteins for proteasomal degradation</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0046426" target="_blank">negative regulation of receptor signaling pathway via JAK-STAT</a> (GO:0046426)
-      (<a href="https://bioregistry.io/PMID:11553846" target="_blank">PMID:11553846</a> (TAS) - <em>"SOCS proteins: negative regulators of cytokine signaling"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0001960" target="_blank">negative regulation of cytokine-mediated signaling pathway</a> (GO:0001960)
@@ -70,11 +65,9 @@ title: SOCS1
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060337" target="_blank">type I interferon-mediated signaling pathway</a> (GO:0060337)
-      (<a href="https://bioregistry.io/PMID:23391734" target="_blank">PMID:23391734</a> (IMP) - <em>"STAT2 deficiency and susceptibility to viral illness in humans"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060333" target="_blank">type II interferon-mediated signaling pathway</a> (GO:0060333)
-      (<a href="https://bioregistry.io/PMID:21268089" target="_blank">PMID:21268089</a> (IDA) - <em>"Molecular mechanisms underlying the inhibition of IFN-γ-induced, STAT1-mediated gene transcription in human macrophages by simvastatin and agonists of PPARs and LXRs"</em>)
   </li>
 </ul>
 
@@ -127,6 +120,12 @@ title: SOCS1
         <li>
           <a href="https://bioregistry.io/HP:0006516" target="_blank">Hypersensitivity pneumonitis</a> (HP:0006516)
 <br><em>granulomatous lymphocytic interstitial lung disease</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0002896" target="_blank">Hepatocellular carcinoma</a> (HP:0002896)
+<br><em>hepatocellular carcinoma susceptibility</em><br><small>Mechanism: loss of SOCS1 tumor suppressor function leads to uncontrolled STAT signaling and oncogenesis</small>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0005523" target="_blank">Lymphoproliferative disorder</a> (HP:0005523)
+<br><em>lymphoproliferative disorders and lymphomas</em><br><small>Mechanism: uncontrolled JAK-STAT signaling promotes lymphocyte proliferation and transformation</small>        </li>
     </ul>
   </td>
 </tr>
@@ -167,22 +166,56 @@ title: SOCS1
 
 ## Phenotypes
 
-* **Loss-of-function mutations** → SOCS1 haploinsufficiency syndrome characterized by:
-  * Early-onset autoimmunity with incomplete penetrance (~67% symptomatic)
-  * SLE-like disease with multi-organ involvement
-  * Autoimmune cytopenias (ITP, AIHA)
-  * Inflammatory organ disease (hepatitis, pancreatitis, thyroiditis)
-  * Paradoxical infection susceptibility despite hyperinflammation
-  * CVID-like immunodeficiency with hypogammaglobulinemia
-  * Responsive to JAK inhibitor therapy (ruxolitinib)
+### SOCS1 Haploinsufficiency Syndrome (Loss-of-function)
+**Novel autoinflammatory/autoimmune disorder** characterized by:
 
-* **Molecular consequences:**
-  * Enhanced STAT1 phosphorylation mimicking STAT1 gain-of-function
-  * Reduced STAT3 signaling with decreased Th17 cells
-  * Increased FAK1 levels and enhanced AKT/mTOR signaling
-  * Excessive response to IFN-γ, IL-2, and IL-4
+#### Autoimmune Manifestations
+* **SLE-like disease**: Multi-organ involvement including skin, kidneys, joints
+* **Autoimmune cytopenias**: 
+  - Immune thrombocytopenia (ITP)
+  - Autoimmune hemolytic anemia (AIHA)
+  - Neutropenia
+* **Organ-specific autoimmunity**:
+  - Autoimmune hepatitis
+  - Thyroiditis (Hashimoto's)
+  - Type 1 diabetes (some cases)
+  - Inflammatory bowel disease
 
-* **Note:** No gain-of-function mutations reported; complete SOCS1 deficiency is embryonic lethal in mice due to uncontrolled IFN-γ signaling
+#### Inflammatory Features
+* **Early-onset inflammation**: Usually manifest in first decade
+* **Granulomatous disease**: Interstitial lung disease
+* **Hypersensitivity reactions**: Drug allergies and intolerances
+* **Inflammatory arthritis**: Non-erosive polyarthritis
+
+#### Immunodeficiency Paradox
+* **Hypogammaglobulinemia**: Despite autoimmune activation
+* **Recurrent infections**: Sinopulmonary and opportunistic
+* **Poor vaccine responses**: Impaired humoral immunity
+* **Mechanism**: Dysregulated immune homeostasis
+
+#### Malignancy Predisposition
+* **Hepatocellular carcinoma**: Multiple family members affected
+* **Lymphoproliferative disorders**: B-cell lymphomas
+* **Early onset**: Cancer risk from childhood
+* **Mechanism**: Loss of SOCS1 tumor suppressor function
+
+#### Treatment Response
+* **JAK inhibitors**: Ruxolitinib shows efficacy
+* **Immunosuppression**: Variable response to conventional therapy
+* **Targeted therapy**: Based on understanding of JAK-STAT dysregulation
+
+### Molecular Pathogenesis
+* **STAT1 hyperactivation**: Mimics STAT1 gain-of-function
+* **STAT3 dysfunction**: Impaired Th17 responses
+* **Enhanced interferon signaling**: Type I and II IFN pathways
+* **Increased cancer signaling**: AKT/mTOR and NF-κB activation
+* **Incomplete penetrance**: ~67% of carriers symptomatic
+
+### Inheritance and Genetics
+* **Pattern**: Autosomal dominant with incomplete penetrance
+* **Mutations**: Loss-of-function variants (nonsense, frameshift, splice site)
+* **Haploinsufficiency**: Single functional copy insufficient
+* **Complete loss**: Embryonic lethal (demonstrated in mice)
 
 ---
 

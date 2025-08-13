@@ -12,13 +12,39 @@ def walk_tree(
     """
     Walk a nested data structure, yielding (value, path, context) tuples.
     
+    This function performs a depth-first traversal of nested dicts and lists,
+    maintaining the path to each node for precise error reporting.
+    
     Args:
         data: The data structure to walk
-        path: Current path in the structure
+        path: Current path in the structure (e.g., "primary_functions[0].activity.term")
         parent_context: Context from parent nodes
         
     Yields:
-        Tuples of (value, path, context)
+        Tuples of (value, path, context) for each node in the tree
+        
+    Examples:
+        >>> data = {"a": {"b": 1}, "c": [2, 3]}
+        >>> paths = []
+        >>> for value, path, ctx in walk_tree(data):
+        ...     if path:  # Skip root
+        ...         paths.append(path)
+        >>> sorted(paths)
+        ['a', 'a.b', 'c', 'c[0]', 'c[1]']
+        
+        >>> # Walk nested structure with arrays
+        >>> data = {"terms": [{"id": "GO:0001", "label": "test"}]}
+        >>> for value, path, ctx in walk_tree(data):
+        ...     if path == "terms[0].id":
+        ...         print(f"Found term ID: {value}")
+        Found term ID: GO:0001
+        
+        >>> # Context includes depth information
+        >>> data = {"a": {"b": {"c": 1}}}
+        >>> for value, path, ctx in walk_tree(data):
+        ...     if path == "a.b.c":
+        ...         print(f"Depth: {ctx['depth']}")
+        Depth: 2
     """
     # Build context for this node
     context = parent_context or {}
@@ -106,10 +132,30 @@ def _set_value_at_path(data: Any, path: str, value: Any) -> None:
     """
     Set a value at a specific path in a nested data structure.
     
+    This function navigates through the data structure using the path
+    and sets the value at the specified location.
+    
     Args:
-        data: The data structure to modify
+        data: The data structure to modify (must be mutable)
         path: Path to the value (e.g., "primary_functions[0].activity.term")
         value: The new value to set
+        
+    Examples:
+        >>> data = {"a": {"b": 1}}
+        >>> _set_value_at_path(data, "a.b", 2)
+        >>> data["a"]["b"]
+        2
+        
+        >>> data = {"items": [{"id": 1}, {"id": 2}]}
+        >>> _set_value_at_path(data, "items[1].id", 3)
+        >>> data["items"][1]["id"]
+        3
+        
+        >>> # Complex nested path
+        >>> data = {"terms": [{"props": {"label": "old"}}]}
+        >>> _set_value_at_path(data, "terms[0].props.label", "new")
+        >>> data["terms"][0]["props"]["label"]
+        'new'
     """
     if not path:
         # Can't replace root

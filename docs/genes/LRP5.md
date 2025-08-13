@@ -20,10 +20,6 @@ title: LRP5
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0042813" target="_blank">Wnt-activated receptor activity</a> (GO:0042813)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IDA) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>, <a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (IMP) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em></td>
-</tr>
 </table>
 
 <table>
@@ -31,20 +27,12 @@ title: LRP5
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005886" target="_blank">plasma membrane</a> (GO:0005886)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IDA) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>, <a href="https://bioregistry.io/PMID:15908424" target="_blank">PMID:15908424</a> (IDA) - <em>"LRP5/6 directly bind to Frizzled and Wnt"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:1990851" target="_blank">Wnt signalosome</a> (GO:1990851)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:15908424" target="_blank">PMID:15908424</a> (IDA) - <em>"LRP5/6 directly bind to Frizzled and Wnt"</em>, <a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IPI) - <em>"LRP5 is a co-receptor for Wnt signaling"</em></td>
 </tr>
 </table>
 
@@ -54,38 +42,35 @@ title: LRP5
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0017147" target="_blank">Wnt-protein binding</a> (GO:0017147)
-<br><em>Binds Wnt proteins through β-propeller domains</em><br>Evidence: <a href="https://bioregistry.io/PMID:15908424" target="_blank">PMID:15908424</a> (IDA) - <em>"LRP5/6 directly bind to Frizzled and Wnt"</em>  </li>
+<br><em>Binds Wnt proteins through β-propeller domains</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0042803" target="_blank">protein homodimerization activity</a> (GO:0042803)
-<br><em>Dimerizes upon Wnt binding to activate signaling</em><br>Evidence: <a href="https://bioregistry.io/PMID:21076410" target="_blank">PMID:21076410</a> (IDA) - <em>"LRP5/6 dimerization is required for Wnt signaling"</em>  </li>
+<br><em>Dimerizes upon Wnt binding to activate signaling</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0090263" target="_blank">positive regulation of canonical Wnt signaling pathway</a> (GO:0090263)
-<br><em>Promotes β-catenin stabilization and nuclear translocation</em><br>Evidence: <a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IMP) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>, <a href="https://bioregistry.io/PMID:15908424" target="_blank">PMID:15908424</a> (IDA) - <em>"LRP5/6 directly bind to Frizzled and Wnt"</em>  </li>
+<br><em>Promotes β-catenin stabilization and nuclear translocation</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0016310" target="_blank">phosphorylation</a> (GO:0016310)
-<br><em>Cytoplasmic tail phosphorylation recruits Axin</em><br>Evidence: <a href="https://bioregistry.io/PMID:15908424" target="_blank">PMID:15908424</a> (IDA) - <em>"LRP5/6 directly bind to Frizzled and Wnt"</em>  </li>
+<br><em>Cytoplasmic tail phosphorylation recruits Axin</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0051091" target="_blank">positive regulation of DNA-binding transcription factor activity</a> (GO:0051091)
-<br><em>Enables TCF/LEF transcriptional activation through β-catenin</em><br>Evidence: <a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IMP) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>  </li>
+<br><em>Enables TCF/LEF transcriptional activation through β-catenin</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
-      (<a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IDA) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>, <a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (TAS) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0001649" target="_blank">osteoblast differentiation</a> (GO:0001649)
-      (<a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>, <a href="https://bioregistry.io/PMID:12015333" target="_blank">PMID:12015333</a> (IMP) - <em>"LRP5 deficiency causes osteoporosis"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060346" target="_blank">bone trabecula formation</a> (GO:0060346)
-      (<a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>)
   </li>
 </ul>
 
@@ -93,7 +78,7 @@ title: LRP5
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0038023" target="_blank">signaling receptor activity</a> (GO:0038023)
-<br>Evidence: <a href="https://bioregistry.io/PMID:11336703" target="_blank">PMID:11336703</a> (IDA) - <em>"LRP5 is a co-receptor for Wnt signaling"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -106,20 +91,12 @@ title: LRP5
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0045124" target="_blank">regulation of bone resorption</a> (GO:0045124)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>, <a href="https://bioregistry.io/PMID:17306036" target="_blank">PMID:17306036</a> (IDA) - <em>"LRP5 regulates bone mass through osteoblast and osteoclast control"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
-  <td><a href="https://bioregistry.io/GO:0001591" target="_blank">dopamine neuron</a> (GO:0001591)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:20813963" target="_blank">PMID:20813963</a> (IEP) - <em>"LRP5 in bone and metabolism"</em></td>
+  <td><a href="https://bioregistry.io/CL:0000700" target="_blank">dopaminergic neuron</a> (CL:0000700)</td>
 </tr>
 </table>
 
@@ -132,15 +109,12 @@ title: LRP5
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0045669" target="_blank">positive regulation of osteoblast differentiation</a> (GO:0045669)
-      (<a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>, <a href="https://bioregistry.io/PMID:12015333" target="_blank">PMID:12015333</a> (IDA) - <em>"LRP5 deficiency causes osteoporosis"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0002062" target="_blank">chondrocyte differentiation</a> (GO:0002062)
-      (<a href="https://bioregistry.io/PMID:17306036" target="_blank">PMID:17306036</a> (IMP) - <em>"LRP5 regulates bone mass through osteoblast and osteoclast control"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0030282" target="_blank">bone mineralization</a> (GO:0030282)
-      (<a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>)
   </li>
 </ul>
 
@@ -148,7 +122,7 @@ title: LRP5
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0070412" target="_blank">R-SMAD binding</a> (GO:0070412)
-<br>Evidence: <a href="https://bioregistry.io/PMID:20813963" target="_blank">PMID:20813963</a> (IPI) - <em>"LRP5 in bone and metabolism"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -161,20 +135,12 @@ title: LRP5
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0005009" target="_blank">insulin-activated receptor activity</a> (GO:0005009)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:17644708" target="_blank">PMID:17644708</a> (IMP) - <em>"Lrp5 controls bone formation by inhibiting serotonin synthesis in the duodenum"</em>, <a href="https://bioregistry.io/PMID:22723300" target="_blank">PMID:22723300</a> (IDA) - <em>"LRP5 regulates glucose and lipid metabolism"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0043025" target="_blank">neuronal cell body</a> (GO:0043025)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:17644708" target="_blank">PMID:17644708</a> (IEP) - <em>"Lrp5 controls bone formation by inhibiting serotonin synthesis in the duodenum"</em></td>
 </tr>
 </table>
 
@@ -187,15 +153,12 @@ title: LRP5
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0042593" target="_blank">glucose homeostasis</a> (GO:0042593)
-      (<a href="https://bioregistry.io/PMID:22723300" target="_blank">PMID:22723300</a> (IMP) - <em>"LRP5 regulates glucose and lipid metabolism"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0006629" target="_blank">lipid metabolic process</a> (GO:0006629)
-      (<a href="https://bioregistry.io/PMID:22723300" target="_blank">PMID:22723300</a> (IMP) - <em>"LRP5 regulates glucose and lipid metabolism"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0030073" target="_blank">insulin secretion</a> (GO:0030073)
-      (<a href="https://bioregistry.io/PMID:22723300" target="_blank">PMID:22723300</a> (IMP) - <em>"LRP5 regulates glucose and lipid metabolism"</em>)
   </li>
 </ul>
 
@@ -203,7 +166,7 @@ title: LRP5
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0070328" target="_blank">triglyceride homeostasis</a> (GO:0070328)
-<br>Evidence: <a href="https://bioregistry.io/PMID:22723300" target="_blank">PMID:22723300</a> (IMP) - <em>"LRP5 regulates glucose and lipid metabolism"</em>  </li>
+  </li>
 </ul>
 
 </div>

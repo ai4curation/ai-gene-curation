@@ -20,10 +20,6 @@ title: LRP6
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0042813" target="_blank">Wnt-activated receptor activity</a> (GO:0042813)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IDA) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>, <a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em></td>
-</tr>
 </table>
 
 <table>
@@ -31,20 +27,12 @@ title: LRP6
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005886" target="_blank">plasma membrane</a> (GO:0005886)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IDA) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>, <a href="https://bioregistry.io/PMID:15778503" target="_blank">PMID:15778503</a> (IDA) - <em>"Phosphorylation of LRP6 by GSK3 and CK1"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:1990851" target="_blank">Wnt signalosome</a> (GO:1990851)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IDA) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>, <a href="https://bioregistry.io/PMID:18505367" target="_blank">PMID:18505367</a> (IPI) - <em>"Initiation of Wnt signaling by forming ternary complex"</em></td>
 </tr>
 </table>
 
@@ -54,35 +42,32 @@ title: LRP6
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0017147" target="_blank">Wnt-protein binding</a> (GO:0017147)
-<br><em>Binds multiple Wnt ligands via β-propeller domains</em><br>Evidence: <a href="https://bioregistry.io/PMID:18505367" target="_blank">PMID:18505367</a> (IDA) - <em>"Initiation of Wnt signaling by forming ternary complex"</em>  </li>
+<br><em>Binds multiple Wnt ligands via β-propeller domains</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0004674" target="_blank">protein serine/threonine kinase activity</a> (GO:0004674)
-<br><em>Sequential phosphorylation by CK1 and GSK3</em><br>Evidence: <a href="https://bioregistry.io/PMID:15778503" target="_blank">PMID:15778503</a> (IDA) - <em>"Phosphorylation of LRP6 by GSK3 and CK1"</em>  </li>
+<br><em>Sequential phosphorylation by CK1 and GSK3</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0090263" target="_blank">positive regulation of canonical Wnt signaling pathway</a> (GO:0090263)
-<br><em>Essential for β-catenin stabilization</em><br>Evidence: <a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IMP) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>, <a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IDA) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>  </li>
+<br><em>Essential for β-catenin stabilization</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:1904886" target="_blank">beta-catenin destruction complex disassembly</a> (GO:1904886)
-<br><em>Phosphorylated LRP6 recruits and inactivates Axin</em><br>Evidence: <a href="https://bioregistry.io/PMID:15778503" target="_blank">PMID:15778503</a> (IMP) - <em>"Phosphorylation of LRP6 by GSK3 and CK1"</em>  </li>
+<br><em>Phosphorylated LRP6 recruits and inactivates Axin</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
-      (<a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IDA) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>, <a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0001701" target="_blank">in utero embryonic development</a> (GO:0001701)
-      (<a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0009950" target="_blank">dorsal/ventral axis specification</a> (GO:0009950)
-      (<a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>)
   </li>
 </ul>
 
@@ -90,7 +75,7 @@ title: LRP6
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0038023" target="_blank">signaling receptor activity</a> (GO:0038023)
-<br>Evidence: <a href="https://bioregistry.io/PMID:10700188" target="_blank">PMID:10700188</a> (IDA) - <em>"LRP6 is a co-receptor for multiple Wnt proteins"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -103,20 +88,12 @@ title: LRP6
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0019904" target="_blank">protein domain specific binding</a> (GO:0019904)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:17569865" target="_blank">PMID:17569865</a> (IMP) - <em>"LRP6 mutation causes metabolic syndrome"</em>, <a href="https://bioregistry.io/PMID:22405068" target="_blank">PMID:22405068</a> (IDA) - <em>"LRP6 enhances glucose metabolism by Wnt signaling"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0055037" target="_blank">recycling endosome</a> (GO:0055037)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:19666599" target="_blank">PMID:19666599</a> (IDA) - <em>"Caveolin regulates LRP6 signaling"</em></td>
 </tr>
 </table>
 
@@ -129,15 +106,12 @@ title: LRP6
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0010906" target="_blank">regulation of glucose metabolic process</a> (GO:0010906)
-      (<a href="https://bioregistry.io/PMID:22405068" target="_blank">PMID:22405068</a> (IMP) - <em>"LRP6 enhances glucose metabolism by Wnt signaling"</em>, <a href="https://bioregistry.io/PMID:17569865" target="_blank">PMID:17569865</a> (IDA) - <em>"LRP6 mutation causes metabolic syndrome"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0042593" target="_blank">glucose homeostasis</a> (GO:0042593)
-      (<a href="https://bioregistry.io/PMID:17569865" target="_blank">PMID:17569865</a> (IMP) - <em>"LRP6 mutation causes metabolic syndrome"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0019216" target="_blank">regulation of lipid metabolic process</a> (GO:0019216)
-      (<a href="https://bioregistry.io/PMID:17569865" target="_blank">PMID:17569865</a> (IMP) - <em>"LRP6 mutation causes metabolic syndrome"</em>)
   </li>
 </ul>
 
@@ -145,7 +119,7 @@ title: LRP6
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0005041" target="_blank">low-density lipoprotein particle receptor activity</a> (GO:0005041)
-<br>Evidence: <a href="https://bioregistry.io/PMID:17569865" target="_blank">PMID:17569865</a> (IDA) - <em>"LRP6 mutation causes metabolic syndrome"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -158,20 +132,12 @@ title: LRP6
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0007507" target="_blank">heart development</a> (GO:0007507)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>, <a href="https://bioregistry.io/PMID:19411759" target="_blank">PMID:19411759</a> (IDA) - <em>"LRP6 mutation linked to coronary artery disease"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0016020" target="_blank">membrane</a> (GO:0016020)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:19411759" target="_blank">PMID:19411759</a> (IEP) - <em>"LRP6 mutation linked to coronary artery disease"</em></td>
 </tr>
 </table>
 
@@ -184,15 +150,12 @@ title: LRP6
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0003007" target="_blank">heart morphogenesis</a> (GO:0003007)
-      (<a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0001947" target="_blank">heart looping</a> (GO:0001947)
-      (<a href="https://bioregistry.io/PMID:11742013" target="_blank">PMID:11742013</a> (IMP) - <em>"Arrow/LRP6 is essential for Wnt signaling in Drosophila and mice"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0001570" target="_blank">vasculogenesis</a> (GO:0001570)
-      (<a href="https://bioregistry.io/PMID:23312661" target="_blank">PMID:23312661</a> (IDA) - <em>"LRP6 in vascular biology"</em>)
   </li>
 </ul>
 
@@ -200,7 +163,7 @@ title: LRP6
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0060840" target="_blank">artery development</a> (GO:0060840)
-<br>Evidence: <a href="https://bioregistry.io/PMID:19411759" target="_blank">PMID:19411759</a> (IMP) - <em>"LRP6 mutation linked to coronary artery disease"</em>  </li>
+  </li>
 </ul>
 
 </div>

@@ -22,7 +22,7 @@ title: APC
 </tr>
 <tr>
   <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8259519" target="_blank">PMID:8259519</a> (IPI) - <em>"Association of the APC tumor suppressor protein with catenins"</em>, <a href="https://bioregistry.io/PMID:9065403" target="_blank">PMID:9065403</a> (IDA) - <em>"The tumor suppressor protein APC colocalizes with beta-catenin in the colon epithelial cell"</em>, <a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IPI) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em></td>
+  <td><a href="https://bioregistry.io/PMID:8259519" target="_blank">PMID:8259519</a> (IPI) - <em>"Association of the APC tumor suppressor protein with catenins"</em></td>
 </tr>
 </table>
 
@@ -31,20 +31,12 @@ title: APC
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005737" target="_blank">cytoplasm</a> (GO:0005737)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9065403" target="_blank">PMID:9065403</a> (IDA) - <em>"The tumor suppressor protein APC colocalizes with beta-catenin in the colon epithelial cell"</em>, <a href="https://bioregistry.io/PMID:10700176" target="_blank">PMID:10700176</a> (IDA) - <em>"APC shuttles between nucleus and cytoplasm and facilitates beta-catenin export"</em>, <a href="https://bioregistry.io/PMID:18054784" target="_blank">PMID:18054784</a> (IDA) - <em>"APC mutations lead to aberrant nuclear accumulation of beta-catenin in human colon tumors"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:0030877" target="_blank">beta-catenin destruction complex</a> (GO:0030877)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9065403" target="_blank">PMID:9065403</a> (IDA) - <em>"The tumor suppressor protein APC colocalizes with beta-catenin in the colon epithelial cell"</em>, <a href="https://bioregistry.io/PMID:10700176" target="_blank">PMID:10700176</a> (IPI) - <em>"APC shuttles between nucleus and cytoplasm and facilitates beta-catenin export"</em>, <a href="https://bioregistry.io/PMID:11713186" target="_blank">PMID:11713186</a> (IDA) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em></td>
 </tr>
 </table>
 
@@ -54,35 +46,33 @@ title: APC
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0070411" target="_blank">I-SMAD binding</a> (GO:0070411)
-<br><em>Binds Axin1/2 through SAMP repeats to organize destruction complex</em><br>Evidence: <a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IPI) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>  </li>
+<br><em>Binds Axin1/2 through SAMP repeats to organize destruction complex</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0034236" target="_blank">protein kinase A catalytic subunit binding</a> (GO:0034236)
-<br><em>Facilitates GSK3β and CK1α binding for β-catenin phosphorylation</em><br>Evidence: <a href="https://bioregistry.io/PMID:11713186" target="_blank">PMID:11713186</a> (IPI) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em>  </li>
+<br><em>Facilitates GSK3β and CK1α binding for β-catenin phosphorylation</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0090090" target="_blank">negative regulation of canonical Wnt signaling pathway</a> (GO:0090090)
-<br><em>Promotes β-catenin phosphorylation and degradation</em><br>Evidence: <a href="https://bioregistry.io/PMID:9065403" target="_blank">PMID:9065403</a> (IMP) - <em>"The tumor suppressor protein APC colocalizes with beta-catenin in the colon epithelial cell"</em>, <a href="https://bioregistry.io/PMID:10700176" target="_blank">PMID:10700176</a> (IDA) - <em>"APC shuttles between nucleus and cytoplasm and facilitates beta-catenin export"</em>  </li>
+<br><em>Promotes β-catenin phosphorylation and degradation</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0006511" target="_blank">ubiquitin-dependent protein catabolic process</a> (GO:0006511)
-<br><em>Facilitates β-catenin ubiquitination by β-TrCP E3 ligase</em><br>Evidence: <a href="https://bioregistry.io/PMID:10700176" target="_blank">PMID:10700176</a> (IMP) - <em>"APC shuttles between nucleus and cytoplasm and facilitates beta-catenin export"</em>, <a href="https://bioregistry.io/PMID:11274378" target="_blank">PMID:11274378</a> (IDA) - <em>"The F-box protein beta-TrCP associates with phosphorylated beta-catenin and regulates its activity in the cell"</em>  </li>
+<br><em>Facilitates β-catenin ubiquitination by β-TrCP E3 ligase</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0016055" target="_blank">Wnt signaling pathway</a> (GO:0016055)
-      (<a href="https://bioregistry.io/PMID:8259519" target="_blank">PMID:8259519</a> (IDA) - <em>"Association of the APC tumor suppressor protein with catenins"</em>, <a href="https://bioregistry.io/PMID:9065403" target="_blank">PMID:9065403</a> (TAS) - <em>"The tumor suppressor protein APC colocalizes with beta-catenin in the colon epithelial cell"</em>)
+      (<a href="https://bioregistry.io/PMID:8259519" target="_blank">PMID:8259519</a> (IDA) - <em>"Association of the APC tumor suppressor protein with catenins"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0030178" target="_blank">negative regulation of Wnt signaling pathway</a> (GO:0030178)
-      (<a href="https://bioregistry.io/PMID:9065403" target="_blank">PMID:9065403</a> (IMP) - <em>"The tumor suppressor protein APC colocalizes with beta-catenin in the colon epithelial cell"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0051437" target="_blank">obsolete regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle</a> (GO:0051437)
-      (<a href="https://bioregistry.io/PMID:10700176" target="_blank">PMID:10700176</a> (IMP) - <em>"APC localization and function in cells"</em>)
   </li>
 </ul>
 
@@ -90,7 +80,7 @@ title: APC
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0051434" target="_blank">BH3 domain binding</a> (GO:0051434)
-<br>Evidence: <a href="https://bioregistry.io/PMID:9065403" target="_blank">PMID:9065403</a> (IPI) - <em>"APC binds to the beta-catenin destruction complex"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -103,10 +93,6 @@ title: APC
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0008017" target="_blank">microtubule binding</a> (GO:0008017)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8756722" target="_blank">PMID:8756722</a> (IDA) - <em>"APC binds to microtubules and promotes their assembly"</em>, <a href="https://bioregistry.io/PMID:11283619" target="_blank">PMID:11283619</a> (IMP) - <em>"APC regulates microtubule dynamics at plus ends"</em></td>
-</tr>
 </table>
 
 <table>
@@ -114,20 +100,12 @@ title: APC
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0000922" target="_blank">spindle pole</a> (GO:0000922)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11283619" target="_blank">PMID:11283619</a> (IDA) - <em>"APC regulates microtubule dynamics at plus ends"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:0008021" target="_blank">synaptic vesicle</a> (GO:0008021)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:15280022" target="_blank">PMID:15280022</a> (IDA) - <em>"APC at synapses regulates local protein synthesis"</em></td>
 </tr>
 </table>
 
@@ -138,25 +116,22 @@ title: APC
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0031122" target="_blank">cytoplasmic microtubule organization</a> (GO:0031122)
-<br><em>Promotes microtubule assembly and stability</em><br>Evidence: <a href="https://bioregistry.io/PMID:11283619" target="_blank">PMID:11283619</a> (IMP) - <em>"APC regulates microtubule dynamics at plus ends"</em>  </li>
+<br><em>Promotes microtubule assembly and stability</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0030335" target="_blank">positive regulation of cell migration</a> (GO:0030335)
-<br><em>Coordinates microtubules for directed migration</em><br>Evidence: <a href="https://bioregistry.io/PMID:15280022" target="_blank">PMID:15280022</a> (IMP) - <em>"APC at synapses regulates local protein synthesis"</em>  </li>
+<br><em>Coordinates microtubules for directed migration</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0007026" target="_blank">negative regulation of microtubule depolymerization</a> (GO:0007026)
-      (<a href="https://bioregistry.io/PMID:11283619" target="_blank">PMID:11283619</a> (IDA) - <em>"APC regulates microtubule dynamics at plus ends"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0000278" target="_blank">mitotic cell cycle</a> (GO:0000278)
-      (<a href="https://bioregistry.io/PMID:11283619" target="_blank">PMID:11283619</a> (IMP) - <em>"APC regulates microtubule dynamics at plus ends"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0051301" target="_blank">cell division</a> (GO:0051301)
-      (<a href="https://bioregistry.io/PMID:8756722" target="_blank">PMID:8756722</a> (IMP) - <em>"APC binds to microtubules and promotes their assembly"</em>)
   </li>
 </ul>
 
@@ -164,7 +139,7 @@ title: APC
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0015631" target="_blank">tubulin binding</a> (GO:0015631)
-<br>Evidence: <a href="https://bioregistry.io/PMID:8756722" target="_blank">PMID:8756722</a> (IDA) - <em>"APC binds to microtubules and promotes their assembly"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -177,20 +152,12 @@ title: APC
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:2000178" target="_blank">negative regulation of neural precursor cell proliferation</a> (GO:2000178)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:14976184" target="_blank">PMID:14976184</a> (IMP) - <em>"Deletion of mouse Apc leads to loss of control of intestinal stem cell proliferation and differentiation"</em>, <a href="https://bioregistry.io/PMID:15574878" target="_blank">PMID:15574878</a> (IDA) - <em>"APC mutation and the intestinal stem cell compartment"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0060077" target="_blank">inhibitory synapse</a> (GO:0060077)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:15574878" target="_blank">PMID:15574878</a> (IDA) - <em>"APC mutation and the intestinal stem cell compartment"</em></td>
 </tr>
 </table>
 
@@ -202,25 +169,22 @@ title: APC
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0045596" target="_blank">negative regulation of cell differentiation</a> (GO:0045596)
-<br><em>Promotes differentiation of intestinal epithelial cells</em><br>Evidence: <a href="https://bioregistry.io/PMID:14976184" target="_blank">PMID:14976184</a> (IMP) - <em>"Deletion of mouse Apc leads to loss of control of intestinal stem cell proliferation and differentiation"</em>  </li>
+<br><em>Promotes differentiation of intestinal epithelial cells</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0043066" target="_blank">negative regulation of apoptotic process</a> (GO:0043066)
-<br><em>Regulates apoptosis at crypt-villus junction</em><br>Evidence: <a href="https://bioregistry.io/PMID:15574878" target="_blank">PMID:15574878</a> (IMP) - <em>"APC mutation and the intestinal stem cell compartment"</em>  </li>
+<br><em>Regulates apoptosis at crypt-villus junction</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0048730" target="_blank">epidermis morphogenesis</a> (GO:0048730)
-      (<a href="https://bioregistry.io/PMID:14976184" target="_blank">PMID:14976184</a> (IMP) - <em>"Deletion of mouse Apc leads to loss of control of intestinal stem cell proliferation and differentiation"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060729" target="_blank">intestinal epithelial structure maintenance</a> (GO:0060729)
-      (<a href="https://bioregistry.io/PMID:15574878" target="_blank">PMID:15574878</a> (IMP) - <em>"APC mutation and the intestinal stem cell compartment"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0098727" target="_blank">maintenance of cell number</a> (GO:0098727)
-      (<a href="https://bioregistry.io/PMID:14976184" target="_blank">PMID:14976184</a> (IMP) - <em>"Deletion of mouse Apc leads to loss of control of intestinal stem cell proliferation and differentiation"</em>)
   </li>
 </ul>
 
@@ -228,7 +192,7 @@ title: APC
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0140297" target="_blank">DNA-binding transcription factor binding</a> (GO:0140297)
-<br>Evidence: <a href="https://bioregistry.io/PMID:15574878" target="_blank">PMID:15574878</a> (IPI) - <em>"APC mutation and the intestinal stem cell compartment"</em>  </li>
+  </li>
 </ul>
 
 </div>

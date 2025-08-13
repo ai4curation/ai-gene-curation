@@ -20,10 +20,6 @@ title: FZD1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0017147" target="_blank">Wnt-protein binding</a> (GO:0017147)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11425854" target="_blank">PMID:11425854</a> (IPI) - <em>"Frizzled receptors bind Wnt ligands and transduce signals"</em>, <a href="https://bioregistry.io/PMID:15239958" target="_blank">PMID:15239958</a> (IDA) - <em>"Direct binding of Wnt proteins to Frizzled receptors"</em>, <a href="https://bioregistry.io/PMID:22653731" target="_blank">PMID:22653731</a> (IDA) - <em>"Structural basis of Wnt recognition by Frizzled"</em></td>
-</tr>
 </table>
 
 <table>
@@ -31,20 +27,12 @@ title: FZD1
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005886" target="_blank">plasma membrane</a> (GO:0005886)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11425854" target="_blank">PMID:11425854</a> (IDA) - <em>"Frizzled receptors bind Wnt ligands and transduce signals"</em>, <a href="https://bioregistry.io/PMID:12482950" target="_blank">PMID:12482950</a> (IDA) - <em>"Frizzled proteins constitute a novel family of G protein-coupled receptors"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:1990851" target="_blank">Wnt signalosome</a> (GO:1990851)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:15239958" target="_blank">PMID:15239958</a> (IDA) - <em>"Direct binding of Wnt proteins to Frizzled receptors"</em>, <a href="https://bioregistry.io/PMID:11425854" target="_blank">PMID:11425854</a> (IPI) - <em>"Frizzled receptors bind Wnt ligands and transduce signals"</em></td>
 </tr>
 </table>
 
@@ -54,32 +42,29 @@ title: FZD1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0005102" target="_blank">signaling receptor binding</a> (GO:0005102)
-<br><em>Activated by binding of Wnt ligands to extracellular cysteine-rich domain</em><br>Evidence: <a href="https://bioregistry.io/PMID:15239958" target="_blank">PMID:15239958</a> (IDA) - <em>"Direct binding of Wnt proteins to Frizzled receptors"</em>  </li>
+<br><em>Activated by binding of Wnt ligands to extracellular cysteine-rich domain</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0060071" target="_blank">Wnt signaling pathway, planar cell polarity pathway</a> (GO:0060071)
-<br><em>Can activate both canonical and non-canonical pathways</em><br>Evidence: <a href="https://bioregistry.io/PMID:14688793" target="_blank">PMID:14688793</a> (IMP) - <em>"Frizzled-1 mediates both canonical and non-canonical Wnt signaling"</em>  </li>
+<br><em>Can activate both canonical and non-canonical pathways</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0090263" target="_blank">positive regulation of canonical Wnt signaling pathway</a> (GO:0090263)
-<br><em>Activates β-catenin stabilization through Dishevelled recruitment</em><br>Evidence: <a href="https://bioregistry.io/PMID:11425854" target="_blank">PMID:11425854</a> (IMP) - <em>"Frizzled receptors bind Wnt ligands and transduce signals"</em>, <a href="https://bioregistry.io/PMID:15239958" target="_blank">PMID:15239958</a> (IDA) - <em>"Direct binding of Wnt proteins to Frizzled receptors"</em>  </li>
+<br><em>Activates β-catenin stabilization through Dishevelled recruitment</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
-      (<a href="https://bioregistry.io/PMID:11425854" target="_blank">PMID:11425854</a> (IDA) - <em>"Frizzled receptors bind Wnt ligands and transduce signals"</em>, <a href="https://bioregistry.io/PMID:15239958" target="_blank">PMID:15239958</a> (IMP) - <em>"Direct binding of Wnt proteins to Frizzled receptors"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0007166" target="_blank">cell surface receptor signaling pathway</a> (GO:0007166)
-      (<a href="https://bioregistry.io/PMID:12482950" target="_blank">PMID:12482950</a> (IDA) - <em>"Frizzled proteins constitute a novel family of G protein-coupled receptors"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0016055" target="_blank">Wnt signaling pathway</a> (GO:0016055)
-      (<a href="https://bioregistry.io/PMID:11425854" target="_blank">PMID:11425854</a> (TAS) - <em>"Frizzled receptors bind Wnt ligands and transduce signals"</em>)
   </li>
 </ul>
 
@@ -87,7 +72,7 @@ title: FZD1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0004888" target="_blank">transmembrane signaling receptor activity</a> (GO:0004888)
-<br>Evidence: <a href="https://bioregistry.io/PMID:12482950" target="_blank">PMID:12482950</a> (IDA) - <em>"Frizzled proteins constitute a novel family of G protein-coupled receptors"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -100,20 +85,12 @@ title: FZD1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0019901" target="_blank">protein kinase binding</a> (GO:0019901)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11920882" target="_blank">PMID:11920882</a> (IPI) - <em>"Dishevelled binds directly to Frizzled receptors"</em>, <a href="https://bioregistry.io/PMID:14688793" target="_blank">PMID:14688793</a> (IDA) - <em>"Frizzled-1 mediates both canonical and non-canonical Wnt signaling"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0043234" target="_blank">protein-containing complex</a> (GO:0043234)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11920882" target="_blank">PMID:11920882</a> (IDA) - <em>"Dishevelled binds directly to Frizzled receptors"</em></td>
 </tr>
 </table>
 
@@ -124,21 +101,20 @@ title: FZD1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0051434" target="_blank">BH3 domain binding</a> (GO:0051434)
-<br><em>PDZ domain of Dishevelled binds to FZD1 C-terminus</em><br>Evidence: <a href="https://bioregistry.io/PMID:11920882" target="_blank">PMID:11920882</a> (IPI) - <em>"Dishevelled binds directly to Frizzled receptors"</em>  </li>
+<br><em>PDZ domain of Dishevelled binds to FZD1 C-terminus</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:1904886" target="_blank">beta-catenin destruction complex disassembly</a> (GO:1904886)
-<br><em>Dishevelled recruitment leads to Axin sequestration</em><br>Evidence: <a href="https://bioregistry.io/PMID:14688793" target="_blank">PMID:14688793</a> (IMP) - <em>"Frizzled-1 mediates both canonical and non-canonical Wnt signaling"</em>  </li>
+<br><em>Dishevelled recruitment leads to Axin sequestration</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0090090" target="_blank">negative regulation of canonical Wnt signaling pathway</a> (GO:0090090)
-      (<a href="https://bioregistry.io/PMID:15857680" target="_blank">PMID:15857680</a> (IMP) - <em>"Internalization of Frizzled receptors regulates signaling"</em>)
   </li>
 </ul>
 
@@ -146,7 +122,7 @@ title: FZD1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0005109" target="_blank">frizzled binding</a> (GO:0005109)
-<br>Evidence: <a href="https://bioregistry.io/PMID:11920882" target="_blank">PMID:11920882</a> (IPI) - <em>"Dishevelled binds directly to Frizzled receptors"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -159,20 +135,12 @@ title: FZD1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0004930" target="_blank">G protein-coupled receptor activity</a> (GO:0004930)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:12482950" target="_blank">PMID:12482950</a> (IDA) - <em>"Frizzled proteins constitute a novel family of G protein-coupled receptors"</em>, <a href="https://bioregistry.io/PMID:19365405" target="_blank">PMID:19365405</a> (IMP) - <em>"Frizzled receptors signal through G proteins"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0043235" target="_blank">receptor complex</a> (GO:0043235)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:18606139" target="_blank">PMID:18606139</a> (IDA) - <em>"Frizzled receptor oligomerization"</em></td>
 </tr>
 </table>
 
@@ -184,21 +152,19 @@ title: FZD1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0007186" target="_blank">G protein-coupled receptor signaling pathway</a> (GO:0007186)
-<br><em>Activates phospholipase C and protein kinase C pathways</em><br>Evidence: <a href="https://bioregistry.io/PMID:12482950" target="_blank">PMID:12482950</a> (IDA) - <em>"Frizzled proteins constitute a novel family of G protein-coupled receptors"</em>  </li>
+<br><em>Activates phospholipase C and protein kinase C pathways</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0051928" target="_blank">positive regulation of calcium ion transport</a> (GO:0051928)
-<br><em>Triggers calcium release from intracellular stores</em><br>Evidence: <a href="https://bioregistry.io/PMID:19365405" target="_blank">PMID:19365405</a> (IMP) - <em>"Frizzled receptors signal through G proteins"</em>  </li>
+<br><em>Triggers calcium release from intracellular stores</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0035567" target="_blank">non-canonical Wnt signaling pathway</a> (GO:0035567)
-      (<a href="https://bioregistry.io/PMID:14688793" target="_blank">PMID:14688793</a> (IMP) - <em>"Frizzled-1 mediates both canonical and non-canonical Wnt signaling"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060071" target="_blank">Wnt signaling pathway, planar cell polarity pathway</a> (GO:0060071)
-      (<a href="https://bioregistry.io/PMID:17426020" target="_blank">PMID:17426020</a> (IDA) - <em>"Frizzled receptors in development and disease"</em>)
   </li>
 </ul>
 
@@ -206,7 +172,7 @@ title: FZD1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0004930" target="_blank">G protein-coupled receptor activity</a> (GO:0004930)
-<br>Evidence: <a href="https://bioregistry.io/PMID:12482950" target="_blank">PMID:12482950</a> (IDA) - <em>"Frizzled proteins constitute a novel family of G protein-coupled receptors"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -219,10 +185,6 @@ title: FZD1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0090176" target="_blank">microtubule cytoskeleton organization involved in establishment of planar polarity</a> (GO:0090176)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:17426020" target="_blank">PMID:17426020</a> (IMP) - <em>"Frizzled receptors in development and disease"</em>, <a href="https://bioregistry.io/PMID:22302796" target="_blank">PMID:22302796</a> (IDA) - <em>"Planar cell polarity signaling in development"</em></td>
-</tr>
 </table>
 
 
@@ -233,28 +195,26 @@ title: FZD1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0042813" target="_blank">Wnt receptor signaling pathway involved in cell fate specification</a> (GO:0042813)
-<br><em>Activated by non-canonical Wnt ligands</em><br>Evidence: <a href="https://bioregistry.io/PMID:22302796" target="_blank">PMID:22302796</a> (IDA) - <em>"Planar cell polarity signaling in development"</em>  </li>
+<br><em>Activated by non-canonical Wnt ligands</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0032956" target="_blank">regulation of actin cytoskeleton organization</a> (GO:0032956)
-<br><em>Controls actin dynamics through small GTPases</em><br>Evidence: <a href="https://bioregistry.io/PMID:17426020" target="_blank">PMID:17426020</a> (IMP) - <em>"Frizzled receptors in development and disease"</em>  </li>
+<br><em>Controls actin dynamics through small GTPases</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0043507" target="_blank">positive regulation of JUN kinase activity</a> (GO:0043507)
-<br><em>Activates JNK cascade for transcriptional responses</em><br>Evidence: <a href="https://bioregistry.io/PMID:14688793" target="_blank">PMID:14688793</a> (IDA) - <em>"Frizzled-1 mediates both canonical and non-canonical Wnt signaling"</em>  </li>
+<br><em>Activates JNK cascade for transcriptional responses</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0001736" target="_blank">establishment of planar polarity</a> (GO:0001736)
-      (<a href="https://bioregistry.io/PMID:22302796" target="_blank">PMID:22302796</a> (IMP) - <em>"Planar cell polarity signaling in development"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0090179" target="_blank">planar cell polarity pathway involved in neural tube closure</a> (GO:0090179)
-      (<a href="https://bioregistry.io/PMID:17426020" target="_blank">PMID:17426020</a> (IMP) - <em>"Frizzled receptors in development and disease"</em>)
   </li>
 </ul>
 
@@ -262,7 +222,7 @@ title: FZD1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0090176" target="_blank">microtubule cytoskeleton organization involved in establishment of planar polarity</a> (GO:0090176)
-<br>Evidence: <a href="https://bioregistry.io/PMID:22302796" target="_blank">PMID:22302796</a> (IDA) - <em>"Planar cell polarity signaling in development"</em>  </li>
+  </li>
 </ul>
 
 </div>

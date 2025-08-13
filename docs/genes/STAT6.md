@@ -20,20 +20,12 @@ title: STAT6
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0003700" target="_blank">DNA-binding transcription factor activity</a> (GO:0003700)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8647192" target="_blank">PMID:8647192</a> (IMP) - <em>"Stat6 is required for mediating responses to IL-4 and for development of Th2 cells"</em>, <a href="https://bioregistry.io/PMID:8630732" target="_blank">PMID:8630732</a> (IDA) - <em>"Essential role of STAT6 in IL-4 signalling"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8630732" target="_blank">PMID:8630732</a> (IDA) - <em>"Essential role of STAT6 in IL-4 signalling"</em></td>
 </tr>
 <tr>
   <th>Notes</th>
@@ -58,18 +50,16 @@ title: STAT6
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0045944" target="_blank">positive regulation of transcription by RNA polymerase II</a> (GO:0045944)
-<br><em>STAT6 activates GATA3, IL-4Rα, and immunoglobulin germline transcripts</em><br>Evidence: <a href="https://bioregistry.io/PMID:8647192" target="_blank">PMID:8647192</a> (IMP) - <em>"Stat6 is required for mediating responses to IL-4 and for development of Th2 cells"</em>, <a href="https://bioregistry.io/PMID:9697839" target="_blank">PMID:9697839</a> (IMP) - <em>"STAT6 is essential for IL-4-induced germline Cε transcription"</em>  </li>
+<br><em>STAT6 activates GATA3, IL-4Rα, and immunoglobulin germline transcripts</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0042092" target="_blank">type 2 immune response</a> (GO:0042092)
-      (<a href="https://bioregistry.io/PMID:8647192" target="_blank">PMID:8647192</a> (IMP) - <em>"Stat6 is required for mediating responses to IL-4 and for development of Th2 cells"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0045064" target="_blank">T-helper 2 cell differentiation</a> (GO:0045064)
-      (<a href="https://bioregistry.io/PMID:8630732" target="_blank">PMID:8630732</a> (IMP) - <em>"Essential role of STAT6 in IL-4 signalling"</em>)
   </li>
 </ul>
 
@@ -84,10 +74,6 @@ title: STAT6
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0016446" target="_blank">somatic hypermutation of immunoglobulin genes</a> (GO:0016446)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9697839" target="_blank">PMID:9697839</a> (IMP) - <em>"STAT6 is essential for IL-4-induced germline Cε transcription"</em>, <a href="https://bioregistry.io/PMID:8647192" target="_blank">PMID:8647192</a> (IMP) - <em>"Stat6 is required for mediating responses to IL-4 and for development of Th2 cells"</em></td>
-</tr>
 </table>
 
 
@@ -100,11 +86,9 @@ title: STAT6
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0048289" target="_blank">isotype switching to IgE</a> (GO:0048289)
-      (<a href="https://bioregistry.io/PMID:9697839" target="_blank">PMID:9697839</a> (IMP) - <em>"STAT6 is essential for IL-4-induced germline Cε transcription"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0048291" target="_blank">isotype switching to IgG1</a> (GO:0048291)
-      (<a href="https://bioregistry.io/PMID:8647192" target="_blank">PMID:8647192</a> (IMP) - <em>"Stat6 is required for mediating responses to IL-4 and for development of Th2 cells"</em>)
   </li>
 </ul>
 

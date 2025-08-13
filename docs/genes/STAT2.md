@@ -20,10 +20,6 @@ title: STAT2
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0000981" target="_blank">DNA-binding transcription factor activity, RNA polymerase II-specific</a> (GO:0000981)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:28165510" target="_blank">PMID:28165510</a> (IDA) - <em>"STAT2 is an essential adaptor in USP18-mediated suppression of type I interferon signaling"</em></td>
-</tr>
 </table>
 
 <table>
@@ -42,10 +38,6 @@ title: STAT2
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:0070721" target="_blank">ISGF3 complex</a> (GO:0070721)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:31266943" target="_blank">PMID:31266943</a> (IDA) - <em>"A molecular switch from STAT2-IRF9 to ISGF3 underlies interferon-induced gene transcription"</em></td>
-</tr>
 </table>
 
 
@@ -61,26 +53,22 @@ title: STAT2
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0045944" target="_blank">positive regulation of transcription by RNA polymerase II</a> (GO:0045944)
-<br><em>ISGF3 complex activates transcription of interferon-stimulated genes (ISGs) by binding to ISRE elements</em><br>Evidence: <a href="https://bioregistry.io/PMID:24058793" target="_blank">PMID:24058793</a> (NAS) - <em>"STAT heterodimers in immunity: A mixed message or a unique signal?"</em>, <a href="https://bioregistry.io/PMID:24065129" target="_blank">PMID:24065129</a> (IDA) - <em>"IFNβ-dependent increases in STAT1, STAT2, and IRF9 mediate resistance to viruses and DNA damage"</em>  </li>
+<br><em>ISGF3 complex activates transcription of interferon-stimulated genes (ISGs) by binding to ISRE elements</em><br>Evidence: <a href="https://bioregistry.io/PMID:24058793" target="_blank">PMID:24058793</a> (NAS) - <em>"STAT heterodimers in immunity: A mixed message or a unique signal?"</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0071357" target="_blank">cellular response to type I interferon</a> (GO:0071357)
-      (<a href="https://bioregistry.io/PMID:23391734" target="_blank">PMID:23391734</a> (IDA) - <em>"STAT2 deficiency and susceptibility to viral illness in humans"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0035455" target="_blank">response to interferon-alpha</a> (GO:0035455)
-      (<a href="https://bioregistry.io/PMID:22731491" target="_blank">PMID:22731491</a> (IDA) - <em>"USP18 establishes the transcriptional and anti-proliferative interferon α/β differential"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0035456" target="_blank">response to interferon-beta</a> (GO:0035456)
-      (<a href="https://bioregistry.io/PMID:22731491" target="_blank">PMID:22731491</a> (IDA) - <em>"USP18 establishes the transcriptional and anti-proliferative interferon α/β differential"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0140374" target="_blank">antiviral innate immune response</a> (GO:0140374)
-      (<a href="https://bioregistry.io/PMID:23391734" target="_blank">PMID:23391734</a> (IMP) - <em>"STAT2 deficiency and susceptibility to viral illness in humans"</em>)
   </li>
 </ul>
 

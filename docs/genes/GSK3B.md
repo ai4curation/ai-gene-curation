@@ -20,10 +20,6 @@ title: GSK3B
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0004674" target="_blank">protein serine/threonine kinase activity</a> (GO:0004674)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10644691" target="_blank">PMID:10644691</a> (IDA) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em>, <a href="https://bioregistry.io/PMID:15448698" target="_blank">PMID:15448698</a> (TAS) - <em>"GSK-3: tricks of the trade for a multi-tasking kinase"</em></td>
-</tr>
 </table>
 
 <table>
@@ -31,20 +27,12 @@ title: GSK3B
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005737" target="_blank">cytoplasm</a> (GO:0005737)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10644691" target="_blank">PMID:10644691</a> (IDA) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:0030877" target="_blank">beta-catenin destruction complex</a> (GO:0030877)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10700176" target="_blank">PMID:10700176</a> (IPI) - <em>"Structural basis for recruitment of glycogen synthase kinase 3beta to the axin-APC scaffold complex"</em></td>
 </tr>
 </table>
 
@@ -54,31 +42,29 @@ title: GSK3B
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0005524" target="_blank">ATP binding</a> (GO:0005524)
-<br><em>Binds ATP in active site for catalytic activity</em><br>Evidence: <a href="https://bioregistry.io/PMID:11749387" target="_blank">PMID:11749387</a> (IDA) - <em>"Crystal structure of glycogen synthase kinase 3 beta: structural basis for phosphate-primed substrate specificity and autoinhibition"</em>  </li>
+<br><em>Binds ATP in active site for catalytic activity</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0042803" target="_blank">protein homodimerization activity</a> (GO:0042803)
-<br><em>Forms homodimers that may regulate activity</em><br>Evidence: <a href="https://bioregistry.io/PMID:11749387" target="_blank">PMID:11749387</a> (IDA) - <em>"Crystal structure of glycogen synthase kinase 3 beta: structural basis for phosphate-primed substrate specificity and autoinhibition"</em>  </li>
+<br><em>Forms homodimers that may regulate activity</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0006468" target="_blank">protein phosphorylation</a> (GO:0006468)
-<br><em>Phosphorylates β-catenin at Ser33/Ser37/Thr41</em><br>Evidence: <a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10644691" target="_blank">PMID:10644691</a> (IDA) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em>  </li>
+<br><em>Phosphorylates β-catenin at Ser33/Ser37/Thr41</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0016567" target="_blank">protein ubiquitination</a> (GO:0016567)
-<br><em>Phosphorylation creates degron for β-TrCP recognition</em><br>Evidence: <a href="https://bioregistry.io/PMID:10644691" target="_blank">PMID:10644691</a> (IMP) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em>  </li>
+<br><em>Phosphorylation creates degron for β-TrCP recognition</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0090090" target="_blank">negative regulation of canonical Wnt signaling pathway</a> (GO:0090090)
-      (<a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IMP) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10644691" target="_blank">PMID:10644691</a> (IDA) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
-      (<a href="https://bioregistry.io/PMID:15329723" target="_blank">PMID:15329723</a> (TAS) - <em>"Wnt/beta-catenin signaling: components, mechanisms, and diseases"</em>)
   </li>
 </ul>
 
@@ -86,7 +72,7 @@ title: GSK3B
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0004674" target="_blank">protein serine/threonine kinase activity</a> (GO:0004674)
-<br>Evidence: <a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -99,20 +85,12 @@ title: GSK3B
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0004674" target="_blank">protein serine/threonine kinase activity</a> (GO:0004674)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:7553863" target="_blank">PMID:7553863</a> (IDA) - <em>"Phosphorylation and inactivation of glycogen synthase kinase 3 by protein kinase A"</em>, <a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IDA) - <em>"GSK-3 and the regulation of glycogen metabolism"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005737" target="_blank">cytoplasm</a> (GO:0005737)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IDA) - <em>"GSK-3 and the regulation of glycogen metabolism"</em></td>
 </tr>
 </table>
 
@@ -123,25 +101,23 @@ title: GSK3B
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0005080" target="_blank">protein kinase C binding</a> (GO:0005080)
-<br><em>Phosphorylated and inhibited by AKT downstream of insulin</em><br>Evidence: <a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IPI) - <em>"GSK-3 and the regulation of glycogen metabolism"</em>  </li>
+<br><em>Phosphorylated and inhibited by AKT downstream of insulin</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0045719" target="_blank">negative regulation of glycogen biosynthetic process</a> (GO:0045719)
-<br><em>Inactivates glycogen synthase by phosphorylation</em><br>Evidence: <a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IMP) - <em>"GSK-3 and the regulation of glycogen metabolism"</em>  </li>
+<br><em>Inactivates glycogen synthase by phosphorylation</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0005979" target="_blank">regulation of glycogen biosynthetic process</a> (GO:0005979)
-      (<a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IMP) - <em>"GSK-3 and the regulation of glycogen metabolism"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0046627" target="_blank">negative regulation of insulin receptor signaling pathway</a> (GO:0046627)
-      (<a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IMP) - <em>"GSK-3 and the regulation of glycogen metabolism"</em>)
   </li>
 </ul>
 
@@ -149,7 +125,7 @@ title: GSK3B
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0032868" target="_blank">response to insulin</a> (GO:0032868)
-<br>Evidence: <a href="https://bioregistry.io/PMID:10806215" target="_blank">PMID:10806215</a> (IDA) - <em>"GSK-3 and the regulation of glycogen metabolism"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -162,20 +138,12 @@ title: GSK3B
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0050321" target="_blank">tau-protein kinase activity</a> (GO:0050321)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8090222" target="_blank">PMID:8090222</a> (IDA) - <em>"Glycogen synthase kinase-3 beta phosphorylates tau protein"</em>, <a href="https://bioregistry.io/PMID:15009664" target="_blank">PMID:15009664</a> (IDA) - <em>"Role of GSK-3beta in Alzheimer's disease pathology"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0043025" target="_blank">neuronal cell body</a> (GO:0043025)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:15009664" target="_blank">PMID:15009664</a> (IDA) - <em>"Role of GSK-3beta in Alzheimer's disease pathology"</em></td>
 </tr>
 </table>
 
@@ -187,18 +155,16 @@ title: GSK3B
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:1904426" target="_blank">positive regulation of GTP binding</a> (GO:1904426)
-<br><em>Hyperphosphorylated tau dissociates from microtubules</em><br>Evidence: <a href="https://bioregistry.io/PMID:15009664" target="_blank">PMID:15009664</a> (IMP) - <em>"Role of GSK-3beta in Alzheimer's disease pathology"</em>  </li>
+<br><em>Hyperphosphorylated tau dissociates from microtubules</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:1901216" target="_blank">positive regulation of neuron death</a> (GO:1901216)
-      (<a href="https://bioregistry.io/PMID:15009664" target="_blank">PMID:15009664</a> (IMP) - <em>"Role of GSK-3beta in Alzheimer's disease pathology"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0031175" target="_blank">neuron projection development</a> (GO:0031175)
-      (<a href="https://bioregistry.io/PMID:15009664" target="_blank">PMID:15009664</a> (IMP) - <em>"Role of GSK-3beta in Alzheimer's disease pathology"</em>)
   </li>
 </ul>
 
@@ -206,7 +172,7 @@ title: GSK3B
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0006468" target="_blank">protein phosphorylation</a> (GO:0006468)
-<br>Evidence: <a href="https://bioregistry.io/PMID:8090222" target="_blank">PMID:8090222</a> (IDA) - <em>"Glycogen synthase kinase-3 beta phosphorylates tau protein"</em>  </li>
+  </li>
 </ul>
 
 </div>

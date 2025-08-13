@@ -20,20 +20,12 @@ title: SOCS2
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0019209" target="_blank">kinase regulator activity</a> (GO:0019209)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10629052" target="_blank">PMID:10629052</a> (IDA) - <em>"SOCS2 negatively regulates growth hormone action in vitro and in vivo"</em>, <a href="https://bioregistry.io/PMID:11001584" target="_blank">PMID:11001584</a> (IMP) - <em>"Gigantism in mice lacking suppressor of cytokine signalling-2"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005737" target="_blank">cytoplasm</a> (GO:0005737)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10629052" target="_blank">PMID:10629052</a> (IDA) - <em>"SOCS2 negatively regulates growth hormone action in vitro and in vivo"</em></td>
 </tr>
 <tr>
   <th>Notes</th>
@@ -55,18 +47,16 @@ title: SOCS2
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0046627" target="_blank">negative regulation of insulin receptor signaling pathway</a> (GO:0046627)
-<br><em>SOCS2 promotes degradation of insulin receptor substrate proteins</em><br>Evidence: <a href="https://bioregistry.io/PMID:15297455" target="_blank">PMID:15297455</a> (IDA) - <em>"SOCS2 negatively regulates insulin signaling"</em>  </li>
+<br><em>SOCS2 promotes degradation of insulin receptor substrate proteins</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0040036" target="_blank">regulation of fibroblast growth factor receptor signaling pathway</a> (GO:0040036)
-      (<a href="https://bioregistry.io/PMID:18003621" target="_blank">PMID:18003621</a> (IMP) - <em>"SOCS2 controls proliferation and differentiation of skeletal muscle cells"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0009968" target="_blank">negative regulation of signal transduction</a> (GO:0009968)
-      (<a href="https://bioregistry.io/PMID:11001584" target="_blank">PMID:11001584</a> (IMP) - <em>"Gigantism in mice lacking suppressor of cytokine signalling-2"</em>)
   </li>
 </ul>
 
@@ -81,10 +71,6 @@ title: SOCS2
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0031625" target="_blank">ubiquitin protein ligase binding</a> (GO:0031625)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10629052" target="_blank">PMID:10629052</a> (IDA) - <em>"SOCS2 negatively regulates growth hormone action in vitro and in vivo"</em>, <a href="https://bioregistry.io/PMID:15590694" target="_blank">PMID:15590694</a> (IDA) - <em>"The SOCS box of suppressor of cytokine signaling-2 encodes a hierarchy of affinities"</em></td>
-</tr>
 </table>
 
 
@@ -97,11 +83,9 @@ title: SOCS2
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0016567" target="_blank">protein ubiquitination</a> (GO:0016567)
-      (<a href="https://bioregistry.io/PMID:15297455" target="_blank">PMID:15297455</a> (IDA) - <em>"SOCS2 negatively regulates insulin signaling"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0030163" target="_blank">protein catabolic process</a> (GO:0030163)
-      (<a href="https://bioregistry.io/PMID:15590694" target="_blank">PMID:15590694</a> (IDA) - <em>"The SOCS box of suppressor of cytokine signaling-2 encodes a hierarchy of affinities"</em>)
   </li>
 </ul>
 
@@ -145,6 +129,9 @@ title: SOCS2
         <li>
           <a href="https://bioregistry.io/HP:0000831" target="_blank">Insulin-dependent diabetes mellitus</a> (HP:0000831)
 <br><em>metabolic changes with improved insulin sensitivity (protective against diabetes)</em><br><small>Mechanism: altered cross-talk between GH and insulin signaling</small>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0001548" target="_blank">Overgrowth</a> (HP:0001548)
+<br><em>organomegaly with proportional organ enlargement</em><br><small>Mechanism: systemic effects of enhanced GH/IGF-1 signaling on organ growth</small>        </li>
     </ul>
   </td>
 </tr>
@@ -237,9 +224,10 @@ title: SOCS2
 
 * **Metabolic effects:**
   * SOCS2 deletion improves glucose tolerance
-  * Enhanced insulin sensitivity in muscle
-  * Protection from diet-induced obesity (mouse)
+  * Enhanced insulin sensitivity in muscle and liver
+  * Protection from diet-induced obesity and diabetes
   * Complex GH-insulin signaling crosstalk
+  * Altered adipocyte differentiation and fat distribution
 
 * **Cancer implications:**
   * Frequently methylated/silenced in cancers
@@ -255,36 +243,57 @@ title: SOCS2
 
 ## Phenotypes
 
-* **SOCS2 knockout mice:**
-  * **Growth:** 30-40% increase in body weight and length
-  * **Skeletal:** Increased bone length and thickness
-  * **Muscle:** Enhanced muscle mass and strength
-  * **Metabolic:** Improved glucose tolerance
-  * **Organs:** Proportional organomegaly
-  * **Lifespan:** Normal despite large size
+### SOCS2 Deficiency (Loss-of-function)
+**Gigantism syndrome** with systemic overgrowth:
 
-* **Tissue-specific effects:**
-  * **Liver:** Enhanced IGF-1 production
-  * **Muscle:** Increased fiber size
-  * **Fat:** Altered adipocyte differentiation
-  * **Bone:** Extended growth plate activity
+#### Growth Characteristics
+* **Body size**: 30-40% increase in weight and length
+* **Proportional growth**: All organs enlarged proportionally
+* **Extended growth period**: Prolonged postnatal growth phase
+* **Normal lifespan**: Despite large size, no adverse effects on longevity
 
-* **Sexual dimorphism:**
-  * Males show more pronounced gigantism
-  * Reflects GH secretion pattern differences
-  * Female fertility relatively preserved
-  * Male reproductive parameters enhanced
+#### Skeletal System
+* **Bone length**: Significantly increased long bone length
+* **Bone density**: Enhanced bone mineral density
+* **Growth plates**: Extended activity and delayed closure
+* **Vertebral growth**: Increased spine length
 
-* **SOCS2 overexpression:**
-  * Growth retardation
-  * Reduced IGF-1 levels
-  * Impaired mammary development
-  * Decreased fertility
+#### Muscle System
+* **Muscle mass**: Enhanced skeletal muscle hypertrophy
+* **Fiber size**: Increased myofiber diameter
+* **Strength**: Improved muscle function and performance
+* **Regeneration**: Enhanced muscle repair capacity
 
-* **Double knockouts:**
-  * **SOCS2/SOCS3:** Embryonic lethal
-  * **SOCS2/SOCS1:** Enhanced gigantism
-  * **SOCS2/CIS:** Additive growth effects
+#### Metabolic Benefits
+* **Glucose homeostasis**: Improved glucose tolerance
+* **Insulin sensitivity**: Enhanced insulin action in tissues
+* **Diabetes protection**: Resistance to diet-induced diabetes
+* **Fat distribution**: Altered adipogenesis and fat storage
+
+#### Mechanism
+* **GH hypersensitivity**: Unrestrained GH receptor signaling
+* **IGF-1 elevation**: Sustained high IGF-1 production
+* **STAT5 activation**: Prolonged STAT5 phosphorylation
+* **Metabolic reprogramming**: Enhanced anabolic pathways
+
+### SOCS2 Overexpression (Gain-of-function)
+**Growth retardation syndrome**:
+* **Dwarfism**: Severe growth retardation
+* **IGF-1 deficiency**: Markedly reduced IGF-1 levels
+* **Reproductive dysfunction**: Impaired fertility
+* **Metabolic dysfunction**: Insulin resistance
+
+### Clinical Relevance
+* **Human height variation**: SOCS2 SNPs associated with adult stature
+* **Growth disorders**: Potential therapeutic target
+* **Metabolic disease**: Role in diabetes and obesity
+* **Cancer**: Tumor suppressor function in some cancers
+
+### Sexual Dimorphism
+* **Male-predominant gigantism**: Reflects GH pulse patterns
+* **Female fertility**: Better preserved in females
+* **Reproductive enhancement**: Improved male fertility parameters
+* **Tissue-specific effects**: Variable response by organ system
 
 ---
 

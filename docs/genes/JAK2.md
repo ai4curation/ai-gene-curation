@@ -20,20 +20,12 @@ title: JAK2
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0004713" target="_blank">protein tyrosine kinase activity</a> (GO:0004713)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9111318" target="_blank">PMID:9111318</a> (IDA) - <em>"Activation of JAK2 catalytic activity requires phosphorylation of Y1007 in the kinase activation loop"</em>, <a href="https://bioregistry.io/PMID:16467205" target="_blank">PMID:16467205</a> (IMP) - <em>"A unique clonal JAK2 mutation leading to constitutive signalling causes polycythaemia vera"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005737" target="_blank">cytoplasm</a> (GO:0005737)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:7539035" target="_blank">PMID:7539035</a> (IDA) - <em>"JAK2 associates with the erythropoietin receptor and is tyrosine phosphorylated and activated following stimulation with erythropoietin"</em>, <a href="https://bioregistry.io/PMID:8943050" target="_blank">PMID:8943050</a> (IDA) - <em>"Growth hormone induces tyrosine phosphorylation and activation of the JAK2 tyrosine kinase"</em></td>
 </tr>
 <tr>
   <th>Notes</th>
@@ -55,22 +47,19 @@ title: JAK2
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0006468" target="_blank">protein phosphorylation</a> (GO:0006468)
-<br><em>Phosphorylates STAT proteins (STAT1, STAT3, STAT5A, STAT5B) and cytokine receptors at specific tyrosine residues</em><br>Evidence: <a href="https://bioregistry.io/PMID:7537849" target="_blank">PMID:7537849</a> (IDA) - <em>"JAK2 is phosphorylated and activated by interleukin 3 and erythropoietin"</em>, <a href="https://bioregistry.io/PMID:15292186" target="_blank">PMID:15292186</a> (IMP) - <em>"Phosphorylation of STAT3 and STAT5 by JAK2 is critical for erythropoietin-induced erythroid differentiation"</em>  </li>
+<br><em>Phosphorylates STAT proteins (STAT1, STAT3, STAT5A, STAT5B) and cytokine receptors at specific tyrosine residues</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0007259" target="_blank">cell surface receptor signaling pathway via JAK-STAT</a> (GO:0007259)
-      (<a href="https://bioregistry.io/PMID:11114383" target="_blank">PMID:11114383</a> (IMP) - <em>"JAK2 deficiency defines an essential developmental checkpoint in definitive hematopoiesis"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0038163" target="_blank">erythropoietin signaling pathway</a> (GO:0038163)
-      (<a href="https://bioregistry.io/PMID:9160835" target="_blank">PMID:9160835</a> (IMP) - <em>"JAK2 is essential for signaling through a variety of cytokine receptors"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060333" target="_blank">type II interferon-mediated signaling pathway</a> (GO:0060333)
-      (<a href="https://bioregistry.io/PMID:7543512" target="_blank">PMID:7543512</a> (IDA) - <em>"Complementation of a mutant cell line: central role of the 91 kDa polypeptide of ISGF3 in the interferon-alpha and -gamma signal transduction pathways"</em>)
   </li>
 </ul>
 
@@ -85,10 +74,6 @@ title: JAK2
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0030218" target="_blank">erythrocyte differentiation</a> (GO:0030218)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9716592" target="_blank">PMID:9716592</a> (IMP) - <em>"JAK2 is required for induction of the murine DUB-1 gene"</em>, <a href="https://bioregistry.io/PMID:11114383" target="_blank">PMID:11114383</a> (IMP) - <em>"JAK2 deficiency defines an essential developmental checkpoint in definitive hematopoiesis"</em></td>
-</tr>
 </table>
 
 
@@ -101,11 +86,9 @@ title: JAK2
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0038162" target="_blank">erythropoietin-mediated signaling pathway</a> (GO:0038162)
-      (<a href="https://bioregistry.io/PMID:7539035" target="_blank">PMID:7539035</a> (IDA) - <em>"JAK2 associates with the erythropoietin receptor and is tyrosine phosphorylated and activated following stimulation with erythropoietin"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0030219" target="_blank">megakaryocyte differentiation</a> (GO:0030219)
-      (<a href="https://bioregistry.io/PMID:9531566" target="_blank">PMID:9531566</a> (IDA) - <em>"Thrombopoietin induces tyrosine phosphorylation and activation of the Janus kinase, JAK2"</em>)
   </li>
 </ul>
 

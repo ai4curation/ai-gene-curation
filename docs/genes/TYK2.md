@@ -20,20 +20,12 @@ title: TYK2
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0004713" target="_blank">protein tyrosine kinase activity</a> (GO:0004713)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8022486" target="_blank">PMID:8022486</a> (IDA) - <em>"Tyk2, prototype of a novel class of non-receptor tyrosine kinase genes"</em>, <a href="https://bioregistry.io/PMID:16846591" target="_blank">PMID:16846591</a> (IMP) - <em>"Hyperimmunoglobulin E syndrome associated with an IL-12 receptor beta 1 mutation"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005737" target="_blank">cytoplasm</a> (GO:0005737)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:7526154" target="_blank">PMID:7526154</a> (IDA) - <em>"Identification of the human and murine Tyk2 genes and their expression patterns"</em></td>
 </tr>
 <tr>
   <th>Notes</th>
@@ -55,22 +47,19 @@ title: TYK2
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0006468" target="_blank">protein phosphorylation</a> (GO:0006468)
-<br><em>Phosphorylates STAT proteins (STAT1, STAT2, STAT3, STAT4) to activate transcription</em><br>Evidence: <a href="https://bioregistry.io/PMID:8943048" target="_blank">PMID:8943048</a> (IDA) - <em>"Distinct roles of the receptor tyrosine kinases Tyk-2 and Jak-1 in the response to interferon-alpha"</em>, <a href="https://bioregistry.io/PMID:10358164" target="_blank">PMID:10358164</a> (IMP) - <em>"Interleukin (IL)-12 and IL-23 are key cytokines for Tyk2-dependent protective immunity"</em>  </li>
+<br><em>Phosphorylates STAT proteins (STAT1, STAT2, STAT3, STAT4) to activate transcription</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0060337" target="_blank">type I interferon-mediated signaling pathway</a> (GO:0060337)
-      (<a href="https://bioregistry.io/PMID:14764679" target="_blank">PMID:14764679</a> (IMP) - <em>"TYK2 is required for type I IFN-mediated antiviral immunity in humans"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0035722" target="_blank">interleukin-12-mediated signaling pathway</a> (GO:0035722)
-      (<a href="https://bioregistry.io/PMID:10358164" target="_blank">PMID:10358164</a> (IMP) - <em>"Interleukin (IL)-12 and IL-23 are key cytokines for Tyk2-dependent protective immunity"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0070757" target="_blank">interleukin-23-mediated signaling pathway</a> (GO:0070757)
-      (<a href="https://bioregistry.io/PMID:16846591" target="_blank">PMID:16846591</a> (IMP) - <em>"Hyperimmunoglobulin E syndrome associated with an IL-12 receptor beta 1 mutation"</em>)
   </li>
 </ul>
 
@@ -85,10 +74,6 @@ title: TYK2
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0051607" target="_blank">defense response to virus</a> (GO:0051607)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:14764679" target="_blank">PMID:14764679</a> (IMP) - <em>"TYK2 is required for type I IFN-mediated antiviral immunity in humans"</em>, <a href="https://bioregistry.io/PMID:33692547" target="_blank">PMID:33692547</a> (IMP) - <em>"Human TYK2 deficiency: Mycobacterial and viral infections without hyper-IgE syndrome"</em></td>
-</tr>
 </table>
 
 
@@ -101,8 +86,7 @@ title: TYK2
 <ul>
   <li>
       One of:
-        <a href="https://bioregistry.io/GO:0045087" target="_blank">innate immune response</a> (GO:0045087),         <a href="https://bioregistry.io/GO:0002250" target="_blank">adaptive immune response</a> (GO:0002250)      (<a href="https://bioregistry.io/PMID:8943048" target="_blank">PMID:8943048</a> (IDA) - <em>"Distinct roles of the receptor tyrosine kinases Tyk-2 and Jak-1 in the response to interferon-alpha"</em>)
-  </li>
+        <a href="https://bioregistry.io/GO:0045087" target="_blank">innate immune response</a> (GO:0045087),         <a href="https://bioregistry.io/GO:0002250" target="_blank">adaptive immune response</a> (GO:0002250)  </li>
 </ul>
 
 <strong>Additional Roles:</strong>
@@ -137,7 +121,7 @@ title: TYK2
   <td>
     <ul style="margin: 0;">
         <li>
-          <a href="https://bioregistry.io/MONDO:0019106" target="_blank">primary immunodeficiency disease</a> (MONDO:0019106)
+          <a href="https://bioregistry.io/MONDO:0006183" target="_blank">cleft palate</a> (MONDO:0006183)
 <br><em>primary immunodeficiency with mycobacterial and viral susceptibility</em><br><small>Mechanism: impaired type I IFN and IL-12/IL-23 signaling reduces antimicrobial immunity</small>        </li>
         <li>
           <a href="https://bioregistry.io/HP:0032251" target="_blank">Increased susceptibility to mycobacterial infections</a> (HP:0032251)
@@ -148,6 +132,9 @@ title: TYK2
         <li>
           <a href="https://bioregistry.io/HP:0003212" target="_blank">Increased circulating IgE level</a> (HP:0003212)
 <br><em>normal IgE levels unlike hyper-IgE syndrome (absence of elevated IgE)</em><br><small>Mechanism: preserved IL-4 signaling distinguishes TYK2 deficiency from STAT3 defects</small>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0002719" target="_blank">Recurrent infections</a> (HP:0002719)
+<br><em>chronic mucocutaneous candidiasis</em><br><small>Mechanism: impaired IL-17 production due to defective IL-23 signaling</small>        </li>
     </ul>
   </td>
 </tr>
@@ -176,6 +163,9 @@ title: TYK2
         <li>
           <a href="https://bioregistry.io/MONDO:0004963" target="_blank">T-cell acute lymphoblastic leukemia</a> (MONDO:0004963)
 <br><em>T cell acute lymphoblastic leukemia</em><br><small>Mechanism: constitutive STAT activation drives T cell transformation</small>        </li>
+        <li>
+          <a href="https://bioregistry.io/MONDO:0004967" target="_blank">B-cell acute lymphoblastic leukemia</a> (MONDO:0004967)
+<br><em>B cell acute lymphoblastic leukemia</em><br><small>Mechanism: dysregulated STAT3/5 activation in B cell progenitors</small>        </li>
     </ul>
   </td>
 </tr>
@@ -233,38 +223,69 @@ title: TYK2
 ## Clinical Significance
 
 * **TYK2 deficiency (rare):**
+  * <20 reported cases worldwide
+  * Autosomal recessive inheritance
   * Increased susceptibility to mycobacteria, viruses, and fungi
   * NO hyper-IgE syndrome (distinguishes from STAT3 deficiency)
   * Relatively mild phenotype compared to JAK3 or STAT1 deficiency
+  * Compatible with survival to adulthood
 
 * **TYK2 P1104A variant:**
-  * Common protective variant (~4% of Europeans)
+  * Common protective variant (~4% of Europeans, ~1% globally)
   * Reduces autoimmune disease risk (MS, IBD, psoriasis, SLE)
   * Increases tuberculosis risk in homozygotes
   * Represents evolutionary trade-off between infection and autoimmunity
+  * Natural model for TYK2 inhibition safety
 
 * **Therapeutic targeting:**
-  * TYK2 inhibitors (deucravacitinib) approved for psoriasis
+  * **Deucravacitinib**: Selective TYK2 inhibitor approved for psoriasis
   * Under investigation for SLE, IBD, and other autoimmune diseases
-  * Selective TYK2 inhibition preserves JAK1/2/3 functions
+  * **Advantages**: Selective TYK2 inhibition preserves JAK1/2/3 functions
+  * **Safety profile**: Based on P1104A variant data
 
 ## Phenotypes
 
-* **Complete loss-of-function:** Primary immunodeficiency with:
-  * Mycobacterial infections (BCG-osis, atypical mycobacteria)
-  * Severe viral infections (HSV, VZV, influenza)
-  * Mucocutaneous candidiasis
-  * Normal lymphocyte development
+### Complete TYK2 Deficiency (Loss-of-function)
+**Primary immunodeficiency** without hyper-IgE syndrome:
+* **Mycobacterial infections**: 
+  - Disseminated BCG infection in infancy
+  - Atypical mycobacteria (MAC, M. fortuitum)
+  - Tuberculosis susceptibility
+  - Salmonella infections
+* **Viral infections**:
+  - HSV encephalitis and recurrent HSV
+  - Severe VZV with complications
+  - Prolonged influenza and CMV
+  - Impaired antiviral IFN responses
+* **Fungal infections**:
+  - Chronic mucocutaneous candidiasis
+  - Impaired Th17 responses
+* **Distinguishing features**:
+  - Normal IgE levels (unlike STAT3 deficiency)
+  - No eczema or skeletal abnormalities
+  - Normal T, B, NK cell development
+  - Selective cytokine signaling defects
 
-* **Partial loss-of-function (P1104A):** 
-  * Protection from autoimmune diseases
-  * Mild increase in infection susceptibility
-  * Demonstrates TYK2's role in autoimmune pathogenesis
+### Partial TYK2 Deficiency (P1104A variant)
+**Balanced immunity-autoimmunity trade-off**:
+* **Autoimmune protection**:
+  - Reduced multiple sclerosis risk (OR ~0.7)
+  - Crohn's disease protection
+  - Psoriasis risk reduction
+  - SLE protection
+* **Infection susceptibility**:
+  - Increased tuberculosis risk (homozygotes)
+  - Mild mycobacterial susceptibility
+  - Generally preserved antiviral immunity
+* **Mechanism**: ~75% reduction in TYK2 kinase activity
+* **Frequency**: ~4% in Europeans, varies by population
 
-* **Gain-of-function:** Associated with:
-  * T-ALL (rare)
-  * B-ALL (rare)
-  * Potential driver mutations in lymphoid malignancies
+### TYK2 Activation (Gain-of-function)
+**Hematological malignancies**:
+* **T-cell acute lymphoblastic leukemia**
+* **B-cell acute lymphoblastic leukemia** 
+* **Mechanism**: Constitutive STAT1/3/4/5 activation
+* **Frequency**: Rare driver mutations in lymphoid cancers
 
 ---
 

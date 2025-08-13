@@ -20,20 +20,12 @@ title: STAT5B
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0003700" target="_blank">DNA-binding transcription factor activity</a> (GO:0003700)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10490103" target="_blank">PMID:10490103</a> (IDA) - <em>"Sexually dimorphic regulation of liver gene expression by growth hormone requires STAT5b"</em>, <a href="https://bioregistry.io/PMID:12930846" target="_blank">PMID:12930846</a> (IMP) - <em>"Mutations of the growth hormone receptor and STAT5b genes causing severe growth retardation"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9388184" target="_blank">PMID:9388184</a> (IDA) - <em>"STAT5b is required for GH-induced liver IGF-I gene expression"</em></td>
 </tr>
 <tr>
   <th>Notes</th>
@@ -58,18 +50,16 @@ title: STAT5B
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0045944" target="_blank">positive regulation of transcription by RNA polymerase II</a> (GO:0045944)
-<br><em>STAT5B activates IGF-1, CYP genes, and immune regulatory genes</em><br>Evidence: <a href="https://bioregistry.io/PMID:9388184" target="_blank">PMID:9388184</a> (IMP) - <em>"STAT5b is required for GH-induced liver IGF-I gene expression"</em>, <a href="https://bioregistry.io/PMID:10490103" target="_blank">PMID:10490103</a> (IDA) - <em>"Sexually dimorphic regulation of liver gene expression by growth hormone requires STAT5b"</em>  </li>
+<br><em>STAT5B activates IGF-1, CYP genes, and immune regulatory genes</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0040018" target="_blank">positive regulation of multicellular organism growth</a> (GO:0040018)
-      (<a href="https://bioregistry.io/PMID:12930846" target="_blank">PMID:12930846</a> (IMP) - <em>"Mutations of the growth hormone receptor and STAT5b genes causing severe growth retardation"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060736" target="_blank">prostate gland growth</a> (GO:0060736)
-      (<a href="https://bioregistry.io/PMID:11158330" target="_blank">PMID:11158330</a> (IDA) - <em>"Growth hormone and prolactin stimulate androgen receptor gene expression in prostate cancer cells"</em>)
   </li>
 </ul>
 
@@ -84,10 +74,6 @@ title: STAT5B
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0045591" target="_blank">positive regulation of regulatory T cell differentiation</a> (GO:0045591)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:12522256" target="_blank">PMID:12522256</a> (IMP) - <em>"STAT5 activation is required for IL-2-induced regulatory T cell function"</em>, <a href="https://bioregistry.io/PMID:15879138" target="_blank">PMID:15879138</a> (IMP) - <em>"Essential role of STAT5 in IL-2-induced survival of regulatory T cells"</em></td>
-</tr>
 </table>
 
 
@@ -100,11 +86,9 @@ title: STAT5B
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0030889" target="_blank">negative regulation of B cell proliferation</a> (GO:0030889)
-      (<a href="https://bioregistry.io/PMID:11025212" target="_blank">PMID:11025212</a> (IMP) - <em>"IL-2 and IL-15 regulate CD8+ memory T-cell differentiation through STAT5B"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0001779" target="_blank">natural killer cell differentiation</a> (GO:0001779)
-      (<a href="https://bioregistry.io/PMID:16025125" target="_blank">PMID:16025125</a> (IMP) - <em>"Human STAT5B deficiency causes severe IGF-I deficiency and growth failure"</em>)
   </li>
 </ul>
 

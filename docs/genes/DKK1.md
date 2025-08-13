@@ -20,10 +20,6 @@ title: DKK1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0030178" target="_blank">negative regulation of Wnt signaling pathway</a> (GO:0030178)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (IDA) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em>, <a href="https://bioregistry.io/PMID:11448771" target="_blank">PMID:11448771</a> (IMP) - <em>"Dickkopf proteins are antagonists of Wnt signaling"</em>, <a href="https://bioregistry.io/PMID:16513652" target="_blank">PMID:16513652</a> (IDA) - <em>"Crystal structure of DKK2 in complex with LRP6"</em></td>
-</tr>
 </table>
 
 <table>
@@ -31,20 +27,12 @@ title: DKK1
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005576" target="_blank">extracellular region</a> (GO:0005576)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Dickkopf-1 is a member of a new family of secreted proteins"</em>, <a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (IDA) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:1904702" target="_blank">negative regulation of Wnt-Frizzled-LRP5/6 complex assembly</a> (GO:1904702)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:16513652" target="_blank">PMID:16513652</a> (IDA) - <em>"Crystal structure of DKK2 in complex with LRP6"</em>, <a href="https://bioregistry.io/PMID:11742004" target="_blank">PMID:11742004</a> (IPI) - <em>"Kremen proteins interact with Dickkopf to regulate Wnt signaling"</em></td>
 </tr>
 </table>
 
@@ -54,35 +42,32 @@ title: DKK1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0038024" target="_blank">cargo receptor activity</a> (GO:0038024)
-<br><em>Acts as a bridge between LRP5/6 and Kremen for internalization</em><br>Evidence: <a href="https://bioregistry.io/PMID:11742004" target="_blank">PMID:11742004</a> (IDA) - <em>"Kremen proteins interact with Dickkopf to regulate Wnt signaling"</em>  </li>
+<br><em>Acts as a bridge between LRP5/6 and Kremen for internalization</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0042803" target="_blank">protein homodimerization activity</a> (GO:0042803)
-<br><em>Can dimerize to enhance antagonist activity</em><br>Evidence: <a href="https://bioregistry.io/PMID:16513652" target="_blank">PMID:16513652</a> (IDA) - <em>"Crystal structure of DKK2 in complex with LRP6"</em>  </li>
+<br><em>Can dimerize to enhance antagonist activity</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0090090" target="_blank">negative regulation of canonical Wnt signaling pathway</a> (GO:0090090)
-<br><em>Blocks β-catenin stabilization and TCF/LEF transcriptional activation</em><br>Evidence: <a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (IMP) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em>, <a href="https://bioregistry.io/PMID:11448771" target="_blank">PMID:11448771</a> (IDA) - <em>"Dickkopf proteins are antagonists of Wnt signaling"</em>  </li>
+<br><em>Blocks β-catenin stabilization and TCF/LEF transcriptional activation</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0031623" target="_blank">receptor internalization</a> (GO:0031623)
-<br><em>Promotes LRP5/6 endocytosis via Kremen-dependent mechanism</em><br>Evidence: <a href="https://bioregistry.io/PMID:11742004" target="_blank">PMID:11742004</a> (IDA) - <em>"Kremen proteins interact with Dickkopf to regulate Wnt signaling"</em>  </li>
+<br><em>Promotes LRP5/6 endocytosis via Kremen-dependent mechanism</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0060323" target="_blank">head morphogenesis</a> (GO:0060323)
-      (<a href="https://bioregistry.io/PMID:10341148" target="_blank">PMID:10341148</a> (IMP) - <em>"Dickkopf-1 is required for head formation in Xenopus"</em>, <a href="https://bioregistry.io/PMID:11029007" target="_blank">PMID:11029007</a> (IDA) - <em>"Requirement for Wnt signaling in vertebrate head formation"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0030282" target="_blank">bone mineralization</a> (GO:0030282)
-      (<a href="https://bioregistry.io/PMID:16355273" target="_blank">PMID:16355273</a> (IMP) - <em>"DKK1 and bone disease"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0045668" target="_blank">negative regulation of osteoblast differentiation</a> (GO:0045668)
-      (<a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>)
   </li>
 </ul>
 
@@ -90,7 +75,7 @@ title: DKK1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0030547" target="_blank">signaling receptor inhibitor activity</a> (GO:0030547)
-<br>Evidence: <a href="https://bioregistry.io/PMID:11357136" target="_blank">PMID:11357136</a> (IDA) - <em>"LDL-receptor-related proteins in Wnt signal transduction"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -103,20 +88,12 @@ title: DKK1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0045124" target="_blank">regulation of bone resorption</a> (GO:0045124)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:17306036" target="_blank">PMID:17306036</a> (IMP) - <em>"Role of DKK1 in bone metabolism"</em>, <a href="https://bioregistry.io/PMID:16355273" target="_blank">PMID:16355273</a> (IDA) - <em>"DKK1 and bone disease"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
-  <td><a href="https://bioregistry.io/GO:0001591" target="_blank">dopamine neuron</a> (GO:0001591)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:20813963" target="_blank">PMID:20813963</a> (IEP) - <em>"Central control of bone mass by DKK1"</em></td>
+  <td><a href="https://bioregistry.io/CL:0000700" target="_blank">dopaminergic neuron</a> (CL:0000700)</td>
 </tr>
 </table>
 
@@ -129,15 +106,12 @@ title: DKK1
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0045780" target="_blank">positive regulation of bone resorption</a> (GO:0045780)
-      (<a href="https://bioregistry.io/PMID:17306036" target="_blank">PMID:17306036</a> (IMP) - <em>"Role of DKK1 in bone metabolism"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0045671" target="_blank">negative regulation of osteoclast differentiation</a> (GO:0045671)
-      (<a href="https://bioregistry.io/PMID:16355273" target="_blank">PMID:16355273</a> (IDA) - <em>"DKK1 and bone disease"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0001503" target="_blank">ossification</a> (GO:0001503)
-      (<a href="https://bioregistry.io/PMID:11696431" target="_blank">PMID:11696431</a> (IMP) - <em>"LRP5 mutations cause high bone mass"</em>)
   </li>
 </ul>
 
@@ -145,7 +119,7 @@ title: DKK1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0070412" target="_blank">R-SMAD binding</a> (GO:0070412)
-<br>Evidence: <a href="https://bioregistry.io/PMID:20813963" target="_blank">PMID:20813963</a> (IPI) - <em>"Central control of bone mass by DKK1"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -158,20 +132,12 @@ title: DKK1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0008283" target="_blank">cell population proliferation</a> (GO:0008283)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:12857724" target="_blank">PMID:12857724</a> (IMP) - <em>"DKK1 in multiple myeloma pathogenesis"</em>, <a href="https://bioregistry.io/PMID:19016741" target="_blank">PMID:19016741</a> (IDA) - <em>"DKK1 in cancer metastasis"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005615" target="_blank">extracellular space</a> (GO:0005615)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:12857724" target="_blank">PMID:12857724</a> (IDA) - <em>"DKK1 in multiple myeloma pathogenesis"</em></td>
 </tr>
 </table>
 
@@ -184,15 +150,12 @@ title: DKK1
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0001525" target="_blank">angiogenesis</a> (GO:0001525)
-      (<a href="https://bioregistry.io/PMID:19016741" target="_blank">PMID:19016741</a> (IMP) - <em>"DKK1 in cancer metastasis"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0007162" target="_blank">negative regulation of cell adhesion</a> (GO:0007162)
-      (<a href="https://bioregistry.io/PMID:19016741" target="_blank">PMID:19016741</a> (IDA) - <em>"DKK1 in cancer metastasis"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0043065" target="_blank">positive regulation of apoptotic process</a> (GO:0043065)
-      (<a href="https://bioregistry.io/PMID:12857724" target="_blank">PMID:12857724</a> (IMP) - <em>"DKK1 in multiple myeloma pathogenesis"</em>)
   </li>
 </ul>
 
@@ -200,7 +163,7 @@ title: DKK1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0005125" target="_blank">cytokine activity</a> (GO:0005125)
-<br>Evidence: <a href="https://bioregistry.io/PMID:19016741" target="_blank">PMID:19016741</a> (IDA) - <em>"DKK1 in cancer metastasis"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -212,10 +175,6 @@ title: DKK1
 <tr>
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0090263" target="_blank">positive regulation of canonical Wnt signaling pathway</a> (GO:0090263)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:16678815" target="_blank">PMID:16678815</a> (IDA) - <em>"Context-dependent DKK1 activity"</em></td>
 </tr>
 </table>
 
@@ -229,15 +188,12 @@ title: DKK1
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0060173" target="_blank">limb development</a> (GO:0060173)
-      (<a href="https://bioregistry.io/PMID:11029007" target="_blank">PMID:11029007</a> (IMP) - <em>"Requirement for Wnt signaling in vertebrate development"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0048762" target="_blank">mesenchymal cell differentiation</a> (GO:0048762)
-      (<a href="https://bioregistry.io/PMID:16355273" target="_blank">PMID:16355273</a> (IDA) - <em>"DKK1 and cell fate determination"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0048568" target="_blank">embryonic organ development</a> (GO:0048568)
-      (<a href="https://bioregistry.io/PMID:10341148" target="_blank">PMID:10341148</a> (IMP) - <em>"Dickkopf-1 is required for embryonic development"</em>)
   </li>
 </ul>
 

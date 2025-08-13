@@ -20,20 +20,12 @@ title: STAT4
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0003700" target="_blank">DNA-binding transcription factor activity</a> (GO:0003700)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8622778" target="_blank">PMID:8622778</a> (IDA) - <em>"Stat4, a novel gamma interferon activation site-binding protein expressed in early myeloid differentiation"</em>, <a href="https://bioregistry.io/PMID:9659928" target="_blank">PMID:9659928</a> (IMP) - <em>"Impaired IL-12 responses and enhanced development of Th2 cells in Stat4-deficient mice"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9009195" target="_blank">PMID:9009195</a> (IDA) - <em>"IL-12 rapidly induces tyrosine phosphorylation of Stat4"</em></td>
 </tr>
 <tr>
   <th>Notes</th>
@@ -55,18 +47,16 @@ title: STAT4
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0045944" target="_blank">positive regulation of transcription by RNA polymerase II</a> (GO:0045944)
-<br><em>STAT4 activates transcription of IFN-γ, T-bet, and IL-12Rβ2 genes</em><br>Evidence: <a href="https://bioregistry.io/PMID:9659928" target="_blank">PMID:9659928</a> (IMP) - <em>"Impaired IL-12 responses and enhanced development of Th2 cells in Stat4-deficient mice"</em>, <a href="https://bioregistry.io/PMID:10706860" target="_blank">PMID:10706860</a> (IDA) - <em>"T-bet is a STAT1-induced regulator of IL-12R expression in naive CD4+ T cells"</em>  </li>
+<br><em>STAT4 activates transcription of IFN-γ, T-bet, and IL-12Rβ2 genes</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0042088" target="_blank">T-helper 1 type immune response</a> (GO:0042088)
-      (<a href="https://bioregistry.io/PMID:8666936" target="_blank">PMID:8666936</a> (IMP) - <em>"Requirement for Stat4 in interleukin-12-mediated responses of natural killer and T cells"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0032729" target="_blank">positive regulation of type II interferon production</a> (GO:0032729)
-      (<a href="https://bioregistry.io/PMID:9659928" target="_blank">PMID:9659928</a> (IMP) - <em>"Impaired IL-12 responses and enhanced development of Th2 cells in Stat4-deficient mice"</em>)
   </li>
 </ul>
 
@@ -81,10 +71,6 @@ title: STAT4
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0070757" target="_blank">interleukin-23-mediated signaling pathway</a> (GO:0070757)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:17676044" target="_blank">PMID:17676044</a> (IMP) - <em>"Essential autocrine regulation by IL-21 in the generation of inflammatory T cells"</em>, <a href="https://bioregistry.io/PMID:18832703" target="_blank">PMID:18832703</a> (IMP) - <em>"STAT4 is required for the generation of Th17 cells"</em></td>
-</tr>
 </table>
 
 
@@ -97,11 +83,9 @@ title: STAT4
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0072539" target="_blank">T-helper 17 cell differentiation</a> (GO:0072539)
-      (<a href="https://bioregistry.io/PMID:18832703" target="_blank">PMID:18832703</a> (IMP) - <em>"STAT4 is required for the generation of Th17 cells"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0032740" target="_blank">positive regulation of interleukin-17 production</a> (GO:0032740)
-      (<a href="https://bioregistry.io/PMID:17676044" target="_blank">PMID:17676044</a> (IMP) - <em>"Essential autocrine regulation by IL-21 in the generation of inflammatory T cells"</em>)
   </li>
 </ul>
 

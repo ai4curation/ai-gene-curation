@@ -167,7 +167,22 @@ class TermValidator(Validator):
         return results
     
     def _is_ontology_term(self, value: Any) -> bool:
-        """Check if value looks like an ontology term ID."""
+        """
+        Check if value looks like an ontology term ID.
+        
+        Examples:
+            >>> validator = TermValidator()
+            >>> validator._is_ontology_term("GO:0001234")
+            True
+            >>> validator._is_ontology_term("HP:0000001")
+            True
+            >>> validator._is_ontology_term("MONDO_0000001")
+            True
+            >>> validator._is_ontology_term("not_a_term")
+            False
+            >>> validator._is_ontology_term(123)
+            False
+        """
         if not isinstance(value, str):
             return False
         # Check for standard ontology ID patterns

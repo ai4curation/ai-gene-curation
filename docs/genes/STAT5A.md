@@ -20,20 +20,12 @@ title: STAT5A
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0003700" target="_blank">DNA-binding transcription factor activity</a> (GO:0003700)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:7543079" target="_blank">PMID:7543079</a> (IDA) - <em>"Stat5a and Stat5b proteins have essential and nonessential, or redundant, roles in cytokine responses"</em>, <a href="https://bioregistry.io/PMID:9111321" target="_blank">PMID:9111321</a> (IMP) - <em>"Stat5a is mandatory for adult mammary gland development and lactogenesis"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8943331" target="_blank">PMID:8943331</a> (IDA) - <em>"Prolactin induces phosphorylation of Tyr694 of Stat5 (MGF), a prerequisite for DNA binding and induction of transcription"</em></td>
 </tr>
 <tr>
   <th>Notes</th>
@@ -58,18 +50,16 @@ title: STAT5A
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0045944" target="_blank">positive regulation of transcription by RNA polymerase II</a> (GO:0045944)
-<br><em>STAT5A activates genes for milk proteins, IGF-1, and anti-apoptotic factors</em><br>Evidence: <a href="https://bioregistry.io/PMID:9111321" target="_blank">PMID:9111321</a> (IMP) - <em>"Stat5a is mandatory for adult mammary gland development and lactogenesis"</em>, <a href="https://bioregistry.io/PMID:14500729" target="_blank">PMID:14500729</a> (IDA) - <em>"Growth hormone stimulates transcription of the gene encoding the acid-labile subunit"</em>  </li>
+<br><em>STAT5A activates genes for milk proteins, IGF-1, and anti-apoptotic factors</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0060749" target="_blank">mammary gland alveolus development</a> (GO:0060749)
-      (<a href="https://bioregistry.io/PMID:9111321" target="_blank">PMID:9111321</a> (IMP) - <em>"Stat5a is mandatory for adult mammary gland development and lactogenesis"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0007595" target="_blank">lactation</a> (GO:0007595)
-      (<a href="https://bioregistry.io/PMID:9111321" target="_blank">PMID:9111321</a> (IMP) - <em>"Stat5a is mandatory for adult mammary gland development and lactogenesis"</em>)
   </li>
 </ul>
 
@@ -84,10 +74,6 @@ title: STAT5A
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0038110" target="_blank">interleukin-2-mediated signaling pathway</a> (GO:0038110)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10072523" target="_blank">PMID:10072523</a> (IMP) - <em>"Essential role of STAT5 signaling in CD25+CD4+ regulatory T cell homeostasis"</em>, <a href="https://bioregistry.io/PMID:11739490" target="_blank">PMID:11739490</a> (IMP) - <em>"Constitutively activated STAT5 promotes B-cell lymphomas in transgenic mice"</em></td>
-</tr>
 </table>
 
 
@@ -100,11 +86,9 @@ title: STAT5A
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0030218" target="_blank">erythrocyte differentiation</a> (GO:0030218)
-      (<a href="https://bioregistry.io/PMID:10334664" target="_blank">PMID:10334664</a> (IMP) - <em>"Essential roles of STAT5a/b in erythropoietin-mediated erythropoiesis"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0050731" target="_blank">positive regulation of peptidyl-tyrosine phosphorylation</a> (GO:0050731)
-      (<a href="https://bioregistry.io/PMID:9670957" target="_blank">PMID:9670957</a> (IDA) - <em>"STAT5 activation is required for interleukin-3-induced proliferation and survival"</em>)
   </li>
 </ul>
 

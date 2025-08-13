@@ -20,10 +20,6 @@ title: LEF1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0003700" target="_blank">DNA-binding transcription factor activity</a> (GO:0003700)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:1505946" target="_blank">PMID:1505946</a> (IDA) - <em>"LEF-1, a gene encoding a lymphoid-specific protein with an HMG domain, regulates T-cell receptor alpha enhancer function"</em>, <a href="https://bioregistry.io/PMID:8650545" target="_blank">PMID:8650545</a> (IDA) - <em>"XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos"</em></td>
-</tr>
 </table>
 
 <table>
@@ -31,20 +27,12 @@ title: LEF1
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:1505946" target="_blank">PMID:1505946</a> (IDA) - <em>"LEF-1, a gene encoding a lymphoid-specific protein with an HMG domain, regulates T-cell receptor alpha enhancer function"</em>, <a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (IDA) - <em>"Functional interaction of beta-catenin with the transcription factor LEF-1"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:1990907" target="_blank">beta-catenin-TCF complex</a> (GO:1990907)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (IPI) - <em>"Functional interaction of beta-catenin with the transcription factor LEF-1"</em>, <a href="https://bioregistry.io/PMID:8650545" target="_blank">PMID:8650545</a> (IDA) - <em>"XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos"</em></td>
 </tr>
 </table>
 
@@ -54,39 +42,35 @@ title: LEF1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
-<br><em>Activated by beta-catenin binding following Wnt stimulation</em><br>Evidence: <a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (IDA) - <em>"Functional interaction of beta-catenin with the transcription factor LEF-1"</em>  </li>
+<br><em>Activated by beta-catenin binding following Wnt stimulation</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0045296" target="_blank">cadherin binding</a> (GO:0045296)
-<br><em>Direct interaction with beta-catenin through central region</em><br>Evidence: <a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (IPI) - <em>"Functional interaction of beta-catenin with the transcription factor LEF-1"</em>  </li>
+<br><em>Direct interaction with beta-catenin through central region</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0045944" target="_blank">positive regulation of transcription by RNA polymerase II</a> (GO:0045944)
-<br><em>Activates Wnt target genes including MYC, CCND1, and lineage-specific genes</em><br>Evidence: <a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (IDA) - <em>"Functional interaction of beta-catenin with the transcription factor LEF-1"</em>, <a href="https://bioregistry.io/PMID:10518217" target="_blank">PMID:10518217</a> (IDA) - <em>"The c-Myc promoter: still MysterY and challenge"</em>  </li>
+<br><em>Activates Wnt target genes including MYC, CCND1, and lineage-specific genes</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0008301" target="_blank">DNA binding, bending</a> (GO:0008301)
-<br><em>HMG domain induces sharp DNA bend facilitating enhanceosome assembly</em><br>Evidence: <a href="https://bioregistry.io/PMID:1505946" target="_blank">PMID:1505946</a> (IDA) - <em>"LEF-1, a gene encoding a lymphoid-specific protein with an HMG domain, regulates T-cell receptor alpha enhancer function"</em>  </li>
+<br><em>HMG domain induces sharp DNA bend facilitating enhanceosome assembly</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0030217" target="_blank">T cell differentiation</a> (GO:0030217)
-      (<a href="https://bioregistry.io/PMID:1505946" target="_blank">PMID:1505946</a> (IMP) - <em>"LEF-1, a gene encoding a lymphoid-specific protein with an HMG domain, regulates T-cell receptor alpha enhancer function"</em>, <a href="https://bioregistry.io/PMID:9497272" target="_blank">PMID:9497272</a> (IMP) - <em>"LEF-1 and TCF-1 act upstream of Th-POK to promote the CD4+ T cell fate"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0046632" target="_blank">alpha-beta T cell differentiation</a> (GO:0046632)
-      (<a href="https://bioregistry.io/PMID:9497272" target="_blank">PMID:9497272</a> (IMP) - <em>"LEF-1 and TCF-1 act upstream of Th-POK to promote the CD4+ T cell fate"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0001942" target="_blank">hair follicle development</a> (GO:0001942)
-      (<a href="https://bioregistry.io/PMID:10207086" target="_blank">PMID:10207086</a> (IMP) - <em>"LEF1 is required for the differentiation of hair follicles but not sweat glands"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0031069" target="_blank">hair follicle morphogenesis</a> (GO:0031069)
-      (<a href="https://bioregistry.io/PMID:10207086" target="_blank">PMID:10207086</a> (IMP) - <em>"LEF1 is required for the differentiation of hair follicles but not sweat glands"</em>)
   </li>
 </ul>
 
@@ -94,7 +78,7 @@ title: LEF1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0090263" target="_blank">positive regulation of canonical Wnt signaling pathway</a> (GO:0090263)
-<br>Evidence: <a href="https://bioregistry.io/PMID:9065401" target="_blank">PMID:9065401</a> (IMP) - <em>"Functional interaction of beta-catenin with the transcription factor LEF-1"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -107,20 +91,12 @@ title: LEF1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0008301" target="_blank">DNA binding, bending</a> (GO:0008301)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:1505946" target="_blank">PMID:1505946</a> (IDA) - <em>"LEF-1, a gene encoding a lymphoid-specific protein with an HMG domain, regulates T-cell receptor alpha enhancer function"</em>, <a href="https://bioregistry.io/PMID:7957065" target="_blank">PMID:7957065</a> (IDA) - <em>"Structure of the HMG box motif in the B-domain of HMG1"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:1505946" target="_blank">PMID:1505946</a> (IDA) - <em>"LEF-1, a gene encoding a lymphoid-specific protein with an HMG domain, regulates T-cell receptor alpha enhancer function"</em></td>
 </tr>
 </table>
 
@@ -131,28 +107,26 @@ title: LEF1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0003677" target="_blank">DNA binding</a> (GO:0003677)
-<br><em>Binds to minor groove of DNA through HMG box domain</em><br>Evidence: <a href="https://bioregistry.io/PMID:1505946" target="_blank">PMID:1505946</a> (IDA) - <em>"LEF-1, a gene encoding a lymphoid-specific protein with an HMG domain, regulates T-cell receptor alpha enhancer function"</em>  </li>
+<br><em>Binds to minor groove of DNA through HMG box domain</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0000122" target="_blank">negative regulation of transcription by RNA polymerase II</a> (GO:0000122)
-<br><em>Can act as repressor in absence of beta-catenin</em><br>Evidence: <a href="https://bioregistry.io/PMID:7957065" target="_blank">PMID:7957065</a> (IDA) - <em>"Structure of the HMG box motif in the B-domain of HMG1"</em>  </li>
+<br><em>Can act as repressor in absence of beta-catenin</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0001228" target="_blank">DNA-binding transcription activator activity, RNA polymerase II-specific</a> (GO:0001228)
-<br><em>Context-dependent activation of T cell receptor enhancers</em><br>Evidence: <a href="https://bioregistry.io/PMID:1505946" target="_blank">PMID:1505946</a> (IDA) - <em>"LEF-1, a gene encoding a lymphoid-specific protein with an HMG domain, regulates T-cell receptor alpha enhancer function"</em>  </li>
+<br><em>Context-dependent activation of T cell receptor enhancers</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0006368" target="_blank">transcription elongation by RNA polymerase II</a> (GO:0006368)
-      (<a href="https://bioregistry.io/PMID:1505946" target="_blank">PMID:1505946</a> (IMP) - <em>"LEF-1, a gene encoding a lymphoid-specific protein with an HMG domain, regulates T-cell receptor alpha enhancer function"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0045892" target="_blank">negative regulation of DNA-templated transcription</a> (GO:0045892)
-      (<a href="https://bioregistry.io/PMID:7957065" target="_blank">PMID:7957065</a> (IDA) - <em>"Structure of the HMG box motif in the B-domain of HMG1"</em>)
   </li>
 </ul>
 
@@ -160,7 +134,7 @@ title: LEF1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0003682" target="_blank">chromatin binding</a> (GO:0003682)
-<br>Evidence: <a href="https://bioregistry.io/PMID:1505946" target="_blank">PMID:1505946</a> (IDA) - <em>"LEF-1, a gene encoding a lymphoid-specific protein with an HMG domain, regulates T-cell receptor alpha enhancer function"</em>  </li>
+  </li>
 </ul>
 
 </div>

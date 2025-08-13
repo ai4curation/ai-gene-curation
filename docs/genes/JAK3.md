@@ -20,20 +20,12 @@ title: JAK3
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0004713" target="_blank">protein tyrosine kinase activity</a> (GO:0004713)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:7973658" target="_blank">PMID:7973658</a> (IDA) - <em>"Interleukin-2 receptor gamma chain mutation results in X-linked severe combined immunodeficiency in humans"</em>, <a href="https://bioregistry.io/PMID:8621447" target="_blank">PMID:8621447</a> (IMP) - <em>"Defective lymphoid development in mice lacking JAK3"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005737" target="_blank">cytoplasm</a> (GO:0005737)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:7594463" target="_blank">PMID:7594463</a> (IDA) - <em>"JAK3 is associated with CD40 and is critical for CD40 induction of gene expression in B cells"</em></td>
 </tr>
 <tr>
   <th>Notes</th>
@@ -55,22 +47,19 @@ title: JAK3
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0006468" target="_blank">protein phosphorylation</a> (GO:0006468)
-<br><em>Phosphorylates STAT proteins (STAT3, STAT5A, STAT5B, STAT6) enabling lymphocyte development and function</em><br>Evidence: <a href="https://bioregistry.io/PMID:8202713" target="_blank">PMID:8202713</a> (IDA) - <em>"Functional activation of Jak1 and Jak3 by selective association with IL-2 receptor subunits"</em>, <a href="https://bioregistry.io/PMID:7538118" target="_blank">PMID:7538118</a> (IMP) - <em>"JAK3 activation is required for interleukin-2-induced proliferation and STAT5 phosphorylation"</em>  </li>
+<br><em>Phosphorylates STAT proteins (STAT3, STAT5A, STAT5B, STAT6) enabling lymphocyte development and function</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0007259" target="_blank">cell surface receptor signaling pathway via JAK-STAT</a> (GO:0007259)
-      (<a href="https://bioregistry.io/PMID:8621447" target="_blank">PMID:8621447</a> (IMP) - <em>"Defective lymphoid development in mice lacking JAK3"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0038110" target="_blank">interleukin-2-mediated signaling pathway</a> (GO:0038110)
-      (<a href="https://bioregistry.io/PMID:8202713" target="_blank">PMID:8202713</a> (IDA) - <em>"Functional activation of Jak1 and Jak3 by selective association with IL-2 receptor subunits"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0038111" target="_blank">interleukin-7-mediated signaling pathway</a> (GO:0038111)
-      (<a href="https://bioregistry.io/PMID:9697839" target="_blank">PMID:9697839</a> (IMP) - <em>"Essential role of JAK3 in IL-7-induced T cell development"</em>)
   </li>
 </ul>
 
@@ -85,10 +74,6 @@ title: JAK3
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0030217" target="_blank">T cell differentiation</a> (GO:0030217)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:7869044" target="_blank">PMID:7869044</a> (IMP) - <em>"JAK3 deficiency in a patient with severe combined immunodeficiency"</em>, <a href="https://bioregistry.io/PMID:8621447" target="_blank">PMID:8621447</a> (IMP) - <em>"Defective lymphoid development in mice lacking JAK3"</em></td>
-</tr>
 </table>
 
 
@@ -101,15 +86,12 @@ title: JAK3
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0030098" target="_blank">lymphocyte differentiation</a> (GO:0030098)
-      (<a href="https://bioregistry.io/PMID:11237768" target="_blank">PMID:11237768</a> (IDA) - <em>"JAK3: a novel JAK kinase associated with terminal differentiation of hematopoietic cells"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0042102" target="_blank">positive regulation of T cell proliferation</a> (GO:0042102)
-      (<a href="https://bioregistry.io/PMID:7538118" target="_blank">PMID:7538118</a> (IMP) - <em>"JAK3 activation is required for interleukin-2-induced proliferation and STAT5 phosphorylation"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0001779" target="_blank">natural killer cell differentiation</a> (GO:0001779)
-      (<a href="https://bioregistry.io/PMID:9697839" target="_blank">PMID:9697839</a> (IMP) - <em>"Essential role of JAK3 in IL-7-induced T cell development"</em>)
   </li>
 </ul>
 
@@ -159,6 +141,9 @@ title: JAK3
         <li>
           <a href="https://bioregistry.io/HP:0002719" target="_blank">Recurrent infections</a> (HP:0002719)
 <br><em>severe opportunistic infections from infancy</em>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0001508" target="_blank">Failure to thrive</a> (HP:0001508)
+<br><em>failure to thrive and growth retardation</em><br><small>Mechanism: chronic infections and malabsorption due to immunodeficiency</small>        </li>
     </ul>
   </td>
 </tr>
@@ -238,7 +223,9 @@ title: JAK3
 * **JAK3 deficiency:** Autosomal recessive SCID (T-B+NK-):
   * Clinically identical to X-linked SCID (γc deficiency)
   * ~7-14% of all SCID cases
+  * Newborn screening detects low TREC levels
   * Treatable by hematopoietic stem cell transplantation
+  * Gene therapy trials showing promise
 
 * **JAK3 as therapeutic target:**
   * Tofacitinib (JAK3/JAK1 inhibitor) - rheumatoid arthritis
@@ -247,17 +234,29 @@ title: JAK3
 
 ## Phenotypes
 
-* **Loss-of-function:** Severe combined immunodeficiency with:
-  * Absent T cells and NK cells
-  * Normal B cell numbers but defective function
-  * Failure to thrive from infancy
-  * Life-threatening infections without treatment
+### JAK3 Deficiency (Loss-of-function)
+Classic **T-B+NK- SCID** (7-14% of all SCID cases):
+* **T cell defect**: Complete absence due to blocked IL-7 signaling in thymus
+* **NK cell defect**: Absent due to defective IL-15 signaling
+* **B cell phenotype**: Normal numbers but functionally defective
+  - Hypogammaglobulinemia despite adequate B cell counts
+  - Poor antibody responses due to lack of T cell help
+  - Defective class switching (impaired IL-4/IL-21 responses)
+* **Clinical presentation**:
+  - Early-onset severe infections (bacterial, viral, fungal, opportunistic)
+  - Failure to thrive and growth retardation
+  - Chronic diarrhea and malabsorption
+  - Fatal outcome without HSCT
+* **Inheritance**: Autosomal recessive
+* **Treatment**: Hematopoietic stem cell transplantation is curative
 
-* **Gain-of-function mutations:** Associated with:
-  * T-cell prolymphocytic leukemia
-  * Adult T-cell leukemia/lymphoma
-  * NK/T cell lymphomas
-  * Juvenile myelomonocytic leukemia (rare)
+### JAK3 Activation (Gain-of-function)
+Drives **hematological malignancies**:
+* **T-cell acute lymphoblastic leukemia** (T-ALL)
+* **T-cell prolymphocytic leukemia** (T-PLL)
+* **Natural killer/T-cell lymphomas** (NKTCL)
+* **Large granular lymphocyte leukemia** (T-LGL)
+* **Mechanism**: Constitutive STAT5 activation promoting cell survival and proliferation
 
 ---
 

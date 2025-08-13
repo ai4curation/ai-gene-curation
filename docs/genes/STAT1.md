@@ -20,10 +20,6 @@ title: STAT1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0003700" target="_blank">DNA-binding transcription factor activity</a> (GO:0003700)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:23386060" target="_blank">PMID:23386060</a> (IDA) - <em>"hCAF1/CNOT7 regulates interferon signalling by targeting STAT1"</em></td>
-</tr>
 </table>
 
 <table>
@@ -55,7 +51,7 @@ title: STAT1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0045944" target="_blank">positive regulation of transcription by RNA polymerase II</a> (GO:0045944)
-<br><em>STAT1 activates transcription of interferon-stimulated genes (ISGs) by binding to GAS or ISRE elements</em><br>Evidence: <a href="https://bioregistry.io/PMID:10820245" target="_blank">PMID:10820245</a> (IDA) - <em>"Cooperation among Stat1, glucocorticoid receptor, and PU.1 in transcriptional activation of the high-affinity Fc gamma receptor I in monocytes"</em>, <a href="https://bioregistry.io/PMID:32209697" target="_blank">PMID:32209697</a> (IDA) - <em>"Noncanonical STAT1 phosphorylation expands its transcriptional activity into promoting LPS-induced IL-6 and IL-12p40 production"</em>  </li>
+<br><em>STAT1 activates transcription of interferon-stimulated genes (ISGs) by binding to GAS or ISRE elements</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>

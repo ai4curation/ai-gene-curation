@@ -20,20 +20,12 @@ title: STAT3
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0003700" target="_blank">DNA-binding transcription factor activity</a> (GO:0003700)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8140422" target="_blank">PMID:8140422</a> (IDA) - <em>"Stat3: a STAT family member activated by tyrosine phosphorylation in response to epidermal growth factor and interleukin-6"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:8662591" target="_blank">PMID:8662591</a> (IDA) - <em>"Differential activation of acute phase response factor/STAT3 and STAT1 via the cytoplasmic domain of the interleukin 6 signal transducer gp130. I. Definition of a novel phosphotyrosine motif mediating STAT1 activation"</em></td>
 </tr>
 </table>
 
@@ -64,7 +56,6 @@ title: STAT3
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0006953" target="_blank">acute-phase response</a> (GO:0006953)
-      (<a href="https://bioregistry.io/PMID:8621622" target="_blank">PMID:8621622</a> (IDA) - <em>"STAT3 participates in transcriptional activation of the C-reactive protein gene by interleukin-6"</em>)
   </li>
 </ul>
 
@@ -85,10 +76,6 @@ title: STAT3
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:17344214" target="_blank">PMID:17344214</a> (IDA) - <em>"leptin-induced growth stimulation of breast cancer cells involves recruitment of histone acetyltransferases and mediator complex to CYCLIN D1 promoter via activation of Stat3"</em></td>
 </tr>
 </table>
 
@@ -173,7 +160,6 @@ title: STAT3
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0006953" target="_blank">acute-phase response</a> (GO:0006953)
-      (<a href="https://bioregistry.io/PMID:8621622" target="_blank">PMID:8621622</a> (IDA) - <em>"STAT3 participates in transcriptional activation of the C-reactive protein gene by interleukin-6"</em>)
   </li>
 </ul>
 
@@ -181,7 +167,7 @@ title: STAT3
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0042803" target="_blank">protein homodimerization activity</a> (GO:0042803)
-<br><em>Note: Forms homodimers after phosphorylation at Tyr705</em><br>Evidence: <a href="https://bioregistry.io/PMID:15653507" target="_blank">PMID:15653507</a> (IDA) - <em>"Stat3 dimerization regulated by reversible acetylation of a single lysine residue"</em>  </li>
+<br><em>Note: Forms homodimers after phosphorylation at Tyr705</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0019901" target="_blank">protein kinase binding</a> (GO:0019901)
 <br><em>Note: Interacts with JAK1, JAK2, TYK2, and EGFR</em><br>Evidence: <a href="https://bioregistry.io/GO_REF:0000024" target="_blank">GO_REF:0000024</a> (ISS) - <em>"Manual transfer of experimentally-verified manual GO annotation data to orthologs by curator judgment of sequence similarity"</em>  </li>

@@ -20,20 +20,12 @@ title: SOCS3
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0004860" target="_blank">protein kinase inhibitor activity</a> (GO:0004860)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10421843" target="_blank">PMID:10421843</a> (IDA) - <em>"The SOCS3 protein is a negative regulator of IL-6 signaling"</em>, <a href="https://bioregistry.io/PMID:14701921" target="_blank">PMID:14701921</a> (IMP) - <em>"SOCS3 regulates the plasticity of gp130 signaling"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005737" target="_blank">cytoplasm</a> (GO:0005737)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:10421843" target="_blank">PMID:10421843</a> (IDA) - <em>"The SOCS3 protein is a negative regulator of IL-6 signaling"</em></td>
 </tr>
 <tr>
   <th>Notes</th>
@@ -58,18 +50,16 @@ title: SOCS3
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0046627" target="_blank">negative regulation of insulin receptor signaling pathway</a> (GO:0046627)
-<br><em>SOCS3 inhibits insulin signaling contributing to insulin resistance</em><br>Evidence: <a href="https://bioregistry.io/PMID:15181014" target="_blank">PMID:15181014</a> (IMP) - <em>"SOCS3 mediates resistance to insulin in obesity"</em>  </li>
+<br><em>SOCS3 inhibits insulin signaling contributing to insulin resistance</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0050728" target="_blank">negative regulation of inflammatory response</a> (GO:0050728)
-      (<a href="https://bioregistry.io/PMID:12874383" target="_blank">PMID:12874383</a> (IMP) - <em>"SOCS3 is essential for limiting inflammation"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0001959" target="_blank">regulation of cytokine-mediated signaling pathway</a> (GO:0001959)
-      (<a href="https://bioregistry.io/PMID:14701921" target="_blank">PMID:14701921</a> (IMP) - <em>"SOCS3 regulates the plasticity of gp130 signaling"</em>)
   </li>
 </ul>
 
@@ -84,10 +74,6 @@ title: SOCS3
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0019221" target="_blank">cytokine-mediated signaling pathway</a> (GO:0019221)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:14701921" target="_blank">PMID:14701921</a> (IMP) - <em>"SOCS3 regulates the plasticity of gp130 signaling"</em>, <a href="https://bioregistry.io/PMID:12874383" target="_blank">PMID:12874383</a> (IMP) - <em>"SOCS3 is essential for limiting inflammation"</em></td>
-</tr>
 </table>
 
 
@@ -100,11 +86,9 @@ title: SOCS3
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0045444" target="_blank">fat cell differentiation</a> (GO:0045444)
-      (<a href="https://bioregistry.io/PMID:15181014" target="_blank">PMID:15181014</a> (IMP) - <em>"SOCS3 mediates resistance to insulin in obesity"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0030335" target="_blank">positive regulation of cell migration</a> (GO:0030335)
-      (<a href="https://bioregistry.io/PMID:17635918" target="_blank">PMID:17635918</a> (IDA) - <em>"SOCS3 drives proteasomal degradation of TBC1D1"</em>)
   </li>
 </ul>
 
@@ -154,6 +138,9 @@ title: SOCS3
         <li>
           <a href="https://bioregistry.io/HP:0001513" target="_blank">Obesity</a> (HP:0001513)
 <br><em>protection from diet-induced obesity (resistance to weight gain)</em><br><small>Mechanism: enhanced leptin sensitivity in hypothalamus</small>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0000855" target="_blank">Insulin resistance</a> (HP:0000855)
+<br><em>enhanced insulin sensitivity and glucose tolerance</em><br><small>Mechanism: reduced inflammatory interference with insulin signaling</small>        </li>
     </ul>
   </td>
 </tr>
@@ -172,6 +159,9 @@ title: SOCS3
         <li>
           <a href="https://bioregistry.io/HP:0001399" target="_blank">Hepatic failure</a> (HP:0001399)
 <br><em>impaired liver regeneration</em><br><small>Mechanism: blocks IL-6-mediated hepatocyte proliferation</small>        </li>
+        <li>
+          <a href="https://bioregistry.io/HP:0012649" target="_blank">Increased inflammatory response</a> (HP:0012649)
+<br><em>increased susceptibility to inflammatory diseases</em><br><small>Mechanism: impaired resolution of inflammation due to prolonged STAT3 signaling</small>        </li>
     </ul>
   </td>
 </tr>
@@ -248,9 +238,10 @@ title: SOCS3
 
 * **SOCS3 and obesity:**
   * Elevated in obesity-induced inflammation
-  * Mediates leptin resistance in hypothalamus
-  * Links adipose inflammation to insulin resistance
-  * Therapeutic target for metabolic syndrome
+  * Mediates leptin resistance in hypothalamus (key mechanism)
+  * Links adipose tissue inflammation to systemic insulin resistance
+  * Central hub connecting inflammation and metabolic dysfunction
+  * Therapeutic target for metabolic syndrome and type 2 diabetes
 
 * **Inflammatory diseases:**
   * **Rheumatoid arthritis:** Elevated in synovium
@@ -272,38 +263,67 @@ title: SOCS3
 
 ## Phenotypes
 
-* **Constitutive SOCS3 knockout:**
-  * **Embryonic lethal (E12-16)**
-  * Placental insufficiency
-  * Defective trophoblast giant cells
-  * Excessive LIF/STAT3 signaling
-  * Embryonic erythrocytosis
+### SOCS3 Complete Deficiency (Loss-of-function)
+**Embryonic lethality** (E12-16) due to:
+* **Placental insufficiency**: Defective trophoblast giant cell differentiation
+* **Excessive LIF signaling**: Uncontrolled STAT3 activation
+* **Vascular defects**: Impaired placental vascularization
+* **Erythrocytosis**: Embryonic polycythemia
+* **Growth defects**: Severe developmental abnormalities
 
-* **Conditional knockouts:**
-  * **Neuronal:** Leptin hypersensitivity, resistance to diet-induced obesity
-  * **Hepatocyte:** Enhanced liver regeneration, increased STAT3 signaling
-  * **T cell:** Prolonged IL-6 responses, enhanced Th17 differentiation
-  * **Myeloid:** Severe inflammatory disease, enhanced M1 polarization
-  * **Adipocyte:** Improved insulin sensitivity
+### Conditional SOCS3 Deficiency (Tissue-specific)
 
-* **SOCS3 heterozygotes (+/-):**
-  * Partially protected from insulin resistance
-  * Enhanced leptin sensitivity
-  * Improved glucose tolerance
-  * Reduced adipose inflammation
+#### Neuronal SOCS3 Deletion
+* **Leptin hypersensitivity**: Enhanced satiety signaling
+* **Obesity resistance**: Protection from high-fat diet
+* **Improved metabolism**: Enhanced energy expenditure
+* **Neuroprotection**: Reduced neuroinflammation
 
-* **Overexpression models:**
-  * **Liver:** Insulin resistance, fatty liver
-  * **Adipose:** Inflammation, metabolic dysfunction
-  * **Brain:** Leptin resistance, obesity
-  * **Pancreatic β-cells:** Impaired insulin secretion
+#### Hepatocyte SOCS3 Deletion
+* **Enhanced regeneration**: Improved liver repair capacity
+* **Prolonged STAT3 signaling**: Extended hepatocyte proliferation
+* **Improved insulin sensitivity**: Reduced hepatic glucose production
+* **Enhanced acute phase response**: Increased cytokine responses
 
-* **Human associations:**
-  * Polymorphisms linked to:
-    - Type 2 diabetes risk
-    - Obesity susceptibility
-    - Inflammatory disease severity
-    - Treatment response in hepatitis C
+#### Myeloid SOCS3 Deletion
+* **Fatal inflammatory disease**: Severe systemic inflammation
+* **Neutrophilia**: Excessive G-CSF responses
+* **Enhanced M1 polarization**: Pro-inflammatory macrophages
+* **Autoimmune features**: Multi-organ inflammation
+
+#### T Cell SOCS3 Deletion
+* **Enhanced Th17 differentiation**: Increased IL-17 production
+* **Prolonged IL-6 responses**: Sustained STAT3 activation
+* **Autoimmune susceptibility**: Enhanced inflammatory responses
+* **Reduced Treg function**: Impaired immune tolerance
+
+#### Adipocyte SOCS3 Deletion
+* **Improved insulin sensitivity**: Enhanced glucose uptake
+* **Reduced inflammation**: Decreased adipose macrophages
+* **Metabolic protection**: Resistance to diet-induced dysfunction
+* **Enhanced lipolysis**: Improved fat mobilization
+
+### SOCS3 Overexpression (Gain-of-function)
+
+#### Metabolic Dysfunction
+* **Severe insulin resistance**: Blocked insulin signaling
+* **Glucose intolerance**: Impaired glucose homeostasis
+* **Leptin resistance**: Hypothalamic leptin insensitivity
+* **Diet-induced obesity**: Enhanced weight gain
+* **Fatty liver disease**: Hepatic steatosis
+
+#### Inflammatory Consequences
+* **Impaired liver regeneration**: Blocked IL-6 responses
+* **Enhanced susceptibility to infection**: Reduced immune responses
+* **Delayed wound healing**: Impaired tissue repair
+* **Increased cancer risk**: Reduced tumor surveillance
+
+### Human Clinical Associations
+* **Type 2 diabetes**: SOCS3 polymorphisms affect diabetes risk
+* **Obesity**: Variants influence BMI and leptin sensitivity
+* **Inflammatory diseases**: SNPs associated with RA, IBD severity
+* **Hepatitis C treatment**: SOCS3 levels predict IFN response
+* **Metabolic syndrome**: Central role in inflammation-metabolism axis
 
 ---
 

@@ -20,10 +20,6 @@ title: AXIN1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0008013" target="_blank">beta-catenin binding</a> (GO:0008013)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IPI) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10581160" target="_blank">PMID:10581160</a> (IDA) - <em>"Direct interaction of Axin with beta-catenin in the beta-catenin destruction complex"</em>, <a href="https://bioregistry.io/PMID:11113207" target="_blank">PMID:11113207</a> (IDA) - <em>"Crystal structure of a beta-catenin/axin complex suggests a mechanism for the beta-catenin destruction complex"</em></td>
-</tr>
 </table>
 
 <table>
@@ -31,20 +27,12 @@ title: AXIN1
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005737" target="_blank">cytoplasm</a> (GO:0005737)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10581160" target="_blank">PMID:10581160</a> (IDA) - <em>"Direct interaction of Axin with beta-catenin in the beta-catenin destruction complex"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Complex</th>
   <td><a href="https://bioregistry.io/GO:0030877" target="_blank">beta-catenin destruction complex</a> (GO:0030877)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10581160" target="_blank">PMID:10581160</a> (IPI) - <em>"Direct interaction of Axin with beta-catenin in the beta-catenin destruction complex"</em>, <a href="https://bioregistry.io/PMID:11713186" target="_blank">PMID:11713186</a> (IDA) - <em>"Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism"</em></td>
 </tr>
 </table>
 
@@ -54,35 +42,32 @@ title: AXIN1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0070412" target="_blank">R-SMAD binding</a> (GO:0070412)
-<br><em>Binds APC through RGS domain interaction with SAMP repeats</em><br>Evidence: <a href="https://bioregistry.io/PMID:10581160" target="_blank">PMID:10581160</a> (IPI) - <em>"Direct interaction of Axin with beta-catenin in the beta-catenin destruction complex"</em>  </li>
+<br><em>Binds APC through RGS domain interaction with SAMP repeats</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0019901" target="_blank">protein kinase binding</a> (GO:0019901)
-<br><em>Binds GSK3β and CK1 through distinct sites</em><br>Evidence: <a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IPI) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>  </li>
+<br><em>Binds GSK3β and CK1 through distinct sites</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0090090" target="_blank">negative regulation of canonical Wnt signaling pathway</a> (GO:0090090)
-<br><em>Promotes β-catenin phosphorylation and degradation</em><br>Evidence: <a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IMP) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10581160" target="_blank">PMID:10581160</a> (IDA) - <em>"Direct interaction of Axin with beta-catenin in the beta-catenin destruction complex"</em>  </li>
+<br><em>Promotes β-catenin phosphorylation and degradation</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0016567" target="_blank">protein ubiquitination</a> (GO:0016567)
-<br><em>Facilitates β-TrCP-mediated ubiquitination</em><br>Evidence: <a href="https://bioregistry.io/PMID:10581160" target="_blank">PMID:10581160</a> (IMP) - <em>"Direct interaction of Axin with beta-catenin in the beta-catenin destruction complex"</em>, <a href="https://bioregistry.io/PMID:11274378" target="_blank">PMID:11274378</a> (IDA) - <em>"The F-box protein beta-TrCP associates with phosphorylated beta-catenin and regulates its activity in the cell"</em>  </li>
+<br><em>Facilitates β-TrCP-mediated ubiquitination</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0030178" target="_blank">negative regulation of Wnt signaling pathway</a> (GO:0030178)
-      (<a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IMP) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>, <a href="https://bioregistry.io/PMID:10581160" target="_blank">PMID:10581160</a> (IDA) - <em>"Direct interaction of Axin with beta-catenin in the beta-catenin destruction complex"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060070" target="_blank">canonical Wnt signaling pathway</a> (GO:0060070)
-      (<a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (TAS) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0006511" target="_blank">ubiquitin-dependent protein catabolic process</a> (GO:0006511)
-      (<a href="https://bioregistry.io/PMID:10581160" target="_blank">PMID:10581160</a> (IMP) - <em>"Direct interaction of Axin with beta-catenin in the beta-catenin destruction complex"</em>)
   </li>
 </ul>
 
@@ -90,7 +75,7 @@ title: AXIN1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0032947" target="_blank">protein-containing complex scaffold activity</a> (GO:0032947)
-<br>Evidence: <a href="https://bioregistry.io/PMID:9601641" target="_blank">PMID:9601641</a> (IDA) - <em>"Downregulation of beta-catenin by human Axin and its association with the APC tumor suppressor, beta-catenin and GSK3 beta"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -103,20 +88,12 @@ title: AXIN1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0070411" target="_blank">I-SMAD binding</a> (GO:0070411)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:12223491" target="_blank">PMID:12223491</a> (IPI) - <em>"Axin facilitates Smad3 activation in TGF-beta signaling"</em>, <a href="https://bioregistry.io/PMID:15340381" target="_blank">PMID:15340381</a> (IDA) - <em>"Axin is a scaffold protein in TGF-beta signaling"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:12223491" target="_blank">PMID:12223491</a> (IDA) - <em>"Axin facilitates Smad3 activation in TGF-beta signaling"</em></td>
 </tr>
 </table>
 
@@ -127,29 +104,26 @@ title: AXIN1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0005160" target="_blank">transforming growth factor beta receptor binding</a> (GO:0005160)
-<br><em>Interacts with TGF-β receptor complex</em><br>Evidence: <a href="https://bioregistry.io/PMID:12223491" target="_blank">PMID:12223491</a> (IPI) - <em>"Axin facilitates Smad3 activation in TGF-beta signaling"</em>  </li>
+<br><em>Interacts with TGF-β receptor complex</em>  </li>
 </ul>
 
 <strong>Downstream Targets:</strong>
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0060395" target="_blank">SMAD protein signal transduction</a> (GO:0060395)
-<br><em>Facilitates Smad3 phosphorylation and nuclear translocation</em><br>Evidence: <a href="https://bioregistry.io/PMID:12223491" target="_blank">PMID:12223491</a> (IMP) - <em>"Axin facilitates Smad3 activation in TGF-beta signaling"</em>  </li>
+<br><em>Facilitates Smad3 phosphorylation and nuclear translocation</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0007179" target="_blank">transforming growth factor beta receptor signaling pathway</a> (GO:0007179)
-      (<a href="https://bioregistry.io/PMID:12223491" target="_blank">PMID:12223491</a> (IMP) - <em>"Axin facilitates Smad3 activation in TGF-beta signaling"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0048511" target="_blank">rhythmic process</a> (GO:0048511)
-      (<a href="https://bioregistry.io/PMID:26365186" target="_blank">PMID:26365186</a> (IMP) - <em>"Axin regulates circadian clock"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0007254" target="_blank">JNK cascade</a> (GO:0007254)
-      (<a href="https://bioregistry.io/PMID:10644691" target="_blank">PMID:10644691</a> (IMP) - <em>"Axin activates JNK pathway"</em>)
   </li>
 </ul>
 
@@ -157,7 +131,7 @@ title: AXIN1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0030159" target="_blank">signaling receptor complex adaptor activity</a> (GO:0030159)
-<br>Evidence: <a href="https://bioregistry.io/PMID:12223491" target="_blank">PMID:12223491</a> (IDA) - <em>"Axin facilitates Smad3 activation in TGF-beta signaling"</em>  </li>
+  </li>
 </ul>
 
 </div>
@@ -170,20 +144,12 @@ title: AXIN1
   <th style="width: 150px;">Activity</th>
   <td><a href="https://bioregistry.io/GO:0051438" target="_blank">regulation of ubiquitin-protein transferase activity</a> (GO:0051438)</td>
 </tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:15694346" target="_blank">PMID:15694346</a> (IMP) - <em>"AXIN1 mutations in hepatocellular carcinomas, and growth suppression by wild-type AXIN1"</em>, <a href="https://bioregistry.io/PMID:16964243" target="_blank">PMID:16964243</a> (IDA) - <em>"Wnt signaling and hepatocarcinogenesis: molecular targets for the development of innovative anticancer drugs"</em></td>
-</tr>
 </table>
 
 <table>
 <tr>
   <th style="width: 150px;">Location</th>
   <td><a href="https://bioregistry.io/GO:0005634" target="_blank">nucleus</a> (GO:0005634)</td>
-</tr>
-<tr>
-  <th>Evidence</th>
-  <td><a href="https://bioregistry.io/PMID:16964243" target="_blank">PMID:16964243</a> (IDA) - <em>"Wnt signaling and hepatocarcinogenesis: molecular targets for the development of innovative anticancer drugs"</em></td>
 </tr>
 </table>
 
@@ -195,21 +161,19 @@ title: AXIN1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0008285" target="_blank">negative regulation of cell population proliferation</a> (GO:0008285)
-<br><em>Suppresses hepatocyte and intestinal epithelial cell proliferation</em><br>Evidence: <a href="https://bioregistry.io/PMID:15694346" target="_blank">PMID:15694346</a> (IMP) - <em>"AXIN1 mutations in hepatocellular carcinomas, and growth suppression by wild-type AXIN1"</em>  </li>
+<br><em>Suppresses hepatocyte and intestinal epithelial cell proliferation</em>  </li>
   <li>
     <a href="https://bioregistry.io/GO:0042127" target="_blank">regulation of cell population proliferation</a> (GO:0042127)
-<br><em>Controls stem cell proliferation in intestinal crypts</em><br>Evidence: <a href="https://bioregistry.io/PMID:16964243" target="_blank">PMID:16964243</a> (IMP) - <em>"Wnt signaling and hepatocarcinogenesis: molecular targets for the development of innovative anticancer drugs"</em>  </li>
+<br><em>Controls stem cell proliferation in intestinal crypts</em>  </li>
 </ul>
 
 <strong>Biological Processes:</strong>
 <ul>
   <li>
       <a href="https://bioregistry.io/GO:0001889" target="_blank">liver development</a> (GO:0001889)
-      (<a href="https://bioregistry.io/PMID:15694346" target="_blank">PMID:15694346</a> (IMP) - <em>"AXIN1 mutations in hepatocellular carcinomas, and growth suppression by wild-type AXIN1"</em>)
   </li>
   <li>
       <a href="https://bioregistry.io/GO:0060729" target="_blank">intestinal epithelial structure maintenance</a> (GO:0060729)
-      (<a href="https://bioregistry.io/PMID:16964243" target="_blank">PMID:16964243</a> (IMP) - <em>"Wnt signaling and hepatocarcinogenesis: molecular targets for the development of innovative anticancer drugs"</em>)
   </li>
 </ul>
 
@@ -217,7 +181,7 @@ title: AXIN1
 <ul>
   <li>
     <a href="https://bioregistry.io/GO:0051117" target="_blank">ATPase binding</a> (GO:0051117)
-<br>Evidence: <a href="https://bioregistry.io/PMID:15694346" target="_blank">PMID:15694346</a> (IPI) - <em>"AXIN1 mutations in hepatocellular carcinomas, and growth suppression by wild-type AXIN1"</em>  </li>
+  </li>
 </ul>
 
 </div>

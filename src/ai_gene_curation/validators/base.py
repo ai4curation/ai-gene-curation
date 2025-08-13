@@ -32,7 +32,25 @@ class ValidationResult(BaseModel):
 
 
 class ValidationReport(BaseModel):
-    """Complete validation report with summary statistics."""
+    """
+    Complete validation report with summary statistics.
+    
+    Examples:
+        >>> report = ValidationReport()
+        >>> result = ValidationResult(
+        ...     level=ValidationLevel.ERROR,
+        ...     message="Invalid term",
+        ...     path="terms[0].id",
+        ...     validator_name="TermValidator"
+        ... )
+        >>> report.add_result(result)
+        >>> report.total_checks
+        1
+        >>> len(report.errors)
+        1
+        >>> report.errors[0].message
+        'Invalid term'
+    """
     
     results: List[ValidationResult] = Field(default_factory=list)
     start_time: datetime = Field(default_factory=datetime.now)
@@ -41,7 +59,21 @@ class ValidationReport(BaseModel):
     
     @property
     def total_checks(self) -> int:
-        """Total number of validation checks performed."""
+        """
+        Total number of validation checks performed.
+        
+        >>> report = ValidationReport()
+        >>> report.total_checks
+        0
+        >>> report.add_result(ValidationResult(
+        ...     level=ValidationLevel.INFO,
+        ...     message="test",
+        ...     path="test",
+        ...     validator_name="test"
+        ... ))
+        >>> report.total_checks
+        1
+        """
         return len(self.results)
     
     @property

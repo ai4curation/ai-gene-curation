@@ -8,7 +8,28 @@ from .base import Validator, ValidationResult, ValidationLevel
 
 
 class EvidenceValidator(Validator):
-    """Validates evidence objects including references, titles, and evidence codes."""
+    """
+    Validates evidence objects including references, titles, and evidence codes.
+    
+    Examples:
+        >>> validator = EvidenceValidator(check_titles=False)
+        >>> evidence = {
+        ...     "reference": "PMID:12345678",
+        ...     "title": "Test paper",
+        ...     "evidence_type": "IDA"
+        ... }
+        >>> results = validator._validate_evidence(evidence, "test.evidence", False)
+        >>> len(results)
+        1
+        >>> results[0].level.value
+        'success'
+        
+        >>> # Test invalid evidence code
+        >>> evidence = {"reference": "PMID:123", "evidence_type": "INVALID"}
+        >>> results = validator._validate_evidence(evidence, "test", False)
+        >>> any(r.level == ValidationLevel.ERROR for r in results)
+        True
+    """
     
     # Valid GO evidence codes
     VALID_EVIDENCE_CODES = {
