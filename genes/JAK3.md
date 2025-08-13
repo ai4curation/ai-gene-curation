@@ -86,18 +86,18 @@ phenotypes:
   - description: profound T cell lymphopenia
     term:
       id: HP:0005403
-      label: T lymphocytopenia
+      label: Decreased total T cell count
     support: []
   - description: absence of natural killer cells
     term:
       id: HP:0040218
-      label: Reduced natural killer cell count
+      label: Reduced total natural killer cell count
     support: []
   - description: hypogammaglobulinemia despite presence of B cells
     mechanism: lack of T cell help prevents B cell maturation and antibody production
     term:
       id: HP:0004313
-      label: Decreased circulating antibody level
+      label: Decreased circulating immunoglobulin concentration
     support: []
   - description: severe opportunistic infections from infancy
     term:

@@ -10,7 +10,7 @@ primary_functions:
   activity:
     term:
       id: GO:0042813
-      label: Wnt-activated receptor activity
+      label: Wnt receptor activity
     support: []
     description: Co-receptor that binds Wnt proteins and transduces canonical signals
   location:
@@ -22,7 +22,7 @@ primary_functions:
   complex:
     term:
       id: GO:1990851
-      label: Wnt signalosome
+      label: Wnt-Frizzled-LRP5/6 complex
     support: []
     description: Forms ternary signaling complex with Wnt and Frizzled
   upstream:

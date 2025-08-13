@@ -65,13 +65,13 @@ phenotypes:
     mechanism: impaired IL-7 and IL-15 signaling essential for T cell maturation
     term:
       id: HP:0005403
-      label: T lymphocytopenia
+      label: Decreased total T cell count
     support: []
   - description: impaired NK cell function
     mechanism: defective IL-15 signaling required for NK cell development and cytotoxicity
     term:
       id: HP:0040218
-      label: Reduced natural killer cell count
+      label: Reduced total natural killer cell count
     support: []
 - mutation:
     type: gain_of_function
@@ -90,7 +90,7 @@ phenotypes:
     mechanism: constitutive IL-5 signaling through activated JAK1-STAT5 pathway
     term:
       id: HP:0001880
-      label: Eosinophilia
+      label: Increased total eosinophil count
     support: []
   - description: atopic dermatitis-like skin inflammation
     mechanism: aberrant Th2 responses and enhanced IL-4/IL-13 signaling

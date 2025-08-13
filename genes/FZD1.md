@@ -21,7 +21,7 @@ primary_functions:
   complex:
     term:
       id: GO:1990851
-      label: Wnt signalosome
+      label: Wnt-Frizzled-LRP5/6 complex
     support: []
     description: Forms ternary complex with Wnt ligands and LRP5/6 co-receptors
   upstream:
@@ -628,7 +628,7 @@ The CRD contains 10 conserved cysteines forming 5 disulfide bonds that create a 
   - VPS35: Retromer-mediated recycling
 
 ### Functional Complexes
-- **Wnt signalosome**: FZD1-LRP5/6-Wnt-DVL
+- **Wnt-Frizzled-LRP5/6 complex**: FZD1-LRP5/6-Wnt-DVL
 - **Destruction complex**: Interaction via DVL
 - **PCP complex**: FZD1-DVL-DAAM1-RhoA
 - **G protein complex**: FZD1-Gα-Gβγ

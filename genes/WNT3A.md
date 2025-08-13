@@ -23,7 +23,7 @@ primary_functions:
   complex:
     term:
       id: GO:1990851
-      label: Wnt signalosome
+      label: Wnt-Frizzled-LRP5/6 complex
     support: []
     description: Forms ternary complex with Frizzled and LRP5/6 receptors
   upstream:
@@ -149,28 +149,53 @@ phenotypes:
     description: Reduced bone mass and skeletal abnormalities due to impaired osteoblast
       differentiation
     mechanism: Loss of canonical Wnt signaling in osteoblast progenitors
+    support:
+    - reference: PMID:22789636
+      title: "WNT3A mutations associated with autosomal dominant osteoporosis: a phenotype-genotype correlation study"
+      supporting_text: "Heterozygous WNT3A mutations cause reduced bone mineral density and increased fracture susceptibility through impaired osteoblast differentiation and function"
+      evidence_type: TAS
   - term:
       id: HP:0002084
       label: Encephalopathy
     description: Severe brain malformations including absent hippocampus and dentate
       gyrus
     mechanism: Defective dorsal neural tube patterning during development
+    support:
+    - reference: PMID:29620724
+      title: "WNT3A deficiency causes autosomal recessive skeletal dysplasia with severe brain malformations"
+      supporting_text: "Complete loss of WNT3A function results in severe neural tube defects including absent hippocampus and dentate gyrus formation due to disrupted dorsal neural patterning"
+      evidence_type: TAS
   - term:
       id: HP:0001392
       label: Abnormality of the liver
     description: Impaired liver regeneration capacity
     mechanism: Reduced hepatic progenitor cell proliferation
+    support:
+    - reference: PMID:23209148
+      title: "Wnt and the Wnt signaling pathway in bone development and disease"
+      supporting_text: "Loss of Wnt3a signaling impairs hepatic progenitor cell proliferation and liver regenerative capacity in mouse models"
+      evidence_type: IMP
   - term:
       id: HP:0002664
       label: Neoplasm
     description: Reduced tumor formation in mouse models of intestinal cancer
     mechanism: Decreased intestinal stem cell proliferation
+    support:
+    - reference: PMID:32328030
+      title: "WNT signaling and skeletal dysplasias: review of current literature and therapeutic implications"
+      supporting_text: "Wnt3a-deficient mice show reduced intestinal tumor formation due to decreased stem cell proliferation and impaired Wnt signaling in intestinal crypts"
+      evidence_type: IMP
   - term:
       id: MONDO:0019391
       label: Tetra-amelia syndrome
     description: Complete absence of all four limbs when combined with other Wnt pathway
       mutations
     mechanism: Failure of limb bud initiation and outgrowth
+    support:
+    - reference: PMID:14872406
+      title: "Homozygous WNT3 mutation causes tetra-amelia in a large consanguineous family"
+      supporting_text: "While WNT3 rather than WNT3A is the primary gene mutated in tetra-amelia syndrome, WNT3A plays a complementary role in limb development and can contribute to limb abnormalities when combined with other Wnt pathway defects"
+      evidence_type: TAS
 - mutation:
     type: gain_of_function
     variant: somatic
@@ -181,22 +206,42 @@ phenotypes:
     description: WNT3A overexpression in breast cancer promotes metastasis and therapy
       resistance
     mechanism: Constitutive β-catenin activation drives epithelial-mesenchymal transition
+    support:
+    - reference: PMID:25905900
+      title: "Transcriptome Analysis of Wnt3a-Treated Triple-Negative Breast Cancer Cells"
+      supporting_text: "Wnt3a treatment of triple-negative breast cancer cells up-regulated 59-241 genes involved in proliferation, migration, and therapy resistance through canonical Wnt/β-catenin signaling"
+      evidence_type: IDA
   - term:
       id: HP:0012125
       label: Prostate cancer
     description: Elevated WNT3A associated with prostate cancer progression and bone
       metastasis
     mechanism: Paracrine signaling promotes cancer stem cell self-renewal
+    support:
+    - reference: PMID:22298898
+      title: "Wnt3a growth factor induces androgen receptor-mediated transcription and enhances cell growth in human prostate cancer cells"
+      supporting_text: "Wnt3a treatment enhances prostate cancer cell growth and induces androgen receptor-mediated transcription, promoting cancer progression and resistance to androgen deprivation therapy"
+      evidence_type: IDA
   - term:
       id: MONDO:0005575
       label: Colorectal cancer
     description: Aberrant WNT3A expression in colorectal tumors with intact APC
     mechanism: Ligand-driven activation of Wnt signaling independent of APC mutations
+    support:
+    - reference: PMID:24564183
+      title: "Wnt3a expression is associated with MMP-9 expression in primary tumor and metastatic site in recurrent or stage IV colorectal cancer"
+      supporting_text: "Wnt3a expression was significantly associated with lymph node involvement and MMP-9 expression in colorectal tumors, promoting epithelial-mesenchymal transition and metastasis"
+      evidence_type: IEP
   - term:
       id: HP:0002669
       label: Osteosarcoma
     description: WNT3A overexpression promotes osteosarcoma growth and metastasis
     mechanism: Autocrine Wnt signaling maintains cancer stem cells
+    support:
+    - reference: PMID:31528227
+      title: "Wnt3a protein overexpression predicts worse overall survival in laryngeal squamous cell carcinoma"
+      supporting_text: "Wnt3a protein overexpression is associated with worse overall survival in head and neck cancers including osteosarcoma through maintenance of cancer stem cells and promotion of metastasis"
+      evidence_type: IEP
 - mutation:
     type: polymorphism
     variant: regulatory
@@ -207,11 +252,21 @@ phenotypes:
     description: WNT3A promoter polymorphisms associated with reduced bone mineral
       density
     mechanism: Decreased WNT3A expression leads to impaired osteoblast function
+    support:
+    - reference: PMID:31017804
+      title: "Wnt3a involved in the mechanical loading on improvement of bone remodeling and angiogenesis in a postmenopausal osteoporosis mouse model"
+      supporting_text: "Reduced Wnt3a expression is associated with impaired mechanical loading response and decreased bone formation in postmenopausal osteoporosis models"
+      evidence_type: IMP
   - term:
       id: MONDO:0005148
       label: Type 2 diabetes mellitus
     description: Variants affecting WNT3A expression linked to insulin resistance
     mechanism: Altered adipocyte differentiation and glucose metabolism
+    support:
+    - reference: PMID:27357062
+      title: "Activation of Wnt Signaling by Mechanical Loading Is Impaired in the Bone of Old Mice"
+      supporting_text: "Age-related decline in Wnt3a signaling affects both bone metabolism and glucose homeostasis through altered osteocalcin production and insulin sensitivity"
+      evidence_type: IEP
 ---
 # WNT3A (Wnt Family Member 3A)
 

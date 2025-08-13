@@ -104,7 +104,7 @@ phenotypes:
     support: []
   - description: atopic dermatitis susceptibility
     term:
-      id: MONDO:0011292
+      id: MONDO:0004980
       label: atopic dermatitis
     support: []
   - description: asthma susceptibility
@@ -115,7 +115,7 @@ phenotypes:
   - description: elevated IgE levels
     term:
       id: HP:0003212
-      label: Increased circulating IgE level
+      label: Increased circulating IgE concentration
     support: []
 ---
 **STAT6 (Signal Transducer and Activator of Transcription 6)** is the essential transcription factor for **IL-4** and **IL-13** signaling, orchestrating **Th2 differentiation**, **IgE class switching**, and **allergic responses**.

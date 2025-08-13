@@ -65,11 +65,6 @@ primary_functions:
       id: GO:0030178
       label: negative regulation of Wnt signaling pathway
     support: []
-  - term:
-      id: GO:0051437
-      label: obsolete regulation of ubiquitin-protein ligase activity involved in
-        mitotic cell cycle
-    support: []
   roles:
   - term:
       id: GO:0051434

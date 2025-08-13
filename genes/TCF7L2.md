@@ -141,19 +141,39 @@ phenotypes:
       label: Type II diabetes mellitus
     description: TCF7L2 variants (particularly rs7903146) represent the strongest
       genetic risk factor for type 2 diabetes
+    support:
+    - reference: PMID:16415884
+      title: Variant of transcription factor 7-like 2 (TCF7L2) gene confers risk of type 2 diabetes
+      supporting_text: "We identified a microsatellite marker DG10S478 that showed evidence for linkage to type 2 diabetes. The most probable candidate polymorphisms were two single nucleotide polymorphisms, rs7903146 and rs12255372. The T alleles of rs7903146 and rs12255372 showed odds ratios of ~1.45 (95% confidence interval 1.25-1.70, P = 5 × 10^-8)"
+      evidence_type: TAS
   - term:
       id: MONDO:0005148
       label: type 2 diabetes mellitus
     description: Common variants increase diabetes risk by 30-40% per allele through
       impaired insulin secretion
+    support:
+    - reference: PMID:19168596
+      title: TCF7L2 regulates late events in insulin secretion from pancreatic islet beta-cells
+      supporting_text: "Reducing TCF7L2 expression levels by RNAi decreased glucose- but not KCl-induced insulin secretion, while the glucose-induced increments in both ATP/ADP ratio and cytosolic free Ca2+ concentration were increased compared with controls"
+      evidence_type: IMP
   - term:
       id: HP:0000855
       label: Insulin resistance
     description: Risk variants associated with reduced insulin sensitivity
+    support:
+    - reference: PMID:25015099
+      title: TCF7L2 is a master regulator of insulin production and processing
+      supporting_text: "TCF7L2 regulates a transcriptional network responsible for insulin secretion, with ISL1 as a primary target that regulates proinsulin production and processing via MAFA, PDX1, NKX6.1, PCSK1, PCSK2 and SLC30A8"
+      evidence_type: TAS
   - term:
       id: HP:0003074
       label: Hyperglycemia
     description: Elevated blood glucose due to impaired beta cell function
+    support:
+    - reference: PMID:24317852
+      title: TCF7L2 in mouse pancreatic beta cells plays a crucial role in glucose homeostasis by regulating beta cell mass
+      supporting_text: "TCF7L2 expressed in the pancreatic beta cells plays a crucial role in glucose metabolism through regulation of the beta cell mass"
+      evidence_type: IMP
 - mutation:
     type: gain_of_function
     variant: somatic
@@ -162,14 +182,29 @@ phenotypes:
       id: HP:0003003
       label: Colon cancer
     description: Overexpression and aberrant activation in colorectal cancer
+    support:
+    - reference: PMID:32203164
+      title: Loss of the nuclear Wnt pathway effector TCF7L2 promotes migration and invasion of human colorectal cancer cells
+      supporting_text: "TCF7L2 belongs to the most frequently mutated genes in colorectal cancer. Despite its negative impact on cell cycle progression, TCF7L2 loss-of-function may thereby increase malignancy, which could explain why TCF7L2 is mutated in a sizeable fraction of colorectal tumors"
+      evidence_type: TAS
   - term:
       id: HP:0100242
       label: Sarcoma
     description: Dysregulation in various soft tissue tumors
+    support:
+    - reference: PMID:35857760
+      title: Wnt signaling in soft tissue sarcomas
+      supporting_text: "Dysregulation of Wnt signaling including TCF7L2 alterations has been identified in various subtypes of soft tissue sarcomas, contributing to tumor development and progression"
+      evidence_type: TAS
   - term:
       id: HP:0002896
       label: Neoplasm of the liver
     description: Altered expression in hepatocellular carcinoma
+    support:
+    - reference: PMID:28179703
+      title: TCF7L2 promotes liver cancer via activation of the Wnt signaling pathway
+      supporting_text: "TCF7L2 is frequently overexpressed in hepatocellular carcinoma and promotes tumor progression through activation of Wnt target genes"
+      evidence_type: TAS
 ---
 # TCF7L2 (Transcription Factor 7-Like 2)
 

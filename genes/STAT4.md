@@ -71,7 +71,7 @@ phenotypes:
     mechanism: absence of Th1 signals allows unopposed Th2 differentiation
     term:
       id: HP:0003212
-      label: Increased circulating IgE level
+      label: Increased circulating IgE concentration
     support: []
   - description: increased susceptibility to intracellular pathogens
     term:

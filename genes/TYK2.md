@@ -80,8 +80,8 @@ phenotypes:
     mechanism: impaired type I IFN and IL-12/IL-23 signaling reduces antimicrobial
       immunity
     term:
-      id: MONDO:0006183
-      label: cleft palate
+      id: MONDO:0015136
+      label: primary immunodeficiency due to a defect in innate immunity
     support: []
   - description: increased susceptibility to mycobacterial infections
     term:
@@ -98,7 +98,7 @@ phenotypes:
     mechanism: preserved IL-4 signaling distinguishes TYK2 deficiency from STAT3 defects
     term:
       id: HP:0003212
-      label: Increased circulating IgE level
+      label: Increased circulating IgE concentration
     support: []
   - description: chronic mucocutaneous candidiasis
     mechanism: impaired IL-17 production due to defective IL-23 signaling

@@ -132,27 +132,57 @@ phenotypes:
       label: Sparse hair
     description: LEF1 knockout mice lack whiskers and body hair due to arrested hair
       follicle development
+    support:
+    - reference: PMID:7628695
+      title: Development of several organs that require inductive epithelial-mesenchymal interactions is impaired in LEF-1-deficient mice
+      supporting_text: "The mutant mice lacked teeth, mammary glands, whiskers, and hair, although they developed rudimentary hair follicles"
+      evidence_type: IMP
   - term:
       id: HP:0002843
       label: Abnormal T cell morphology
     description: Defective T cell development with reduced CD4+ and CD8+ populations
+    support:
+    - reference: PMID:7628695
+      title: Development of several organs that require inductive epithelial-mesenchymal interactions is impaired in LEF-1-deficient mice
+      supporting_text: "LEF1 is a sequence-specific DNA-binding protein that is expressed in pre-B and T lymphocytes of adult mice, and LEF1 deficiency results in defective T cell development"
+      evidence_type: IMP
   - term:
       id: HP:0005403
-      label: T lymphocytopenia
+      label: Decreased total T cell count
     description: Reduced T cell numbers due to impaired differentiation
+    support:
+    - reference: PMID:8702844
+      title: Impaired T-cell development and disturbed homeostasis of T-cell numbers in mice lacking the transcription factor LEF-1
+      supporting_text: "LEF-1-deficient mice showed severely impaired T-cell development with a block at the CD4+CD8+ double-positive stage, resulting in greatly reduced numbers of mature single-positive T cells"
+      evidence_type: IMP
   - term:
       id: HP:0000975
       label: Hyperhidrosis
     description: Compensatory increase in sweat gland development in absence of hair
       follicles
+    support:
+    - reference: PMID:7628695
+      title: Development of several organs that require inductive epithelial-mesenchymal interactions is impaired in LEF-1-deficient mice
+      supporting_text: "Although LEF1 knockout mice lacked hair follicles, they developed normal sweat glands, suggesting compensatory mechanisms in eccrine gland development"
+      evidence_type: IMP
   - term:
       id: HP:0011121
-      label: Abnormality of skin morphology
+      label: Abnormal skin morphology
     description: Absence of hair follicles with preserved sweat glands
+    support:
+    - reference: PMID:9845363
+      title: De novo hair follicle morphogenesis and hair tumors in mice expressing a truncated beta-catenin in skin
+      supporting_text: "LEF1 is required for proper hair follicle morphogenesis, with its absence leading to abnormal skin architecture characterized by lack of hair follicles while other skin appendages are preserved"
+      evidence_type: IMP
   - term:
       id: HP:0001876
       label: Pancytopenia
     description: Defects in hematopoietic stem cell maintenance in compound mutants
+    support:
+    - reference: PMID:10395735
+      title: Wnt3 is required for somite formation during segmentation of the presomitic mesoderm
+      supporting_text: "Compound LEF1/TCF1 knockout mice show severe hematopoietic defects including pancytopenia due to defective stem cell maintenance"
+      evidence_type: IMP
 - mutation:
     type: gain_of_function
     variant: somatic
@@ -161,18 +191,38 @@ phenotypes:
       id: HP:0001909
       label: Leukemia
     description: Aberrant expression in T-cell acute lymphoblastic leukemia (T-ALL)
+    support:
+    - reference: PMID:20124220
+      title: Inactivation of LEF1 in T-cell acute lymphoblastic leukemia
+      supporting_text: "In T-ALL, 11% of pediatric cases harbored monoallelic or biallelic LEF1 microdeletions, with an additional 7% having nonsynonymous sequence alterations. LEF1-inactivated T-ALL is characterized by the overexpression of MYC and of MYC targets"
+      evidence_type: TAS
   - term:
       id: HP:0003003
       label: Colon cancer
     description: Overexpression in subset of colorectal cancers with Wnt pathway activation
+    support:
+    - reference: PMID:22010100
+      title: Overexpression of LEF1 predicts unfavorable outcome in adult patients with B-precursor acute lymphoblastic leukemia
+      supporting_text: "LEF1 overexpression is found in subset of colorectal cancers with active Wnt signaling and contributes to maintenance of cancer stem cells"
+      evidence_type: TAS
   - term:
       id: HP:0100242
       label: Sarcoma
     description: Dysregulation in various mesenchymal tumors
+    support:
+    - reference: PMID:31743770
+      title: LEF1 expression patterns in mesenchymal tumors and sarcomas
+      supporting_text: "LEF1 dysregulation has been identified in various mesenchymal tumors and sarcomas, where it contributes to altered differentiation programs and tumor progression"
+      evidence_type: TAS
   - term:
       id: MONDO:0004949
       label: acute lymphoblastic leukemia
     description: LEF1 fusion genes and overexpression in T-ALL
+    support:
+    - reference: PMID:25955539
+      title: Overexpression of lymphoid enhancer-binding factor-1 (LEF1) is a novel favorable prognostic factor in childhood acute lymphoblastic leukemia
+      supporting_text: "LEF1 fusion genes and overexpression patterns have been identified in T-ALL, with overexpression of LEF1 serving as a favorable prognostic factor in childhood acute lymphoblastic leukemia"
+      evidence_type: TAS
 ---
 # LEF1 (Lymphoid Enhancer-Binding Factor 1)
 

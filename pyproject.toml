@@ -44,6 +44,7 @@ split-genes-to-yaml = "ai_gene_curation.split_markdown_to_yaml:main"
 cache-publications = "ai_gene_curation.cache_publications:main"
 build-site = "ai_gene_curation.build_site:main"
 compare-uniprot = "ai_gene_curation.compare_uniprot:main"
+validate-genes = "ai_gene_curation.validate_genes:main"
 
 
 # See https://hatch.pypa.io/latest/config/build/#file-selection for how to

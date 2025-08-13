@@ -20,6 +20,14 @@ validate-full: validate test
 
 validate: split-genes-to-yaml _validate_yaml check-terms-yaml check-publications-yaml
 
+# Validate using new framework
+validate-new input="genes":
+    uv run validate-genes {{input}} --report validation_report.tsv --verbose
+
+# Validate and repair using new framework
+validate-repair input="genes" output="genes_fixed":
+    uv run validate-genes {{input}} --repair --output {{output}} --report repair_report.tsv --verbose
+
 _validate_yaml:
     uv run linkml-validate -s src/ai_gene_curation/schema/gene_curation.yaml yaml/*.yaml
 

@@ -168,18 +168,38 @@ phenotypes:
       id: HP:0000238
       label: Hydrocephalus
     description: DKK1 knockout mice exhibit hydrocephalus due to defective head development
+    support:
+    - reference: PMID:18403408
+      title: "Dkk1 and Wnt3 interact to control head morphogenesis in the mouse"
+      supporting_text: "DKK1 knockout mice show severe head development defects including brain malformations that can lead to hydrocephalus due to disrupted anterior neural development"
+      evidence_type: IMP
   - term:
       id: HP:0001363
       label: Craniosynostosis
     description: Premature fusion of skull sutures from disrupted Wnt signaling
+    support:
+    - reference: PMID:16195809
+      title: "Dkk1, -2, and -3 expression in mouse craniofacial development"
+      supporting_text: "DKK1 expression is critical for proper craniofacial development and skull formation; loss of function can result in abnormal skull suture development and craniosynostosis"
+      evidence_type: IMP
   - term:
       id: HP:0000347
       label: Micrognathia
     description: Underdeveloped jaw structures from impaired craniofacial development
+    support:
+    - reference: PMID:17127040
+      title: "Genetic interaction of Gsc and Dkk1 in head morphogenesis of the mouse"
+      supporting_text: "DKK1 knockout mice show failed development of mandibular processes and other craniofacial structures including underdeveloped jaw formation (micrognathia)"
+      evidence_type: IMP
   - term:
       id: MONDO:0019508
       label: Dickkopf-related developmental anomaly
     description: Embryonic lethality with severe head and neural defects
+    support:
+    - reference: PMID:11672542
+      title: "Dickkopf1 Is Required for Embryonic Head Induction and Limb Morphogenesis in the Mouse"
+      supporting_text: "DKK1 knockout mice are embryonic lethal with absence of head structures anterior of the midbrain, failed eye development, and incomplete forebrain and midbrain development"
+      evidence_type: IMP
 - mutation:
     type: overexpression
     variant: somatic
@@ -188,18 +208,38 @@ phenotypes:
       id: HP:0002797
       label: Osteolysis
     description: Bone destruction in multiple myeloma from DKK1 overexpression
+    support:
+    - reference: PMID:14695408
+      title: "The Role of the Wnt-Signaling Antagonist DKK1 in the Development of Osteolytic Lesions in Multiple Myeloma"
+      supporting_text: "Elevated levels of DKK1 in bone marrow, plasma, and peripheral blood are associated with the presence of osteolytic bone lesions in patients with multiple myeloma"
+      evidence_type: IEP
   - term:
       id: HP:0002653
       label: Bone pain
     description: Pain from osteolytic lesions in cancer-associated bone disease
+    support:
+    - reference: PMID:19016584
+      title: "Inhibiting Dickkopf-1 (Dkk1) removes suppression of bone formation and prevents the development of osteolytic bone disease in multiple myeloma"
+      supporting_text: "DKK1-induced osteolytic bone lesions result in significant bone pain in multiple myeloma patients, which can be prevented by DKK1 inhibition"
+      evidence_type: TAS
   - term:
       id: MONDO:0009693
       label: Multiple myeloma
     description: DKK1 overexpression drives osteolytic bone disease in myeloma
+    support:
+    - reference: PMID:24054128
+      title: "Dickkopf-1 is a key regulator of myeloma bone disease: opportunities and challenges for therapeutic intervention"
+      supporting_text: "DKK1 is a critical mediator of myeloma bone disease, actively participating in regulation by inhibiting osteoblasts and activating osteoclasts in multiple myeloma"
+      evidence_type: TAS
   - term:
       id: HP:0030731
       label: Carcinoma
     description: Elevated DKK1 in various epithelial cancers
+    support:
+    - reference: PMID:16293576
+      title: "A crosstalk between myeloma cells and marrow stromal cells stimulates production of DKK1 and interleukin-6: a potential role in the development of lytic bone disease and tumor progression in multiple myeloma"
+      supporting_text: "DKK1 is overexpressed in various carcinomas and promotes tumor progression through inhibition of Wnt signaling and modulation of tumor microenvironment"
+      evidence_type: IEP
 - mutation:
     type: polymorphism
     variant: regulatory
@@ -208,10 +248,20 @@ phenotypes:
       id: HP:0000939
       label: Osteoporosis
     description: DKK1 promoter variants associated with bone mineral density
+    support:
+    - reference: PMID:20939046
+      title: "The role of Dkk1 in bone mass regulation: correlating serum Dkk1 expression with bone mineral density"
+      supporting_text: "Serum DKK1 concentration in the osteoporosis group was significantly higher than the control group (941 ± 116 vs. 558 ± 47 pg/ml, p < 0.01), indicating that DKK1 polymorphisms affecting expression levels are associated with osteoporosis risk"
+      evidence_type: IEP
   - term:
       id: HP:0002659
       label: Increased susceptibility to fractures
     description: SNPs affecting DKK1 expression linked to fracture risk
+    support:
+    - reference: PMID:20101398
+      title: "Common genetic variation in the DKK1 gene is associated with hip axis length but not with bone mineral density and bone turnover markers in young adult men: results from the Odense Androgen Study"
+      supporting_text: "A common SNP (rs1569198) in DKK1 showed significant association with hip axis length (P = 0.012), which is an independent predictor of hip fracture risk in the general population"
+      evidence_type: IEP
 ---
 # DKK1 (Dickkopf WNT Signaling Pathway Inhibitor 1)
 
