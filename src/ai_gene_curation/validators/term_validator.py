@@ -189,7 +189,26 @@ class TermValidator(Validator):
         return bool(re.match(r'^[A-Z]+[_:]?\d+$', value))
     
     def _is_valid_term_format(self, term_id: str) -> bool:
-        """Check if term ID has valid format."""
+        """
+        Check if term ID has valid format for configured ontologies.
+        
+        Args:
+            term_id: The term ID to check
+            
+        Returns:
+            True if the term ID matches a configured ontology prefix
+            
+        Examples:
+            >>> validator = TermValidator(ontologies={"GO": "Gene Ontology", "HP": "Human Phenotype"})
+            >>> validator._is_valid_term_format("GO:0001234")
+            True
+            >>> validator._is_valid_term_format("HP:0000001")
+            True
+            >>> validator._is_valid_term_format("MONDO:0000001")
+            False
+            >>> validator._is_valid_term_format("InvalidFormat")
+            False
+        """
         # Check against known ontology prefixes
         for prefix in self.ontologies:
             if term_id.startswith(f"{prefix}:") or term_id.startswith(f"{prefix}_"):

@@ -105,7 +105,28 @@ class ValidationReport(BaseModel):
         self.end_time = datetime.now()
     
     def get_summary(self) -> Dict[str, Any]:
-        """Get summary statistics for the report."""
+        """
+        Get summary statistics for the report.
+        
+        Returns:
+            Dictionary with summary statistics
+            
+        Examples:
+            >>> report = ValidationReport()
+            >>> report.add_result(ValidationResult(
+            ...     level=ValidationLevel.ERROR,
+            ...     message="Test error",
+            ...     path="test.path",
+            ...     validator_name="TestValidator"
+            ... ))
+            >>> summary = report.get_summary()
+            >>> summary["errors"]
+            1
+            >>> summary["total_checks"]
+            1
+            >>> "duration_seconds" in summary
+            True
+        """
         return {
             "total_checks": self.total_checks,
             "errors": len(self.errors),
@@ -178,6 +199,7 @@ class Validator(ABC):
         Check if this validator applies to the given value.
         
         Override this method to control when the validator runs.
+        By default, returns True (validates everything).
         
         Args:
             value: The value to check
@@ -185,6 +207,25 @@ class Validator(ABC):
             
         Returns:
             True if this validator should run on this value
+            
+        Examples:
+            >>> class StringValidator(Validator):
+            ...     def applies_to(self, value: Any, path: str) -> bool:
+            ...         return isinstance(value, str)
+            ...     def validate(self, value: Any, path: str, context=None, repair=False):
+            ...         return self._create_result(
+            ...             ValidationLevel.SUCCESS,
+            ...             "Valid string",
+            ...             path
+            ...         )
+            
+            >>> validator = StringValidator()
+            >>> validator.applies_to("test", "field")
+            True
+            >>> validator.applies_to(123, "field")
+            False
+            >>> validator.applies_to({"key": "value"}, "field")
+            False
         """
         return True
     

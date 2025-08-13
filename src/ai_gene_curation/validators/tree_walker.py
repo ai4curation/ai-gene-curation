@@ -77,15 +77,63 @@ def validate_tree(
     """
     Validate and optionally repair a nested data structure.
     
+    This function walks through the entire data structure, applies validators
+    to matching nodes, and optionally repairs issues found. The original data
+    is not modified unless repair=True.
+    
     Args:
         data: The data structure to validate
         validators: List of validators to apply
-        repair: Whether to attempt repairs
+        repair: Whether to attempt repairs (creates a mutable copy)
         path_filter: Optional function to filter which paths to validate
         report: Optional existing report to append to
         
     Returns:
         Tuple of (possibly modified data, validation report)
+        
+    Examples:
+        >>> # Create a simple test validator
+        >>> from ai_gene_curation.validators import ValidationLevel
+        >>> class UppercaseValidator(Validator):
+        ...     def applies_to(self, value: Any, path: str) -> bool:
+        ...         return isinstance(value, str) and path.endswith(".name")
+        ...     def validate(self, value: Any, path: str, context: Optional[Dict[str, Any]] = None, repair: bool = False):
+        ...         if value.islower():
+        ...             result = self._create_result(
+        ...                 ValidationLevel.WARNING,
+        ...                 f"Name should be uppercase",
+        ...                 path,
+        ...                 original_value=value,
+        ...                 repaired_value=value.upper() if repair else None,
+        ...                 was_repaired=repair
+        ...             )
+        ...             return [result]
+        ...         return [self._create_result(ValidationLevel.SUCCESS, "Name is uppercase", path)]
+        
+        >>> # Test validation without repair
+        >>> data = {"user": {"name": "john"}}
+        >>> validator = UppercaseValidator()
+        >>> result_data, report = validate_tree(data, [validator])
+        >>> result_data["user"]["name"]  # Original unchanged
+        'john'
+        >>> len(report.warnings)
+        1
+        >>> report.warnings[0].message
+        'Name should be uppercase'
+        
+        >>> # Test with repair
+        >>> result_data, report = validate_tree(data, [validator], repair=True)
+        >>> result_data["user"]["name"]  # Fixed
+        'JOHN'
+        >>> report.repairs_made[0].repaired_value
+        'JOHN'
+        
+        >>> # Test with path filter
+        >>> data = {"user": {"name": "john"}, "admin": {"name": "jane"}}
+        >>> filter_func = lambda path: "user" in path
+        >>> result_data, report = validate_tree(data, [validator], path_filter=filter_func)
+        >>> len(report.warnings)  # Only validated user.name
+        1
     """
     if report is None:
         report = ValidationReport()
@@ -121,7 +169,35 @@ def validate_tree(
 
 
 def _deep_copy_mutable(obj: Any) -> Any:
-    """Create a deep mutable copy of an object."""
+    """
+    Create a deep mutable copy of an object.
+    
+    This function recursively copies dictionaries and lists, creating new
+    mutable instances. Primitive values (strings, numbers, etc.) are returned
+    as-is since they are immutable in Python.
+    
+    Args:
+        obj: The object to copy
+        
+    Returns:
+        A deep copy of the object with mutable containers
+        
+    Examples:
+        >>> original = {"a": [1, 2], "b": {"c": 3}}
+        >>> copy = _deep_copy_mutable(original)
+        >>> copy["a"].append(3)
+        >>> original["a"]  # Original unchanged
+        [1, 2]
+        >>> copy["a"]
+        [1, 2, 3]
+        
+        >>> # Nested modifications don't affect original
+        >>> copy["b"]["c"] = 4
+        >>> original["b"]["c"]
+        3
+        >>> copy["b"]["c"]
+        4
+    """
     if isinstance(obj, dict):
         return {k: _deep_copy_mutable(v) for k, v in obj.items()}
     elif isinstance(obj, list):
